@@ -1,0 +1,105 @@
+{
+  "resourceType": "ImplementationGuide",
+  "url": "https://simplifier.net/guide/ImplementierungsleitfadenIsiK_Vitalwerte",
+  "name": "Implementierungsleitfaden IsiK-Vitalwerte",
+  "status": "draft",
+  "fhirVersion": [
+    "4.0.0"
+  ],
+  "packageId": "0.0.1",
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "Patient/test"
+        }
+      }
+    ],
+    "page": {
+      "nameUrl": "ImplementationGuide_Vitalwerte/Einfuehrung.md",
+      "title": "Einführung",
+      "generation": "markdown",
+      "page": [
+        {
+          "nameUrl": "ImplementationGuide_Vitalwerte/Motivation.md",
+          "title": "Motivation",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ImplementationGuide_Vitalwerte/UebergreifendeFestlegungen.md",
+          "title": "Übergreifende Festlegungen",
+          "generation": "markdown",
+          "page": [
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Methodik.md",
+              "title": "Methodik",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/BestaetigungsrelevanteSysteme.md",
+              "title": "Bestätigungsrelevante Systeme",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/CapabilityStatement.md",
+              "title": "CapabilityStatement",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Suchparameter.md",
+              "title": "Suchparameter",
+              "generation": "markdown"
+            }
+          ]
+        },
+        {
+          "generation": "markdown",
+          "nameUrl": "ImplementationGuide_Vitalwerte/Datenobjekte.md",
+          "title": "Datenobjekte",
+          "page": [
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Koerpergewicht.md",
+              "title": "Koerpergewicht",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Koerpergroesse.md",
+              "title": "Koerpergroesse",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Koerpertemperatur.md",
+              "title": "Koerpertemperatur",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Kopfumfang.md",
+              "title": "Kopfumfang",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Atemfrequenz.md",
+              "title": "Atemfrequenz",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Blutdruck.md",
+              "title": "Blutdruck",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Puls.md",
+              "title": "Puls",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Sauerstoffsaettigung.md",
+              "title": "Sauerstoffsaettigung",
+              "generation": "markdown"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
