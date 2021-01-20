@@ -16,11 +16,11 @@ Instanzen, die gegen dieses Profil valide sind, sind **nicht** valide gegen:
 
 ## Profil
 
-**Canonical URL**: http://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung
+**Canonical URL**: https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKSauerstoffsaettigung
 
-{{tree:http://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung, hybrid}}
+{{tree:https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKSauerstoffsaettigung, hybrid}}
 
-[Link Simplifier Profil Übersicht](http://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKSauerstoffsaettigung)
 
 ## Anmerkungen zu den Must-Support Feldern
 

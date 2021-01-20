@@ -16,11 +16,11 @@ Instanzen, die gegen dieses Profil valide sind, sind **nicht** valide gegen:
 
 ## Profil
 
-**Canonical URL**: http://gematik.de/fhir/IsiK/StructureDefinition/IsiKPuls
+**Canonical URL**: https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKPuls
 
-{{tree:http://gematik.de/fhir/IsiK/StructureDefinition/IsiKPuls, hybrid}}
+{{tree:https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKPuls, hybrid}}
 
-[Link Simplifier Profil Übersicht](http://gematik.de/fhir/IsiK/StructureDefinition/IsiKPuls)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKPuls)
 
 ## Anmerkungen zu den Must-Support Feldern
 

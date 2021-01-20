@@ -8,11 +8,11 @@ Instanzen, die gegen dieses Profil valide sind, sind auch valide gegen:
 
 ## Profil
 
-**Canonical URL**: http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKopfumfang
+**Canonical URL**: https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKopfumfang
 
-{{tree:http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKopfumfang, hybrid}}
+{{tree:https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKopfumfang, hybrid}}
 
-[Link Simplifier Profil Übersicht](http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKopfumfang)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKopfumfang)
 
 ## Anmerkungen zu den Must-Support Feldern
 
