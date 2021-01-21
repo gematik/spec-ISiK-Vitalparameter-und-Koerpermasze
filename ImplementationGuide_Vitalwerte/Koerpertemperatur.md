@@ -16,11 +16,11 @@ Instanzen, die gegen dieses Profil valide sind, sind **nicht** valide gegen:
 
 ## Profil
 
-**Canonical URL**: http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur
+**Canonical URL**: https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKoerpertemperatur
 
-{{tree:http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur, hybrid}}
+{{tree:https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKoerpertemperatur, hybrid}}
 
-[Link Simplifier Profil Übersicht](http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKoerpertemperatur)
 
 ## Anmerkungen zu den Must-Support Feldern
 

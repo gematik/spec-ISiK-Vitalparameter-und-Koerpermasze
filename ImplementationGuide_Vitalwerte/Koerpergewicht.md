@@ -16,11 +16,11 @@ Instanzen, die gegen dieses Profil valide sind, sind **nicht** valide gegen:
 
 ## Profil
 
-**Canonical URL**: http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht
+**Canonical URL**: https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKoerpergewicht
 
-{{tree:http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht, hybrid}}
+{{tree:https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKoerpergewicht, hybrid}}
 
-[Link Simplifier Profil Übersicht](http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKoerpergewicht)
 
 ## Anmerkungen zu den Must-Support Feldern
 

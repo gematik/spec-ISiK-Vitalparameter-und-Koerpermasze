@@ -14,13 +14,14 @@ Instanzen, die gegen dieses Profil valide sind, sind **nicht** valide gegen:
 
   * Das code Element ist verpflichtend nach LOINC zu kodieren.
 
+
 ## Profil
 
-**Canonical URL**: http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse
+**Canonical URL**: https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKoerpergroesse
 
-{{tree:http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse, hybrid}}
+{{tree:https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKoerpergroesse, hybrid}}
 
-[Link Simplifier Profil Übersicht](http://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/Vitalwerte/StructureDefinition/IsiKKoerpergroesse)
 
 ## Anmerkungen zu den Must-Support Feldern
 
