@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "url": "https://simplifier.net/guide/ImplementierungsleitfadenIsiK_Vitalwerte",
-  "name": "Implementierungsleitfaden IsiK-Vitalwerte",
+  "name": "Implementierungsleitfaden IsiK-Modul Vitalwerte und Körpermaße",
   "status": "draft",
   "fhirVersion": [
     "4.0.0"
