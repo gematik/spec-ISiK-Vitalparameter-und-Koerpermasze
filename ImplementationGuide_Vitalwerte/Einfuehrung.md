@@ -7,3 +7,13 @@ Die gematik wurde vom Gesetzgeber beauftragt, im Benehmen mit der Deutschen Kran
 Primärsystemhersteller sollen durch diesen IG in die Lage versetzt werden, eine konforme Implementierung zu erstellen und das Bestätigungsverfahren der gematik erfolgreich zu absolvieren.
 
 Weitere Informationen siehe [§373 SGB V](https://www.gesetze-im-internet.de/sgb_5/__373.html).
+
+**Kontakt**
+
+[isik@gematik.de](isik@gematik.de)
+
+**Herausgeber**
+
+Gesellschaft für Telematikanwendungen der Gesundheitskarte GmbH (gematik)
+
+[Impressum](https://www.gematik.de/impressum/)
