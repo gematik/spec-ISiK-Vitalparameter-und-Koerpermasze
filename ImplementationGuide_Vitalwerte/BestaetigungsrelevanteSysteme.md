@@ -1,5 +1,5 @@
 # Bestätigungsrelevante Systeme
 
-Das Bestätigungsverfahren ist für das Vitalwertmodul verpflichtend für Softwareprodukte, die Vitalwerte erfassen oder verarbeiten.
+Die veröffentlichten Profile für die Vitalwerte und Körpermaße sind für die Stufe 1 nicht bestätigungsrelvant und dienen ausschließlich der Information und Kommentierung.
 
-Hersteller anderer Systeme, welche die technischen Voraussetzungen trotzdem erfüllen, können auf freiwilliger Basis mit diesen Systemen an dem Bestätigungsverfahren teilnehmen. Dazu zählen beispielsweise Kommunikationsserver (KOM-Server) mit eigener Persistenz. Die verschiedenen Szenarien, in denen KOM-Server bestätigt werden können oder als Teil eines bestätigungsrelevanten Systems gelten, sind im Leitfaden für das [Basismodul](https://simplifier.net/guide/ImplementierungsleitfadenIsiK-Basismodul/UebergreifendeFestlegungenBestaetigungsrelevanteSysteme) beschrieben.
+Die Festlegung der bestätigungsrelevanten Systeme erfolgt in Stufe 2.
