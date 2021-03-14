@@ -41,6 +41,11 @@
               "generation": "markdown"
             },
             {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Kompatibilitaet.md",
+              "title": "Kompatibilität",
+              "generation": "markdown"
+            },
+            {
               "nameUrl": "ImplementationGuide_Vitalwerte/MustSupportFlags.md",
               "title": "Must-Support-Flags",
               "generation": "markdown"
