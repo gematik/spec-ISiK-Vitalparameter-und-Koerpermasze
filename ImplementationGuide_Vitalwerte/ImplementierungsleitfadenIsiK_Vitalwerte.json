@@ -41,13 +41,23 @@
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide_Vitalwerte/CapabilityStatement.md",
-              "title": "CapabilityStatement",
+              "nameUrl": "ImplementationGuide_Vitalwerte/MustSupportFlags.md",
+              "title": "Must-Support-Flags",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Repraesentationsformate.md",
+              "title": "Repräsentationsformate",
               "generation": "markdown"
             },
             {
               "nameUrl": "ImplementationGuide_Vitalwerte/Suchparameter.md",
               "title": "Suchparameter",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/RestApi.md",
+              "title": "REST-API",
               "generation": "markdown"
             }
           ]
@@ -57,6 +67,11 @@
           "nameUrl": "ImplementationGuide_Vitalwerte/Datenobjekte.md",
           "title": "Datenobjekte",
           "page": [
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/CapabilityStatement.md",
+              "title": "CapabilityStatement",
+              "generation": "markdown"
+            },
             {
               "nameUrl": "ImplementationGuide_Vitalwerte/Koerpergewicht.md",
               "title": "Koerpergewicht",
