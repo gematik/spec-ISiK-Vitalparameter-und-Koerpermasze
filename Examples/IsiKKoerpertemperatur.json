@@ -1,11 +1,11 @@
 {
 	"resourceType": "Observation",
-	"id": "Example-observation-herzfrequenz",
+	"id": "IsiKKoerpertemperatur",
 	"meta": {
 		"profile": [
-			"http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz",
-			"http://hl7.org/fhir/StructureDefinition/heartrate",
-			"https://gematik.de/fhir/IsiK/StructureDefinition/IsiKHerzfrequenz"
+			"http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
+			"http://hl7.org/fhir/StructureDefinition/bodytemp",
+			"https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur"
 		]
 	},
 	"status": "final",
@@ -23,25 +23,25 @@
 		"coding": [
 			{
 				"system": "http://loinc.org",
-				"code": "8867-4",
-				"display": "Heart rate"
+				"code": "8310-5",
+				"display": "Body temperature"
 			},
 			{
 				"system": "http://snomed.info/sct",
-				"code": "364075005",
-				"display": "Heart rate (observable entity)"
+				"code": "386725007",
+				"display": "Body temperature (observable entity)"
 			}
 		],
-		"text": "Herzfrequenz"
+		"text": "Körpertemperatur"
 	},
 	"subject": {
 		"reference": "Patient/example"
 	},
 	"effectiveDateTime": "2020-10-11",
 	"valueQuantity": {
-		"value": 63,
-		"unit": "per minute",
+		"value": 36.8,
+		"unit": "°C",
 		"system": "http://unitsofmeasure.org",
-		"code": "/min"
+		"code": "Cel"
 	}
 }

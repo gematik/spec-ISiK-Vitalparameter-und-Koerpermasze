@@ -1,11 +1,11 @@
 {
 	"resourceType": "Observation",
-	"id": "Example-observation-koerpertemperatur",
+	"id": "IsiKKoerpergroesse",
 	"meta": {
 		"profile": [
-			"http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
-			"http://hl7.org/fhir/StructureDefinition/bodytemp",
-			"https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur"
+			"http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse",
+			"http://hl7.org/fhir/StructureDefinition/bodyheight",
+			"https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse"
 		]
 	},
 	"status": "final",
@@ -23,25 +23,25 @@
 		"coding": [
 			{
 				"system": "http://loinc.org",
-				"code": "8310-5",
-				"display": "Body temperature"
+				"code": "8302-2",
+				"display": "Body height"
 			},
 			{
 				"system": "http://snomed.info/sct",
-				"code": "386725007",
-				"display": "Body temperature (observable entity)"
+				"code": "50373000",
+				"display": "Body height measure"
 			}
 		],
-		"text": "Körpertemperatur"
+		"text": "Körpergröße"
 	},
 	"subject": {
 		"reference": "Patient/example"
 	},
 	"effectiveDateTime": "2020-10-11",
 	"valueQuantity": {
-		"value": 36.8,
-		"unit": "°C",
+		"value": 174,
+		"unit": "centimeter",
 		"system": "http://unitsofmeasure.org",
-		"code": "Cel"
+		"code": "cm"
 	}
 }
