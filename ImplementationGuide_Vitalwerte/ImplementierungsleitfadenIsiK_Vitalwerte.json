@@ -116,6 +116,11 @@
               "nameUrl": "ImplementationGuide_Vitalwerte/AnmerkungenMS.md",
               "title": "Anmerkungen zu Must-Support-Feldern",
               "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Interaktionen.md",
+              "title": "Interaktionen",
+              "generation": "markdown"
             }
           ]
         }
