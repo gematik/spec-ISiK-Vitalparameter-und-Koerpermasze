@@ -1,11 +1,11 @@
 {
 	"resourceType": "Observation",
-	"id": "Example-observation-koerpergewicht",
+	"id": "IsiKHerzfrequenz",
 	"meta": {
 		"profile": [
-			"http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht",
-			"http://hl7.org/fhir/StructureDefinition/bodyweight",
-			"https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht"
+			"http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz",
+			"http://hl7.org/fhir/StructureDefinition/heartrate",
+			"https://gematik.de/fhir/IsiK/StructureDefinition/IsiKHerzfrequenz"
 		]
 	},
 	"status": "final",
@@ -23,25 +23,25 @@
 		"coding": [
 			{
 				"system": "http://loinc.org",
-				"code": "29463-7",
-				"display": "Body weight"
+				"code": "8867-4",
+				"display": "Heart rate"
 			},
 			{
 				"system": "http://snomed.info/sct",
-				"code": "27113001",
-				"display": "Body weight"
+				"code": "364075005",
+				"display": "Heart rate (observable entity)"
 			}
 		],
-		"text": "Körpergewicht"
+		"text": "Herzfrequenz"
 	},
 	"subject": {
 		"reference": "Patient/example"
 	},
 	"effectiveDateTime": "2020-10-11",
 	"valueQuantity": {
-		"value": 79,
-		"unit": "kilogram",
+		"value": 63,
+		"unit": "per minute",
 		"system": "http://unitsofmeasure.org",
-		"code": "kg"
+		"code": "/min"
 	}
 }
