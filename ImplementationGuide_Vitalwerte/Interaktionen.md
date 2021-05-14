@@ -2,6 +2,15 @@ Für die Observation-Ressource MUSS die REST-Interaktion "READ" implementiert we
 
 Folgende Suchparameter sind für das Vitalparamter-Modul relevant, auch in Kombination:
 
+1. Der Suchparameter "status" MUSS unterstützt werden:
+
+    Beispiel:
+    
+    ``` GET [base]/Observation?status=http://hl7.org/fhir/observation-status|final```
+    
+    Anwendungshinweise: Weitere Informationen zur Suche nach "status" 
+        finden sich in der [FHIR-Basisspezifikation - Abschnitt "Token Search"](http://hl7.org/fhir/R4/search.html#token).
+
 1. Der Suchparameter "category" MUSS unterstützt werden:
 
     Beispiel:
@@ -51,3 +60,19 @@ Folgende Suchparameter sind für das Vitalparamter-Modul relevant, auch in Kombi
     ```GET [base]/Observation?patient=Patient/123```
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "subject" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Reference Search"](https://www.hl7.org/fhir/search.html#reference).
+
+1. Der Suchparameter "encounter" MUSS unterstützt werden:
+
+    Beispiele
+  
+    ```GET [base]/Observation?encounter=Encounter/123```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "encounter" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Reference Search"](https://www.hl7.org/fhir/search.html#reference).
+
+1. Der Suchparameter "combo-code-value-quantity" MUSS unterstützt werden:
+
+    Beispiele
+  
+    ```GET [base]/Observation?combo-value-quantity=http://loinc.org|8480-6$120|http://unitsofmeasure.org|mm[Hg]```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "combo-code-value-quantity" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Composite Search Parameters"](https://www.hl7.org/fhir/search.html#combining).
