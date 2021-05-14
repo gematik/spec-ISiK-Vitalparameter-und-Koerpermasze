@@ -73,6 +73,6 @@ Folgende Suchparameter sind für das Vitalparamter-Modul relevant, auch in Kombi
 
     Beispiele
   
-    ```GET [base]/Observation?combo-value-quantity=http://loinc.org|8480-6$120|http://unitsofmeasure.org|mm[Hg]```
+    ```GET [base]/Observation?combo-code-value-quantity=http://loinc.org|8480-6$120|http://unitsofmeasure.org|mm[Hg]```
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "combo-code-value-quantity" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Composite Search Parameters"](https://www.hl7.org/fhir/search.html#combining).
