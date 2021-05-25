@@ -1,5 +1,16 @@
 <img src="https://www.gematik.de/fileadmin/user_upload/MediaUploads/Gematik_Logo_Flag.jpg" alt="gematik logo" width="400"/>
 
+----
+Version: 0.1.0
+
+Datum: 25.05.2021
+
+Status: Fassung nach dem Kommentierunsgssverfahren (25-05-2021) mit Ergänzung von technischen Korrekturen.
+
+Realm: Deutschland
+
+----
+
 # Interoperabler Datenaustausch durch Informationssysteme im Krankenhaus (IsiK)
 
 Die gematik wurde vom Gesetzgeber beauftragt, im Benehmen mit der Deutschen Krankenhausgesellschaft (DKG) und den maßgeblichen Bundesverbänden der Industrie im Gesundheitswesen, verbindliche Standards für den Austausch von Gesundheitsdaten mit Informationssystemen im Krankenhaus zu erarbeiten. Dieser FHIR ImplementationGuide (IG) beschreibt die für diesen Zweck entwickelten FHIR Profile und das [REST](https://de.wikipedia.org/wiki/Representational_State_Transfer)-basierte Application Programming Interface (API). Die REST-API wird im Wesentlichen [vom FHIR Standard vorgegeben](https://www.hl7.org/fhir/http.html). Dieser Leitfaden konkretisiert die IsiK-relevanten Funktionen der Standard-REST-API und trifft inhaltliche Festlegungen zu den IsiK-relevanten Ressourcen in Form von Ressourcen-Profilen.
