@@ -17,12 +17,12 @@ Die Verwendung der [CapabilityStatement-Expectation](http://hl7.org/fhir/extensi
 
 Die Bereitstellung des CapabilityStatments für das Modul "Vitalparameter" erfolgt zusammen mit der Festlegung der bestätigungsrelevanten Systeme in Stufe 2
 
-Für Systeme, die das Modul "Vitalparameter" implementieren, ist außerdem die Erfüllung der Mindestanforderungen des [Moduls "Basis"](https://simplifier.net/guide/ImplementierungsleitfadenIsiK-Basismodul/Einfuehrung) erfoderlich:
-
-Canonical: https://gematik.de/fhir/IsiK/CapabilityStatement/core-server
-
-[Link Simplifier Profil Übersicht](https://simplifier.net/isik/isik-capabilitystatement-vitalparameter-server)
-
 {{render:https://gematik.de/fhir/ISiK/CapabilityStatement/vitalparameter-server}}
 
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/CapabilityStatement/vitalparameter-server)
 
+### Zusätzliche Anforderungen
+
+Für Systeme, die das Modul "Vitalparameter" implementieren, ist außerdem die Erfüllung der Mindestanforderungen des [Moduls "Basis"](https://simplifier.net/guide/ImplementierungsleitfadenIsiK-Basismodul/Einfuehrung) erforderlich:
+
+Canonical: https://gematik.de/fhir/ISiK/CapabilityStatement/basis-server
