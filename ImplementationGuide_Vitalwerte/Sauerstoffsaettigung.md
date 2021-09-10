@@ -6,7 +6,7 @@
 
 {{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung)
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-modulvitalparameter/isiksauerstoffsaettigung)
 
 ## Anmerkungen zu den Must-Support Feldern
 

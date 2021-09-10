@@ -6,7 +6,7 @@
 
 {{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht)
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-modulvitalparameter/isikkoerpergewicht)
 
 ## Anmerkungen zu den Must-Support Feldern
 

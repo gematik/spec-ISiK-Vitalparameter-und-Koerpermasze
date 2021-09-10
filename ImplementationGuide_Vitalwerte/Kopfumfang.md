@@ -6,7 +6,7 @@
 
 {{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKopfumfang, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKopfumfang)
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-modulvitalparameter/isikkopfumfang)
 
 ## Anmerkungen zu den Must-Support Feldern
 

@@ -6,7 +6,7 @@
 
 {{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur)
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-modulvitalparameter/isikkoerpertemperatur)
 
 ## Anmerkungen zu den Must-Support Feldern
 

@@ -6,7 +6,7 @@
 
 {{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKBlutdruck, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKBlutdruck)
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-modulvitalparameter/isikblutdruck)
 
 ## Anmerkungen zu den Must-Support Feldern
 

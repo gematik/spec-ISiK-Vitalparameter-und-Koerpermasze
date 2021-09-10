@@ -6,7 +6,7 @@
 
 {{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse)
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-modulvitalparameter/isikkoerpergroesse)
 
 ## Anmerkungen zu den Must-Support Feldern
 

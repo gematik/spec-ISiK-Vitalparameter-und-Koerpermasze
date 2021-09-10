@@ -6,7 +6,7 @@
 
 {{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKAtemfrequenz, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKAtemfrequenz)
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-modulvitalparameter/isikatemfrequenz)
 
 ## Anmerkungen zu den Must-Support Feldern
 
