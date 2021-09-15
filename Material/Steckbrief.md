@@ -36,11 +36,6 @@ Die folgenden Fördertatbestände implizieren einen Bezug zur Standardisierung v
 ... die Beschaffung, Errichtung, Erweiterung oder Entwicklung informationstechnischer, kommunikationstechnischer und robotikbasierter Anlagen, Systeme oder Verfahren oder räumlicher Maßnahmen, die erforderlich sind, um Ärztinnen und Ärzte bei der Behandlung von Patientinnen und Patienten, insbesondere im Rahmen von Operationen, zu unterstützen oder um telemedizinische Netzwerkstrukturen zwischen Krankenhäusern oder zwischen Krankenhäusern und ambulanten Einrichtungen aufzubauen und den Einsatz telemedizinischer Verfahren in der stationären Versorgung von Patientinnen und Patienten zu ermöglichen ...
 ```
 
-## Stakeholder
-
-* bvitg
-* Gematik
-
 ## Relevante Spezifikationen
 
 * [VitalParameter Basisprofile HL7 Deutschland](https://simplifier.net/guide/basisprofil-de-r4/Ressourcen-BeobachtungenMessungenObservation)
