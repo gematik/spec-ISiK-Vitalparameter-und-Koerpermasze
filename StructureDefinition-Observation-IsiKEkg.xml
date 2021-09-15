@@ -61,6 +61,11 @@
     <element id="Observation.component:Lead.code">
       <path value="Observation.component.code" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="extensible" />
+        <description value="Codes identifying the EKG lead" />
+        <valueSet value="https://gematik.de/fhir/ISiK/ValueSet/ekg-leads" />
+      </binding>
     </element>
     <element id="Observation.component:Lead.code.coding:loinc">
       <path value="Observation.component.code.coding" />
