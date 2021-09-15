@@ -1,7 +1,7 @@
 # Modul-Name Vitalparameter
 
 ## Kurzbeschreibung
-Das Modul Vitalparameter umfasst alle Datenmodule die notwendig sind um Vitalwerte und Körpermaße von PatientInnen zu persistieren. Diese Rubrik umfasst derzeit: 
+Das Modul Vitalparameter umfasst alle notwendigen Datenmodule um Vitalwerte und Körpermaße von PatientInnen abzubilden. Diese Rubrik umfasst derzeit: 
 
 - Atemfrequenz
 - Blutdruck
@@ -16,7 +16,7 @@ Durch diese Vitalparameter wird eine initiale Einschätzung der Gesundheit von P
 
 ## Bezug KHZG
 
-Die folgenden Fördertatbestände werden von einer Standardisierung der Vitalparameter profitieren:
+Die folgenden Fördertatbestände implizieren einen Bezug zur Standardisierung von Vitalparametern:
 
 **Fördertatbestand 1**
 
@@ -39,12 +39,12 @@ Die folgenden Fördertatbestände werden von einer Standardisierung der Vitalpar
 ## Stakeholder
 
 * bvitg
+* Gematik
 
 ## Relevante Spezifikationen
 
-* IHE-Profile
-* KBV-MIOs
-* Gematik/TI
+* [VitalParameter Basisprofile HL7 Deutschland](https://simplifier.net/guide/basisprofil-de-r4/Ressourcen-BeobachtungenMessungenObservation)
+* [Vitalsigns International](https://www.hl7.org/fhir/observation-vitalsigns.html)
 
 ## Datenobjekte/FHIR-Ressourcen
 ### aus anderen Modulen
@@ -71,7 +71,18 @@ Die folgenden Fördertatbestände werden von einer Standardisierung der Vitalpar
 
 
 ## Potentielle Probleme/Risiken
+* Der Abdeckungsgrad der Profile in Bezug auf echte Szenarien innerhalb des Klinikalltags ist unter Umständen nicht hoch genug. Dies kann durch eine frühe Einbindung der Community mitigiert werden.
+* Die Speicherung von Messdaten in FHIR benötigt aufgrund der anfallenden Daten eine hohe Performance seitens des Servers. Die Abbildung in FHIR sollte daher eventuell in einem späteren Schritt nach Vorverarbeitung der rohen Messdaten stattfinden.
 
-* Der Abdeckungsgrad der Profile in Bezug auf echte Szenarien innerhalb des Klinikalltags ist unter Umständen nicht gegeben. Dies kann durch eine frühe Einbindung der Community mitigiert werden.
+## Anwendungsfälle
 
+### Patientenüberwachung in Krankenhäusern
 
+* Durch eine standardisierte Aufzeichnung der Vitalparameter können Daten aus multiplen Quellen in einem einheitlichen Datensatz aggregiert und anschließend ausgewertet sowie weiterverarbeitet werden
+* In der Behandlung werden unter anderem folgende Anwendungsfälle von standardisierten Vitalparametern profitieren: 
+    * Medikamentenverordnung
+    * Untersuchungsanforderung
+    * Symptomerkennung
+    * Feststellung von Krankheitsbildern
+    * Überwachung der Genesung
+* Insbesondere die systemübergreifende Interpretation der Daten wird in vielen Fällen verbessert oder erst ermöglicht
