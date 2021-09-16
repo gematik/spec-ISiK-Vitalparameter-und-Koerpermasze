@@ -11,39 +11,48 @@
     <content value="complete"/> 
     <description value="CodeSystem zwecks Bestimmung der EKG Ableitung" />
     <concept>
-      <code value="lead-1" />
+      <code value="einthoven-I" />
     </concept>
     <concept>
-      <code value="lead-2" />
+      <code value="einthoven-II" />
     </concept>
     <concept>
-      <code value="lead-3" />
+      <code value="einthoven-III" />
     </concept>
     <concept>
-      <code value="lead-4" />
+      <code value="goldberger-aVR" />
     </concept>
     <concept>
-      <code value="lead-5" />
+      <code value="goldberger-aVL" />
     </concept>
     <concept>
-      <code value="lead-6" />
+      <code value="goldberger-aVF" />
     </concept>
     <concept>
-      <code value="lead-7" />
+      <code value="wilson-V1" />
     </concept>
     <concept>
-      <code value="lead-8" />
+      <code value="wilson-V2" />
     </concept>
     <concept>
-      <code value="lead-9" />
+      <code value="wilson-V3" />
     </concept>
     <concept>
-      <code value="lead-10" />
+      <code value="wilson-V4" />
     </concept>
     <concept>
-      <code value="lead-11" />
+      <code value="wilson-V5" />
     </concept>
     <concept>
-      <code value="lead-12" />
+      <code value="wilson-V6" />
+    </concept>
+    <concept>
+      <code value="nehb-A" />
+    </concept>
+    <concept>
+      <code value="nehb-I" />
+    </concept>
+    <concept>
+      <code value="nehb-D" />
     </concept>
 </CodeSystem>
