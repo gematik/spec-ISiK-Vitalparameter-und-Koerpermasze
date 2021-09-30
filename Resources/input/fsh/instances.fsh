@@ -84,7 +84,7 @@ Usage: #definition
 * document.extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * document.extension.valueCode = #SHALL
 * document.mode = #consumer
-* document.profile = "http://gematik.de/fhir/ISiK/StructureDefinition/ISiKBerichtVitalparameter"
+* document.profile = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBerichtBundle"
 
 Instance: IsiKAtemfrequenz
 InstanceOf: $resprate
