@@ -78,9 +78,15 @@ Usage: #definition
 * rest.resource.searchParam[=].type = #reference
 * rest.resource.searchParam[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource.searchParam[=].extension.valueCode = #SHALL
+* rest.resource.searchParam[=].name = "combo-code"
+* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Observation-combo-code"
+* rest.resource.searchParam[=].type = #token
 * rest.resource.searchParam[=].name = "combo-code-value-quantity"
 * rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Observation-combo-code-value-quantity"
 * rest.resource.searchParam[=].type = #composite
+* rest.resource.searchParam[=].name = "component-code"
+* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Observation-component-code"
+* rest.resource.searchParam[=].type = #token
 * document.extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * document.extension.valueCode = #SHALL
 * document.mode = #consumer
