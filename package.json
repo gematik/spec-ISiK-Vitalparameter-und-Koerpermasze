@@ -9,8 +9,6 @@
     "devDependencies": null,
     "canonicals": null,
     "dependencies": {
-        "de.gematik.isik-basismodul": "1.0.0",
-        "de.basisprofil.r4": "1.0.0",
-        "hl7.fhir.r4.core": "4.0.1"
+        "de.gematik.isik-basismodul": "1.0.1"
     }
 }
