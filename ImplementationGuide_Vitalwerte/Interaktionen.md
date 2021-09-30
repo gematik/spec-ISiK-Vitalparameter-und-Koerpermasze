@@ -57,7 +57,7 @@ Folgende Suchparameter sind für das Vitalparamter-Modul relevant, auch in Kombi
     
     Beispiele
   
-    ```GET [base]/Observation?patient=Patient/123```
+    ```GET [base]/Observation?subject=Patient/123```
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "subject" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Reference Search"](https://www.hl7.org/fhir/search.html#reference).
 
