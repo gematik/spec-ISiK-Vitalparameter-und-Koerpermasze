@@ -178,6 +178,28 @@
                   "valueCode": "SHALL"
                 }
               ],
+              "name": "combo-code",
+              "definition": "http://hl7.org/fhir/SearchParameter/Observation-combo-code",
+              "type": "token"
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ],
+              "name": "combo-code-value-quantity",
+              "definition": "http://hl7.org/fhir/SearchParameter/Observation-combo-code-value-quantity",
+              "type": "composite"
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ],
               "name": "component-code",
               "definition": "http://hl7.org/fhir/SearchParameter/Observation-component-code",
               "type": "token"
