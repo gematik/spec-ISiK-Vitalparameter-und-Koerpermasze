@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "IsiKKoerpergroesse",
-  "url": "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse",
-  "name": "IsiKKoerpergroesse",
+  "id": "ISiKKoerpergroesse",
+  "url": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergroesse",
+  "name": "ISiKKoerpergroesse",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "mapping": [

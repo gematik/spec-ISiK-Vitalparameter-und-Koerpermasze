@@ -13,13 +13,13 @@ Das CapabilityStatement der Instanz MUSS alle Funktionalitäten auflisten, die i
 
 Die Verwendung der [CapabilityStatement-Expectation](http://hl7.org/fhir/extension-capabilitystatement-expectation.html)-Extension ist im CapabilityStatement der Server-Instanz nicht erforderlich.
 
-## CapabilityStatement (Requirement) IsiK-Vitalparameter
+## CapabilityStatement (Requirement) ISiK-Vitalparameter
 
 Die Bereitstellung des CapabilityStatments für das Modul "Vitalparameter" erfolgt zusammen mit der Festlegung der bestätigungsrelevanten Systeme in Stufe 2
 
-Für Systeme, die das Modul "Vitalparameter" implementieren, ist außerdem die Erfüllung der Mindestanforderungen des [Moduls "Basis"](https://simplifier.net/guide/ImplementierungsleitfadenIsiK-Basismodul/Einfuehrung) erfoderlich:
+Für Systeme, die das Modul "Vitalparameter" implementieren, ist außerdem die Erfüllung der Mindestanforderungen des [Moduls "Basis"](https://simplifier.net/guide/ImplementierungsleitfadenISiK-Basismodul/Einfuehrung) erfoderlich:
 
-Canonical: https://gematik.de/fhir/IsiK/CapabilityStatement/core-server
+Canonical: https://gematik.de/fhir/ISiK/CapabilityStatement/core-server
 
 [Link Simplifier Profil Übersicht](https://simplifier.net/isik/isik-capabilitystatement-vitalparameter-server)
 

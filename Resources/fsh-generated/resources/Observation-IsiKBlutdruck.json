@@ -1,10 +1,10 @@
 {
   "resourceType": "Observation",
-  "id": "IsiKBlutdruck",
+  "id": "ISiKBlutdruck",
   "meta": {
     "profile": [
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck",
-      "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKBlutdruck"
+      "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBlutdruck"
     ]
   },
   "category": [

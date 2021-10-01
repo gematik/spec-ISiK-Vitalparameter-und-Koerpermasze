@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "IsiKAtemfrequenz",
-  "url": "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKAtemfrequenz",
-  "name": "IsiKAtemfrequenz",
+  "id": "ISiKAtemfrequenz",
+  "url": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKAtemfrequenz",
+  "name": "ISiKAtemfrequenz",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "mapping": [

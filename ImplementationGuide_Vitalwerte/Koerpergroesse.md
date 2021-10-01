@@ -2,16 +2,16 @@
 
 ## Profil
 
-**Canonical URL**: https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse
+**Canonical URL**: https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergroesse
 
-{{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse, hybrid}}
+{{tree:https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergroesse, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergroesse)
 
 ## Anmerkungen zu den Must-Support Feldern
 
 ## Beispiele
 
-Valides Minimalbeispiel für das Profil IsiKKoerpergroesse:
+Valides Minimalbeispiel für das Profil ISiKKoerpergroesse:
 
-{{xml:Examples/IsiKKoerpergroesse.xml}}
+{{xml:Examples/ISiKKoerpergroesse.xml}}

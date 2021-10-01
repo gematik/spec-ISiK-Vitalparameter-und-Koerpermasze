@@ -1,10 +1,10 @@
 {
   "resourceType": "Observation",
-  "id": "IsiKKoerpertemperatur",
+  "id": "ISiKKoerpertemperatur",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/bodytemp",
-      "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur"
+      "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpertemperatur"
     ]
   },
   "category": [

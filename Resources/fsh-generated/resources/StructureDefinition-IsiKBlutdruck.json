@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "IsiKBlutdruck",
-  "url": "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKBlutdruck",
-  "name": "IsiKBlutdruck",
+  "id": "ISiKBlutdruck",
+  "url": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBlutdruck",
+  "name": "ISiKBlutdruck",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "mapping": [

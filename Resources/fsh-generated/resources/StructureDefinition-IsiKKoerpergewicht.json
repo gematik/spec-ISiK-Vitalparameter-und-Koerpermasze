@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "IsiKKoerpergewicht",
-  "url": "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht",
-  "name": "IsiKKoerpergewicht",
+  "id": "ISiKKoerpergewicht",
+  "url": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht",
+  "name": "ISiKKoerpergewicht",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "mapping": [

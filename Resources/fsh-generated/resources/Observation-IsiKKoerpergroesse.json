@@ -1,10 +1,10 @@
 {
   "resourceType": "Observation",
-  "id": "IsiKKoerpergroesse",
+  "id": "ISiKKoerpergroesse",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/bodyheight",
-      "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse"
+      "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergroesse"
     ]
   },
   "category": [

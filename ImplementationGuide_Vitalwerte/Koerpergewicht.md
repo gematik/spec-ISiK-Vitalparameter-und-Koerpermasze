@@ -2,16 +2,16 @@
 
 ## Profil
 
-**Canonical URL**: https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht
+**Canonical URL**: https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht
 
-{{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht, hybrid}}
+{{tree:https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht)
 
 ## Anmerkungen zu den Must-Support Feldern
 
 ## Beispiele
 
-Valides Minimalbeispiel für das Profil IsiKKoerpergewicht:
+Valides Minimalbeispiel für das Profil ISiKKoerpergewicht:
 
-{{xml:Examples/IsiKKoerpergewicht.xml}}
+{{xml:Examples/ISiKKoerpergewicht.xml}}

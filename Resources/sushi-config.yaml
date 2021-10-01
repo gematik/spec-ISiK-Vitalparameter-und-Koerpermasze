@@ -2,8 +2,8 @@ canonical: https://gematik.de/fhir/ISiK
 fhirVersion: 4.0.1
 FSHOnly: true
 applyExtensionMetadataToRoot: false
-id: Implementierungsleitfaden IsiK-Modul Vitalwerte und Körpermaße
-name: Implementierungsleitfaden IsiK-Modul Vitalwerte und Körpermaße
+id: Implementierungsleitfaden ISiK-Modul Vitalwerte und Körpermaße
+name: Implementierungsleitfaden ISiK-Modul Vitalwerte und Körpermaße
 status: draft
 dependencies:
   de.basisprofil.r4: 1.0.0

@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "IsiKHerzfrequenz",
-  "url": "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKHerzfrequenz",
-  "name": "IsiKHerzfrequenz",
+  "id": "ISiKHerzfrequenz",
+  "url": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKHerzfrequenz",
+  "name": "ISiKHerzfrequenz",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "mapping": [

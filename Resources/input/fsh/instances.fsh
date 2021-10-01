@@ -22,14 +22,14 @@ Usage: #definition
 * rest.resource.extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource.extension.valueCode = #SHALL
 * rest.resource.type = #Observation
-* rest.resource.supportedProfile[0] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKAtemfrequenz"
-* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKBlutdruck"
-* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKHerzfrequenz"
-* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht"
-* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse"
-* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur"
-* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKopfumfang"
-* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung"
+* rest.resource.supportedProfile[0] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKAtemfrequenz"
+* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBlutdruck"
+* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKHerzfrequenz"
+* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht"
+* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergroesse"
+* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpertemperatur"
+* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKopfumfang"
+* rest.resource.supportedProfile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKSauerstoffsaettigung"
 * rest.resource.interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource.interaction[=].extension.valueCode = #SHALL
 * rest.resource.interaction[=].code = #read
@@ -96,11 +96,11 @@ Usage: #definition
 * document.mode = #consumer
 * document.profile = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBerichtBundle"
 
-Instance: IsiKAtemfrequenz
+Instance: ISiKAtemfrequenz
 InstanceOf: $resprate
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
-* meta.profile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKAtemfrequenz"
+* meta.profile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKAtemfrequenz"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
@@ -110,11 +110,11 @@ Usage: #example
 * effectiveDateTime = "2019-07-02"
 * valueQuantity = 26 '/min' "Atemzüge pro Minute"
 
-Instance: IsiKBlutdruck
+Instance: ISiKBlutdruck
 InstanceOf: $vitalsigns
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
-* meta.profile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKBlutdruck"
+* meta.profile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBlutdruck"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#85354-9 "Blood pressure panel with all children optional"
@@ -130,11 +130,11 @@ Usage: #example
 * component[+].code = $loinc#8462-4 "Diastolic blood pressure"
 * component[=].valueQuantity = 60 'mm[Hg]' "mmHg"
 
-Instance: IsiKHerzfrequenz
+Instance: ISiKHerzfrequenz
 InstanceOf: VitalSignDE_Herzfrequenz
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/heartrate"
-* meta.profile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKHerzfrequenz"
+* meta.profile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKHerzfrequenz"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#8867-4 "Heart rate"
@@ -144,11 +144,11 @@ Usage: #example
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 63 '/min' "per minute"
 
-Instance: IsiKKoerpergewicht
+Instance: ISiKKoerpergewicht
 InstanceOf: VitalSignDE_Koerpergewicht
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodyweight"
-* meta.profile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht"
+* meta.profile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#29463-7 "Body weight"
@@ -158,11 +158,11 @@ Usage: #example
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 79 'kg' "kilogram"
 
-Instance: IsiKKoerpergroesse
+Instance: ISiKKoerpergroesse
 InstanceOf: VitalSignDE_Koerpergroesse
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodyheight"
-* meta.profile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse"
+* meta.profile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergroesse"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#8302-2 "Body height"
@@ -172,11 +172,11 @@ Usage: #example
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 174 'cm' "centimeter"
 
-Instance: IsiKKoerpertemperatur
+Instance: ISiKKoerpertemperatur
 InstanceOf: VitalSignDE_Koerpertemperatur
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodytemp"
-* meta.profile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur"
+* meta.profile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpertemperatur"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#8310-5 "Body temperature"
@@ -186,11 +186,11 @@ Usage: #example
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 36.8 'Cel' "°C"
 
-Instance: IsiKKopfumfang
+Instance: ISiKKopfumfang
 InstanceOf: $headcircum
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
-* meta.profile[+] = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKopfumfang"
+* meta.profile[+] = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKopfumfang"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
@@ -200,10 +200,10 @@ Usage: #example
 * effectiveDateTime = "2019-07-02"
 * valueQuantity = 38 'cm' "Centimeter"
 
-Instance: IsiKSauerstoffsaettigung
+Instance: ISiKSauerstoffsaettigung
 InstanceOf: VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung
 Usage: #example
-* meta.profile = "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung"
+* meta.profile = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKSauerstoffsaettigung"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"

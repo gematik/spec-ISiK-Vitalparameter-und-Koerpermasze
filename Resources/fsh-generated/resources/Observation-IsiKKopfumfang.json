@@ -1,10 +1,10 @@
 {
   "resourceType": "Observation",
-  "id": "IsiKKopfumfang",
+  "id": "ISiKKopfumfang",
   "meta": {
     "profile": [
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang",
-      "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKopfumfang"
+      "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKopfumfang"
     ]
   },
   "category": [

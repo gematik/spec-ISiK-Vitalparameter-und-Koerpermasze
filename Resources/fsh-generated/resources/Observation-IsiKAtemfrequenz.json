@@ -1,10 +1,10 @@
 {
   "resourceType": "Observation",
-  "id": "IsiKAtemfrequenz",
+  "id": "ISiKAtemfrequenz",
   "meta": {
     "profile": [
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz",
-      "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKAtemfrequenz"
+      "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKAtemfrequenz"
     ]
   },
   "category": [

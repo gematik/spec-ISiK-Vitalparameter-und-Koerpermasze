@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "IsiKKopfumfang",
-  "url": "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKopfumfang",
-  "name": "IsiKKopfumfang",
+  "id": "ISiKKopfumfang",
+  "url": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKopfumfang",
+  "name": "ISiKKopfumfang",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "mapping": [

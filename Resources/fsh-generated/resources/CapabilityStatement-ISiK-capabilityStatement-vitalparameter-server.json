@@ -53,14 +53,14 @@
           ],
           "type": "Observation",
           "supportedProfile": [
-            "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKAtemfrequenz",
-            "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKBlutdruck",
-            "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKHerzfrequenz",
-            "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergewicht",
-            "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpergroesse",
-            "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKoerpertemperatur",
-            "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKKopfumfang",
-            "https://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung"
+            "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKAtemfrequenz",
+            "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBlutdruck",
+            "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKHerzfrequenz",
+            "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht",
+            "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergroesse",
+            "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpertemperatur",
+            "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKopfumfang",
+            "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKSauerstoffsaettigung"
           ],
           "interaction": [
             {
