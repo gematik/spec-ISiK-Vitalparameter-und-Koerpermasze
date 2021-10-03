@@ -2,16 +2,16 @@
 
 ## Profil
 
-**Canonical URL**: https://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung
+**Canonical URL**: https://gematik.de/fhir/ISiK/StructureDefinition/ISiKSauerstoffsaettigung
 
-{{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung, hybrid}}
+{{tree:https://gematik.de/fhir/ISiK/StructureDefinition/ISiKSauerstoffsaettigung, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKSauerstoffsaettigung)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/StructureDefinition/ISiKSauerstoffsaettigung)
 
 ## Anmerkungen zu den Must-Support Feldern
 
 ## Beispiele
 
-Valides Minimalbeispiel für das Profil IsiKSauerstoffsaettigung:
+Valides Minimalbeispiel für das Profil ISiKSauerstoffsaettigung:
 
-{{xml:Examples/IsiKSauerstoffsaettigung.xml}}
+{{xml:Examples/ISiKSauerstoffsaettigung.xml}}

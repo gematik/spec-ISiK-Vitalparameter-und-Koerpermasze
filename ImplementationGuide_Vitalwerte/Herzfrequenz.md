@@ -1,17 +1,17 @@
-# IsiKHerzfrequenz
+# ISiKHerzfrequenz
 
 ## Profil
 
-**Canonical URL**: https://gematik.de/fhir/IsiK/StructureDefinition/IsiKHerzfrequenz
+**Canonical URL**: https://gematik.de/fhir/ISiK/StructureDefinition/ISiKHerzfrequenz
 
-{{tree:https://gematik.de/fhir/IsiK/StructureDefinition/IsiKHerzfrequenz, hybrid}}
+{{tree:https://gematik.de/fhir/ISiK/StructureDefinition/ISiKHerzfrequenz, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/IsiK/StructureDefinition/IsiKHerzfrequenz)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/StructureDefinition/ISiKHerzfrequenz)
 
 ## Anmerkungen zu den Must-Support Feldern
 
 ## Beispiele
 
-Valides Minimalbeispiel für das Profil IsiKHerzfrequenz:
+Valides Minimalbeispiel für das Profil ISiKHerzfrequenz:
 
-{{xml:Examples/IsiKHerzfrequenz.xml}}
+{{xml:Examples/ISiKHerzfrequenz.xml}}
