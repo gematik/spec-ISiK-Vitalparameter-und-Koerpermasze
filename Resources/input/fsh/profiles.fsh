@@ -159,7 +159,7 @@ Id: ISiKSauerstoffsaettigung
 * valueQuantity.code MS
 
 Profile: ISiKEkg
-Parent: ekg-base-profile
+Parent: http://fhir.de/StructureDefinition/observation-de-ekg
 Id: IsikEkg
 * ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKEkg"
 * ^status = #draft
