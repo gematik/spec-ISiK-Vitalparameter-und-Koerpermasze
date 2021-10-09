@@ -5,7 +5,7 @@ Version: 0.1.1
 
 Datum: 25.05.2021
 
-Status: Fassung nach dem Kommentierunsgssverfahren (25-05-2021) mit Ergänzung von technischen Korrekturen.
+Status: Fassung nach dem Kommentierungsverfahren (25-05-2021) mit Ergänzung von technischen Korrekturen.
 
 Realm: Deutschland
 
