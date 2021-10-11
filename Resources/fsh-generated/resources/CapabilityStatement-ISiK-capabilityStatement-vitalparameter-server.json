@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein ISiK-konformer System unterstützen muss um das Bestätigungsverfahren für das Modul Vitalparameter zu bestehen.",
+  "description": "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein ISiK-konformes System unterstützen muss um das Bestätigungsverfahren für das Modul Vitalparameter zu bestehen.",
   "jurisdiction": [
     {
       "coding": [

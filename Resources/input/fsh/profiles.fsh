@@ -157,3 +157,23 @@ Id: ISiKSauerstoffsaettigung
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+
+Profile: ISiKEkg
+Parent: http://fhir.de/StructureDefinition/observation-de-ekg
+Id: IsikEkg
+* ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKEkg"
+* ^status = #draft
+* status MS
+* category MS
+* code MS
+* subject MS
+* effective[x] MS
+* device MS
+* component MS
+* component.code MS
+* component.value[x] MS
+* component.valueSampledData MS
+* component.valueSampledData.origin MS
+* component.valueSampledData.period MS
+* component.valueSampledData.dimensions MS
+* component.valueSampledData.data MS

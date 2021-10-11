@@ -131,6 +131,11 @@
               "nameUrl": "ImplementationGuide_Vitalwerte/Sauerstoffsaettigung.md",
               "title": "Sauerstoffsaettigung",
               "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Ekg.md",
+              "title": "EKG",
+              "generation": "markdown"
             }
           ]
         }
