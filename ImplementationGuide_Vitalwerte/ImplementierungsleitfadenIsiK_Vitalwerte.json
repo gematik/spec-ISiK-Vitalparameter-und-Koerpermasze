@@ -74,6 +74,11 @@
               "nameUrl": "ImplementationGuide_Vitalwerte/Interaktionen.md",
               "title": "Interaktionen",
               "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/Signaldaten.md",
+              "title": "Signaldaten",
+              "generation": "markdown"
             }
           ]
         },
