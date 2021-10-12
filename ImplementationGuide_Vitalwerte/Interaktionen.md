@@ -69,6 +69,14 @@ Folgende Suchparameter sind für das Vitalparamter-Modul relevant, auch in Kombi
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "encounter" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Reference Search"](https://www.hl7.org/fhir/search.html#reference).
 
+1. Der Suchparameter "combo-code" MUSS unterstützt werden:
+
+    Beispiele
+  
+    ```GET [base]/Observation?combo-code=85354-9```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "combo-code" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Token"](https://www.hl7.org/fhir/search.html#token).
+
 1. Der Suchparameter "combo-code-value-quantity" MUSS unterstützt werden:
 
     Beispiele
@@ -76,3 +84,11 @@ Folgende Suchparameter sind für das Vitalparamter-Modul relevant, auch in Kombi
     ```GET [base]/Observation?combo-code-value-quantity=http://loinc.org|8480-6$120|http://unitsofmeasure.org|mm[Hg]```
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "combo-code-value-quantity" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Composite Search Parameters"](https://www.hl7.org/fhir/search.html#combining).
+
+1. Der Suchparameter "component-code" MUSS unterstützt werden:
+
+    Beispiele
+  
+    ```GET [base]/Observation?component-code=http://loinc.org|85354-9```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "component-code" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Token"](https://www.hl7.org/fhir/search.html#token).
