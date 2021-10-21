@@ -1,11 +1,11 @@
 <img src="https://www.gematik.de/fileadmin/user_upload/MediaUploads/Gematik_Logo_Flag.jpg" alt="gematik logo" width="400"/>
 
 ----
-Version: 0.1.1
+Version: 0.4.0
 
-Datum: 25.05.2021
+Datum: 21.10.2021
 
-Status: Fassung nach dem Kommentierungsverfahren (25-05-2021) mit Ergänzung von technischen Korrekturen.
+Status: Release-Kandidat zur Besprechung in den Arbeitsgruppen.
 
 Realm: Deutschland
 

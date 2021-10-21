@@ -11,7 +11,8 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "LP6244-0"
+        "code": "LP6244-0",
+        "display": "Electrocardiogram (EKG)"
       }
     ]
   },

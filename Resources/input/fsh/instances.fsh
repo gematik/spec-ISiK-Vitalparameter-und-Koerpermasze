@@ -232,6 +232,7 @@ Usage: #example
 * category = $observation-category#procedure
 * device.reference = "Device/example"
 * effectiveDateTime = "2019-07-02"
+* code.coding[0] = $loinc#LP6244-0 "Electrocardiogram (EKG)"
 * component[0].code.coding[0] = $loinc#LP7386-8 "Lead I"
 * component[=].valueSampledData.origin.value = 2048
 * component[=].valueSampledData.period = 10
