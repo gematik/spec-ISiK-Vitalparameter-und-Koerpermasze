@@ -25,6 +25,6 @@ Weitere Informationen siehe [§373 SGB V](https://www.gesetze-im-internet.de/sgb
 
 **Herausgeber**
 
-Gesellschaft für Telematikanwendungen der Gesundheitskarte GmbH (gematik)
+gematik GmbH
 
 [Impressum](https://www.gematik.de/impressum/)
