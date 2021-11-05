@@ -160,7 +160,7 @@ Id: ISiKSauerstoffsaettigung
 
 Profile: ISiKEkg
 Parent: http://fhir.de/StructureDefinition/observation-de-ekg
-Id: IsikEkg
+Id: ISikEkg
 * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKEkg"
 * ^status = #draft
 * status MS
