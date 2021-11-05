@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKSauerstoffsaettigung",
-  "url": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKSauerstoffsaettigung",
+  "url": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung",
   "name": "ISiKSauerstoffsaettigung",
   "status": "draft",
   "fhirVersion": "4.0.1",

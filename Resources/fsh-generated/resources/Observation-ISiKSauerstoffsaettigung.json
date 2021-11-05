@@ -3,7 +3,7 @@
   "id": "ISiKSauerstoffsaettigung",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKSauerstoffsaettigung"
+      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung"
     ]
   },
   "category": [

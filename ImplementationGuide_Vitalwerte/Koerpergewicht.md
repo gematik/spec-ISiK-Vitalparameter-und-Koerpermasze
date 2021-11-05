@@ -2,11 +2,11 @@
 
 ## Profil
 
-**Canonical URL**: https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht
+**Canonical URL**: https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht
 
-{{tree:https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht, hybrid}}
+{{tree:https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht)
 
 ## Anmerkungen zu den Must-Support Feldern
 

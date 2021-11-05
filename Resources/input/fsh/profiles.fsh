@@ -1,7 +1,7 @@
 Profile: ISiKAtemfrequenz
 Parent: VitalSignDE_Atemfrequenz
 Id: ISiKAtemfrequenz
-* ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKAtemfrequenz"
+* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz"
 * ^status = #draft
 * status MS
 * category MS
@@ -20,7 +20,7 @@ Id: ISiKAtemfrequenz
 Profile: ISiKBlutdruck
 Parent: VitalSignDE_Blutdruck
 Id: ISiKBlutdruck
-* ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBlutdruck"
+* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck"
 * ^status = #draft
 * status MS
 * category MS
@@ -47,7 +47,7 @@ Id: ISiKBlutdruck
 Profile: ISiKHerzfrequenz
 Parent: VitalSignDE_Herzfrequenz
 Id: ISiKHerzfrequenz
-* ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKHerzfrequenz"
+* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKHerzfrequenz"
 * ^status = #draft
 * status MS
 * category MS
@@ -66,7 +66,7 @@ Id: ISiKHerzfrequenz
 Profile: ISiKKoerpergewicht
 Parent: VitalSignDE_Koerpergewicht
 Id: ISiKKoerpergewicht
-* ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht"
+* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht"
 * ^status = #draft
 * status MS
 * category MS
@@ -85,7 +85,7 @@ Id: ISiKKoerpergewicht
 Profile: ISiKKoerpergroesse
 Parent: VitalSignDE_Koerpergroesse
 Id: ISiKKoerpergroesse
-* ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergroesse"
+* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergroesse"
 * ^status = #draft
 * status MS
 * category MS
@@ -104,7 +104,7 @@ Id: ISiKKoerpergroesse
 Profile: ISiKKoerpertemperatur
 Parent: VitalSignDE_Koerpertemperatur
 Id: ISiKKoerpertemperatur
-* ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpertemperatur"
+* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur"
 * ^status = #draft
 * status MS
 * category MS
@@ -123,7 +123,7 @@ Id: ISiKKoerpertemperatur
 Profile: ISiKKopfumfang
 Parent: VitalSignDE_Kopfumfang
 Id: ISiKKopfumfang
-* ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKopfumfang"
+* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang"
 * ^status = #draft
 * status MS
 * category MS
@@ -142,7 +142,7 @@ Id: ISiKKopfumfang
 Profile: ISiKSauerstoffsaettigung
 Parent: VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung
 Id: ISiKSauerstoffsaettigung
-* ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKSauerstoffsaettigung"
+* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung"
 * ^status = #draft
 * status MS
 * category MS
@@ -161,7 +161,7 @@ Id: ISiKSauerstoffsaettigung
 Profile: ISiKEkg
 Parent: http://fhir.de/StructureDefinition/observation-de-ekg
 Id: IsikEkg
-* ^url = "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKEkg"
+* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKEkg"
 * ^status = #draft
 * status MS
 * category MS

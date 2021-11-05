@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKKoerpertemperatur",
-  "url": "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpertemperatur",
+  "url": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur",
   "name": "ISiKKoerpertemperatur",
   "status": "draft",
   "fhirVersion": "4.0.1",
