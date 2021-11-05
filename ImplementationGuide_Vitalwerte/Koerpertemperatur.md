@@ -2,11 +2,11 @@
 
 ## Profil
 
-**Canonical URL**: https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpertemperatur
+**Canonical URL**: https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur
 
-{{tree:https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpertemperatur, hybrid}}
+{{tree:https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpertemperatur)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur)
 
 ## Anmerkungen zu den Must-Support Feldern
 

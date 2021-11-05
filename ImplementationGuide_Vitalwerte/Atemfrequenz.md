@@ -2,11 +2,11 @@
 
 ## Profil
 
-**Canonical URL**: https://gematik.de/fhir/ISiK/StructureDefinition/ISiKAtemfrequenz
+**Canonical URL**: https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz
 
-{{tree:https://gematik.de/fhir/ISiK/StructureDefinition/ISiKAtemfrequenz, hybrid}}
+{{tree:https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/StructureDefinition/ISiKAtemfrequenz)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz)
 
 ## Anmerkungen zu den Must-Support Feldern
 

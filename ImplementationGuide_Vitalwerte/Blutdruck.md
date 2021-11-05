@@ -2,11 +2,11 @@
 
 ## Profil
 
-**Canonical URL**: https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBlutdruck
+**Canonical URL**: https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck
 
-{{tree:https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBlutdruck, hybrid}}
+{{tree:https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/StructureDefinition/ISiKBlutdruck)
+[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck)
 
 ## Anmerkungen zu den Must-Support Feldern
 

@@ -4,7 +4,7 @@
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/bodyweight",
-      "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKKoerpergewicht"
+      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht"
     ]
   },
   "category": [

@@ -4,7 +4,7 @@
   "meta": {
     "profile": [
       "http://fhir.de/StructureDefinition/observation-de-ekg",
-      "https://gematik.de/fhir/ISiK/StructureDefinition/ISiKEkg"
+      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKEkg"
     ]
   },
   "code": {
