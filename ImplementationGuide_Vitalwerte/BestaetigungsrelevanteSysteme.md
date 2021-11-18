@@ -1,5 +1,3 @@
 # Bestätigungsrelevante Systeme
 
-Die veröffentlichten Profile für die Vitalwerte und Körpermaße sind für die Stufe 1 nicht bestätigungsrelvant und dienen ausschließlich der Information und Kommentierung.
-
-Die Festlegung der bestätigungsrelevanten Systeme erfolgt in Stufe 2.
+Bestätigungsrelevant im Kontext des Moduls Vitalparameter der ISiK Stufe 2 sind alle Softwareprodukte, die klinische Vitalparameter und Körpermaße verwalten oder dauerhaft speichern. Ausgenommen sind Softwareprodukte, die ausschließlich zur redundanten Datenspeicherung und -Wiederherstellung eingesetzt werden.
