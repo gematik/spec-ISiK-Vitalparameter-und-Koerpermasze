@@ -8,8 +8,8 @@ Bestätigungsrelevant im Kontext des Moduls Vitalparameter der ISiK Stufe 2 sind
 * Elektrokardiogramm
 * Glasgow-Coma-Scale
 * Herzfrequenz
-* Koerpergewicht
-* Koerpergroesse
-* Koerpertemperatur
+* Körpergewicht
+* Körpergrösse
+* Körpertemperatur
 * Kopfumfang
-* Sauerstoffsaettigung
+* Sauerstoffsättigung
