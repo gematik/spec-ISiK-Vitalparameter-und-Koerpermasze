@@ -1,3 +1,3 @@
-# ISiK Vitalparameter
+# ISiK Vitalparameter und Körpermaße
 
-In diesem Repository werden Vorschläge für den interoperablen und intersektoralen Austausch von Gesundheitsdaten im Krankenhaus im Rahmen der Vitalparameter erarbeitet. Diese Vorschläge können als github issues in diesem Projekt erstellt werden. Bitte prüfen Sie, ob ein ähnliches Issue bereits existiert, um Duplikate zu vermeiden. Ihre Änderungswünsche werden dann innerhalb der ISiK Arbeitsgruppe für Vitalparameter mit Ihnen diskutiert, um sicherzustellen, dass Ihr Anliegen vollständig verstanden wurde und ob die gewünschte Änderung so umgesetzt werden kann und soll.
+https://simplifier.net/isik-modulvitalparameter
