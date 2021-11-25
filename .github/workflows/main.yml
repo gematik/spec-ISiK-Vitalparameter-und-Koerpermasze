@@ -35,7 +35,7 @@ jobs:
           # PATH_TO_EXAMPLES: Examples # Examples still need to be separated from the conformance resources 
           # PATH_TO_QUALITY_CONTROL_RULES: qc/custom
           DOTNET_VALIDATION_ENABLED: true
-          JAVA_VALIDATION_ENABLED: true
+          JAVA_VALIDATION_ENABLED: false
           OUTPUT_FORMAT: RAW
           # JAVA_VALIDATION_OPTIONS: -allow-example-urls true
           SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
