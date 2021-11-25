@@ -140,7 +140,7 @@ Usage: #example
 * code.coding[0] = $loinc#8867-4 "Heart rate"
 * code.coding[+] = $sct#364075005 "Heart rate (observable entity)"
 * code.text = "Herzfrequenz"
-* subject.reference = "https://server.fire.ly/Patient/example"
+* subject.reference = "Patient/example"
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 63 '/min' "per minute"
 
@@ -154,7 +154,7 @@ Usage: #example
 * code.coding[0] = $loinc#29463-7 "Body weight"
 * code.coding[+] = $sct#27113001 "Body weight"
 * code.text = "Körpergewicht"
-* subject.reference = "https://server.fire.ly/Patient/example"
+* subject.reference = "Patient/example"
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 79 'kg' "kilogram"
 
@@ -168,7 +168,7 @@ Usage: #example
 * code.coding[0] = $loinc#8302-2 "Body height"
 * code.coding[+] = $sct#50373000 "Body height measure"
 * code.text = "Körpergröße"
-* subject.reference = "https://server.fire.ly/Patient/example"
+* subject.reference = "Patient/example"
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 174 'cm' "centimeter"
 
@@ -182,7 +182,7 @@ Usage: #example
 * code.coding[0] = $loinc#8310-5 "Body temperature"
 * code.coding[+] = $sct#386725007 "Body temperature (observable entity)"
 * code.text = "Körpertemperatur"
-* subject.reference = "https://server.fire.ly/Patient/example"
+* subject.reference = "Patient/example"
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 36.8 'Cel' "°C"
 
@@ -210,7 +210,7 @@ Usage: #example
 * code.coding[+] = $sct#442476006 "Arterial oxygen saturation"
 * code.coding[+] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
-* subject.reference = "https://server.fire.ly/Patient/example"
+* subject.reference = "Patient/example"
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 98 '%' "%"
 * component[0].code.coding[0] = $loinc#3151-8 "Inhaled oxygen flow rate"
