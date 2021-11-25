@@ -3,6 +3,7 @@
   "id": "ISiKKopfumfang",
   "meta": {
     "profile": [
+      "http://hl7.org/fhir/StructureDefinition/headcircum",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang",
       "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang"
     ]

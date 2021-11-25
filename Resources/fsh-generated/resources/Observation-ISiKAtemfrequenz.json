@@ -3,6 +3,7 @@
   "id": "ISiKAtemfrequenz",
   "meta": {
     "profile": [
+      "http://hl7.org/fhir/StructureDefinition/resprate",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz",
       "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz"
     ]
