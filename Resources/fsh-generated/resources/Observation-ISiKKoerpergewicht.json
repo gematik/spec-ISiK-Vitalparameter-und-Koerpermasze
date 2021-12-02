@@ -3,8 +3,8 @@
   "id": "ISiKKoerpergewicht",
   "meta": {
     "profile": [
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht",
       "http://hl7.org/fhir/StructureDefinition/bodyweight",
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht",
       "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht"
     ]
   },

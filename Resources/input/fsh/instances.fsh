@@ -97,9 +97,10 @@ Usage: #definition
 * document.profile = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBerichtBundle"
 
 Instance: ISiKAtemfrequenz
-InstanceOf: $resprate
+InstanceOf: ISiKAtemfrequenz
 Usage: #example
-* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/resprate"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
@@ -111,7 +112,7 @@ Usage: #example
 * valueQuantity = 26 '/min' "Atemzüge pro Minute"
 
 Instance: ISiKBlutdruck
-InstanceOf: $vitalsigns
+InstanceOf: ISiKBlutdruck
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck"
@@ -131,9 +132,10 @@ Usage: #example
 * component[=].valueQuantity = 60 'mm[Hg]' "mmHg"
 
 Instance: ISiKHerzfrequenz
-InstanceOf: VitalSignDE_Herzfrequenz
+InstanceOf: ISiKHerzfrequenz
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/heartrate"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKHerzfrequenz"
 * status = #final
 * category = $observation-category#vital-signs
@@ -145,9 +147,10 @@ Usage: #example
 * valueQuantity = 63 '/min' "per minute"
 
 Instance: ISiKKoerpergewicht
-InstanceOf: VitalSignDE_Koerpergewicht
+InstanceOf: ISiKKoerpergewicht
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodyweight"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht"
 * status = #final
 * category = $observation-category#vital-signs
@@ -159,9 +162,10 @@ Usage: #example
 * valueQuantity = 79 'kg' "kilogram"
 
 Instance: ISiKKoerpergroesse
-InstanceOf: VitalSignDE_Koerpergroesse
+InstanceOf: ISiKKoerpergroesse
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodyheight"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergroesse"
 * status = #final
 * category = $observation-category#vital-signs
@@ -173,9 +177,10 @@ Usage: #example
 * valueQuantity = 174 'cm' "centimeter"
 
 Instance: ISiKKoerpertemperatur
-InstanceOf: VitalSignDE_Koerpertemperatur
+InstanceOf: ISiKKoerpertemperatur
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodytemp"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur"
 * status = #final
 * category = $observation-category#vital-signs
@@ -187,9 +192,10 @@ Usage: #example
 * valueQuantity = 36.8 'Cel' "°C"
 
 Instance: ISiKKopfumfang
-InstanceOf: $headcircum
+InstanceOf: ISiKKopfumfang
 Usage: #example
-* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/headcircum"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
@@ -201,9 +207,10 @@ Usage: #example
 * valueQuantity = 38 'cm' "Centimeter"
 
 Instance: ISiKSauerstoffsaettigung
-InstanceOf: VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung
+InstanceOf: ISiKSauerstoffsaettigung
 Usage: #example
-* meta.profile = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung"
+* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
+* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
