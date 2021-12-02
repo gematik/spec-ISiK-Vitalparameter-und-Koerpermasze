@@ -223,7 +223,7 @@ Usage: #example
 * component[=].valueQuantity = 50 '%' "%"
 
 Instance: ISiKEkg
-InstanceOf: https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKEkg
+InstanceOf: ISiKEkg
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-ekg"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKEkg"
