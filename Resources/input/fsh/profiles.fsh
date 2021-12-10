@@ -160,7 +160,7 @@ Id: ISiKSauerstoffsaettigung
 
 Profile: ISiKEkg
 Parent: http://fhir.de/StructureDefinition/observation-de-ekg
-Id: ISikEkg
+Id: ISiKEkg
 * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKEkg"
 * ^status = #draft
 * status MS
@@ -177,3 +177,28 @@ Id: ISikEkg
 * component.valueSampledData.period MS
 * component.valueSampledData.dimensions MS
 * component.valueSampledData.data MS
+
+Profile: ISiKGCS
+Parent: http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs
+Id: ISiKGCS
+* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
+* ^status = #draft
+* status MS
+* category MS
+* category[vs-cat] MS
+* code MS
+* subject MS
+* encounter MS
+* effective[x] MS
+* value[x] MS
+* valueQuantity MS
+* valueQuantity.value MS
+* valueQuantity.system MS
+* valueQuantity.code MS
+* component MS
+* component.code MS
+* component.value[x] MS
+* component.valueQuantity MS
+* component.valueQuantity.system MS
+* component.valueQuantity.code MS
+* component.valueQuantity.unit MS

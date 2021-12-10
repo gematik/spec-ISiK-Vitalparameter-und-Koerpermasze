@@ -3,8 +3,8 @@
   "id": "ISiKKoerpertemperatur",
   "meta": {
     "profile": [
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
       "http://hl7.org/fhir/StructureDefinition/bodytemp",
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
       "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur"
     ]
   },

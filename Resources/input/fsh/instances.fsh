@@ -97,9 +97,10 @@ Usage: #definition
 * document.profile = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBerichtBundle"
 
 Instance: ISiKAtemfrequenz
-InstanceOf: $resprate
+InstanceOf: ISiKAtemfrequenz
 Usage: #example
-* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/resprate"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
@@ -111,7 +112,7 @@ Usage: #example
 * valueQuantity = 26 '/min' "Atemzüge pro Minute"
 
 Instance: ISiKBlutdruck
-InstanceOf: $vitalsigns
+InstanceOf: ISiKBlutdruck
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck"
@@ -131,9 +132,10 @@ Usage: #example
 * component[=].valueQuantity = 60 'mm[Hg]' "mmHg"
 
 Instance: ISiKHerzfrequenz
-InstanceOf: VitalSignDE_Herzfrequenz
+InstanceOf: ISiKHerzfrequenz
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/heartrate"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKHerzfrequenz"
 * status = #final
 * category = $observation-category#vital-signs
@@ -145,9 +147,10 @@ Usage: #example
 * valueQuantity = 63 '/min' "per minute"
 
 Instance: ISiKKoerpergewicht
-InstanceOf: VitalSignDE_Koerpergewicht
+InstanceOf: ISiKKoerpergewicht
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodyweight"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht"
 * status = #final
 * category = $observation-category#vital-signs
@@ -159,9 +162,10 @@ Usage: #example
 * valueQuantity = 79 'kg' "kilogram"
 
 Instance: ISiKKoerpergroesse
-InstanceOf: VitalSignDE_Koerpergroesse
+InstanceOf: ISiKKoerpergroesse
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodyheight"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergroesse"
 * status = #final
 * category = $observation-category#vital-signs
@@ -173,9 +177,10 @@ Usage: #example
 * valueQuantity = 174 'cm' "centimeter"
 
 Instance: ISiKKoerpertemperatur
-InstanceOf: VitalSignDE_Koerpertemperatur
+InstanceOf: ISiKKoerpertemperatur
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodytemp"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur"
 * status = #final
 * category = $observation-category#vital-signs
@@ -187,9 +192,10 @@ Usage: #example
 * valueQuantity = 36.8 'Cel' "°C"
 
 Instance: ISiKKopfumfang
-InstanceOf: $headcircum
+InstanceOf: ISiKKopfumfang
 Usage: #example
-* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
+* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/headcircum"
+* meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
@@ -201,9 +207,10 @@ Usage: #example
 * valueQuantity = 38 'cm' "Centimeter"
 
 Instance: ISiKSauerstoffsaettigung
-InstanceOf: VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung
+InstanceOf: ISiKSauerstoffsaettigung
 Usage: #example
-* meta.profile = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung"
+* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
+* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
@@ -223,7 +230,7 @@ Usage: #example
 * component[=].valueQuantity = 50 '%' "%"
 
 Instance: ISiKEkg
-InstanceOf: https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKEkg
+InstanceOf: ISiKEkg
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-ekg"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKEkg"
@@ -248,3 +255,20 @@ Usage: #example
 * component[=].valueSampledData.period = 10
 * component[=].valueSampledData.dimensions = 1
 * component[=].valueSampledData.data = "2041 2043 2037 2047 2060 2062 2051 2023 2014 2027 2034 2033 2040 2047 2047 2053 2058 2064 2059 2063 2061 2052 2053 2038 1966 1885 1884 2009 2129 2166 2137 2102 2086 2077 2067 2067 2060 2059 2062 2062 2060 2057 2045 2047 2057 2054 2042 2029 2027 2018 2007 1995 2001 2012 2024 2039 2068 2092 2111 2125 2131 2148 2137 2138 2128 2128 2115 2099 2097 2096 2101 2101 2091 2073 2076 2077 2084 2081 2088 2092 2070 2069 2074 2077 2075 2068 2064 2060 2062 2074 2075 2074 2075 2063 2058 2058 2064 2064 2070 2074 2067 2060 2062 2063 2061 2059 2048 2052 2049 2048 2051 2059 2059 2066 2077 2073"
+
+Instance: ISiKGCS
+InstanceOf: ISiKGCS
+Usage: #example
+* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
+* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
+* code = $loinc#9269-2 "Glasgow coma score total"
+* valueQuantity = 11 '1' "{score}"
+* status = #final
+* subject.reference = "Patient/example"
+* effectiveDateTime = "2020-10-11"
+* component[0].code = $loinc#9270-0 "Glasgow coma score verbal"
+* component[=].valueQuantity = 4 '1' "{score}"
+* component[+].code =  $loinc#9268-4 "Glasgow coma score motor"
+* component[=].valueQuantity = 4 '1' "{score}"
+* component[+].code =  $loinc#9267-6 "Glasgow coma score eye opening"
+* component[=].valueQuantity = 3 '1' "{score}"

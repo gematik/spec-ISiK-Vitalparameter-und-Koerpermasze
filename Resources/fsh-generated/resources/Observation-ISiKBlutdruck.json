@@ -3,7 +3,6 @@
   "id": "ISiKBlutdruck",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/StructureDefinition/vitalsigns",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck",
       "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck"
     ]
@@ -19,17 +18,61 @@
       ]
     }
   ],
-  "status": "final",
   "code": {
     "coding": [
       {
-        "code": "85354-9",
         "system": "http://loinc.org",
+        "code": "85354-9",
         "display": "Blood pressure panel with all children optional"
       }
     ],
     "text": "Systolischer und Diastolischer Blutdruck"
   },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "8480-6"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 107,
+        "code": "mm[Hg]",
+        "unit": "mmHg"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "8462-4"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 60,
+        "code": "mm[Hg]",
+        "unit": "mmHg"
+      }
+    }
+  ],
+  "status": "final",
   "subject": {
     "reference": "Patient/example"
   },
@@ -59,41 +102,5 @@
         "display": "Right arm"
       }
     ]
-  },
-  "component": [
-    {
-      "code": {
-        "coding": [
-          {
-            "code": "8480-6",
-            "system": "http://loinc.org",
-            "display": "Systolic blood pressure"
-          }
-        ]
-      },
-      "valueQuantity": {
-        "value": 107,
-        "code": "mm[Hg]",
-        "system": "http://unitsofmeasure.org",
-        "unit": "mmHg"
-      }
-    },
-    {
-      "code": {
-        "coding": [
-          {
-            "code": "8462-4",
-            "system": "http://loinc.org",
-            "display": "Diastolic blood pressure"
-          }
-        ]
-      },
-      "valueQuantity": {
-        "value": 60,
-        "code": "mm[Hg]",
-        "system": "http://unitsofmeasure.org",
-        "unit": "mmHg"
-      }
-    }
-  ]
+  }
 }
