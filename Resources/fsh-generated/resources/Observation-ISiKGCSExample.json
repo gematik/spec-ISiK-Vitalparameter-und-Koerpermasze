@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "ISiKGCS",
+  "id": "ISiKGCSExample",
   "meta": {
     "profile": [
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs",

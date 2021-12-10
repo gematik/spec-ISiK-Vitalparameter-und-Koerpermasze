@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "ISiKBlutdruck",
+  "id": "ISiKBlutdruckExample",
   "meta": {
     "profile": [
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck",
@@ -34,8 +34,7 @@
         "coding": [
           {
             "system": "http://loinc.org",
-            "code": "8480-6",
-            "display": "Systolic blood pressure"
+            "code": "8480-6"
           },
           {
             "system": "http://loinc.org",
@@ -55,8 +54,7 @@
         "coding": [
           {
             "system": "http://loinc.org",
-            "code": "8462-4",
-            "display": "Diastolic blood pressure"
+            "code": "8462-4"
           },
           {
             "system": "http://loinc.org",

@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "ISiKKoerpergroesse",
+  "id": "ISiKKoerpergroesseExample",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/bodyheight",

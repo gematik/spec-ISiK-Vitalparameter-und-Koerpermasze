@@ -14,4 +14,4 @@
 
 Valides Minimalbeispiel für das Profil ISiKAtemfrequenz:
 
-{{xml:Examples/ISiKAtemfrequenz.xml}}
+{{json:Resources/fsh-generated/resources/Observation-ISiKAtemfrequenzExample.json}}

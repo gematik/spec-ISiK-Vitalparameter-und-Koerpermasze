@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "ISiKKoerpergewicht",
+  "id": "ISiKKoerpergewichtExample",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/bodyweight",

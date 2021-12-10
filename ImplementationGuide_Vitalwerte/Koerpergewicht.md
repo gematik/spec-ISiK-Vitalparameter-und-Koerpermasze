@@ -14,4 +14,4 @@
 
 Valides Minimalbeispiel für das Profil ISiKKoerpergewicht:
 
-{{xml:Examples/ISiKKoerpergewicht.xml}}
+{{json:Resources/fsh-generated/resources/Observation-ISiKKoerpergewichtExample.json}}
