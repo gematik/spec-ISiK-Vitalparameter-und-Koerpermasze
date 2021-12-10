@@ -17,7 +17,7 @@ Id: ISiKSauerstoffsaettigung
 * valueQuantity.system MS
 * valueQuantity.code MS
 
-Instance: ISiKSauerstoffsaettigung
+Instance: ISiKSauerstoffsaettigungExample
 InstanceOf: ISiKSauerstoffsaettigung
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"

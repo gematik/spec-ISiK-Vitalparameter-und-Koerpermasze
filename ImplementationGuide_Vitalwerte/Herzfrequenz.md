@@ -14,4 +14,4 @@
 
 Valides Minimalbeispiel für das Profil ISiKHerzfrequenz:
 
-{{xml:Examples/ISiKHerzfrequenz.xml}}
+{{json:Resources/fsh-generated/resources/Observation-ISiKHerzfrequenzExample.json}}

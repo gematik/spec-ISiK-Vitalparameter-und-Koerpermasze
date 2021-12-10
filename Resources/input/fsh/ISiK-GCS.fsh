@@ -23,7 +23,7 @@ Id: ISiKGCS
 * component.valueQuantity.code MS
 * component.valueQuantity.unit MS
 
-Instance: ISiKGCS
+Instance: ISiKGCSExample
 InstanceOf: ISiKGCS
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"

@@ -14,4 +14,4 @@
 
 Valides Minimalbeispiel für das Profil ISiKEkg:
 
-{{json:Resources/fsh-generated/resources/ISiKEkg.json}}
+{{json:Resources/fsh-generated/resources/Observation-ISiKEkgExample.json}}

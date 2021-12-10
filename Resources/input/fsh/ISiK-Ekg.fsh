@@ -18,7 +18,7 @@ Id: ISiKEkg
 * component.valueSampledData.dimensions MS
 * component.valueSampledData.data MS
 
-Instance: ISiKEkg
+Instance: ISiKEkgExample
 InstanceOf: ISiKEkg
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-ekg"
