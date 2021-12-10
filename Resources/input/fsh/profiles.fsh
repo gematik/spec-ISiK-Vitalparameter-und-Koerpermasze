@@ -205,37 +205,66 @@ Id: ISiKGCS
 
 Profile: VitalSignDE_GCS
 Parent: http://fhir.de/StructureDefinition/observation-de-vitalsign
-Id: VitalSignDE-GCS
-* ^copyright = "HL7 Deutschland e.V."
+Id: observation-de-vitalsign-gcs
+* ^url = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
 * ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
-* ^date = "2021-11-04"
+* ^copyright = "HL7 Deutschland e.V."
+* ^date = "2020-05-14"
 * ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
 * ^contact.telecom.system = #url
-* ^url = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
-* ^status = #draft
-* bodySite 0..0
-* specimen 0..0
-* code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
+* code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.rules = #open
 * code.coding contains loinc 1..1
 * code.coding[loinc] = $loinc#9269-2
+* bodySite ..0
+* specimen ..0
 * value[x] 1..1
 * value[x] only Quantity
-* value[x] ^patternQuantity.system = "http://unitsofmeasure.org"
-* value[x] ^patternQuantity.code = #1
-* value[x] ^patternQuantity.unit = "{score}"
-* component ^slicing.discriminator.type = #pattern
+* valueQuantity 1..1
+* valueQuantity ^patternQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity ^patternQuantity.code = #1
+* valueQuantity ^patternQuantity.unit = "{score}"
 * component ^slicing.discriminator.path = "code"
+* component ^slicing.discriminator.type = #pattern
 * component ^slicing.rules = #open
-* component.value[x] 1..1
-* component.value[x] only Quantity
-* component.value[x] ^patternQuantity.system = "http://unitsofmeasure.org"
-* component.value[x] ^patternQuantity.code = #1
-* component.value[x] ^patternQuantity.unit = "{score}"
-* component contains eye 1..1
-* component[eye].code = $loinc#9267-6
-* component contains motor 1..1
-* component[motor].code = $loinc#9268-4
-* component contains verbal 1..1
-* component[verbal].code = $loinc#9270-0
+* component contains
+    Eye 1..1 and
+    Motor 1..1 and
+    Verbal 1..1
+* component[Eye].code = http://loinc.org#9267-6
+* component[Eye].code.coding 1..
+* component[Eye].code.coding ^slicing.discriminator.path = "$this"
+* component[Eye].code.coding ^slicing.discriminator.type = #pattern
+* component[Eye].code.coding ^slicing.rules = #open
+* component[Eye].code.coding contains loinc 1..1
+* component[Eye].code.coding[loinc] = http://loinc.org#9267-6
+* component[Eye].value[x] 1..1
+* component[Eye].value[x] only Quantity
+* component[Eye].valueQuantity ^patternQuantity.system = "http://unitsofmeasure.org"
+* component[Eye].valueQuantity ^patternQuantity.code = #1
+* component[Eye].valueQuantity ^patternQuantity.unit = "{score}"
+* component[Motor].code = http://loinc.org#9268-4
+* component[Motor].code.coding 1..
+* component[Motor].code.coding ^slicing.discriminator.path = "$this"
+* component[Motor].code.coding ^slicing.discriminator.type = #pattern
+* component[Motor].code.coding ^slicing.rules = #open
+* component[Motor].code.coding contains loinc 1..1
+* component[Motor].code.coding[loinc] = http://loinc.org#9268-4
+* component[Motor].value[x] 1..1
+* component[Motor].value[x] only Quantity
+* component[Motor].valueQuantity ^patternQuantity.system = "http://unitsofmeasure.org"
+* component[Motor].valueQuantity ^patternQuantity.code = #1
+* component[Motor].valueQuantity ^patternQuantity.unit = "{score}"
+* component[Verbal].code = http://loinc.org#9270-0
+* component[Verbal].code.coding 1..
+* component[Verbal].code.coding ^slicing.discriminator.path = "$this"
+* component[Verbal].code.coding ^slicing.discriminator.type = #pattern
+* component[Verbal].code.coding ^slicing.rules = #open
+* component[Verbal].code.coding contains loinc 1..1
+* component[Verbal].code.coding[loinc] = http://loinc.org#9270-0
+* component[Verbal].value[x] 1..1
+* component[Verbal].value[x] only Quantity
+* component[Verbal].valueQuantity ^patternQuantity.system = "http://unitsofmeasure.org"
+* component[Verbal].valueQuantity ^patternQuantity.code = #1
+* component[Verbal].valueQuantity ^patternQuantity.unit = "{score}"

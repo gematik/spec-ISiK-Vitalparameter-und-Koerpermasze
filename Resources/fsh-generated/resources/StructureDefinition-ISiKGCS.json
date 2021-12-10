@@ -141,47 +141,47 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:eye",
+        "id": "Observation.component:Eye",
         "path": "Observation.component",
-        "sliceName": "eye"
+        "sliceName": "Eye"
       },
       {
-        "id": "Observation.component:eye.code",
+        "id": "Observation.component:Eye.code",
         "path": "Observation.component.code",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:eye.value[x]",
+        "id": "Observation.component:Eye.value[x]",
         "path": "Observation.component.value[x]",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:motor",
+        "id": "Observation.component:Motor",
         "path": "Observation.component",
-        "sliceName": "motor"
+        "sliceName": "Motor"
       },
       {
-        "id": "Observation.component:motor.code",
+        "id": "Observation.component:Motor.code",
         "path": "Observation.component.code",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:motor.value[x]",
+        "id": "Observation.component:Motor.value[x]",
         "path": "Observation.component.value[x]",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:verbal",
+        "id": "Observation.component:Verbal",
         "path": "Observation.component",
-        "sliceName": "verbal"
+        "sliceName": "Verbal"
       },
       {
-        "id": "Observation.component:verbal.code",
+        "id": "Observation.component:Verbal.code",
         "path": "Observation.component.code",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:verbal.value[x]",
+        "id": "Observation.component:Verbal.value[x]",
         "path": "Observation.component.value[x]",
         "mustSupport": true
       }
