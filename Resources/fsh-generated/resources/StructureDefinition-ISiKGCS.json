@@ -126,6 +126,11 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.component.valueQuantity.unit",
+        "path": "Observation.component.valueQuantity.unit",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.component.valueQuantity.system",
         "path": "Observation.component.valueQuantity.system",
         "mustSupport": true
@@ -179,10 +184,6 @@
         "id": "Observation.component:verbal.value[x]",
         "path": "Observation.component.value[x]",
         "mustSupport": true
-      },
-      {
-        "id": "Observation.valueQuantity",
-        "path": "Observation.valueQuantity"
       }
     ]
   }

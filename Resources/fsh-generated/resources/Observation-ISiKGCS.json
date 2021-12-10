@@ -19,17 +19,26 @@
   ],
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "code": "{score}",
-    "value": 11,
-    "unit": "{score}"
+    "code": "1",
+    "unit": "{score}",
+    "value": 11
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "9269-2",
+        "system": "http://loinc.org",
+        "display": "Glasgow coma score total"
+      }
+    ]
   },
   "component": [
     {
       "valueQuantity": {
         "system": "http://unitsofmeasure.org",
-        "code": "{score}",
-        "value": 3,
-        "unit": "{score}"
+        "code": "1",
+        "unit": "{score}",
+        "value": 3
       },
       "code": {
         "coding": [
@@ -42,12 +51,6 @@
       }
     },
     {
-      "valueQuantity": {
-        "system": "http://unitsofmeasure.org",
-        "code": "{score}",
-        "value": 3,
-        "unit": "{score}"
-      },
       "code": {
         "coding": [
           {
@@ -56,15 +59,15 @@
             "display": "Glasgow coma score motor"
           }
         ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "1",
+        "unit": "{score}",
+        "value": 3
       }
     },
     {
-      "valueQuantity": {
-        "system": "http://unitsofmeasure.org",
-        "code": "{score}",
-        "value": 3,
-        "unit": "{score}"
-      },
       "code": {
         "coding": [
           {
@@ -73,48 +76,30 @@
             "display": "Glasgow coma score eye opening"
           }
         ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "1",
+        "unit": "{score}",
+        "value": 3
       }
     },
     {
       "code": {
         "coding": [
           {
-            "system": "http://loinc.org",
-            "code": "9267-6"
+            "code": "9270-0",
+            "system": "http://loinc.org"
           }
         ]
-      }
-    },
-    {
-      "code": {
-        "coding": [
-          {
-            "system": "http://loinc.org",
-            "code": "9268-4"
-          }
-        ]
-      }
-    },
-    {
-      "code": {
-        "coding": [
-          {
-            "system": "http://loinc.org",
-            "code": "9270-0"
-          }
-        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "1",
+        "unit": "{score}"
       }
     }
   ],
-  "code": {
-    "coding": [
-      {
-        "code": "9269-2",
-        "system": "http://loinc.org",
-        "display": "Glasgow coma score total"
-      }
-    ]
-  },
   "status": "final",
   "subject": {
     "reference": "https://server/Patient/example"

@@ -179,7 +179,7 @@ Id: ISiKEkg
 * component.valueSampledData.data MS
 
 Profile: ISiKGCS
-Parent: http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs
+Parent: VitalSignDE_GCS
 Id: ISiKGCS
 * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
 * ^status = #draft
@@ -201,3 +201,41 @@ Id: ISiKGCS
 * component.valueQuantity MS
 * component.valueQuantity.system MS
 * component.valueQuantity.code MS
+* component.valueQuantity.unit MS
+
+Profile: VitalSignDE_GCS
+Parent: http://fhir.de/StructureDefinition/observation-de-vitalsign
+Id: VitalSignDE-GCS
+* ^copyright = "HL7 Deutschland e.V."
+* ^publisher = "HL7 Deutschland e.V. (Technisches Komitee FHIR)"
+* ^date = "2021-11-04"
+* ^contact.telecom.value = "http://hl7.de/technische-komitees/fhir/"
+* ^contact.telecom.system = #url
+* ^url = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
+* ^status = #draft
+* bodySite 0..0
+* specimen 0..0
+* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.path = "$this"
+* code.coding ^slicing.rules = #open
+* code.coding contains loinc 1..1
+* code.coding[loinc] = $loinc#9269-2
+* value[x] 1..1
+* value[x] only Quantity
+* value[x] ^patternQuantity.system = "http://unitsofmeasure.org"
+* value[x] ^patternQuantity.code = #1
+* value[x] ^patternQuantity.unit = "{score}"
+* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.path = "code"
+* component ^slicing.rules = #open
+* component.value[x] 1..1
+* component.value[x] only Quantity
+* component.value[x] ^patternQuantity.system = "http://unitsofmeasure.org"
+* component.value[x] ^patternQuantity.code = #1
+* component.value[x] ^patternQuantity.unit = "{score}"
+* component contains eye 1..1
+* component[eye].code = $loinc#9267-6
+* component contains motor 1..1
+* component[motor].code = $loinc#9268-4
+* component contains verbal 1..1
+* component[verbal].code = $loinc#9270-0
