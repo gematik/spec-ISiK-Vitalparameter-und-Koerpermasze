@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "ISiKAtemfrequenz",
+  "id": "ISiKAtemfrequenzExample",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/resprate",

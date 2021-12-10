@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "ISiKBlutdruck",
+  "id": "ISiKBlutdruckExample",
   "meta": {
     "profile": [
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck",
