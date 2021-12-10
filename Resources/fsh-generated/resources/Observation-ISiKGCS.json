@@ -102,7 +102,7 @@
   ],
   "status": "final",
   "subject": {
-    "reference": "https://server/Patient/example"
+    "reference": "Patient/example"
   },
   "effectiveDateTime": "2020-10-11"
 }

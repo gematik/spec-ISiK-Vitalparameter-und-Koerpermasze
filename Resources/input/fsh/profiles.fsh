@@ -179,7 +179,7 @@ Id: ISiKEkg
 * component.valueSampledData.data MS
 
 Profile: ISiKGCS
-Parent: VitalSignDE_GCS
+Parent: http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs
 Id: ISiKGCS
 * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
 * ^status = #draft

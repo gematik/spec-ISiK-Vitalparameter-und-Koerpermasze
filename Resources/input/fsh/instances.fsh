@@ -261,14 +261,14 @@ InstanceOf: ISiKGCS
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
 * meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
-* code = http://loinc.org#9269-2 "Glasgow coma score total"
+* code = $loinc#9269-2 "Glasgow coma score total"
 * valueQuantity = 11 '1' "{score}"
 * status = #final
-* subject = Reference(https://server/Patient/example)
+* subject.reference = "Patient/example"
 * effectiveDateTime = "2020-10-11"
-* component[0].code = http://loinc.org#9270-0 "Glasgow coma score verbal"
+* component[0].code = $loinc#9270-0 "Glasgow coma score verbal"
 * component[=].valueQuantity = 4 '1' "{score}"
-* component[+].code = http://loinc.org#9268-4 "Glasgow coma score motor"
+* component[+].code =  $loinc#9268-4 "Glasgow coma score motor"
 * component[=].valueQuantity = 4 '1' "{score}"
-* component[+].code = http://loinc.org#9267-6 "Glasgow coma score eye opening"
+* component[+].code =  $loinc#9267-6 "Glasgow coma score eye opening"
 * component[=].valueQuantity = 3 '1' "{score}"
