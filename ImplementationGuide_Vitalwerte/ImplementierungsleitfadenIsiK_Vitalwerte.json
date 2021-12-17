@@ -136,6 +136,11 @@
               "nameUrl": "ImplementationGuide_Vitalwerte/Ekg.md",
               "title": "EKG",
               "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide_Vitalwerte/GCS.md",
+              "title": "GCS",
+              "generation": "markdown"
             }
           ]
         }
