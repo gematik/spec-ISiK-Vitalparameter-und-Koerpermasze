@@ -14,4 +14,4 @@
 
 Valides Minimalbeispiel für das Profil ISiKBlutdruck:
 
-{{json:Resources/fsh-generated/resources/Observation-ISiKBlutdruckExample.json}}
+{{json:ISiKBlutdruckExample}}

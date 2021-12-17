@@ -14,4 +14,4 @@
 
 Valides Minimalbeispiel für das Profil ISiKGCS:
 
-{{json:Resources/fsh-generated/resources/Observation-ISiKGCSExample.json}}
+{{json:ISiKGCSExample}}

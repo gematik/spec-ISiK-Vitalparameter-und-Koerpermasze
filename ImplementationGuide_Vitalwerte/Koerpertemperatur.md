@@ -14,4 +14,4 @@
 
 Valides Minimalbeispiel für das Profil ISiKKoerpertemperatur:
 
-{{json:Resources/fsh-generated/resources/Observation-ISiKKoerpertemperaturExample.json}}
+{{json:ISiKKoerpertemperaturExample}}

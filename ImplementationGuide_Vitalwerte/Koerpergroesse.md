@@ -14,4 +14,4 @@
 
 Valides Minimalbeispiel für das Profil ISiKKoerpergroesse:
 
-{{json:Resources/fsh-generated/resources/Observation-ISiKKoerpergroesseExample.json}}
+{{json:ISiKKoerpergroesseExample}}

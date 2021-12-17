@@ -14,4 +14,4 @@
 
 Valides Minimalbeispiel für das Profil ISiKSauerstoffsaettigung:
 
-{{json:Resources/fsh-generated/resources/Observation-ISiKSauerstoffsaettigungExample.json}}
+{{json:ISiKSauerstoffsaettigungExample}}

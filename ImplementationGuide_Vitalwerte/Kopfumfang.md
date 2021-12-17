@@ -14,4 +14,4 @@
 
 Valides Minimalbeispiel für das Profil ISiKKopfumfang:
 
-{{json:Resources/fsh-generated/resources/Observation-ISiKKopfumfangExample.json}}
+{{json:ISiKKopfumfangExample}}
