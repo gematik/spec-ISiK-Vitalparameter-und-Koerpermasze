@@ -2,12 +2,12 @@ Instance: ISiK-capabilityStatement-vitalparameter-server
 InstanceOf: CapabilityStatement
 Usage: #definition
 * url = "https://gematik.de/fhir/ISiK/v2/CapabilityStatement/vitalparameter-server"
-* version = "1.0"
+* version = "2.0"
 * name = "ISiKCapabilityStatementVitalparameterServer"
 * title = "ISiK CapabilityStatement Vitalparameter Server"
 * status = #active
 * experimental = false
-* date = "2021-05-14"
+* date = "2022-01-07"
 * publisher = "gematik GmbH"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.gematik.de"

@@ -2,7 +2,7 @@ Profile: ISiKKoerpergewicht
 Parent: VitalSignDE_Koerpergewicht
 Id: ISiKKoerpergewicht
 * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht"
-* ^status = #draft
+* insert Meta
 * status MS
 * category MS
 * category[vs-cat] MS

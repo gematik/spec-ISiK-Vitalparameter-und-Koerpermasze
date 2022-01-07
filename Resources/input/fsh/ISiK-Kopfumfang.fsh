@@ -2,7 +2,7 @@ Profile: ISiKKopfumfang
 Parent: VitalSignDE_Kopfumfang
 Id: ISiKKopfumfang
 * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang"
-* ^status = #draft
+* insert Meta
 * status MS
 * category MS
 * category[vs-cat] MS
