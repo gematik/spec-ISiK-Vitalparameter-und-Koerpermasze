@@ -2,8 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKHerzfrequenz",
   "url": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKHerzfrequenz",
+  "version": "2.0.0",
   "name": "ISiKHerzfrequenz",
-  "status": "draft",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-01-07",
+  "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
