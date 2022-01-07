@@ -2,7 +2,7 @@ Profile: ISiKKoerpertemperatur
 Parent: VitalSignDE_Koerpertemperatur
 Id: ISiKKoerpertemperatur
 * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur"
-* ^status = #draft
+* insert Meta
 * status MS
 * category MS
 * category[vs-cat] MS

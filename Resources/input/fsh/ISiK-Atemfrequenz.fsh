@@ -2,7 +2,7 @@ Profile: ISiKAtemfrequenz
 Parent: VitalSignDE_Atemfrequenz
 Id: ISiKAtemfrequenz
 * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz"
-* ^status = #draft
+* insert Meta
 * status MS
 * category MS
 * category[vs-cat] MS
