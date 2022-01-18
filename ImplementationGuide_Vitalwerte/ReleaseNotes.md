@@ -10,7 +10,7 @@ Datum: 18.01.2022
  - Aufnahme des Glasgow Coma Score
  - Der Suchparameter Combo-Code wird nun unterstützt
  - Der Suchparameter Component-Code wird nun unterstützt
- - Cannonical URL's wurden angepasst
+ - Cannonical URLs wurden angepasst
  
  - Definition der bestätigungsrelevanten Systeme wurde festgelegt
   
