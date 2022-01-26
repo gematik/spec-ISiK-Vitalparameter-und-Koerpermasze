@@ -4,7 +4,7 @@
   "name": "Implementierungsleitfaden ISiK-Modul Vitalwerte und Körpermaße",
   "status": "draft",
   "fhirVersion": [
-    "4.0.0"
+    "4.0.1"
   ],
   "packageId": "0.0.1",
   "definition": {
@@ -20,6 +20,11 @@
       "title": "Einführung",
       "generation": "markdown",
       "page": [
+        {
+          "nameUrl": "ImplementationGuide_Vitalwerte/ReleaseNotes.md",
+          "title": "Release Notes",
+          "generation": "markdown"
+        },
         {
           "nameUrl": "ImplementationGuide_Vitalwerte/Motivation.md",
           "title": "Motivation",
