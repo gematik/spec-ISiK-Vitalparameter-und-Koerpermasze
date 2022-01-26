@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/gematik/api-ISiK/master/images/Gematik_Logo_Flag.jpg" alt="gematik logo" width="400"/>
 
 ----
-Version: 0.4.0
+Version: 1.0.0 CC1
 
 Datum: 21.10.2021
 
