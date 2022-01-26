@@ -1,0 +1,105 @@
+{
+  "resourceType": "Observation",
+  "id": "ISiKGCSExample",
+  "meta": {
+    "profile": [
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs",
+      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs"
+        }
+      ]
+    }
+  ],
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "code": "1",
+    "value": 11,
+    "unit": "Punktwert"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "9269-2",
+        "display": "Glasgow coma score total"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9270-0",
+            "display": "Glasgow coma score verbal"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "9267-6"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 4,
+        "code": "1",
+        "unit": "Punktwert"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9268-4",
+            "display": "Glasgow coma score motor"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "9268-4"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 4,
+        "code": "1",
+        "unit": "Punktwert"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9267-6",
+            "display": "Glasgow coma score eye opening"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "9270-0"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 3,
+        "code": "1",
+        "unit": "Punktwert"
+      }
+    }
+  ],
+  "status": "final",
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectiveDateTime": "2020-10-11"
+}
