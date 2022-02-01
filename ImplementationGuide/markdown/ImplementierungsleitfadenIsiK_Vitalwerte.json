@@ -1,0 +1,155 @@
+{
+  "resourceType": "ImplementationGuide",
+  "url": "https://gematik.de/fhir/ISiK/v2/ImplementationGuide/ISiK-vitalparameter",
+  "name": "Implementierungsleitfaden ISiK-Modul Vitalwerte und Körpermaße",
+  "status": "draft",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "packageId": "0.0.1",
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "Patient/test"
+        }
+      }
+    ],
+    "page": {
+      "nameUrl": "ImplementationGuide/Einfuehrung.md",
+      "title": "Einführung",
+      "generation": "markdown",
+      "page": [
+        {
+          "nameUrl": "ImplementationGuide/ReleaseNotes.md",
+          "title": "Release Notes",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ImplementationGuide/Motivation.md",
+          "title": "Motivation",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ImplementationGuide/UebergreifendeFestlegungen.md",
+          "title": "Übergreifende Festlegungen",
+          "generation": "markdown",
+          "page": [
+            {
+              "nameUrl": "ImplementationGuide/Methodik.md",
+              "title": "Methodik",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/BestaetigungsrelevanteSysteme.md",
+              "title": "Bestätigungsrelevante Systeme",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Kompatibilitaet.md",
+              "title": "Kompatibilität",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/MustSupportFlags.md",
+              "title": "Must-Support-Flags",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Repraesentationsformate.md",
+              "title": "Repräsentationsformate",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Suchparameter.md",
+              "title": "Suchparameter",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/RestApi.md",
+              "title": "REST-API",
+              "generation": "markdown"
+            },
+           {
+              "nameUrl": "ImplementationGuide/AnmerkungenMS.md",
+              "title": "Anmerkungen zu Must-Support-Feldern",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Interaktionen.md",
+              "title": "Interaktionen",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Signaldaten.md",
+              "title": "Signaldaten",
+              "generation": "markdown"
+            }
+          ]
+        },
+        {
+          "generation": "markdown",
+          "nameUrl": "ImplementationGuide/Datenobjekte.md",
+          "title": "Datenobjekte",
+          "page": [
+            {
+              "nameUrl": "ImplementationGuide/CapabilityStatement.md",
+              "title": "CapabilityStatement",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Koerpergewicht.md",
+              "title": "Koerpergewicht",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Koerpergroesse.md",
+              "title": "Koerpergroesse",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Koerpertemperatur.md",
+              "title": "Koerpertemperatur",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Kopfumfang.md",
+              "title": "Kopfumfang",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Atemfrequenz.md",
+              "title": "Atemfrequenz",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Blutdruck.md",
+              "title": "Blutdruck",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Herzfrequenz.md",
+              "title": "Herzfrequenz",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Sauerstoffsaettigung.md",
+              "title": "Sauerstoffsaettigung",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/Ekg.md",
+              "title": "EKG",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/GCS.md",
+              "title": "GCS",
+              "generation": "markdown"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

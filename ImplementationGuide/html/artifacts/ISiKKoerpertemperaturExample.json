@@ -1,0 +1,47 @@
+{
+  "resourceType": "Observation",
+  "id": "ISiKKoerpertemperaturExample",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/bodytemp",
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
+      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8310-5",
+        "display": "Body temperature"
+      },
+      {
+        "code": "386725007",
+        "system": "http://snomed.info/sct",
+        "display": "Body temperature (observable entity)"
+      }
+    ],
+    "text": "Körpertemperatur"
+  },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "code": "Cel",
+    "value": 36.8,
+    "unit": "°C"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectiveDateTime": "2020-10-11"
+}
