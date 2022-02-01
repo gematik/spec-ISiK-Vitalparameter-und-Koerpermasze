@@ -1,6 +1,6 @@
 {
     "name": "de.gematik.isik-vitalparameter",
-    "version": "0.4.0",
+    "version": "1.0.0 CC1",
     "description": "Package Release des ISiK Modul Vitalparameter",
     "author": null,
     "fhirVersions": [
