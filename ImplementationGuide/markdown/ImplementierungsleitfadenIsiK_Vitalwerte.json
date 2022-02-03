@@ -16,72 +16,72 @@
       }
     ],
     "page": {
-      "nameUrl": "ImplementationGuide/Einfuehrung.md",
+      "nameUrl": "ImplementationGuide/markdown/Einfuehrung.md",
       "title": "Einführung",
       "generation": "markdown",
       "page": [
         {
-          "nameUrl": "ImplementationGuide/ReleaseNotes.md",
+          "nameUrl": "ImplementationGuide/markdown/ReleaseNotes.md",
           "title": "Release Notes",
           "generation": "markdown"
         },
         {
-          "nameUrl": "ImplementationGuide/Motivation.md",
+          "nameUrl": "ImplementationGuide/markdown/Motivation.md",
           "title": "Motivation",
           "generation": "markdown"
         },
         {
-          "nameUrl": "ImplementationGuide/UebergreifendeFestlegungen.md",
+          "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen.md",
           "title": "Übergreifende Festlegungen",
           "generation": "markdown",
           "page": [
             {
-              "nameUrl": "ImplementationGuide/Methodik.md",
+              "nameUrl": "ImplementationGuide/markdown/Methodik.md",
               "title": "Methodik",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/BestaetigungsrelevanteSysteme.md",
+              "nameUrl": "ImplementationGuide/markdown/BestaetigungsrelevanteSysteme.md",
               "title": "Bestätigungsrelevante Systeme",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Kompatibilitaet.md",
+              "nameUrl": "ImplementationGuide/markdown/Kompatibilitaet.md",
               "title": "Kompatibilität",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/MustSupportFlags.md",
+              "nameUrl": "ImplementationGuide/markdown/MustSupportFlags.md",
               "title": "Must-Support-Flags",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Repraesentationsformate.md",
+              "nameUrl": "ImplementationGuide/markdown/Repraesentationsformate.md",
               "title": "Repräsentationsformate",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Suchparameter.md",
+              "nameUrl": "ImplementationGuide/markdown/Suchparameter.md",
               "title": "Suchparameter",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/RestApi.md",
+              "nameUrl": "ImplementationGuide/markdown/RestApi.md",
               "title": "REST-API",
               "generation": "markdown"
             },
            {
-              "nameUrl": "ImplementationGuide/AnmerkungenMS.md",
+              "nameUrl": "ImplementationGuide/markdown/AnmerkungenMS.md",
               "title": "Anmerkungen zu Must-Support-Feldern",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Interaktionen.md",
+              "nameUrl": "ImplementationGuide/markdown/Interaktionen.md",
               "title": "Interaktionen",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Signaldaten.md",
+              "nameUrl": "ImplementationGuide/markdown/Signaldaten.md",
               "title": "Signaldaten",
               "generation": "markdown"
             }
@@ -89,61 +89,61 @@
         },
         {
           "generation": "markdown",
-          "nameUrl": "ImplementationGuide/Datenobjekte.md",
+          "nameUrl": "ImplementationGuide/markdown/Datenobjekte.md",
           "title": "Datenobjekte",
           "page": [
             {
-              "nameUrl": "ImplementationGuide/CapabilityStatement.md",
+              "nameUrl": "ImplementationGuide/markdown/CapabilityStatement.md",
               "title": "CapabilityStatement",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Koerpergewicht.md",
+              "nameUrl": "ImplementationGuide/markdown/Koerpergewicht.md",
               "title": "Koerpergewicht",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Koerpergroesse.md",
+              "nameUrl": "ImplementationGuide/markdown/Koerpergroesse.md",
               "title": "Koerpergroesse",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Koerpertemperatur.md",
+              "nameUrl": "ImplementationGuide/markdown/Koerpertemperatur.md",
               "title": "Koerpertemperatur",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Kopfumfang.md",
+              "nameUrl": "ImplementationGuide/markdown/Kopfumfang.md",
               "title": "Kopfumfang",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Atemfrequenz.md",
+              "nameUrl": "ImplementationGuide/markdown/Atemfrequenz.md",
               "title": "Atemfrequenz",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Blutdruck.md",
+              "nameUrl": "ImplementationGuide/markdown/Blutdruck.md",
               "title": "Blutdruck",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Herzfrequenz.md",
+              "nameUrl": "ImplementationGuide/markdown/Herzfrequenz.md",
               "title": "Herzfrequenz",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Sauerstoffsaettigung.md",
+              "nameUrl": "ImplementationGuide/markdown/Sauerstoffsaettigung.md",
               "title": "Sauerstoffsaettigung",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/Ekg.md",
+              "nameUrl": "ImplementationGuide/markdown/Ekg.md",
               "title": "EKG",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/GCS.md",
+              "nameUrl": "ImplementationGuide/markdown/GCS.md",
               "title": "GCS",
               "generation": "markdown"
             }
