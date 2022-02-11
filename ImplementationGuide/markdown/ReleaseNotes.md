@@ -6,11 +6,19 @@ Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von R
 Version: 1.0.0 CC1
 
 Datum: 22.01.2022
- - Aufnahme des EKG-Profils
- - Aufnahme des Glasgow Coma Score
- - Der Suchparameter Combo-Code wird nun unterstützt
- - Der Suchparameter Component-Code wird nun unterstützt
- - Cannonical URLs wurden angepasst
- 
- - Definition der bestätigungsrelevanten Systeme wurde festgelegt
-  
+ - Aufnahme des Profils für das Körpergewicht
+ - Aufnahme des Profils für die Körpergrösse
+ - Aufnahme des Profils für die Körpertemperatur
+ - Aufnahme des Profils für den Kopfumfang
+ - Aufnahme des Profils für die Atemfrequenz
+ - Aufnahme des Profils für den Blutdruck
+ - Aufnahme des Profils für die Herzfrequenz
+ - Aufnahme des Profils für die Sauerstoffsättigung
+ - Aufnahme des Profils für das EKG
+ - Aufnahme des Profils für den Glasgow Coma Score
+ - Aufnhame der Suchparameter in das CapabilityStatement
+ - Anpassung der Cannonical URLs auf v2
+ - Festlegung der bestätigungsrelevanten Systeme
+ - Festlegung der zu unterstützenden Interaktionen
+ - Verweis auf einen externen ImplementationGuide zur Profilierung von Signaldaten
+ - Anmerkungen zu den Must-Support-Feldern
