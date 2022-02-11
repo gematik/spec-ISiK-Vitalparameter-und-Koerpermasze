@@ -8,8 +8,6 @@
 
 [Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur)
 
-## Anmerkungen zu den Must-Support Feldern
-
 ## Beispiele
 
 Valides Minimalbeispiel für das Profil ISiKKoerpertemperatur:
