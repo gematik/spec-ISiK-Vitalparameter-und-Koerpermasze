@@ -30,11 +30,9 @@ Vitalwerte werden stets mit der Kategorie `vital-signs` klassifiziert.
 
 ### `Observation.value`
 
-**Bedeutung:** Gibt den gemessenen Wert und dessen Maßeinheit an, es sei denn es handelt sich um einn Vitalparameter mit mehreren Komponenten (siehe `Observation.component`).
+**Bedeutung:** Gibt den gemessenen Wert und dessen Maßeinheit an, es sei denn es handelt sich um einen Vitalparameter mit mehreren Komponenten (siehe `Observation.component`).
 
 ### `Observation.component`
 
-**Bedeutung:** Bei Vitalparametern, die aus mehreren Einzelnen Messpunkten bestehen (Blutdruck) werden die gemessenen Einzelwerte (systolisch/diastolisch) 
+**Bedeutung:** Bei Vitalparametern, die aus mehreren Einzelnen Messpunkten bestehen (Blutdruck, EKG, GCS) werden die gemessenen Einzelwerte
 jeweils mit einem separaten LOINC-Code in `Observation.component.code` versehen  und der entsprechende Messwert in `Observation.component.value` erfasst.
-
-`Observation.value` bleibt in diesem Fall leer.
