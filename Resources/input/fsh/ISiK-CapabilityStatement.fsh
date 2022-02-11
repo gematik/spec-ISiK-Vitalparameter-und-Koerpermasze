@@ -91,7 +91,3 @@ Usage: #definition
 * rest.resource.searchParam[=].name = "component-code"
 * rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Observation-component-code"
 * rest.resource.searchParam[=].type = #token
-* document.extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-* document.extension.valueCode = #SHALL
-* document.mode = #consumer
-* document.profile = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBerichtBundle"
