@@ -38,8 +38,7 @@
         "coding": [
           {
             "system": "http://loinc.org",
-            "code": "9270-0",
-            "display": "Glasgow coma score verbal"
+            "code": "9267-6"
           },
           {
             "system": "http://loinc.org",
@@ -49,7 +48,7 @@
       },
       "valueQuantity": {
         "system": "http://unitsofmeasure.org",
-        "value": 4,
+        "value": 3,
         "code": "1",
         "unit": "Punktwert"
       }
@@ -59,8 +58,7 @@
         "coding": [
           {
             "system": "http://loinc.org",
-            "code": "9268-4",
-            "display": "Glasgow coma score motor"
+            "code": "9268-4"
           },
           {
             "system": "http://loinc.org",
@@ -80,8 +78,7 @@
         "coding": [
           {
             "system": "http://loinc.org",
-            "code": "9267-6",
-            "display": "Glasgow coma score eye opening"
+            "code": "9270-0"
           },
           {
             "system": "http://loinc.org",
@@ -91,7 +88,7 @@
       },
       "valueQuantity": {
         "system": "http://unitsofmeasure.org",
-        "value": 3,
+        "value": 4,
         "code": "1",
         "unit": "Punktwert"
       }
