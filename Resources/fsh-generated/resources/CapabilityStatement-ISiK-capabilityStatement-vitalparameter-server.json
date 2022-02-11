@@ -208,17 +208,5 @@
         }
       ]
     }
-  ],
-  "document": [
-    {
-      "extension": [
-        {
-          "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
-          "valueCode": "SHALL"
-        }
-      ],
-      "mode": "consumer",
-      "profile": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBerichtBundle"
-    }
   ]
 }
