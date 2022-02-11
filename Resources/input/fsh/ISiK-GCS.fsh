@@ -33,9 +33,6 @@ Usage: #example
 * status = #final
 * subject.reference = "Patient/example"
 * effectiveDateTime = "2020-10-11"
-* component[0].code = $loinc#9270-0 "Glasgow coma score verbal"
-* component[=].valueQuantity = 4 '1' "Punktwert"
-* component[+].code =  $loinc#9268-4 "Glasgow coma score motor"
-* component[=].valueQuantity = 4 '1' "Punktwert"
-* component[+].code =  $loinc#9267-6 "Glasgow coma score eye opening"
-* component[=].valueQuantity = 3 '1' "Punktwert"
+* component[Verbal].valueQuantity = 4 '1' "Punktwert"
+* component[Motor].valueQuantity = 4 '1' "Punktwert"
+* component[Eye].valueQuantity = 3 '1' "Punktwert"
