@@ -17,7 +17,7 @@ Usage: #definition
 * fhirVersion = #4.0.1
 * format[0] = #application/fhir+xml
 * format[+] = #application/fhir+json
-* implementationGuide = "https://gematik.de/fhir/ISiK/v2/ImplementationGuide/ISiK-vitalparameter|1.0.0"
+* instantiates = Canonical(ISiK-capabilityStatement-vitalparameter-server)
 * rest.mode = #server
 * rest.resource.extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource.extension.valueCode = #SHALL
