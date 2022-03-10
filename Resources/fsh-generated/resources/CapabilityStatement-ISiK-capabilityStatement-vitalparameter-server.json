@@ -37,8 +37,8 @@
     "application/fhir+xml",
     "application/fhir+json"
   ],
-  "implementationGuide": [
-    "https://gematik.de/fhir/ISiK/v2/ImplementationGuide/ISiK-vitalparameter|1.0.0"
+  "instantiates": [
+    "https://gematik.de/fhir/ISiK/v2/CapabilityStatement/vitalparameter-server"
   ],
   "rest": [
     {
