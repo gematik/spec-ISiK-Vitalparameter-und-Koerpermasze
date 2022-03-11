@@ -10,3 +10,8 @@ Usage: #example
 * name[=].given = "Erika"
 * gender = #female
 * birthDate = "1964-08-12"
+
+Instance: ExampleDevice
+InstanceOf: Device
+Usage: #example
+* status = #active

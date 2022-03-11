@@ -26,7 +26,7 @@ Usage: #example
 * subject = Reference(PatientinMusterfrau)
 * status = #final
 * category = $observation-category#procedure
-* device.reference = "Device/example"
+* device = Reference(ExampleDevice)
 * effectiveDateTime = "2019-07-02"
 * code.coding[0] = $loinc#LP6244-0 "Electrocardiogram (EKG)"
 * component[0].code.coding[0] = $loinc#LP7386-8 "Lead I"

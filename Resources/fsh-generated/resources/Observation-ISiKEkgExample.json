@@ -31,7 +31,7 @@
     }
   ],
   "device": {
-    "reference": "Device/example"
+    "reference": "Device/ExampleDevice"
   },
   "effectiveDateTime": "2019-07-02",
   "component": [
