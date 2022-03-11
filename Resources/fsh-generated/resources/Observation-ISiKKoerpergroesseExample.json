@@ -41,7 +41,7 @@
     "text": "Körpergröße"
   },
   "subject": {
-    "reference": "Patient/example"
+    "reference": "Patient/PatientinMusterfrau"
   },
   "effectiveDateTime": "2020-10-11"
 }

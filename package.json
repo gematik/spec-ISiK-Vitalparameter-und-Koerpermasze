@@ -9,6 +9,7 @@
     "devDependencies": null,
     "canonicals": null,
     "dependencies": {
-        "de.basisprofil.r4": "1.2.0"
+        "de.basisprofil.r4": "1.2.0",
+        "de.gematik.isik-basismodul": "1.0.3"
     }
 }

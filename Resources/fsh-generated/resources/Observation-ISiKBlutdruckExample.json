@@ -72,7 +72,7 @@
   ],
   "status": "final",
   "subject": {
-    "reference": "Patient/example"
+    "reference": "Patient/PatientinMusterfrau"
   },
   "effectiveDateTime": "2012-09-17",
   "performer": [

@@ -31,7 +31,7 @@ Usage: #example
 * code = $loinc#9269-2 "Glasgow coma score total"
 * valueQuantity = 11 '1' "Punktwert"
 * status = #final
-* subject.reference = "Patient/example"
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
 * component[Verbal].valueQuantity = 4 '1' "Punktwert"
 * component[Motor].valueQuantity = 4 '1' "Punktwert"

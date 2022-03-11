@@ -28,6 +28,6 @@ Usage: #example
 * code.coding[0] = $loinc#8302-2 "Body height"
 * code.coding[+] = $sct#50373000 "Body height measure"
 * code.text = "Körpergröße"
-* subject.reference = "Patient/example"
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 174 'cm' "centimeter"

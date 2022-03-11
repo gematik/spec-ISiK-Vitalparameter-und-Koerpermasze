@@ -28,6 +28,6 @@ Usage: #example
 * category.text = "Vital Signs"
 * code = $loinc#9843-4 "Head Occipital-frontal circumference"
 * code.text = "Kopfumfang"
-* subject.reference = "Patient/example"
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-07-02"
 * valueQuantity = 38 'cm' "Centimeter"

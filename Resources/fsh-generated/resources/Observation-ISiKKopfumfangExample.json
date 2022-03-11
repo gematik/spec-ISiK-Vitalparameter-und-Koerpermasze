@@ -38,7 +38,7 @@
   },
   "status": "final",
   "subject": {
-    "reference": "Patient/example"
+    "reference": "Patient/PatientinMusterfrau"
   },
   "effectiveDateTime": "2019-07-02"
 }
