@@ -5,7 +5,7 @@
 **Bedeutung:** Der Status MUSS insbesondere zur Differenzierung von abgeschlossenen, vorläufigen oder korrigierten Beobachtungen angegeben werden. 
 Es ist möglich, dass einzelne Systeme nur Werte vom Status `final` bereitstellen. Empfangende Systeme müssen jedoch in der Lage sein, sämtliche Status-Codes zu interpretieren.
 
-**Hinweise:** Siehe Beschreibung in der [FHIR Kernspezifikation](http://hl7.org/fhir/observation-definitions.html#Observation.status)
+**Hinweis:** Siehe Beschreibung in der [FHIR Kernspezifikation](http://hl7.org/fhir/observation-definitions.html#Observation.status).
 
 ### `Observation.category`
 
@@ -14,7 +14,7 @@ Vitalwerte werden stets mit der Kategorie `vital-signs` klassifiziert.
 
 ### `Observation.code`
 
-**Bedeutung:** Der Code gibt an, um welchen konkreten Vitalparameter es sich in einer Observation-Instanz handelt. Für jedes Vitalparameter-Profil ist ein entsprechender LOINC-Code festgelegt.
+**Bedeutung:** Der Code gibt an um welchen konkreten Vitalparameter es sich in einer Observation-Instanz handelt. Für jedes Vitalparameter-Profil ist ein entsprechender LOINC-Code festgelegt.
 
 ### `Observation.subject`
 
