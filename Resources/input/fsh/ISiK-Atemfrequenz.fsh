@@ -28,6 +28,6 @@ Usage: #example
 * category.text = "Vital Signs"
 * code = $loinc#9279-1 "Respiratory rate"
 * code.text = "Atemfrequenz"
-* subject.reference = "Patient/example"
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-07-02"
 * valueQuantity = 26 '/min' "Atemzüge pro Minute"

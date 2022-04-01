@@ -28,7 +28,7 @@ Usage: #example
 * code.coding[+] = $sct#442476006 "Arterial oxygen saturation"
 * code.coding[+] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
-* subject.reference = "Patient/example"
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 98 '%' "%"
 * component[0].code.coding[0] = $loinc#3151-8 "Inhaled oxygen flow rate"

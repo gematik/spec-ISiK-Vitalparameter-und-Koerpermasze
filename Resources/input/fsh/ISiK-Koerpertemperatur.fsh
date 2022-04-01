@@ -28,6 +28,6 @@ Usage: #example
 * code.coding[0] = $loinc#8310-5 "Body temperature"
 * code.coding[+] = $sct#386725007 "Body temperature (observable entity)"
 * code.text = "Körpertemperatur"
-* subject.reference = "Patient/example"
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 36.8 'Cel' "°C"

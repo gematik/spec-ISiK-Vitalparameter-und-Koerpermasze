@@ -17,7 +17,7 @@
     ]
   },
   "subject": {
-    "reference": "Patient/example"
+    "reference": "Patient/PatientinMusterfrau"
   },
   "status": "final",
   "category": [
@@ -31,7 +31,7 @@
     }
   ],
   "device": {
-    "reference": "Device/example"
+    "reference": "Device/ExampleDevice"
   },
   "effectiveDateTime": "2019-07-02",
   "component": [

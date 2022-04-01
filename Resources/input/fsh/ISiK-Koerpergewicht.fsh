@@ -28,6 +28,6 @@ Usage: #example
 * code.coding[0] = $loinc#29463-7 "Body weight"
 * code.coding[+] = $sct#27113001 "Body weight"
 * code.text = "Körpergewicht"
-* subject.reference = "Patient/example"
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 79 'kg' "kilogram"

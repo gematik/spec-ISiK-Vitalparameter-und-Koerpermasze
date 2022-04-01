@@ -28,6 +28,6 @@ Usage: #example
 * code.coding[0] = $loinc#8867-4 "Heart rate"
 * code.coding[+] = $sct#364075005 "Heart rate (observable entity)"
 * code.text = "Herzfrequenz"
-* subject.reference = "Patient/example"
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 63 '/min' "per minute"
