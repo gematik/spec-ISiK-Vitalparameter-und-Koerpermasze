@@ -1,4 +1,4 @@
-### Interaktionen
+# Interaktionen
 
 Für die Observation-Ressource MUSS die REST-Interaktion "READ" implementiert werden.
 

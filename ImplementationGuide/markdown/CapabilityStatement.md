@@ -1,4 +1,4 @@
-## Konformitätserklärung [(CapabilityStatement)](http://hl7.org/fhir/capabilitystatement.html)
+# Konformitätserklärung [(CapabilityStatement)](http://hl7.org/fhir/capabilitystatement.html)
 
 Jede Instanz eines bestätigungsrelevanten Systems MUSS an ihrem Endpunkt eine [CapabilityStatement](http://hl7.org/fhir/capabilitystatement.html)-Ressource bereitstellen.
 

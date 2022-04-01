@@ -1,4 +1,4 @@
-## Anmerkungen zu den Must-Support-Feldern
+# Anmerkungen zu den Must-Support-Feldern
 
 ### `Observation.status`
 

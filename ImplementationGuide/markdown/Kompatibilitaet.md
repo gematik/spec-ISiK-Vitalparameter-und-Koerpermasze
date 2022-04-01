@@ -1,3 +1,4 @@
+# Kompatibilität
 
 ## Kompatibilität zu anderen nationalen FHIR-basierten Spezifikationen
 
