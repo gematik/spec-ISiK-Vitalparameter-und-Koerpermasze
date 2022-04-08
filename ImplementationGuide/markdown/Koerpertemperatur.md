@@ -2,11 +2,12 @@
 
 ## Profil
 
-**Canonical URL**: https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur
+@```
+from StructureDefinition where url = 'https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur' select Name: name, Canonical: url
+```
 
 {{tree:https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur, hybrid}}
 
-[Link Simplifier Profil Übersicht](https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur)
 
 ## Beispiele
 
