@@ -21,7 +21,7 @@ Für Systeme, die das Modul "Vitalparameter" implementieren, ist außerdem die E
 
 Canonical: https://gematik.de/fhir/ISiK/v2/CapabilityStatement/core-server
 
-[Link Simplifier Profil Übersicht](https://simplifier.net/isik/isik-capabilitystatement-vitalparameter-server)
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-modulvitalparameter/isik-capabilitystatement-vitalparameter-server)
 
 {{render:https://gematik.de/fhir/ISiK/v2/CapabilityStatement/vitalparameter-server}}
 
