@@ -6,5 +6,4 @@ id: Implementierungsleitfaden ISiK-Modul Vitalwerte und Körpermaße
 name: Implementierungsleitfaden ISiK-Modul Vitalwerte und Körpermaße
 status: draft
 dependencies:
-  de.basisprofil.r4: 1.2.0
-  de.gematik.isik-basismodul: 1.0.3
+  de.gematik.isik-basismodul: 2.0.0-ballot2
