@@ -3,10 +3,10 @@
 ## Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKopfumfang' select Name: name, Canonical: url
 ```
 
-{{tree:https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang, hybrid}}
+{{tree:https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKopfumfang, hybrid}}
 
 ## Beispiele
 
