@@ -14,7 +14,7 @@ Vitalwerte werden stets mit der Kategorie `vital-signs` klassifiziert.
 
 ### `Observation.code`
 
-**Bedeutung:** Der Code gibt an um welchen konkreten Vitalparameter es sich in einer Observation-Instanz handelt. Für jedes Vitalparameter-Profil ist ein entsprechender LOINC-Code festgelegt.
+**Bedeutung:** Der Code gibt an, um welchen konkreten Vitalparameter es sich in einer Observation-Instanz handelt. Für jedes Vitalparameter-Profil ist ein entsprechender LOINC-Code festgelegt.
 
 ### `Observation.subject`
 

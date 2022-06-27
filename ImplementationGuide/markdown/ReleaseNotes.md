@@ -18,7 +18,7 @@ Datum: 22.01.2022
  - Aufnahme des Profils für die Sauerstoffsättigung
  - Aufnahme des Profils für das EKG
  - Aufnahme des Profils für den Glasgow Coma Score
- - Aufnhame der Suchparameter in das CapabilityStatement
+ - Aufnahme der Suchparameter in das CapabilityStatement
  - Anpassung der Cannonical URLs auf v2
  - Festlegung der bestätigungsrelevanten Systeme
  - Festlegung der zu unterstützenden Interaktionen
