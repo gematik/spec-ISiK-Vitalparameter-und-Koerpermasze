@@ -5,7 +5,7 @@ Version: 2.0.0
 
 Datum: 21.01.2022
 
-Status: Release-Kandidat zur Besprechung in den Arbeitsgruppen.
+Status: In-Ballotierung
 
 Realm: Deutschland
 
