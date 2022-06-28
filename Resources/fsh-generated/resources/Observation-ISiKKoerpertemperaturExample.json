@@ -3,9 +3,9 @@
   "id": "ISiKKoerpertemperaturExample",
   "meta": {
     "profile": [
+      "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKoerpertemperatur",
       "http://hl7.org/fhir/StructureDefinition/bodytemp",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur",
-      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur"
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
     ]
   },
   "category": [

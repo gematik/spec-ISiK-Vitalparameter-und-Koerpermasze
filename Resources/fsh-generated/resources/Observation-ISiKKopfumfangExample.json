@@ -3,9 +3,9 @@
   "id": "ISiKKopfumfangExample",
   "meta": {
     "profile": [
+      "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKopfumfang",
       "http://hl7.org/fhir/StructureDefinition/headcircum",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang",
-      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang"
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
     ]
   },
   "category": [

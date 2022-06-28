@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKKopfumfang",
-  "url": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang",
+  "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKopfumfang",
   "version": "2.0.0",
   "name": "ISiKKopfumfang",
   "status": "active",

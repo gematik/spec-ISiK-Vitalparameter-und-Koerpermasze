@@ -3,9 +3,9 @@
   "id": "ISiKKoerpergewichtExample",
   "meta": {
     "profile": [
+      "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKoerpergewicht",
       "http://hl7.org/fhir/StructureDefinition/bodyweight",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht",
-      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht"
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
     ]
   },
   "category": [
