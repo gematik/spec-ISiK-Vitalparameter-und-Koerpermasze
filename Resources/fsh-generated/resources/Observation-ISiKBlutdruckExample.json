@@ -3,8 +3,8 @@
   "id": "ISiKBlutdruckExample",
   "meta": {
     "profile": [
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck",
-      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck"
+      "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKBlutdruck",
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
     ]
   },
   "category": [

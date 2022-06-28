@@ -3,8 +3,8 @@
   "id": "ISiKSauerstoffsaettigungExample",
   "meta": {
     "profile": [
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung",
-      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung"
+      "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKSauerstoffsaettigung",
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
     ]
   },
   "category": [

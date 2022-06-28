@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKBlutdruck",
-  "url": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck",
+  "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKBlutdruck",
   "version": "2.0.0",
   "name": "ISiKBlutdruck",
   "status": "active",

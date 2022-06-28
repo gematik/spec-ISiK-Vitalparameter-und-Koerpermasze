@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKKoerpergewicht",
-  "url": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergewicht",
+  "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKoerpergewicht",
   "version": "2.0.0",
   "name": "ISiKKoerpergewicht",
   "status": "active",
