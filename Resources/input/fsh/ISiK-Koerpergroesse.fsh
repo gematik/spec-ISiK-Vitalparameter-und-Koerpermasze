@@ -1,7 +1,6 @@
 Profile: ISiKKoerpergroesse
 Parent: VitalSignDE_Koerpergroesse
 Id: ISiKKoerpergroesse
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergroesse"
 * insert Meta
 * status MS
 * category MS
@@ -22,7 +21,6 @@ InstanceOf: ISiKKoerpergroesse
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodyheight"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
-* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergroesse"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#8302-2 "Body height"

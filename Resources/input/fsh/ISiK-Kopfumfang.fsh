@@ -1,7 +1,6 @@
 Profile: ISiKKopfumfang
 Parent: VitalSignDE_Kopfumfang
 Id: ISiKKopfumfang
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang"
 * insert Meta
 * status MS
 * category MS
@@ -22,7 +21,6 @@ InstanceOf: ISiKKopfumfang
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/headcircum"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
-* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKopfumfang"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"

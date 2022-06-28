@@ -1,7 +1,6 @@
 Profile: ISiKEkg
 Parent: http://fhir.de/StructureDefinition/observation-de-ekg
 Id: ISiKEkg
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKEkg"
 * insert Meta
 * status MS
 * category MS
@@ -22,7 +21,6 @@ Instance: ISiKEkgExample
 InstanceOf: ISiKEkg
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-ekg"
-* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKEkg"
 * subject = Reference(PatientinMusterfrau)
 * status = #final
 * category = $observation-category#procedure

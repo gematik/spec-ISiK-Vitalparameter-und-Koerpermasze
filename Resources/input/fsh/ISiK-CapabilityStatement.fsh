@@ -1,7 +1,6 @@
 Instance: ISiK-capabilityStatement-vitalparameter-server
 InstanceOf: CapabilityStatement
 Usage: #definition
-* url = "https://gematik.de/fhir/ISiK/v2/CapabilityStatement/vitalparameter-server"
 * version = "2.0.0"
 * name = "ISiKCapabilityStatementVitalparameterServer"
 * title = "ISiK CapabilityStatement Vitalparameter Server"

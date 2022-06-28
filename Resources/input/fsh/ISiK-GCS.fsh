@@ -1,7 +1,6 @@
 Profile: ISiKGCS
 Parent: http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs
 Id: ISiKGCS
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
 * insert Meta
 * status MS
 * category MS
@@ -27,7 +26,6 @@ Instance: ISiKGCSExample
 InstanceOf: ISiKGCS
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
-* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
 * code = $loinc#9269-2 "Glasgow coma score total"
 * valueQuantity = 11 '1' "Punktwert"
 * status = #final
