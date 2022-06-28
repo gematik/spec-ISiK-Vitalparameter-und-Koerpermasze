@@ -1,7 +1,6 @@
 Profile: ISiKBlutdruck
 Parent: VitalSignDE_Blutdruck
 Id: ISiKBlutdruck
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck"
 * insert Meta
 * status MS
 * category MS
@@ -29,7 +28,6 @@ Instance: ISiKBlutdruckExample
 InstanceOf: ISiKBlutdruck
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
-* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#85354-9 "Blood pressure panel with all children optional"

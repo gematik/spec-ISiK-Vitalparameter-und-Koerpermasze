@@ -1,7 +1,6 @@
 Profile: ISiKSauerstoffsaettigung
 Parent: VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung
 Id: ISiKSauerstoffsaettigung
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung"
 * insert Meta
 * status MS
 * category MS
@@ -21,7 +20,6 @@ Instance: ISiKSauerstoffsaettigungExample
 InstanceOf: ISiKSauerstoffsaettigung
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
-* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"

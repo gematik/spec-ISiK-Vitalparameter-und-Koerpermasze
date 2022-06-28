@@ -3,9 +3,9 @@
   "id": "ISiKHerzfrequenzExample",
   "meta": {
     "profile": [
+      "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKHerzfrequenz",
       "http://hl7.org/fhir/StructureDefinition/heartrate",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz",
-      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKHerzfrequenz"
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
     ]
   },
   "category": [

@@ -3,8 +3,8 @@
   "id": "ISiKGCSExample",
   "meta": {
     "profile": [
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs",
-      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
+      "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKGCS",
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
     ]
   },
   "category": [

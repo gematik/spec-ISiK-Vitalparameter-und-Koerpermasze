@@ -1,7 +1,6 @@
 Profile: ISiKAtemfrequenz
 Parent: VitalSignDE_Atemfrequenz
 Id: ISiKAtemfrequenz
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz"
 * insert Meta
 * status MS
 * category MS
@@ -22,7 +21,6 @@ InstanceOf: ISiKAtemfrequenz
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/resprate"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
-* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"

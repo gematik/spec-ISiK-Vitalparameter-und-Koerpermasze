@@ -1,7 +1,6 @@
 Profile: ISiKKoerpertemperatur
 Parent: VitalSignDE_Koerpertemperatur
 Id: ISiKKoerpertemperatur
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur"
 * insert Meta
 * status MS
 * category MS
@@ -22,7 +21,6 @@ InstanceOf: ISiKKoerpertemperatur
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodytemp"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
-* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpertemperatur"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#8310-5 "Body temperature"

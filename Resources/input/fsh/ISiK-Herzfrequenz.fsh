@@ -1,7 +1,6 @@
 Profile: ISiKHerzfrequenz
 Parent: VitalSignDE_Herzfrequenz
 Id: ISiKHerzfrequenz
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKHerzfrequenz"
 * insert Meta
 * status MS
 * category MS
@@ -22,7 +21,6 @@ InstanceOf: ISiKHerzfrequenz
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/heartrate"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
-* meta.profile[+] = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKHerzfrequenz"
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#8867-4 "Heart rate"

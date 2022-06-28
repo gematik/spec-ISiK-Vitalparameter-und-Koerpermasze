@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKSauerstoffsaettigung",
-  "url": "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKSauerstoffsaettigung",
+  "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKSauerstoffsaettigung",
   "version": "2.0.0",
   "name": "ISiKSauerstoffsaettigung",
   "status": "active",
