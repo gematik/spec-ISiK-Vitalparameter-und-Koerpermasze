@@ -1,7 +1,7 @@
 Profile: ISiKGCS
 Parent: http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs
 Id: ISiKGCS
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
+// * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKGCS"
 * insert Meta
 * status MS
 * category MS

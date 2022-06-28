@@ -1,7 +1,7 @@
 Profile: ISiKBlutdruck
 Parent: VitalSignDE_Blutdruck
 Id: ISiKBlutdruck
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck"
+// * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKBlutdruck"
 * insert Meta
 * status MS
 * category MS

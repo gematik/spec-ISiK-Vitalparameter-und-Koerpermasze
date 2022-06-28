@@ -1,7 +1,7 @@
 Profile: ISiKKoerpergroesse
 Parent: VitalSignDE_Koerpergroesse
 Id: ISiKKoerpergroesse
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergroesse"
+// * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKKoerpergroesse"
 * insert Meta
 * status MS
 * category MS

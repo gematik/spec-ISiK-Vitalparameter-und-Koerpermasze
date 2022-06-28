@@ -1,7 +1,7 @@
 Profile: ISiKHerzfrequenz
 Parent: VitalSignDE_Herzfrequenz
 Id: ISiKHerzfrequenz
-* ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKHerzfrequenz"
+// * ^url = "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKHerzfrequenz"
 * insert Meta
 * status MS
 * category MS
