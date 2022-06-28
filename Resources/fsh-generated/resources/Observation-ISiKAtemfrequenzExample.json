@@ -5,8 +5,7 @@
     "profile": [
       "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKAtemfrequenz",
       "http://hl7.org/fhir/StructureDefinition/resprate",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz",
-      "https://gematik.de/fhir/ISiK/v2/StructureDefinition/ISiKAtemfrequenz"
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
     ]
   },
   "category": [
