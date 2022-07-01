@@ -18,18 +18,11 @@
       ]
     }
   ],
-  "valueQuantity": {
-    "system": "http://unitsofmeasure.org",
-    "value": 79,
-    "code": "kg",
-    "unit": "kilogram"
-  },
-  "status": "final",
   "code": {
     "coding": [
       {
-        "code": "29463-7",
         "system": "http://loinc.org",
+        "code": "29463-7",
         "display": "Body weight"
       },
       {
@@ -40,6 +33,13 @@
     ],
     "text": "Körpergewicht"
   },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 79,
+    "code": "kg",
+    "unit": "kilogram"
+  },
+  "status": "final",
   "subject": {
     "reference": "Patient/PatientinMusterfrau"
   },

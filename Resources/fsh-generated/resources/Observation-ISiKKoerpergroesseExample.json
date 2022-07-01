@@ -18,18 +18,11 @@
       ]
     }
   ],
-  "valueQuantity": {
-    "system": "http://unitsofmeasure.org",
-    "value": 174,
-    "code": "cm",
-    "unit": "centimeter"
-  },
-  "status": "final",
   "code": {
     "coding": [
       {
-        "code": "8302-2",
         "system": "http://loinc.org",
+        "code": "8302-2",
         "display": "Body height"
       },
       {
@@ -40,6 +33,13 @@
     ],
     "text": "Körpergröße"
   },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 174,
+    "code": "cm",
+    "unit": "centimeter"
+  },
+  "status": "final",
   "subject": {
     "reference": "Patient/PatientinMusterfrau"
   },

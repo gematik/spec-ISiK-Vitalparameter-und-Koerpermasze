@@ -17,12 +17,6 @@
       ]
     }
   ],
-  "valueQuantity": {
-    "system": "http://unitsofmeasure.org",
-    "code": "1",
-    "value": 11,
-    "unit": "Punktwert"
-  },
   "code": {
     "coding": [
       {
@@ -32,14 +26,16 @@
       }
     ]
   },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "code": "1",
+    "value": 11,
+    "unit": "Punktwert"
+  },
   "component": [
     {
       "code": {
         "coding": [
-          {
-            "system": "http://loinc.org",
-            "code": "9267-6"
-          },
           {
             "system": "http://loinc.org",
             "code": "9267-6"
@@ -59,10 +55,6 @@
           {
             "system": "http://loinc.org",
             "code": "9268-4"
-          },
-          {
-            "system": "http://loinc.org",
-            "code": "9268-4"
           }
         ]
       },
@@ -76,10 +68,6 @@
     {
       "code": {
         "coding": [
-          {
-            "system": "http://loinc.org",
-            "code": "9270-0"
-          },
           {
             "system": "http://loinc.org",
             "code": "9270-0"

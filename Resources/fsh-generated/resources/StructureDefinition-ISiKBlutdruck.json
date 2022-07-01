@@ -111,12 +111,6 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:SystolicBP.code.coding:loinc",
-        "path": "Observation.component.code.coding",
-        "sliceName": "loinc",
-        "mustSupport": true
-      },
-      {
         "id": "Observation.component:SystolicBP.value[x]",
         "path": "Observation.component.value[x]",
         "mustSupport": true
@@ -140,12 +134,6 @@
       {
         "id": "Observation.component:DiastolicBP.code.coding",
         "path": "Observation.component.code.coding",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:DiastolicBP.code.coding:loinc",
-        "path": "Observation.component.code.coding",
-        "sliceName": "loinc",
         "mustSupport": true
       },
       {

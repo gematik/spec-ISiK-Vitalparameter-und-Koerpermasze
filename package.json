@@ -1,15 +1,12 @@
 {
     "name": "de.gematik.isik-vitalparameter",
-    "version": "2.0.0-ballot1",
+    "version": "2.0.0",
     "description": "Package Release des ISiK Modul Vitalparameter",
-    "author": null,
     "fhirVersions": [
         "4.0.1"
     ],
-    "devDependencies": null,
-    "canonicals": null,
     "dependencies": {
-        "de.basisprofil.r4": "1.3.2",
-        "de.gematik.isik-basismodul": "2.0.0-ballot2"
+        "de.basisprofil.r4": "1.4.0",
+        "de.gematik.isik-basismodul": "2.0.0"
     }
 }
