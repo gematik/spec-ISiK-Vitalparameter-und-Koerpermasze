@@ -3,13 +3,14 @@
 ----
 Version: 2.0.0
 
-Datum: 21.01.2022
+Datum: 30.06.2022
 
-Status: In-Ballotierung
+Status: Aktiv
 
 Realm: Deutschland
 
 ----
+
 
 # Interoperabler Datenaustausch durch Informationssysteme im Krankenhaus (ISiK)
 
