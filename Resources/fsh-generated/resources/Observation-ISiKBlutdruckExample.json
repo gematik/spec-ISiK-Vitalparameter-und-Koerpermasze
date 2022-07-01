@@ -35,10 +35,6 @@
           {
             "system": "http://loinc.org",
             "code": "8480-6"
-          },
-          {
-            "system": "http://loinc.org",
-            "code": "8480-6"
           }
         ]
       },
@@ -52,10 +48,6 @@
     {
       "code": {
         "coding": [
-          {
-            "system": "http://loinc.org",
-            "code": "8462-4"
-          },
           {
             "system": "http://loinc.org",
             "code": "8462-4"
