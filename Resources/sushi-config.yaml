@@ -4,7 +4,7 @@ FSHOnly: true
 applyExtensionMetadataToRoot: false
 id: Implementierungsleitfaden ISiK-Modul Vitalwerte und Körpermaße
 name: Implementierungsleitfaden ISiK-Modul Vitalwerte und Körpermaße
-status: draft
+status: active
 dependencies:
   de.basisprofil.r4: 1.4.0
   de.gematik.isik-basismodul: 2.0.0
