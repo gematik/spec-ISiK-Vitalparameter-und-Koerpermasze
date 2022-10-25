@@ -2,7 +2,7 @@ Instance: ISiK-capabilityStatement-vitalparameter-server
 InstanceOf: CapabilityStatement
 Usage: #definition
 * url = "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/CapabilityStatement/vitalparameter-server"
-* version = "2.0.0"
+* version = "2.0.1"
 * name = "ISiKCapabilityStatementVitalparameterServer"
 * title = "ISiK CapabilityStatement Vitalparameter Server"
 * status = #active
