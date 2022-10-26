@@ -1,7 +1,7 @@
 {
   "resourceType": "CapabilityStatement",
   "id": "ISiK-capabilityStatement-vitalparameter-server",
-  "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/CapabilityStatement/basis-server",
+  "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/CapabilityStatement/vitalparameter-server",
   "status": "active",
   "experimental": false,
   "version": "2.0.1",
@@ -41,7 +41,7 @@
     "application/fhir+json"
   ],
   "instantiates": [
-    "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/CapabilityStatement/basis-server"
+    "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/CapabilityStatement/vitalparameter-server"
   ],
   "rest": [
     {
