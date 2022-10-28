@@ -1,14 +1,9 @@
 Instance: ISiK-capabilityStatement-vitalparameter-server
 InstanceOf: CapabilityStatement
 Usage: #definition
-* url = "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/CapabilityStatement/vitalparameter-server"
-* version = "2.0.0"
+* insert Meta-CapabilityStatement
 * name = "ISiKCapabilityStatementVitalparameterServer"
 * title = "ISiK CapabilityStatement Vitalparameter Server"
-* status = #active
-* experimental = false
-* date = "2022-01-07"
-* publisher = "gematik GmbH"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.gematik.de"
 * description = "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein ISiK-konformes System unterstützen muss um das Bestätigungsverfahren für das Modul Vitalparameter zu bestehen."
