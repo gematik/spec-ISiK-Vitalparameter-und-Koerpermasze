@@ -4,11 +4,11 @@
   "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/CapabilityStatement/vitalparameter-server",
   "status": "active",
   "experimental": false,
-  "version": "2.0.1",
+  "version": "2.0.2",
   "publisher": "gematik GmbH",
-  "date": "2022-10-31",
+  "date": "2023-01-31",
   "implementationGuide": [
-    "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/ImplementationGuide|2.0.1"
+    "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/ImplementationGuide|2.0.2"
   ],
   "name": "ISiKCapabilityStatementVitalparameterServer",
   "title": "ISiK CapabilityStatement Vitalparameter Server",
