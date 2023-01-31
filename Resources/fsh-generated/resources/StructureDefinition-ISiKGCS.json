@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKGCS",
   "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKGCS",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "name": "ISiKGCS",
   "status": "active",
   "experimental": false,
-  "date": "2022-10-31",
+  "date": "2023-01-31",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -160,6 +160,26 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.component:Eye.valueQuantity",
+        "path": "Observation.component.valueQuantity",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Eye.valueQuantity.unit",
+        "path": "Observation.component.valueQuantity.unit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Eye.valueQuantity.system",
+        "path": "Observation.component.valueQuantity.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Eye.valueQuantity.code",
+        "path": "Observation.component.valueQuantity.code",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.component:Motor",
         "path": "Observation.component",
         "sliceName": "Motor"
@@ -175,6 +195,26 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.component:Motor.valueQuantity",
+        "path": "Observation.component.valueQuantity",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Motor.valueQuantity.unit",
+        "path": "Observation.component.valueQuantity.unit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Motor.valueQuantity.system",
+        "path": "Observation.component.valueQuantity.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Motor.valueQuantity.code",
+        "path": "Observation.component.valueQuantity.code",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.component:Verbal",
         "path": "Observation.component",
         "sliceName": "Verbal"
@@ -187,6 +227,26 @@
       {
         "id": "Observation.component:Verbal.value[x]",
         "path": "Observation.component.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Verbal.valueQuantity",
+        "path": "Observation.component.valueQuantity",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Verbal.valueQuantity.unit",
+        "path": "Observation.component.valueQuantity.unit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Verbal.valueQuantity.system",
+        "path": "Observation.component.valueQuantity.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Verbal.valueQuantity.code",
+        "path": "Observation.component.valueQuantity.code",
         "mustSupport": true
       }
     ]
