@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKKoerpergewicht",
   "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKoerpergewicht",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "name": "ISiKKoerpergewicht",
   "status": "active",
   "experimental": false,
-  "date": "2023-01-31",
+  "date": "2023-03-24",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
