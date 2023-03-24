@@ -24,7 +24,6 @@ Usage: #example
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#8867-4 "Heart rate"
-* code.coding[+] = $sct#364075005 "Heart rate (observable entity)"
 * code.text = "Herzfrequenz"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

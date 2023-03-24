@@ -24,7 +24,6 @@ Usage: #example
 * status = #final
 * category = $observation-category#vital-signs
 * code.coding[0] = $loinc#8310-5 "Body temperature"
-* code.coding[+] = $sct#386725007 "Body temperature (observable entity)"
 * code.text = "Körpertemperatur"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
