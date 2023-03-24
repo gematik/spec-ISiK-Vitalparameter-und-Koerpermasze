@@ -9,7 +9,10 @@ Version: 2.0.3
 
 Datum: 24.03.2023
 
+* update example temperature + heartrate #102 by @f-peverali in <https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasse/pull/104>
+  * Änderungen an Beispielen
 
+**Full Changelog**: <https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasse/compare/v2.0.2...v.2.0.5>
 
 ----
 Version: 2.0.2
