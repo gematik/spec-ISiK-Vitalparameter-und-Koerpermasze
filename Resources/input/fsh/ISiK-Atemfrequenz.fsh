@@ -6,6 +6,16 @@ Id: ISiKAtemfrequenz
 * category MS
 * category[vs-cat] MS
 * code MS
+  * coding MS
+    * ^slicing.discriminator.type = #pattern
+    * ^slicing.discriminator.path = "system"
+    * ^slicing.rules = #open
+  * coding contains
+    SNOMED-CT 0..1 MS
+  * coding[SNOMED-CT]
+    * system 1.. MS
+    * system = "http://snomed.info/sct"
+    * code 1.. MS
 * subject MS
 * encounter MS
 * effective[x] MS
