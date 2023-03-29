@@ -6,6 +6,15 @@ Id: ISiKKoerpergewicht
 * category MS
 * category[vs-cat] MS
 * code MS
+  * coding MS
+    * ^slicing.discriminator.type = #pattern
+    * ^slicing.discriminator.path = "$this"
+    * ^slicing.rules = #open
+  * coding contains LOINC 1..1 MS and SNOMED-CT 0..1 MS
+  * coding[LOINC]
+    * system = "http://loinc.org"
+    * code = $loinc#29463-7
+  * coding[SNOMED-CT] from https://fhir.kbv.de/ValueSet/KBV_VS_Base_Body_Weight_SNOMED_CT (required)
 * subject MS
 * encounter MS
 * effective[x] MS
