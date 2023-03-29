@@ -14,7 +14,7 @@ Id: ISiKKoerpergewicht
   * coding[LOINC]
     * system = "http://loinc.org"
     * code = $loinc#29463-7
-  * coding[SNOMED-CT] from https://fhir.kbv.de/ValueSet/KBV_VS_Base_Body_Weight_SNOMED_CT (required)
+  * coding[SNOMED-CT] from https://fhir.kbv.de/ValueSet/KBV_VS_Base_Body_Weight_SNOMED_CT (preferred)
 * subject MS
 * encounter MS
 * effective[x] MS
