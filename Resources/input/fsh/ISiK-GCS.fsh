@@ -15,9 +15,8 @@ Id: ISiKGCS
 * valueQuantity.system MS
 * valueQuantity.code MS
 * component MS
-  * extension 0..1
   * extension contains http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status named TrialUse 0..1
-  * extension.valueCode = #trial-use
+    * valueCode = #trial-use
 * component.code MS
 * component.value[x] MS
 * component.valueQuantity MS
