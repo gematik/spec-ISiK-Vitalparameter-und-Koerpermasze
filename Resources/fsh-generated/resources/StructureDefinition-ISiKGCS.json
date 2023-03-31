@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKGCS",
   "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKGCS",
-  "version": "2.0.3",
+  "version": "3.0.0-rc1",
   "name": "ISiKGCS",
-  "status": "active",
+  "status": "draft",
   "experimental": false,
-  "date": "2023-03-24",
+  "date": "2023-03-27",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -115,6 +115,43 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.component.extension",
+        "path": "Observation.component.extension",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component.extension.extension",
+        "path": "Observation.component.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Observation.component.extension.valueCode",
+        "path": "Observation.component.extension.valueCode",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "patternCode": "trial-use"
+      },
+      {
+        "id": "Observation.component.extension:TrialUse",
+        "path": "Observation.component.extension",
+        "sliceName": "TrialUse",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Observation.component.code",
         "path": "Observation.component.code",
         "mustSupport": true
@@ -148,6 +185,11 @@
         "id": "Observation.component:Eye",
         "path": "Observation.component",
         "sliceName": "Eye"
+      },
+      {
+        "id": "Observation.component:Eye.extension",
+        "path": "Observation.component.extension",
+        "max": "1"
       },
       {
         "id": "Observation.component:Eye.code",
@@ -185,6 +227,11 @@
         "sliceName": "Motor"
       },
       {
+        "id": "Observation.component:Motor.extension",
+        "path": "Observation.component.extension",
+        "max": "1"
+      },
+      {
         "id": "Observation.component:Motor.code",
         "path": "Observation.component.code",
         "mustSupport": true
@@ -218,6 +265,11 @@
         "id": "Observation.component:Verbal",
         "path": "Observation.component",
         "sliceName": "Verbal"
+      },
+      {
+        "id": "Observation.component:Verbal.extension",
+        "path": "Observation.component.extension",
+        "max": "1"
       },
       {
         "id": "Observation.component:Verbal.code",
