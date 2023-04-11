@@ -10,7 +10,7 @@ Version: 3.0.0-rc1
 
 Datum: 11.04.2023
 
-* ausschließlich Anhebung der ISiK-Basismodul Dependency
+* Ausschließlich Anhebung der ISiK Basismodul Dependency
 
 ----
 
