@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKHerzfrequenz",
-  "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKHerzfrequenz",
-  "version": "2.0.3",
+  "url": "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKHerzfrequenz",
+  "version": "3.0.0-rc1",
   "name": "ISiKHerzfrequenz",
-  "status": "active",
+  "status": "draft",
   "experimental": false,
-  "date": "2023-03-24",
+  "date": "2023-03-27",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
