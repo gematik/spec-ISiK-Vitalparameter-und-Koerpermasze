@@ -16,13 +16,22 @@ Id: ISiKGCS
 * valueQuantity.code MS
 * component MS
   * extension contains http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status named TrialUse 0..1
-    * valueCode = #trial-use
+  * extension[TrialUse].valueCode = #trial-use
 * component.code MS
 * component.value[x] MS
 * component.valueQuantity MS
 * component.valueQuantity.system MS
 * component.valueQuantity.code MS
 * component.valueQuantity.unit MS
+* component[Eye]
+  * extension contains http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status named TrialUse 0..1
+  * extension[TrialUse].valueCode = #trial-use
+* component[Motor]
+  * extension contains http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status named TrialUse 0..1
+  * extension[TrialUse].valueCode = #trial-use
+* component[Verbal]
+  * extension contains http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status named TrialUse 0..1
+  * extension[TrialUse].valueCode = #trial-use
 
 Instance: ISiKGCSExample
 InstanceOf: ISiKGCS
