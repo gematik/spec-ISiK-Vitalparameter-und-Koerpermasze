@@ -1,4 +1,4 @@
-canonical: https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse
+canonical: https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse
 fhirVersion: 4.0.1
 FSHOnly: true
 applyExtensionMetadataToRoot: false
@@ -7,4 +7,4 @@ name: Implementierungsleitfaden ISiK-Modul Vitalwerte und Körpermaße
 status: draft
 dependencies:
   de.basisprofil.r4: 1.4.0
-  de.gematik.isik-basismodul: 2.0.5
+  de.gematik.isik-basismodul: 3.0.0-rc2

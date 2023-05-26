@@ -8,7 +8,9 @@ Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von R
 
 Version: 3.0.0-rc1
 
-* tbd.
+Datum: 11.04.2023
+
+* Ausschließlich Anhebung der ISiK Basismodul Dependency
 
 ----
 
