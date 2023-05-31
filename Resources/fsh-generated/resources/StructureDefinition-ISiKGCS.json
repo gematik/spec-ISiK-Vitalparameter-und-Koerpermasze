@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKGCS",
   "url": "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKGCS",
-  "version": "3.0.0-rc1",
+  "version": "3.0.0-rc2",
   "name": "ISiKGCS",
   "status": "draft",
   "experimental": false,
-  "date": "2023-03-27",
+  "date": "2023-05-31",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
