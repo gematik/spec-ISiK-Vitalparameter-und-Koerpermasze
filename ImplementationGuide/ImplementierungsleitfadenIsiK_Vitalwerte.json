@@ -6,7 +6,7 @@
   "fhirVersion": [
     "4.0.1"
   ],
-  "packageId": "0.0.1",
+  "packageId": "de.gematik.isik-vitalparameter",
   "definition": {
     "resource": [
       {
