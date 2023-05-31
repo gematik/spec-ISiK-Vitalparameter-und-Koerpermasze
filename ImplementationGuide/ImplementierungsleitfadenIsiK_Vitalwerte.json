@@ -1,12 +1,12 @@
 {
   "resourceType": "ImplementationGuide",
-  "url": "https://gematik.de/fhir/ISiK/v2/Vitalparameter/ImplementationGuide/ISiK-vitalparameter",
+  "url": "https://gematik.de/fhir/isik/v3/Vitalparameter/ImplementationGuide/ISiK-vitalparameter",
   "name": "Implementierungsleitfaden ISiK-Modul Vitalwerte und Körpermaße",
   "status": "draft",
   "fhirVersion": [
     "4.0.1"
   ],
-  "packageId": "0.0.1",
+  "packageId": "de.gematik.isik-vitalparameter",
   "definition": {
     "resource": [
       {

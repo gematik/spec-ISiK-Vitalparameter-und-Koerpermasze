@@ -3,10 +3,10 @@
 ## Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKSauerstoffsaettigung' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKSauerstoffsaettigung' select Name: name, Canonical: url
 ```
 
-{{tree:https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKSauerstoffsaettigung, hybrid}}
+{{tree:https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKSauerstoffsaettigung, hybrid}}
 
 ## Beispiele
 

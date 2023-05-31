@@ -1,14 +1,14 @@
 {
   "resourceType": "CapabilityStatement",
   "id": "ISiK-capabilityStatement-vitalparameter-server",
-  "url": "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/CapabilityStatement/vitalparameter-server",
-  "status": "active",
+  "url": "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/CapabilityStatement/vitalparameter-server",
+  "status": "draft",
   "experimental": false,
-  "version": "2.0.3",
+  "version": "3.0.0-rc2",
   "publisher": "gematik GmbH",
-  "date": "2023-03-24",
+  "date": "2023-05-31",
   "implementationGuide": [
-    "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/ImplementationGuide|2.0.3"
+    "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/ImplementationGuide|3.0.0-rc2"
   ],
   "name": "ISiKCapabilityStatementVitalparameterServer",
   "title": "ISiK CapabilityStatement Vitalparameter Server",
@@ -41,7 +41,7 @@
     "application/fhir+json"
   ],
   "instantiates": [
-    "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/CapabilityStatement/vitalparameter-server"
+    "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/CapabilityStatement/vitalparameter-server"
   ],
   "rest": [
     {
@@ -56,14 +56,14 @@
           ],
           "type": "Observation",
           "supportedProfile": [
-            "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKAtemfrequenz",
-            "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKBlutdruck",
-            "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKHerzfrequenz",
-            "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKoerpergewicht",
-            "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKoerpergroesse",
-            "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKoerpertemperatur",
-            "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKopfumfang",
-            "https://gematik.de/fhir/isik/v2/VitalwerteUndKoerpermasse/StructureDefinition/ISiKSauerstoffsaettigung"
+            "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKAtemfrequenz",
+            "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKBlutdruck",
+            "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKHerzfrequenz",
+            "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKoerpergewicht",
+            "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKoerpergroesse",
+            "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKoerpertemperatur",
+            "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKKopfumfang",
+            "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKSauerstoffsaettigung"
           ],
           "interaction": [
             {
