@@ -1,3 +1,3 @@
 # ISiK Vitalparameter und Körpermaße
 
-https://simplifier.net/spec-isik-vitalparameter-und-koerpermasse
+[ISiK Vitalparameter und Körpermaße](https://simplifier.net/isik-vitalparameter-und-koerpermasze-v3)
