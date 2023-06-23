@@ -3,7 +3,7 @@
   "id": "ISiKHerzfrequenzExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKHerzfrequenz",
+      "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasze/StructureDefinition/ISiKHerzfrequenz",
       "http://hl7.org/fhir/StructureDefinition/heartrate",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
     ]

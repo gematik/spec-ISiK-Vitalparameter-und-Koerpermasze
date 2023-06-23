@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKSauerstoffsaettigung",
-  "url": "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKSauerstoffsaettigung",
-  "version": "3.0.0-rc2",
+  "url": "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasze/StructureDefinition/ISiKSauerstoffsaettigung",
+  "version": "3.0.0",
   "name": "ISiKSauerstoffsaettigung",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
-  "date": "2023-05-31",
+  "date": "2023-07-01",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
