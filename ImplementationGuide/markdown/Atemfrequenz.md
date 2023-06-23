@@ -3,10 +3,10 @@
 ## Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasze/StructureDefinition/ISiKAtemfrequenz' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKAtemfrequenz' select Name: name, Canonical: url
 ```
 
-{{tree:https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasze/StructureDefinition/ISiKAtemfrequenz, hybrid}}
+{{tree:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKAtemfrequenz, hybrid}}
 
 ## Beispiele
 

@@ -3,10 +3,10 @@
 ## Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasze/StructureDefinition/ISiKKoerpergroesse' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpergroesse' select Name: name, Canonical: url
 ```
 
-{{tree:https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasze/StructureDefinition/ISiKKoerpergroesse, hybrid}}
+{{tree:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpergroesse, hybrid}}
 
 
 ## Beispiele
