@@ -19,10 +19,10 @@ Die Bereitstellung des CapabilityStatments für das Modul "Vitalparameter" erfol
 
 Für Systeme, die das Modul "Vitalparameter" implementieren, ist außerdem die Erfüllung der Mindestanforderungen des [Moduls "Basis"](https://simplifier.net/guide/ImplementierungsleitfadenISiK-Basismodul/Einfuehrung) erfoderlich:
 
-Canonical: https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/CapabilityStatement/core-server
+Canonical: https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasze/CapabilityStatement/core-server
 
 [Link Simplifier Profil Übersicht](https://simplifier.net/isik-modulvitalparameter/isik-capabilitystatement-vitalparameter-server)
 
-{{render:https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/CapabilityStatement/vitalparameter-server}}
+{{render:https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasze/CapabilityStatement/vitalparameter-server}}
 
 
