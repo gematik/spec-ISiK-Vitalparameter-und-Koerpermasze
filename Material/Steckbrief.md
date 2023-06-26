@@ -1,7 +1,7 @@
 # Modul-Name Vitalparameter
 
 ## Kurzbeschreibung
-Das Modul Vitalparameter umfasst alle notwendigen Datenmodule um Vitalwerte und Körpermaße von PatientInnen abzubilden. Diese Rubrik umfasst derzeit: 
+Das Modul Vitalparameter umfasst alle notwendigen Datenmodule um Vitalparameter und Körpermaße von PatientInnen abzubilden. Diese Rubrik umfasst derzeit: 
 
 - Atemfrequenz
 - Blutdruck

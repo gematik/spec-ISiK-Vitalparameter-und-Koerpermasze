@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKEkg",
-  "url": "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKEkg",
-  "version": "3.0.0-rc2",
+  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKEkg",
+  "version": "3.0.0",
   "name": "ISiKEkg",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
-  "date": "2023-05-31",
+  "date": "2023-07-01",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [

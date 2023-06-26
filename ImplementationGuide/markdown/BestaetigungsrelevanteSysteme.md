@@ -12,7 +12,7 @@ Klammern ergänzt.
 ISiK-Basismodul (Stufe 1 und Stufe 2)
 - Krankenhaus-Informationssystem (KIS)
 
-ISiK-Modul Vitalwerte und Körpermaße
+ISiK-Modul Vitalparameter und Körpermaße
 - KIS mit Funktion elektronische Kurve bzw. entsprechendes KIS-Modul
 - Patientendaten-Managementsystem (PDMS) [z.B. für Intensivbereiche]
 - Elektronische Kurve [z.B. für die Verwendung auf Normal-Stationen]

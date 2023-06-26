@@ -3,7 +3,7 @@
   "id": "ISiKAtemfrequenzExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/v3/VitalwerteUndKoerpermasse/StructureDefinition/ISiKAtemfrequenz",
+      "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKAtemfrequenz",
       "http://hl7.org/fhir/StructureDefinition/resprate",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
     ]
