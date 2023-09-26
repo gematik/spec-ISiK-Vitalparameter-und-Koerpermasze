@@ -1,5 +1,7 @@
 # Interaktionen
 
+Alle bestätigungsrelevanten Systeme in diesem Modul nehmen nach QEDm die Rolle der *Data Source* ein.
+
 Für die Observation-Ressource MUSS die REST-Interaktion "READ" implementiert werden.
 
 Folgende Suchparameter sind für das Vitalparamter-Modul relevant, auch in Kombination:
