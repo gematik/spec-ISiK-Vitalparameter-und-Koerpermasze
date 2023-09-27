@@ -5,7 +5,7 @@ applyExtensionMetadataToRoot: false
 id: Implementierungsleitfaden ISiK-Modul Vitalparameter und Körpermaße
 name: Implementierungsleitfaden ISiK-Modul Vitalparameter und Körpermaße
 status: active
-version: 3.0.1
+version: 3.0.0
 publisher:
   name: gematik GmbH
   url: https://www.gematik.de/
