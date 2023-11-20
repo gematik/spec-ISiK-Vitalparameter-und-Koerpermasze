@@ -39,7 +39,7 @@ Die folgenden Fördertatbestände implizieren einen Bezug zur Standardisierung v
 ## Relevante Spezifikationen
 
 * [VitalParameter Basisprofile HL7 Deutschland](https://simplifier.net/guide/basisprofil-de-r4/Ressourcen-BeobachtungenMessungenObservation)
-* [Vitalsigns International](https://www.hl7.org/fhir/observation-vitalsigns.html)
+* [Vitalsigns International](https://www.hl7.org/fhir/R4/observation-vitalsigns.html)
 * [KBV PKÜ](https://simplifier.net/PKU/~introduction)
 
 ## Datenobjekte/FHIR-Ressourcen
