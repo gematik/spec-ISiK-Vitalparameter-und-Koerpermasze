@@ -31,9 +31,9 @@ Usage: #example
 * status = #final
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
-* component[+].valueQuantity = 4 '1' "Punktwert"
-* component[=].code.coding[0] = $loinc#9267-6
-* component[+].valueQuantity = 4 '1' "Punktwert"
-* component[=].code.coding[0] = $loinc#9268-4
-* component[+].valueQuantity = 3 '1' "Punktwert"
-* component[=].code.coding[0] = $loinc#9270-0
+* component[Eye].valueQuantity = 4 '1' "Punktwert"
+* component[Eye].code.coding[0] = $loinc#9267-6
+* component[Motor].valueQuantity = 4 '1' "Punktwert"
+* component[Motor].code.coding[0] = $loinc#9268-4
+* component[Verbal].valueQuantity = 3 '1' "Punktwert"
+* component[Verbal].code.coding[0] = $loinc#9270-0
