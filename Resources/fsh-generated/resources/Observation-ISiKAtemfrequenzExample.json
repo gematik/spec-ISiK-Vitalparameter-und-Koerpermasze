@@ -31,8 +31,8 @@
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "code": "/min",
     "value": 26,
+    "code": "/min",
     "unit": "Atemzüge pro Minute"
   },
   "status": "final",

@@ -91,26 +91,43 @@
       {
         "id": "Observation.component.value[x]",
         "path": "Observation.component.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "mustSupport": true
       },
       {
-        "id": "Observation.component.value[x].origin",
-        "path": "Observation.component.value[x].origin",
+        "id": "Observation.component.valueSampledData",
+        "path": "Observation.component.valueSampledData",
+        "min": 1,
+        "max": "1",
         "mustSupport": true
       },
       {
-        "id": "Observation.component.value[x].period",
-        "path": "Observation.component.value[x].period",
+        "id": "Observation.component.valueSampledData.origin",
+        "path": "Observation.component.valueSampledData.origin",
         "mustSupport": true
       },
       {
-        "id": "Observation.component.value[x].dimensions",
-        "path": "Observation.component.value[x].dimensions",
+        "id": "Observation.component.valueSampledData.period",
+        "path": "Observation.component.valueSampledData.period",
         "mustSupport": true
       },
       {
-        "id": "Observation.component.value[x].data",
-        "path": "Observation.component.value[x].data",
+        "id": "Observation.component.valueSampledData.dimensions",
+        "path": "Observation.component.valueSampledData.dimensions",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.valueSampledData.data",
+        "path": "Observation.component.valueSampledData.data",
         "mustSupport": true
       }
     ]

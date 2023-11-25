@@ -90,34 +90,28 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]:valueQuantity",
-        "path": "Observation.value[x]",
-        "sliceName": "valueQuantity",
-        "type": [
-          {
-            "code": "Quantity"
-          }
-        ],
+        "id": "Observation.valueQuantity",
+        "path": "Observation.valueQuantity",
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]:valueQuantity.value",
-        "path": "Observation.value[x].value",
+        "id": "Observation.valueQuantity.value",
+        "path": "Observation.valueQuantity.value",
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]:valueQuantity.unit",
-        "path": "Observation.value[x].unit",
+        "id": "Observation.valueQuantity.unit",
+        "path": "Observation.valueQuantity.unit",
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]:valueQuantity.system",
-        "path": "Observation.value[x].system",
+        "id": "Observation.valueQuantity.system",
+        "path": "Observation.valueQuantity.system",
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]:valueQuantity.code",
-        "path": "Observation.value[x].code",
+        "id": "Observation.valueQuantity.code",
+        "path": "Observation.valueQuantity.code",
         "mustSupport": true
       }
     ]
