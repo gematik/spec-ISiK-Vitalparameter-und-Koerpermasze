@@ -23,7 +23,6 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
 * status = #final
 * category[vs-cat] = $observation-category#vital-signs "Vital Signs"
-* category.text = "Vital Signs"
 * code = $loinc#9843-4 "Head Occipital-frontal circumference"
 * code.text = "Kopfumfang"
 * subject = Reference(PatientinMusterfrau)
