@@ -36,7 +36,7 @@ Usage: #example
 * interpretation = $v3-ObservationInterpretation#L "low"
 * interpretation.text = "Below low normal"
 * bodySite = $sct#368209003 "Right arm"
-* component[0].code.coding[0] = $loinc#8480-6
-* component[=].valueQuantity = 107 'mm[Hg]' "mmHg"
-* component[+].code.coding[0] = $loinc#8462-4
-* component[=].valueQuantity = 60 'mm[Hg]' "mmHg"
+* component[SystolicBP].code.coding[0] = $loinc#8480-6
+* component[SystolicBP].valueQuantity = 107 'mm[Hg]' "mmHg"
+* component[DiastolicBP].code.coding[0] = $loinc#8462-4
+* component[DiastolicBP].valueQuantity = 60 'mm[Hg]' "mmHg"
