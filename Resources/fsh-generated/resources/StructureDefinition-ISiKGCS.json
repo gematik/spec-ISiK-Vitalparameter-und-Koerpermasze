@@ -90,23 +90,29 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity",
-        "path": "Observation.valueQuantity",
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.value",
-        "path": "Observation.valueQuantity.value",
+        "id": "Observation.value[x]:valueQuantity.value",
+        "path": "Observation.value[x].value",
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.system",
-        "path": "Observation.valueQuantity.system",
+        "id": "Observation.value[x]:valueQuantity.system",
+        "path": "Observation.value[x].system",
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.code",
-        "path": "Observation.valueQuantity.code",
+        "id": "Observation.value[x]:valueQuantity.code",
+        "path": "Observation.value[x].code",
         "mustSupport": true
       },
       {
@@ -125,23 +131,29 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "mustSupport": true
       },
       {
-        "id": "Observation.component.valueQuantity.unit",
-        "path": "Observation.component.valueQuantity.unit",
+        "id": "Observation.component.value[x]:valueQuantity.unit",
+        "path": "Observation.component.value[x].unit",
         "mustSupport": true
       },
       {
-        "id": "Observation.component.valueQuantity.system",
-        "path": "Observation.component.valueQuantity.system",
+        "id": "Observation.component.value[x]:valueQuantity.system",
+        "path": "Observation.component.value[x].system",
         "mustSupport": true
       },
       {
-        "id": "Observation.component.valueQuantity.code",
-        "path": "Observation.component.valueQuantity.code",
+        "id": "Observation.component.value[x]:valueQuantity.code",
+        "path": "Observation.component.value[x].code",
         "mustSupport": true
       },
       {
@@ -160,23 +172,29 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Eye.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:Eye.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Eye.valueQuantity.unit",
-        "path": "Observation.component.valueQuantity.unit",
+        "id": "Observation.component:Eye.value[x]:valueQuantity.unit",
+        "path": "Observation.component.value[x].unit",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Eye.valueQuantity.system",
-        "path": "Observation.component.valueQuantity.system",
+        "id": "Observation.component:Eye.value[x]:valueQuantity.system",
+        "path": "Observation.component.value[x].system",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Eye.valueQuantity.code",
-        "path": "Observation.component.valueQuantity.code",
+        "id": "Observation.component:Eye.value[x]:valueQuantity.code",
+        "path": "Observation.component.value[x].code",
         "mustSupport": true
       },
       {
@@ -195,23 +213,29 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Motor.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:Motor.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Motor.valueQuantity.unit",
-        "path": "Observation.component.valueQuantity.unit",
+        "id": "Observation.component:Motor.value[x]:valueQuantity.unit",
+        "path": "Observation.component.value[x].unit",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Motor.valueQuantity.system",
-        "path": "Observation.component.valueQuantity.system",
+        "id": "Observation.component:Motor.value[x]:valueQuantity.system",
+        "path": "Observation.component.value[x].system",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Motor.valueQuantity.code",
-        "path": "Observation.component.valueQuantity.code",
+        "id": "Observation.component:Motor.value[x]:valueQuantity.code",
+        "path": "Observation.component.value[x].code",
         "mustSupport": true
       },
       {
@@ -230,23 +254,29 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Verbal.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:Verbal.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Verbal.valueQuantity.unit",
-        "path": "Observation.component.valueQuantity.unit",
+        "id": "Observation.component:Verbal.value[x]:valueQuantity.unit",
+        "path": "Observation.component.value[x].unit",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Verbal.valueQuantity.system",
-        "path": "Observation.component.valueQuantity.system",
+        "id": "Observation.component:Verbal.value[x]:valueQuantity.system",
+        "path": "Observation.component.value[x].system",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:Verbal.valueQuantity.code",
-        "path": "Observation.component.valueQuantity.code",
+        "id": "Observation.component:Verbal.value[x]:valueQuantity.code",
+        "path": "Observation.component.value[x].code",
         "mustSupport": true
       }
     ]
