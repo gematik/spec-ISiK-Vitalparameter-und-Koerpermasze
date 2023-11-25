@@ -22,7 +22,7 @@ Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodyheight"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * status = #final
-* category = $observation-category#vital-signs
+* category[vs-cat] = $observation-category#vital-signs
 * code.coding[0] = $loinc#8302-2 "Body height"
 * code.coding[+] = $sct#50373000 "Body height measure"
 * code.text = "Körpergröße"

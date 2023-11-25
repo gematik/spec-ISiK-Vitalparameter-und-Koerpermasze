@@ -27,7 +27,7 @@ InstanceOf: ISiKBlutdruck
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
 * status = #final
-* category = $observation-category#vital-signs "Vital Signs"
+* category[vs-cat] = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#85354-9 "Blood pressure panel with all children optional"
 * code.text = "Systolischer und Diastolischer Blutdruck"
 * subject = Reference(PatientinMusterfrau)

@@ -22,7 +22,7 @@ Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/headcircum"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
 * status = #final
-* category = $observation-category#vital-signs "Vital Signs"
+* category[vs-cat] = $observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
 * code = $loinc#9843-4 "Head Occipital-frontal circumference"
 * code.text = "Kopfumfang"
