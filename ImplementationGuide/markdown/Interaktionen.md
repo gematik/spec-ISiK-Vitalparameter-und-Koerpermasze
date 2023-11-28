@@ -22,7 +22,7 @@ Folgende Suchparameter sind für das Vitalparamter-Modul relevant, auch in Kombi
     ``` GET [base]/Observation?category=http://terminology.hl7.org/CodeSystem/observation-category|vital-signs```
     
     Anwendungshinweise: Weitere Informationen zur Suche nach "status" 
-        finden sich in der [FHIR-Basisspezifikation - Abschnitt "Token Search"]https://hl7.org/fhir/R4/search.html#token).
+        finden sich in der [FHIR-Basisspezifikation - Abschnitt "Token Search"](https://hl7.org/fhir/R4/search.html#token).
         
    Dieser Suchparameter ist für die Umsetzung des IHE QEDm Profils verpflichtend.
    
