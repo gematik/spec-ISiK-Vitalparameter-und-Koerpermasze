@@ -1,6 +1,6 @@
 # Konformitätserklärung [(CapabilityStatement)](https://hl7.org/fhir/R4/capabilitystatement.html)
 
-Jede Instanz eines bestätigungsrelevanten Systems MUSS an ihrem Endpunkt eine [CapabilityStatement]https://hl7.org/fhir/R4/capabilitystatement.html)-Ressource bereitstellen.
+Jede Instanz eines bestätigungsrelevanten Systems MUSS an ihrem Endpunkt eine [CapabilityStatement](https://hl7.org/fhir/R4/capabilitystatement.html)-Ressource bereitstellen.
 
 Hierzu MUSS die [capabilities-Interaktion gemäß FHIR-Spezifikation]https://hl7.org/fhir/R4/http.html#capabilities) unterstützt werden.
 Der MODE-Parameter kann ignoriert werden.
