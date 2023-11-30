@@ -22,8 +22,7 @@ Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/resprate"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
 * status = #final
-* category = $observation-category#vital-signs "Vital Signs"
-* category.text = "Vital Signs"
+* category[vs-cat] = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#9279-1 "Respiratory rate"
 * code.text = "Atemfrequenz"
 * subject = Reference(PatientinMusterfrau)
