@@ -4,7 +4,7 @@ Id: ISiKBlutdruck
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
+* category[VSCat] MS
 * code MS
 * code.coding MS
 * subject MS
@@ -27,7 +27,7 @@ InstanceOf: ISiKBlutdruck
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs "Vital Signs"
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#85354-9 "Blood pressure panel with all children optional"
 * code.text = "Systolischer und Diastolischer Blutdruck"
 * subject = Reference(PatientinMusterfrau)

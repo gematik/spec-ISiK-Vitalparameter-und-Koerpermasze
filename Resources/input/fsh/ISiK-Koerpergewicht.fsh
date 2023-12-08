@@ -4,7 +4,7 @@ Id: ISiKKoerpergewicht
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
+* category[VSCat] MS
 * code MS
 * subject MS
 * encounter MS
@@ -22,7 +22,7 @@ Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodyweight"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs
+* category[VSCat] = $observation-category#vital-signs
 * code.coding[0] = $loinc#29463-7 "Body weight"
 * code.coding[+] = $sct#27113001 "Body weight"
 * code.text = "Körpergewicht"

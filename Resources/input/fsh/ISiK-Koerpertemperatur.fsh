@@ -4,7 +4,7 @@ Id: ISiKKoerpertemperatur
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
+* category[VSCat] MS
 * code MS
 * subject MS
 * encounter MS
@@ -22,7 +22,7 @@ Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodytemp"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs
+* category[VSCat] = $observation-category#vital-signs
 * code.coding[0] = $loinc#8310-5 "Body temperature"
 * code.text = "Körpertemperatur"
 * subject = Reference(PatientinMusterfrau)

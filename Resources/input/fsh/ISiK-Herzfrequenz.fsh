@@ -4,7 +4,7 @@ Id: ISiKHerzfrequenz
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
+* category[VSCat] MS
 * code MS
 * subject MS
 * encounter MS
@@ -22,7 +22,7 @@ Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/heartrate"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs
+* category[VSCat] = $observation-category#vital-signs
 * code.coding[0] = $loinc#8867-4 "Heart rate"
 * code.text = "Herzfrequenz"
 * subject = Reference(PatientinMusterfrau)

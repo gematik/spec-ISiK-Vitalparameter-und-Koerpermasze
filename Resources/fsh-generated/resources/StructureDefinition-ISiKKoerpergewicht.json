@@ -59,9 +59,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.category:vs-cat",
+        "id": "Observation.category:VSCat",
         "path": "Observation.category",
-        "sliceName": "vs-cat",
+        "sliceName": "VSCat",
         "mustSupport": true
       },
       {
@@ -90,28 +90,34 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity",
-        "path": "Observation.valueQuantity",
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.value",
-        "path": "Observation.valueQuantity.value",
+        "id": "Observation.value[x]:valueQuantity.value",
+        "path": "Observation.value[x].value",
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.unit",
-        "path": "Observation.valueQuantity.unit",
+        "id": "Observation.value[x]:valueQuantity.unit",
+        "path": "Observation.value[x].unit",
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.system",
-        "path": "Observation.valueQuantity.system",
+        "id": "Observation.value[x]:valueQuantity.system",
+        "path": "Observation.value[x].system",
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.code",
-        "path": "Observation.valueQuantity.code",
+        "id": "Observation.value[x]:valueQuantity.code",
+        "path": "Observation.value[x].code",
         "mustSupport": true
       }
     ]
