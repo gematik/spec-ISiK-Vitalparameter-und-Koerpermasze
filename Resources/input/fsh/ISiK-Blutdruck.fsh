@@ -4,7 +4,7 @@ Id: ISiKBlutdruck
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
+* category[VSCat] MS
 * code MS
 * code.coding MS
 * subject MS

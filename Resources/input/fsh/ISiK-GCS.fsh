@@ -4,7 +4,7 @@ Id: ISiKGCS
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
+* category[VSCat] MS
 * code MS
 * subject MS
 * encounter MS
@@ -21,6 +21,9 @@ Id: ISiKGCS
 * component.valueQuantity.system MS
 * component.valueQuantity.code MS
 * component.valueQuantity.unit MS
+* component[Eye] MS
+* component[Motor] MS
+* component[Verbal] MS
 
 Instance: ISiKGCSExample
 InstanceOf: ISiKGCS
