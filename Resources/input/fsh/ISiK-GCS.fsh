@@ -23,6 +23,9 @@ Id: ISiKGCS
 * component.valueQuantity.system MS
 * component.valueQuantity.code MS
 * component.valueQuantity.unit MS
+* component[Eye] MS
+* component[Motor] MS
+* component[Verbal] MS
 
 Instance: ISiKGCSExample
 InstanceOf: ISiKGCS
