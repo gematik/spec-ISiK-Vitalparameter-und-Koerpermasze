@@ -27,7 +27,7 @@ jobs:
       # Java and .NET are already installed on ubuntu-latest
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.3.5
+        uses: FirelyTeam/firely-terminal-pipeline@v0.4.0
         with:
           PATH_TO_CONFORMANCE_RESOURCES: Resources/fsh-generated/resources/
           # PATH_TO_EXAMPLES: Examples # Examples still need to be separated from the conformance resources 
@@ -40,7 +40,7 @@ jobs:
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
           SUSHI_ENABLED: true
           SUSHI_OPTIONS: Resources/
-          SUSHI_VERSION: 2.10.2
+          SUSHI_VERSION: 3.5.0
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_CONFORMANCE_DOTNET
 
       - name: Add & Commit
