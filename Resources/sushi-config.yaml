@@ -12,4 +12,4 @@ publisher:
   email: ISiK@gematik.de
 dependencies:
   de.basisprofil.r4: 1.4.0
-  de.gematik.isik-basismodul: 3.0.0
+  de.gematik.isik-basismodul: 3.0.1
