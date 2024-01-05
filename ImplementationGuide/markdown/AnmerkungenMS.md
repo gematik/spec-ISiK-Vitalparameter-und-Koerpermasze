@@ -5,7 +5,7 @@
 **Bedeutung:** Der Status MUSS insbesondere zur Differenzierung von abgeschlossenen, vorläufigen oder korrigierten Beobachtungen angegeben werden. 
 Es ist möglich, dass einzelne Systeme nur Werte vom Status `final` bereitstellen. Empfangende Systeme müssen jedoch in der Lage sein, sämtliche Status-Codes zu interpretieren.
 
-**Hinweis:** Siehe Beschreibung in der [FHIR Kernspezifikation](http://hl7.org/fhir/observation-definitions.html#Observation.status).
+**Hinweis:** Siehe Beschreibung in der [FHIR Kernspezifikation]https://hl7.org/fhir/R4/observation-definitions.html#Observation.status).
 
 ### `Observation.category`
 
