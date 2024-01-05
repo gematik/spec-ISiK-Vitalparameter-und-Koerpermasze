@@ -9,6 +9,7 @@ Version: 3.0.1
 Datum: 03.01.2023
 
 * Update Dependency ISiK Basismodul -> 3.0.1
+* Klärung zu Binary aus Basis hinzugefügt: add binary page https://github.com/gematik/spec-ISiK-Dokumentenaustausch/pull/168 
 
 ----
 Version: 3.0.0
