@@ -15,12 +15,6 @@ Die Verwendung der [CapabilityStatement-Expectation](https://hl7.org/fhir/R4/ext
 
 ## CapabilityStatement (Requirement) ISiK-Vitalparameter
 
-Die Bereitstellung des CapabilityStatments für das Modul "Vitalparameter" erfolgt zusammen mit der Festlegung der bestätigungsrelevanten Systeme in Stufe 2.
-
-Für Systeme, die das Modul "Vitalparameter" implementieren, ist außerdem die Erfüllung der Mindestanforderungen des [Moduls "Basis"](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Basismodul-Stufe-3/ImplementationGuide-markdown-Einfuehrung?version=current) erforderlich:
-
-Canonical: https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/CapabilityStatement/core-server
-
 [Link Simplifier Profil Übersicht](https://simplifier.net/isik-vitalparameter-und-koerpermasze-v3/isik-capabilitystatement-vitalparameter-server)
 
 {{render:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/CapabilityStatement/vitalparameter-server}}
