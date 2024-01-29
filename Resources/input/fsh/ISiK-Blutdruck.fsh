@@ -16,11 +16,13 @@ Id: ISiKBlutdruck
 * component[SystolicBP].code.coding MS
 * component[SystolicBP].value[x] MS
 * component[SystolicBP].valueQuantity MS
+* component[SystolicBP].dataAbsentReason MS
 * component[DiastolicBP] MS
 * component[DiastolicBP].code MS
 * component[DiastolicBP].code.coding MS
 * component[DiastolicBP].value[x] MS
 * component[DiastolicBP].valueQuantity MS
+* component[DiastolicBP].dataAbsentReason MS
 
 Instance: ISiKBlutdruckExample
 InstanceOf: ISiKBlutdruck
