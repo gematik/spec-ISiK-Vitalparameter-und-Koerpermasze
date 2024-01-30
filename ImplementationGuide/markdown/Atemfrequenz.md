@@ -1,6 +1,8 @@
 # Atemfrequenz
 Mit diesem Profil lässt sich die Atemfrequenz erfassen.
 
+Alle bestätigungsrelevanten Systeme für dieses Modul müssen Ressourcen verarbeiten können, die zu diesem Profil konform sind.
+
 ## Profil
 
 @```
