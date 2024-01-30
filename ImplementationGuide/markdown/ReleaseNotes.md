@@ -9,6 +9,7 @@ Version: 3.0.2
 Datum: 30.01.2023
 
 * MS auf dataAbsentReason gesetzt und Hinweis zur Nutzung https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/144 
+* ISiK-EKG: .encounter MS Flag hinzu
 
 ----
 Version: 3.0.1
