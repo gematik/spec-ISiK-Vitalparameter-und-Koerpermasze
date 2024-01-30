@@ -1,4 +1,5 @@
 # Atemfrequenz
+Mit diesem Profil lässt sich die Atemfrequenz erfassen.
 
 ## Profil
 

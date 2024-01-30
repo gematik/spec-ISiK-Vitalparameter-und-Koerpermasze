@@ -1,4 +1,5 @@
 # Körpergewicht
+Mit diesem Profil lässt sich eine einzelne Messung zum Körpergewicht erfassen.
 
 ## Profil
 

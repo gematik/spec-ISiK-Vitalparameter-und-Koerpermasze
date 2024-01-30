@@ -1,5 +1,7 @@
 # Körpergröße
 
+Dieses Profil beschreibt die Messung einer einzelnen Körpergröße bzw. Körperlänge. 
+
 ## Profil
 
 @```

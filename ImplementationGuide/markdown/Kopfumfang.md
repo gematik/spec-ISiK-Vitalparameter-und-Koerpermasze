@@ -1,5 +1,7 @@
 # Kopfumfang
 
+Mit diesem Profil lässt sich ein einzelner Kopfumfang (okzipital-frontal) erfassen. Im Wesentlichen ist das Profil für Use Cases der Neonatologie relevant.
+
 ## Profil
 
 @```

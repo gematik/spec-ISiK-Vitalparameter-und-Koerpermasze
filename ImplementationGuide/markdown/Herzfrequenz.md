@@ -1,4 +1,5 @@
 # ISiKHerzfrequenz
+Mit diesem Profil lässt sich die Herzfrequenz erfassen.
 
 ## Profil
 

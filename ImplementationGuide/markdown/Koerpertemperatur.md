@@ -1,4 +1,5 @@
 # Körpertemperatur
+Dieses Profil beschreibt die Messung einer einzelnen Körpertemperatur. 
 
 ## Profil
 

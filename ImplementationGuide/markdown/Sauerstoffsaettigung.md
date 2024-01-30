@@ -1,4 +1,5 @@
 # Sauerstoffsättigung
+Dieses Profil erlaubt eine einzelne Messung zur arteriellen Sauerstoffsättigung zu erfassen.
 
 ## Profil
 
