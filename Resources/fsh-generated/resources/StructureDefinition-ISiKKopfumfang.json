@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKKopfumfang",
   "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKopfumfang",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "name": "ISiKKopfumfang",
   "status": "active",
   "experimental": false,
-  "date": "2024-01-05",
+  "date": "2024-01-30",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
