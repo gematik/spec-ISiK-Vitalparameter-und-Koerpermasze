@@ -1,7 +1,8 @@
 # EKG
 Mit diesem Profil lässt sich ein Elektrokardiogramm erfassen.
 
-Alle bestätigungsrelevanten Systeme für dieses Modul müssen Ressourcen verarbeiten können, die zu diesem Profil konform sind.
+Alle bestätigungsrelevanten Systeme für dieses Modul, welche EKGs verwalten, müssen Ressourcen verarbeiten können, die zu diesem Profil konform sind.
+
 
 ## Profil
 
