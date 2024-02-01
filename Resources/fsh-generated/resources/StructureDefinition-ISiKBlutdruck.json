@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKBlutdruck",
   "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKBlutdruck",
-  "version": "3.0.0",
+  "version": "4.0.0-rc",
   "name": "ISiKBlutdruck",
   "status": "active",
   "experimental": false,
-  "date": "2023-07-01",
+  "date": "2024-02-01",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
