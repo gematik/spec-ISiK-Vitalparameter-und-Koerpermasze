@@ -6,6 +6,9 @@ Id: ISiKKoerpergroesse
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding[loinc] MS
+  * coding[snomed] MS
+  * coding[snomed] = $sct#1153637007
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -23,8 +26,8 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[0] = $loinc#8302-2 "Body height"
-* code.coding[+] = $sct#50373000 "Body height measure"
+* code.coding[loinc] = $loinc#8302-2 "Body height"
+* code.coding[snomed] = $sct#1153637007 "Body height (observable entity)"
 * code.text = "Körpergröße"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

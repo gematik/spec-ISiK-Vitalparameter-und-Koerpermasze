@@ -6,6 +6,9 @@ Id: ISiKHerzfrequenz
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding[loinc] MS
+  * coding[snomed] MS
+  * coding[snomed] = $sct#364075005
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -23,7 +26,8 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[0] = $loinc#8867-4 "Heart rate"
+* code.coding[loinc] = $loinc#8867-4 "Heart rate"
+* code.coding[snomed] = $sct#364075005 "Heart rate (observable entity)"
 * code.text = "Herzfrequenz"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

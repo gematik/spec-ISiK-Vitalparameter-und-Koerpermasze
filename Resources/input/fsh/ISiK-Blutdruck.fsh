@@ -6,7 +6,8 @@ Id: ISiKBlutdruck
 * category MS
 * category[VSCat] MS
 * code MS
-* code.coding MS
+  * coding[loinc] MS
+  * coding[snomed] MS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -28,8 +29,10 @@ Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code = $loinc#85354-9 "Blood pressure panel with all children optional"
-* code.text = "Systolischer und Diastolischer Blutdruck"
+* code
+  * coding[loinc] = $loinc#85354-9 "Blood pressure panel with all children optional"
+  * coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
+  * text = "Systolischer und Diastolischer Blutdruck"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2012-09-17"
 * performer.reference = "Practitioner/example"

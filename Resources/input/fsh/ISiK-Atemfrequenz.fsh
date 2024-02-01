@@ -6,10 +6,9 @@ Id: ISiKAtemfrequenz
 * category MS
 * category[VSCat] MS
 * code MS
-  * coding contains snomed 0..*
+  * coding[loinc] MS
+  * coding[snomed] MS
   * coding[snomed] = $sct#86290005
-    * system 1..
-    * code 1..
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -27,7 +26,7 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code = $loinc#9279-1 "Respiratory rate"
+* code.coding[loinc] = $loinc#9279-1 "Respiratory rate"
 * code.coding[snomed] = $sct#86290005 "Respiratory rate (observable entity)"
 * code.text = "Atemfrequenz"
 * subject = Reference(PatientinMusterfrau)

@@ -24,6 +24,11 @@
         "system": "http://loinc.org",
         "code": "85354-9",
         "display": "Blood pressure panel with all children optional"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "75367002",
+        "display": "Blood pressure (observable entity)"
       }
     ],
     "text": "Systolischer und Diastolischer Blutdruck"

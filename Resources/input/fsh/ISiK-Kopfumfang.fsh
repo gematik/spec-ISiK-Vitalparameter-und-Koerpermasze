@@ -6,6 +6,9 @@ Id: ISiKKopfumfang
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding[loinc] MS
+  * coding[snomed] MS
+  * coding[snomed] = $sct#363812007
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -23,7 +26,8 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code = $loinc#9843-4 "Head Occipital-frontal circumference"
+* code.coding[loinc] = $loinc#9843-4 "Head Occipital-frontal circumference"
+* code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
 * code.text = "Kopfumfang"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-07-02"

@@ -6,6 +6,9 @@ Id: ISiKKoerpergewicht
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding[loinc] MS
+  * coding[snomed] MS
+  * coding[snomed] = $sct#27113001
 * subject MS
 * encounter MS
 * effective[x] MS

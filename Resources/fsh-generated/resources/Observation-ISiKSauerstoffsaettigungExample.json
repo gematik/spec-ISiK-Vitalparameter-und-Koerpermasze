@@ -25,14 +25,9 @@
         "display": "Oxygen saturation in Arterial blood"
       },
       {
-        "code": "442476006",
         "system": "http://snomed.info/sct",
+        "code": "442476006",
         "display": "Arterial oxygen saturation"
-      },
-      {
-        "code": "59408-5",
-        "system": "http://loinc.org",
-        "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
       }
     ],
     "text": "Pulsoximetrische Sauerstoffsättigung"

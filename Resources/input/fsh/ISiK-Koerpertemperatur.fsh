@@ -6,6 +6,9 @@ Id: ISiKKoerpertemperatur
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding[loinc] MS
+  * coding[snomed] MS
+  * coding[snomed] = $sct#386725007
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -23,7 +26,8 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[0] = $loinc#8310-5 "Body temperature"
+* code.coding[loinc] = $loinc#8310-5 "Body temperature"
+* code.coding[snomed] = $sct#386725007 "Body temperature (observable entity)"
 * code.text = "Körpertemperatur"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
