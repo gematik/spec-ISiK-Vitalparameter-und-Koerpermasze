@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKAtemfrequenz",
   "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKAtemfrequenz",
-  "version": "3.0.1",
+  "version": "4.0.0-rc",
   "name": "ISiKAtemfrequenz",
   "status": "active",
   "experimental": false,
-  "date": "2024-01-05",
+  "date": "2024-02-01",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
