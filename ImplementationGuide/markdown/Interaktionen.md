@@ -1,20 +1,6 @@
 # Interaktionen
 
-## Hintergrund
-Die Interaktionen zielen im wesentlichen auf die Abdeckung folgender Workflows:
-1. Ein beliebiger Client stellt Suchabfragen an ein System, das Patientendaten verwaltet - einschließlich Vitalparameter und Köpermaße.
-2. Ein KIS und ein PDMS (nach der Definition der bestätigungsrelevanten Systeme für dieses Modul) kommunizieren 'Vitalparameter und Körpermaße', um den Überleitungsprozess zwischen Akut- und Normalversorgung zu unterstützen und können dabei je als Client und Server agieren.
-3. Ein Point-of-Care-Device (Client) erhält schreibenden Zugriff auf ein bestätigungsrelevantes System (KIS + PDMS), um Ereignis-basiert Daten zu übertragen; z.B. intelligentes Fieberthermometer sendet Messung zu Körpertemperatur an das PDMS.
-
-Fraglich bleibt bei Schreiboperationen ob (für die o.g. Punkte) eine Lösung über 
-1. einfaches POST/PUT einer Observation oder 
-2. Übermittlung einer Composition [analog zur Basis](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Basismodul-Stufe-3/ImplementationGuide-markdown-Datenobjekte-Datenobjekte-BerichtSubsystem?version=current) 
-
-anzustreben ist .
-
-In jedem Fall sollte es um eine REST-basierte Kommunikation gehen.
-
-### Akteure
+## Akteure
 Alle bestätigungsrelevanten Systeme für dieses Modul nehmen die Rolle des Servers ein im Sinne eines patientenführenden Systems, an das ein Client Suchabfragen richten kann und (bei erfolgter Autorisierung) Schreiboperationen vollziehen kann.
 
 In Bezug auf den Lesenden Zugriff gilt daher: Alle bestätigungsrelevanten Systeme in diesem Modul MÜSSEN nach QEDm die Rolle der *Data Source* einnehmen können (für mehr Informationen siehe [Basismodul - Abschnitt QEDm](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Basismodul-Stufe-3/markdown-UebergreifendeFestlegungen-KompatibilitaetDerGematikSpezifikation?version=current)).
