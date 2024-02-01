@@ -4,7 +4,6 @@
 Die Interaktionen zielen im wesentlichen auf folgende Workflows:
 1. Ein beliebiger Client stellt Suchabfragen an ein System, das Patientendaten - einschließlich Vitalparametern und Köpermaße - verwaltet.
 2. Ein KIS und ein PDMS (nach der Definition der bestätigungsrelevanten Systeme für dieses Modul) kommunizieren 'Vitalparameter und Körpermaße' um den Überleitungsprozess zwischen Akut- und Normalversorgung zu unterstützen und können dabei je als Client und Server agieren.
-    2.1. Auch Ereignis-basierte Kommunikation soll hierbei ermöglicht werden (z.B. als [Rückübermittlung Bericht aus Subsystemen](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Basismodul-Stufe-3/ImplementationGuide-markdown-Datenobjekte-Datenobjekte-BerichtSubsystem?version=current))
 3. Ein Point-of-Care-Device (Client) erhält schreibenden Zugriff auf ein bestätigungsrelevantes System (KIS + PDMS), um Ereignis-basiert Daten zu übertragen; z.B. intelligentes Fieberthermometer sendet Messung zu Körpertemperatur an das PDMS.
 
 Fraglich bleibt bei Schreiboperationen ob eine Dokumenten- oder eine REST-basierte Kommunikation anzustreben ist (für die o.g. Punkte).
