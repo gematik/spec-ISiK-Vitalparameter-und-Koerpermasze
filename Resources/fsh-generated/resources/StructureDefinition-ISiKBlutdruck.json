@@ -123,8 +123,14 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:SystolicBP.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:SystolicBP.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "mustSupport": true
       },
       {
@@ -149,8 +155,14 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:DiastolicBP.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component:DiastolicBP.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
         "mustSupport": true
       }
     ]

@@ -14,8 +14,8 @@
         "display": "EKG study"
       },
       {
-        "code": "271921002",
         "system": "http://snomed.info/sct",
+        "code": "271921002",
         "display": "Electrocardiogram finding (observable entity)"
       }
     ]

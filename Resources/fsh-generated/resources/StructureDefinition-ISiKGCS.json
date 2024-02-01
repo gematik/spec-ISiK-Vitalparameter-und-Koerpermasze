@@ -94,38 +94,21 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity",
-        "path": "Observation.valueQuantity",
-        "min": 1,
-        "max": "1",
+        "id": "Observation.value[x].value",
+        "path": "Observation.value[x].value",
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.value",
-        "path": "Observation.valueQuantity.value",
+        "id": "Observation.value[x].system",
+        "path": "Observation.value[x].system",
         "mustSupport": true
       },
       {
-        "id": "Observation.valueQuantity.system",
-        "path": "Observation.valueQuantity.system",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.valueQuantity.code",
-        "path": "Observation.valueQuantity.code",
+        "id": "Observation.value[x].code",
+        "path": "Observation.value[x].code",
         "mustSupport": true
       },
       {
@@ -154,8 +137,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component.valueQuantity",
-        "path": "Observation.component.valueQuantity",
+        "id": "Observation.component.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
         "min": 0,
         "max": "1",
         "type": [
@@ -166,18 +150,18 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component.valueQuantity.unit",
-        "path": "Observation.component.valueQuantity.unit",
+        "id": "Observation.component.value[x]:valueQuantity.unit",
+        "path": "Observation.component.value[x].unit",
         "mustSupport": true
       },
       {
-        "id": "Observation.component.valueQuantity.system",
-        "path": "Observation.component.valueQuantity.system",
+        "id": "Observation.component.value[x]:valueQuantity.system",
+        "path": "Observation.component.value[x].system",
         "mustSupport": true
       },
       {
-        "id": "Observation.component.valueQuantity.code",
-        "path": "Observation.component.valueQuantity.code",
+        "id": "Observation.component.value[x]:valueQuantity.code",
+        "path": "Observation.component.value[x].code",
         "mustSupport": true
       },
       {

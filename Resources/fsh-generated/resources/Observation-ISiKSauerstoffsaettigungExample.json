@@ -25,8 +25,8 @@
         "display": "Oxygen saturation in Arterial blood"
       },
       {
-        "code": "442476006",
         "system": "http://snomed.info/sct",
+        "code": "442476006",
         "display": "Arterial oxygen saturation"
       }
     ],
@@ -34,8 +34,8 @@
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "value": 98,
     "code": "%",
+    "value": 98,
     "unit": "%"
   },
   "component": [

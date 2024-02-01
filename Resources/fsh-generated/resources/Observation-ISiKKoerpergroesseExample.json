@@ -21,6 +21,11 @@
   "code": {
     "coding": [
       {
+        "code": "1153637007",
+        "system": "http://snomed.info/sct",
+        "display": "Body height (observable entity)"
+      },
+      {
         "system": "http://loinc.org",
         "code": "8302-2"
       },
@@ -28,11 +33,6 @@
         "code": "8302-2",
         "system": "http://loinc.org",
         "display": "Body height"
-      },
-      {
-        "code": "1153637007",
-        "system": "http://snomed.info/sct",
-        "display": "Body height (observable entity)"
       }
     ],
     "text": "Körpergröße"
