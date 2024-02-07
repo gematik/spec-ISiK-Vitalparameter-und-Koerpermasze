@@ -8,7 +8,7 @@ Id: ISiKKoerpergewicht
 * code MS
   * coding[loinc] MS
   * coding[snomed] MS
-  * coding[snomed] = $sct#27113001
+  * coding[snomed] from ISiKKoerpergewichtSCTVS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -18,6 +18,12 @@ Id: ISiKKoerpergewicht
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+
+ValueSet: ISiKKoerpergewichtSCTVS
+Id: ISiKKoerpergewichtSCTVS
+Title: "ISiKKoerpergewichtSCTVS"
+Description: "ValueSet des Körpergewichts SnomedCT Codes in ISiK"
+* $sct#27113001 "Körpergewicht"
 
 Instance: ISiKKoerpergewichtExample
 InstanceOf: ISiKKoerpergewicht

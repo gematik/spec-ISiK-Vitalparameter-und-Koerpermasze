@@ -8,7 +8,7 @@ Id: ISiKHerzfrequenz
 * code MS
   * coding[loinc] MS
   * coding[snomed] MS
-  * coding[snomed] = $sct#364075005
+  * coding[snomed] from ISiKHerzfrequenzSCTVS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -18,6 +18,12 @@ Id: ISiKHerzfrequenz
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+
+ValueSet: ISiKHerzfrequenzSCTVS
+Id: ISiKHerzfrequenzSCTVS
+Title: "ISiKHerzfrequenzSCTVS"
+Description: "ValueSet des Herzfrequenz SnomedCT Codes in ISiK"
+* $sct#364075005 "Herzfrequenz"
 
 Instance: ISiKHerzfrequenzExample
 InstanceOf: ISiKHerzfrequenz

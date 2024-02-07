@@ -8,7 +8,7 @@ Id: ISiKKoerpertemperatur
 * code MS
   * coding[loinc] MS
   * coding[snomed] MS
-  * coding[snomed] = $sct#386725007
+  * coding[snomed] from ISiKKoerpertemperaturSCTVS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -18,6 +18,12 @@ Id: ISiKKoerpertemperatur
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+
+ValueSet: ISiKKoerpertemperaturSCTVS
+Id: ISiKKoerpertemperaturSCTVS
+Title: "ISiKKoerpertemperaturSCTVS"
+Description: "ValueSet des Körpergewicht SnomedCT Codes in ISiK"
+* $sct#386725007 "Körpergewicht"
 
 Instance: ISiKKoerpertemperaturExample
 InstanceOf: ISiKKoerpertemperatur

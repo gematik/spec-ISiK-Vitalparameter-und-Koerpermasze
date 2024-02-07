@@ -79,11 +79,11 @@
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
-        "patternCoding": {
-          "code": "386725007",
-          "system": "http://snomed.info/sct"
-        },
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/ValueSet/ISiKKoerpertemperaturSCTVS"
+        }
       },
       {
         "id": "Observation.subject",

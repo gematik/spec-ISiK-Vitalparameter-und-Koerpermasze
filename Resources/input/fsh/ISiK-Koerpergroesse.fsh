@@ -8,7 +8,7 @@ Id: ISiKKoerpergroesse
 * code MS
   * coding[loinc] MS
   * coding[snomed] MS
-  * coding[snomed] = $sct#1153637007
+  * coding[snomed] from ISiKKoerpergroesseSCTVS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -18,6 +18,12 @@ Id: ISiKKoerpergroesse
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+
+ValueSet: ISiKKoerpergroesseSCTVS
+Id: ISiKKoerpergroesseSCTVS
+Title: "ISiKKoerpergroesseSCTVS"
+Description: "ValueSet des Körpergroesse SnomedCT Codes in ISiK"
+* $sct#1153637007 "Body height"
 
 Instance: ISiKKoerpergroesseExample
 InstanceOf: ISiKKoerpergroesse

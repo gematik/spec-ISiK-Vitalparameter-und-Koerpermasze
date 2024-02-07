@@ -8,7 +8,7 @@ Id: ISiKKopfumfang
 * code MS
   * coding[loinc] MS
   * coding[snomed] MS
-  * coding[snomed] = $sct#363812007
+  * coding[snomed] from ISiKKopfumfangSCTVS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -18,6 +18,12 @@ Id: ISiKKopfumfang
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+
+ValueSet: ISiKKopfumfangSCTVS
+Id: ISiKKopfumfangSCTVS
+Title: "ISiKKopfumfangSCTVS"
+Description: "ValueSet des Kopfumfang SnomedCT Codes in ISiK"
+* $sct#363812007 "Kopfumfang"
 
 Instance: ISiKKopfumfangExample
 InstanceOf: ISiKKopfumfang

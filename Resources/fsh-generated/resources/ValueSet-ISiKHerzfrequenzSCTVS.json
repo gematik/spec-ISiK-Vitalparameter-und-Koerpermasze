@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ISiKHerzfrequenzSCTVS",
+  "id": "ISiKHerzfrequenzSCTVS",
+  "title": "ISiKHerzfrequenzSCTVS",
+  "description": "ValueSet des Herzfrequenz SnomedCT Codes in ISiK",
+  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/ValueSet/ISiKHerzfrequenzSCTVS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "364075005",
+            "display": "Herzfrequenz"
+          }
+        ]
+      }
+    ]
+  }
+}

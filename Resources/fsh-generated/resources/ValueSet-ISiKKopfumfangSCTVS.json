@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ISiKKopfumfangSCTVS",
+  "id": "ISiKKopfumfangSCTVS",
+  "title": "ISiKKopfumfangSCTVS",
+  "description": "ValueSet des Kopfumfang SnomedCT Codes in ISiK",
+  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/ValueSet/ISiKKopfumfangSCTVS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "363812007",
+            "display": "Kopfumfang"
+          }
+        ]
+      }
+    ]
+  }
+}
