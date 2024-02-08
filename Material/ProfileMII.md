@@ -9,6 +9,8 @@ Profile, die ausschließlich durch PDMS (oder - was als gleichwertig betrachtet 
 
 Profile, die durch alle bestätigungsrelevanten Systeme in diesem Modul implementiert werden MÜSSEN, werden mit folgendem Flag gekennzeichnet: ALLE :hospital:
 
+Die Anforderung zur Implmenentierung - d.h. Bereitstellung einer Schnittstelle - sollen nur gelten, sofern das System entsprechende Daten bereits verwaltet.
+
 ## Liste der Profile mit Kennzeichnung des betroffenen Systemtyps zur Umsetzung
 - Pulmonalarterieller wedge Blutdruck (Observation)
     - PDMS :warning:
