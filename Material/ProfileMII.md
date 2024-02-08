@@ -1,4 +1,6 @@
 ## MII Profile zu Vitaldaten für ISIK (Akut- und Normalversorgung)
+Im Zuge der Ausbaustufe 4 sollen Vitalparameter Profile der MII in ISiK festgelegt werden. Der Umfang der geplanten Festlegung wird auf dieser Seite dokumentiert.
+
 Für folgende Profile, die den Festlegungen der MII entstammen, gelten gesonderte Festlegungen in Bezug auf die Notwendigkeit der Implementierung durch SW-Hersteller.
 
 Die Liste deckt alle Profile ab aus der Subseite https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Intensivmedizin/MonitoringundVitaldaten.html und übernimmt entsprechend die Namen der Profile (Stand 8.2.2024).
