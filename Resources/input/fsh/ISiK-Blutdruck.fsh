@@ -22,6 +22,44 @@ Id: ISiKBlutdruck
 * component[DiastolicBP].value[x] MS
 * component[DiastolicBP].valueQuantity MS
 
+Profile: ISIKPulmonalarteriellerBlutdruck
+Parent: ISiKBlutdruck
+Id: ISIKPulmonalarteriellerBlutdruck
+Title: "SD ISiK ICU Pulmonalarterieller Blutdruck"
+Description: "Das Profil basiert auf der Kodierung entsprechend dem [Profil der MII](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Intensivmedizin/PulmonalarteriellerBlutdruckObservation.html). "
+* code.coding 2..
+  * ^slicing.discriminator.type = #pattern
+  * ^slicing.discriminator.path = "$this"
+  * ^slicing.rules = #open
+* code.coding contains
+    sct 1..1 and
+    IEEE-11073 0..0
+* value[x] = $unitsofmeasure#mm[Hg]
+* component MS
+  * ^slicing.discriminator.type = #pattern
+  * ^slicing.discriminator.path = "$this"
+  * ^slicing.rules = #open
+* component.code.coding 3..
+  * ^slicing.discriminator.type = #pattern
+  * ^slicing.discriminator.path = "$this"
+  * ^slicing.rules = #open
+* component.code.coding contains
+    loinc-detailed 1.. and
+    IEEE-11073 1..
+* component[SystolicBP].code.coding[IEEE-11073] = #150045
+* component[SystolicBP].code.coding[IEEE-11073] ^sliceName = "IEEE-11073"
+* component[SystolicBP].code.coding[loinc-detailed] = $loinc#8440-0
+* component[SystolicBP].code.coding[loinc-detailed] ^sliceName = "loinc-detailed"
+* component[DiastolicBP].code.coding[IEEE-11073] = #150046
+* component[DiastolicBP].code.coding[IEEE-11073] ^sliceName = "IEEE-11073"
+* component[DiastolicBP].code.coding[loinc-detailed] = $loinc#8385-7
+* component[DiastolicBP].code.coding[loinc-detailed] ^sliceName = "loinc-detailed"
+* component[meanBP] ^sliceName = "meanBP"
+* component[meanBP].code.coding[IEEE-11073] = #150047
+* component[meanBP].code.coding[IEEE-11073] ^sliceName = "IEEE-11073"
+* component[meanBP].code.coding[loinc-detailed] = $loinc#8414-5
+* component[meanBP].code.coding[loinc-detailed] ^sliceName = "loinc-detailed"
+
 Instance: ISiKBlutdruckExample
 InstanceOf: ISiKBlutdruck
 Usage: #example
