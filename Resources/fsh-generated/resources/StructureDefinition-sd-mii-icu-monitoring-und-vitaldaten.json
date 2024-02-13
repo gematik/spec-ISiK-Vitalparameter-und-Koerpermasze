@@ -277,9 +277,6 @@
         "type": [
           {
             "code": "Reference",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
-            ],
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Patient"
             ]
