@@ -9,16 +9,17 @@ Alias: $Code-Monitoring-und-Vitaldaten-LOINC = https://www.medizininformatik-ini
 Alias: $Code-Monitoring-und-Vitaldaten-ISO11073 = https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/Code-Monitoring-und-Vitaldaten-ISO11073
 Alias: $BodySite-Observation-Monitoring-und-Vitaldaten = https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/BodySite-Observation-Monitoring-und-Vitaldaten
 
-//Folgendes Profil wurde entsprechend der MII Festelgung [hier](https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/monitoring-und-vitaldaten) in .fsh kodier.
+//Folgendes Profil wurde entsprechend der MII Festlegung [hier](https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/monitoring-und-vitaldaten) in .fsh kodiert.
+//TODO: einige Abweichungen zu status quo der ISIK-Profile sind offensichtlich, hier zu prüfen da abweichend, z.B. von ISiKAtemfrequenz - s.u. im Einzelnen
 Profile: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Parent: Observation
 Id: sd-mii-icu-monitoring-und-vitaldaten
 Title: "SD MII ICU Monitoring und Vitaldaten"
 * obeys vs-de-2
-* identifier MS
-* basedOn ..1
-* partOf only Reference(Procedure)
-* partOf ^type.profile = "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
+* identifier MS //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
+* basedOn ..1 //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
+* partOf only Reference(Procedure) //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
+* partOf ^type.profile = "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
 * status MS
 * category MS
 * category ^slicing.discriminator.type = #pattern
@@ -27,26 +28,26 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
 * category ^slicing.rules = #open
 * category contains
     vs-cat 1..1 MS and
-    loinc-fhir-core 0..1 MS
+    loinc-fhir-core 0..1 MS //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
 * category[vs-cat] = $observation-category#vital-signs
 * category[vs-cat].coding MS
 * category[vs-cat].coding.system 1.. MS
 * category[vs-cat].coding.code 1.. MS
-* category[loinc-fhir-core] = $loinc#85353-1
+* category[loinc-fhir-core] = $loinc#85353-1 //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
 * category[loinc-fhir-core].coding MS
 * category[loinc-fhir-core].coding.system 1.. MS
 * category[loinc-fhir-core].coding.code 1.. MS
-* code MS
-* code obeys code-coding-icu
+* code MS 
+* code obeys code-coding-icu //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
 * code.coding 1..
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open
-* code.coding contains
+* code.coding contains //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
     sct 0..* and
     loinc 0..* and
     IEEE-11073 0..*
-* code.coding[sct] from $Code-Monitoring-und-Vitaldaten-SNOMED (required)
+* code.coding[sct] from $Code-Monitoring-und-Vitaldaten-SNOMED (required) //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
 * code.coding[sct] ^sliceName = "sct"
 * code.coding[sct] ^mustSupport = true
 * code.coding[sct].system 1.. MS
@@ -56,28 +57,28 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
 * code.coding[loinc] ^mustSupport = true
 * code.coding[loinc].system 1.. MS
 * code.coding[loinc].code 1.. MS
-* code.coding[IEEE-11073] from $Code-Monitoring-und-Vitaldaten-ISO11073 (required)
+* code.coding[IEEE-11073] from $Code-Monitoring-und-Vitaldaten-ISO11073 (required) //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
 * code.coding[IEEE-11073] ^sliceName = "IEEE-11073"
 * code.coding[IEEE-11073] ^mustSupport = true
 * code.coding[IEEE-11073].system 1.. MS
 * code.coding[IEEE-11073].code 1.. MS
 * subject 1.. MS
-* subject only Reference(Patient)
-* subject ^type.profile = "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
+* subject only Reference(Patient) //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
+// * subject ^type.profile = "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" // Die Reference der MII kann nicht übernommen werden und sollte momentan nicht für Umsetzung in Stufe 4 berücksichtigt werden
 // Das Profil zu Encounter der MII wird momentan nicht übernommen in ISIK
 //* encounter only $MII-Reference
 * encounter MS
 * effective[x] 1.. MS
-* effective[x] only dateTime or Period
-* value[x] only Quantity
+* effective[x] only dateTime or Period //TODO: zu prüfen da abweichend, - schließt effectiveTiming und effectiveInstant aus - z.B. von ISiKAtemfrequenz
+* value[x] only Quantity //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz - hier "valueQuantity"
 * value[x] MS
 * value[x] ^patternQuantity.system = "http://unitsofmeasure.org"
 * value[x].value 1.. MS
 * value[x].unit MS
 * value[x].system 1.. MS
 * value[x].code 1.. MS
-* dataAbsentReason MS
-* dataAbsentReason obeys mii-icu-1
+* dataAbsentReason MS //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
+* dataAbsentReason obeys mii-icu-1 //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
 * interpretation MS
 * bodySite MS
 * bodySite from $BodySite-Observation-Monitoring-und-Vitaldaten (extensible)
@@ -86,8 +87,8 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
 * device MS
 * device ^type.profile = "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
 */
-* referenceRange MS
-* component MS
+* referenceRange MS //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
+* component MS //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
 * component.code MS
 * component.value[x] only Quantity
 * component.value[x] MS
