@@ -23,4 +23,5 @@ StructureDefinition-ISiKKoerpergroesse.json                              ISiKKoe
 StructureDefinition-ISiKKoerpertemperatur.json                           ISiKKoerpertemperatur                           Profile   ISiK-Koerpertemperatur.fsh     1 - 17
 StructureDefinition-ISiKKopfumfang.json                                  ISiKKopfumfang                                  Profile   ISiK-Kopfumfang.fsh            1 - 17
 StructureDefinition-ISiKSauerstoffsaettigung.json                        ISiKSauerstoffsaettigung                        Profile   ISiK-Sauerstoffsaettigung.fsh  1 - 17
-StructureDefinition-sd-mii-icu-monitoring-und-vitaldaten.json            SD_MII_ICU_Monitoring_Und_Vitaldaten            Profile   MII-MonitoringVitaldaten.fsh   10 - 99
+StructureDefinition-sd-mii-icu-atemfrequenz.json                         SD_MII_ICU_Atemfrequenz                         Profile   MII_ICU_Atemfrequenz.fsh       7 - 47
+StructureDefinition-sd-mii-icu-monitoring-und-vitaldaten.json            SD_MII_ICU_Monitoring_Und_Vitaldaten            Profile   MII-MonitoringVitaldaten.fsh   14 - 104

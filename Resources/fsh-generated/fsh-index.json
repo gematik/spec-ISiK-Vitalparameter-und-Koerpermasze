@@ -192,11 +192,19 @@
     "endLine": 17
   },
   {
+    "outputFile": "StructureDefinition-sd-mii-icu-atemfrequenz.json",
+    "fshName": "SD_MII_ICU_Atemfrequenz",
+    "fshType": "Profile",
+    "fshFile": "MII_ICU_Atemfrequenz.fsh",
+    "startLine": 7,
+    "endLine": 47
+  },
+  {
     "outputFile": "StructureDefinition-sd-mii-icu-monitoring-und-vitaldaten.json",
     "fshName": "SD_MII_ICU_Monitoring_Und_Vitaldaten",
     "fshType": "Profile",
     "fshFile": "MII-MonitoringVitaldaten.fsh",
-    "startLine": 10,
-    "endLine": 99
+    "startLine": 14,
+    "endLine": 104
   }
 ]

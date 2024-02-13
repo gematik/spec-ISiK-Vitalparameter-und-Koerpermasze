@@ -43,7 +43,8 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open
-* code.coding contains //TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
+//TODO: zu prüfen da abweichend, z.B. von ISiKAtemfrequenz
+* code.coding contains 
     sct 0..* and
     loinc 0..* and
     IEEE-11073 0..*
