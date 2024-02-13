@@ -1,4 +1,11 @@
 ## MII Profile zu Vitaldaten für ISIK (Akut- und Normalversorgung)
+Im Rahmen des [Moduls zur Intensivmedizinische Versorgung (ICU) der MII](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Intensivmedizin/MonitoringundVitaldaten.html) stellt diese u.a. spezifische Profile bereit, die Vitalparameter im Rahmen der intensiv- wie normalstationären Versorgung erfassen.
+Die Profile der MII sind medizinisch qualitätsgesichert und die Granularität der Kodierung ist präziser als die Kodierung der ISIK Profile im Modul Vitalparameter (Stand 13.02.2024).
+
+### Motivation zur Übernahme
+Durch die Übernahme der Profile der MII und Abbildung auf das ISIK Setting, können feingranular Kodierte Profile zu Vitalparametern im Krankenhauskontext genutzt werden - für die Normal- wie für die intensivmedizinische Versorgung.
+
+### Vorgehen
 Im Zuge der Ausbaustufe 4 sollen Vitalparameter-Profile der MII in ISiK festgelegt werden. Der Umfang der geplanten Festlegung wird auf dieser Seite dokumentiert.
 
 Für folgende Profile, die den Festlegungen der MII entstammen, gelten gesonderte Festlegungen in Bezug auf die Notwendigkeit der Implementierung durch SW-Hersteller.
