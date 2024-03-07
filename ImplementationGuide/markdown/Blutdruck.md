@@ -1,5 +1,9 @@
 # Blutdruck
 
+Mit diesem Profil lassen sich unterschiedliche Messungen zum Blutdruck erfassen, wobei z.B. systolischer und diastolischer Blutdruck gemeinsam in einer Instanz angegeben werden sollen (ggf. auch systolischer allein, s.u.).
+
+Alle bestätigungsrelevanten Systeme für dieses Modul müssen Ressourcen verarbeiten können, die zu diesem Profil konform sind.
+
 ## Profil
 
 @```
