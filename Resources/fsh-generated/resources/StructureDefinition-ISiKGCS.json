@@ -167,7 +167,8 @@
       {
         "id": "Observation.component:Eye",
         "path": "Observation.component",
-        "sliceName": "Eye"
+        "sliceName": "Eye",
+        "mustSupport": true
       },
       {
         "id": "Observation.component:Eye.code",
@@ -182,7 +183,8 @@
       {
         "id": "Observation.component:Motor",
         "path": "Observation.component",
-        "sliceName": "Motor"
+        "sliceName": "Motor",
+        "mustSupport": true
       },
       {
         "id": "Observation.component:Motor.code",
@@ -197,7 +199,8 @@
       {
         "id": "Observation.component:Verbal",
         "path": "Observation.component",
-        "sliceName": "Verbal"
+        "sliceName": "Verbal",
+        "mustSupport": true
       },
       {
         "id": "Observation.component:Verbal.code",
