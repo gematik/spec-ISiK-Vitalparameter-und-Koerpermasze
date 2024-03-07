@@ -8,8 +8,10 @@ Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von R
 Version: 3.0.2
 Datum: 30.01.2023
 
+
+* MS auf dataAbsentReason gesetzt und Hinweis zur Nutzung https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/144 
+* ISiK-EKG: .encounter MS Flag hinzu : https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/146
 * Informationen zu Profilen präzisiert und Verpflichtung bei GCS und EKG geschwächt: https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/145/commits/3643ece93148c721d88c31ee1f6dbf8b5cbdd683
-* MS auf dataAbsentReason gesetzt und Hinweis zur Nutzung: https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/144 
 
 ----
 Version: 3.0.1

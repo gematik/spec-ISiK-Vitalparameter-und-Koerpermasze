@@ -6,6 +6,7 @@ Id: ISiKEkg
 * category MS
 * code MS
 * subject MS
+* encounter MS
 * effective[x] MS
 * device MS
 * component MS
