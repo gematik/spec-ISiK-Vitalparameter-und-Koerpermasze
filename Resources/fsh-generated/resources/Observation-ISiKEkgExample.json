@@ -3,7 +3,7 @@
   "id": "ISiKEkgExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKEkg"
+      "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg"
     ]
   },
   "code": {

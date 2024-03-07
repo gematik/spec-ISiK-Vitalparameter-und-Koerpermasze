@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKKoerpergroesse",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpergroesse",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergroesse",
   "version": "4.0.0-rc",
   "name": "ISiKKoerpergroesse",
   "status": "active",
@@ -82,7 +82,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/ValueSet/ISiKKoerpergroesseSCTVS"
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergroesseSCTVS"
         }
       },
       {

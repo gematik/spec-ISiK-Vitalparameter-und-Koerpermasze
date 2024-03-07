@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKKoerpergewicht",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpergewicht",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergewicht",
   "version": "4.0.0-rc",
   "name": "ISiKKoerpergewicht",
   "status": "active",
@@ -82,7 +82,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/ValueSet/ISiKKoerpergewichtSCTVS"
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergewichtSCTVS"
         }
       },
       {

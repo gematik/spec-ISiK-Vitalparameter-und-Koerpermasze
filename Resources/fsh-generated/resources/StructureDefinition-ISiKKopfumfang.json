@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKKopfumfang",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKopfumfang",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKopfumfang",
   "version": "4.0.0-rc",
   "name": "ISiKKopfumfang",
   "status": "active",
@@ -82,7 +82,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/ValueSet/ISiKKopfumfangSCTVS"
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/ISiKKopfumfangSCTVS"
         }
       },
       {

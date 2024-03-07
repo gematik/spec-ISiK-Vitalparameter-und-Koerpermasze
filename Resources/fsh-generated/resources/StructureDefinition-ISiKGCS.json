@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKGCS",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKGCS",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
   "version": "4.0.0-rc",
   "name": "ISiKGCS",
   "status": "active",

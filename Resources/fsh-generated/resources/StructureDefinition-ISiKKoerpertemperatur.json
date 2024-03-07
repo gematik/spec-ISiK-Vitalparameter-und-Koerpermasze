@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKKoerpertemperatur",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpertemperatur",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpertemperatur",
   "version": "4.0.0-rc",
   "name": "ISiKKoerpertemperatur",
   "status": "active",
@@ -82,7 +82,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/ValueSet/ISiKKoerpertemperaturSCTVS"
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/ISiKKoerpertemperaturSCTVS"
         }
       },
       {

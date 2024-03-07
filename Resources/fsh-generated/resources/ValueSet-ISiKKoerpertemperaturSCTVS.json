@@ -5,7 +5,7 @@
   "id": "ISiKKoerpertemperaturSCTVS",
   "title": "ISiKKoerpertemperaturSCTVS",
   "description": "ValueSet des Körpergewicht SnomedCT Codes in ISiK",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/ValueSet/ISiKKoerpertemperaturSCTVS",
+  "url": "https://gematik.de/fhir/isik/ValueSet/ISiKKoerpertemperaturSCTVS",
   "compose": {
     "include": [
       {

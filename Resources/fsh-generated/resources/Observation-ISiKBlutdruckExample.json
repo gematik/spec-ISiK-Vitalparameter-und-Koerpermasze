@@ -3,7 +3,7 @@
   "id": "ISiKBlutdruckExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKBlutdruck",
+      "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruck",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
     ]
   },

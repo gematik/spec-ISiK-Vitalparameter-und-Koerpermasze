@@ -5,7 +5,7 @@
   "id": "ISiKHerzfrequenzSCTVS",
   "title": "ISiKHerzfrequenzSCTVS",
   "description": "ValueSet des Herzfrequenz SnomedCT Codes in ISiK",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/ValueSet/ISiKHerzfrequenzSCTVS",
+  "url": "https://gematik.de/fhir/isik/ValueSet/ISiKHerzfrequenzSCTVS",
   "compose": {
     "include": [
       {
