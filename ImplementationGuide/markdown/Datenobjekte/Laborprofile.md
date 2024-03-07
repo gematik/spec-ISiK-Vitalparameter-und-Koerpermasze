@@ -1,6 +1,6 @@
 ## Profile aus dem ISiK Support Modul Labor
 
-Zur Unterstützung der Überleitung zwischen intensivmedizinischer und normalstationärer Versorgung (siehe Use Cases), KÖNNEN folgende Profile aus dem [ISIK Support Modul Labor](https://simplifier.net/isik-labor-v4) von einem bestätigungsrelevanten System implementiert werden:
+Zur Unterstützung der Überleitung zwischen intensivmedizinischer und normalstationärer Versorgung (siehe Use Cases), MÜSSEN folgende Profile aus dem [ISIK Support Modul Labor](https://simplifier.net/isik-labor-v4) von einem bestätigungsrelevanten System implementiert werden, sofern das System diese Daten verwaltet (z.B. in Form einer Übernahme aus einem Laborinformationssystem):
 
 - [ISiKLaboruntersuchungSerumkreatinin](https://simplifier.net/isik-labor-v4/isiklaboruntersuchungserumkreatinin) 
     - "Not only an increase in SCr, but also a decrease in SCr was associated with mortality in critically ill patients." (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5570436/)
