@@ -1,7 +1,8 @@
 # EKG
 Mit diesem Profil lässt sich ein Elektrokardiogramm erfassen und kann dazu genutzt werden kurze EKGs abzubilden. Es ist nicht dafür gedacht Langzeitmonitoring-EKGs zu repräsentieren.
 
-Alle bestätigungsrelevanten Systeme für dieses Modul, welche EKGs verwalten, SOLLEN Ressourcen verarbeiten können, die zu diesem Profil konform sind.
+Bestätigungsrelevante Systeme, welche EKG-Daten mittels FHIR verarbeiten, SOLLEN dieses Profil nutzen.
+
 
 
 ## Profil
