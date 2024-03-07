@@ -3,7 +3,7 @@
   "id": "ISiKKoerpergroesseExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpergroesse",
+      "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergroesse",
       "http://hl7.org/fhir/StructureDefinition/bodyheight",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
     ]
@@ -22,13 +22,17 @@
     "coding": [
       {
         "system": "http://loinc.org",
+        "code": "8302-2"
+      },
+      {
         "code": "8302-2",
+        "system": "http://loinc.org",
         "display": "Body height"
       },
       {
-        "code": "50373000",
+        "code": "1153637007",
         "system": "http://snomed.info/sct",
-        "display": "Body height measure"
+        "display": "Body height (observable entity)"
       }
     ],
     "text": "Körpergröße"

@@ -3,7 +3,7 @@
   "id": "ISiKKopfumfangExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKopfumfang",
+      "https://gematik.de/fhir/isik/StructureDefinition/ISiKKopfumfang",
       "http://hl7.org/fhir/StructureDefinition/headcircum",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
     ]
@@ -25,6 +25,11 @@
         "system": "http://loinc.org",
         "code": "9843-4",
         "display": "Head Occipital-frontal circumference"
+      },
+      {
+        "code": "363812007",
+        "system": "http://snomed.info/sct",
+        "display": "Head circumference (observable entity)"
       }
     ],
     "text": "Kopfumfang"

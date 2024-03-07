@@ -4,8 +4,11 @@ Id: ISiKKoerpertemperatur
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
+* category[VSCat] MS
 * code MS
+  * coding[loinc] MS
+  * coding[snomed] MS
+  * coding[snomed] from ISiKKoerpertemperaturSCTVS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -16,14 +19,21 @@ Id: ISiKKoerpertemperatur
 * valueQuantity.system MS
 * valueQuantity.code MS
 
+ValueSet: ISiKKoerpertemperaturSCTVS
+Id: ISiKKoerpertemperaturSCTVS
+Title: "ISiKKoerpertemperaturSCTVS"
+Description: "ValueSet des Körpergewicht SnomedCT Codes in ISiK"
+* $sct#386725007 "Körpergewicht"
+
 Instance: ISiKKoerpertemperaturExample
 InstanceOf: ISiKKoerpertemperatur
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodytemp"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs
-* code.coding[0] = $loinc#8310-5 "Body temperature"
+* category[VSCat] = $observation-category#vital-signs
+* code.coding[loinc] = $loinc#8310-5 "Body temperature"
+* code.coding[snomed] = $sct#386725007 "Body temperature (observable entity)"
 * code.text = "Körpertemperatur"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

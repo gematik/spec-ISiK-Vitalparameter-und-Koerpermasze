@@ -4,8 +4,11 @@ Id: ISiKKopfumfang
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
+* category[VSCat] MS
 * code MS
+  * coding[loinc] MS
+  * coding[snomed] MS
+  * coding[snomed] from ISiKKopfumfangSCTVS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -16,14 +19,21 @@ Id: ISiKKopfumfang
 * valueQuantity.system MS
 * valueQuantity.code MS
 
+ValueSet: ISiKKopfumfangSCTVS
+Id: ISiKKopfumfangSCTVS
+Title: "ISiKKopfumfangSCTVS"
+Description: "ValueSet des Kopfumfang SnomedCT Codes in ISiK"
+* $sct#363812007 "Kopfumfang"
+
 Instance: ISiKKopfumfangExample
 InstanceOf: ISiKKopfumfang
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/headcircum"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs "Vital Signs"
-* code = $loinc#9843-4 "Head Occipital-frontal circumference"
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
+* code.coding[loinc] = $loinc#9843-4 "Head Occipital-frontal circumference"
+* code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
 * code.text = "Kopfumfang"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-07-02"

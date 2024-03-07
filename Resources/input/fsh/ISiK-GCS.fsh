@@ -1,11 +1,13 @@
 Profile: ISiKGCS
-Parent: http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs
+Parent: ScoreDE_GCS
 Id: ISiKGCS
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
-* code MS
+* category[survey] MS
+* code
+  * coding[loinc] MS
+  * coding[snomed] MS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -26,14 +28,15 @@ Instance: ISiKGCSExample
 InstanceOf: ISiKGCS
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
-* code = $loinc#9269-2 "Glasgow coma score total"
+* code.coding[loinc] = $loinc#9269-2 "Glasgow coma score total"
+* code.coding[snomed] = $sct#248241002 "Glasgow coma score (observable entity)"
 * valueQuantity = 11 '1' "Punktwert"
 * status = #final
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
-* component[Eye].valueQuantity = 4 '1' "Punktwert"
-* component[Eye].code.coding[0] = $loinc#9267-6
-* component[Motor].valueQuantity = 4 '1' "Punktwert"
-* component[Motor].code.coding[0] = $loinc#9268-4
-* component[Verbal].valueQuantity = 3 '1' "Punktwert"
-* component[Verbal].code.coding[0] = $loinc#9270-0
+* component[Verbal].code = $loinc#9270-0 "Glasgow coma score verbal"
+* component[Verbal].valueCodeableConcept = $loinc#LA6560-2 "Confused"
+* component[Motor].code = $loinc#9268-4 "Glasgow coma score motor"
+* component[Motor].valueCodeableConcept = $loinc#LA6566-9 "Localizing pain"
+* component[Eye].code = $loinc#9267-6 "Glasgow coma score eye opening"
+* component[Eye].valueCodeableConcept = $loinc#LA6555-2 "Eye opening to verbal command"
