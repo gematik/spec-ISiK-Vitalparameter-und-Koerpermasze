@@ -1,14 +1,14 @@
 {
   "resourceType": "CapabilityStatement",
   "id": "ISiK-capabilityStatement-vitalparameter-server",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/CapabilityStatement/vitalparameter-server",
+  "url": "https://gematik.de/fhir/isik/CapabilityStatement/vitalparameter-server",
   "status": "active",
   "experimental": false,
-  "version": "3.0.2",
+  "version": "4.0.0-rc",
   "publisher": "gematik GmbH",
-  "date": "2024-01-30",
+  "date": "2024-02-01",
   "implementationGuide": [
-    "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/ImplementationGuide|3.0.2"
+    "https://gematik.de/fhir/isik/v4/Vitalparameter/ImplementationGuide/ISiK-vitalparameter|4.0.0-rc"
   ],
   "name": "ISiKCapabilityStatementVitalparameterServer",
   "title": "ISiK CapabilityStatement Vitalparameter Server",
@@ -41,7 +41,7 @@
     "application/fhir+json"
   ],
   "instantiates": [
-    "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/CapabilityStatement/vitalparameter-server"
+    "https://gematik.de/fhir/isik/CapabilityStatement/vitalparameter-server"
   ],
   "rest": [
     {
@@ -56,16 +56,16 @@
           ],
           "type": "Observation",
           "supportedProfile": [
-            "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKAtemfrequenz",
-            "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKBlutdruck",
-            "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKHerzfrequenz",
-            "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpergewicht",
-            "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpergroesse",
-            "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpertemperatur",
-            "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKopfumfang",
-            "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKSauerstoffsaettigung",
-            "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKGCS",
-            "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKEkg"
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKAtemfrequenz",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruck",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKHerzfrequenz",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergewicht",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergroesse",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpertemperatur",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKKopfumfang",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigung",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg"
           ],
           "_supportedProfile": [
             {

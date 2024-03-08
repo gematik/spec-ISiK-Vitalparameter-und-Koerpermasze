@@ -1,9 +1,9 @@
 Output File                                                              Name                                            Type      FSH File                       Lines
-CapabilityStatement-ISiK-capabilityStatement-vitalparameter-server.json  ISiK-capabilityStatement-vitalparameter-server  Instance  ISiK-CapabilityStatement.fsh   1 - 88
+CapabilityStatement-ISiK-capabilityStatement-vitalparameter-server.json  ISiK-capabilityStatement-vitalparameter-server  Instance  ISiK-CapabilityStatement.fsh   1 - 111
 Device-ExampleDevice.json                                                ExampleDevice                                   Instance  instances.fsh                  14 - 17
 Observation-ISiKAtemfrequenzExample.json                                 ISiKAtemfrequenzExample                         Instance  ISiK-Atemfrequenz.fsh          22 - 34
-Observation-ISiKBlutdruckExample.json                                    ISiKBlutdruckExample                            Instance  ISiK-Blutdruck.fsh             26 - 45
-Observation-ISiKEkgExample.json                                          ISiKEkgExample                                  Instance  ISiK-Ekg.fsh                   22 - 47
+Observation-ISiKBlutdruckExample.json                                    ISiKBlutdruckExample                            Instance  ISiK-Blutdruck.fsh             28 - 47
+Observation-ISiKEkgExample.json                                          ISiKEkgExample                                  Instance  ISiK-Ekg.fsh                   23 - 48
 Observation-ISiKGCSExample.json                                          ISiKGCSExample                                  Instance  ISiK-GCS.fsh                   30 - 45
 Observation-ISiKHerzfrequenzExample.json                                 ISiKHerzfrequenzExample                         Instance  ISiK-Herzfrequenz.fsh          28 - 40
 Observation-ISiKKoerpergewichtExample.json                               ISiKKoerpergewichtExample                       Instance  ISiK-Koerpergewicht.fsh        28 - 40
@@ -13,8 +13,8 @@ Observation-ISiKKopfumfangExample.json                                   ISiKKop
 Observation-ISiKSauerstoffsaettigungExample.json                         ISiKSauerstoffsaettigungExample                 Instance  ISiK-Sauerstoffsaettigung.fsh  21 - 40
 Patient-PatientinMusterfrau.json                                         PatientinMusterfrau                             Instance  instances.fsh                  1 - 12
 StructureDefinition-ISiKAtemfrequenz.json                                ISiKAtemfrequenz                                Profile   ISiK-Atemfrequenz.fsh          1 - 20
-StructureDefinition-ISiKBlutdruck.json                                   ISiKBlutdruck                                   Profile   ISiK-Blutdruck.fsh             1 - 24
-StructureDefinition-ISiKEkg.json                                         ISiKEkg                                         Profile   ISiK-Ekg.fsh                   1 - 20
+StructureDefinition-ISiKBlutdruck.json                                   ISiKBlutdruck                                   Profile   ISiK-Blutdruck.fsh             1 - 26
+StructureDefinition-ISiKEkg.json                                         ISiKEkg                                         Profile   ISiK-Ekg.fsh                   1 - 21
 StructureDefinition-ISiKGCS.json                                         ISiKGCS                                         Profile   ISiK-GCS.fsh                   1 - 28
 StructureDefinition-ISiKHerzfrequenz.json                                ISiKHerzfrequenz                                Profile   ISiK-Herzfrequenz.fsh          1 - 20
 StructureDefinition-ISiKKoerpergewicht.json                              ISiKKoerpergewicht                              Profile   ISiK-Koerpergewicht.fsh        1 - 20

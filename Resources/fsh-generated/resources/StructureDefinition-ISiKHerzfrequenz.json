@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKHerzfrequenz",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKHerzfrequenz",
-  "version": "3.0.2",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKHerzfrequenz",
+  "version": "4.0.0-rc",
   "name": "ISiKHerzfrequenz",
   "status": "active",
   "experimental": false,
-  "date": "2024-01-30",
+  "date": "2024-02-01",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -59,15 +59,31 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.category:vs-cat",
+        "id": "Observation.category:VSCat",
         "path": "Observation.category",
-        "sliceName": "vs-cat",
+        "sliceName": "VSCat",
         "mustSupport": true
       },
       {
         "id": "Observation.code",
         "path": "Observation.code",
         "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/ISiKHerzfrequenzSCTVS"
+        }
       },
       {
         "id": "Observation.subject",

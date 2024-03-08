@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKBlutdruck",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKBlutdruck",
-  "version": "3.0.2",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruck",
+  "version": "4.0.0-rc",
   "name": "ISiKBlutdruck",
   "status": "active",
   "experimental": false,
-  "date": "2024-01-30",
+  "date": "2024-02-01",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -59,9 +59,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.category:vs-cat",
+        "id": "Observation.category:VSCat",
         "path": "Observation.category",
-        "sliceName": "vs-cat",
+        "sliceName": "VSCat",
         "mustSupport": true
       },
       {
@@ -70,8 +70,15 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding",
+        "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
         "mustSupport": true
       },
       {

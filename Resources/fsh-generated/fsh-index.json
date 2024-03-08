@@ -5,7 +5,7 @@
     "fshType": "Instance",
     "fshFile": "ISiK-CapabilityStatement.fsh",
     "startLine": 1,
-    "endLine": 88
+    "endLine": 111
   },
   {
     "outputFile": "Device-ExampleDevice.json",
@@ -28,16 +28,16 @@
     "fshName": "ISiKBlutdruckExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Blutdruck.fsh",
-    "startLine": 26,
-    "endLine": 45
+    "startLine": 28,
+    "endLine": 47
   },
   {
     "outputFile": "Observation-ISiKEkgExample.json",
     "fshName": "ISiKEkgExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Ekg.fsh",
-    "startLine": 22,
-    "endLine": 47
+    "startLine": 23,
+    "endLine": 48
   },
   {
     "outputFile": "Observation-ISiKGCSExample.json",
@@ -117,7 +117,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Blutdruck.fsh",
     "startLine": 1,
-    "endLine": 24
+    "endLine": 26
   },
   {
     "outputFile": "StructureDefinition-ISiKEkg.json",
@@ -125,7 +125,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Ekg.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 21
   },
   {
     "outputFile": "StructureDefinition-ISiKGCS.json",
