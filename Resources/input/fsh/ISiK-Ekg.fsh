@@ -8,6 +8,7 @@ Id: ISiKEkg
   * coding[loinc] MS
   * coding[snomed] MS
 * subject MS
+* encounter MS
 * effective[x] MS
 * device MS
 * component MS

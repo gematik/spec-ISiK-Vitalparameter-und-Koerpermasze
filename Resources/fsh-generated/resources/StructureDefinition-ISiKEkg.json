@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKEkg",
-  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg",
-  "version": "4.0.0-rc",
+  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKEkg",
+  "version": "3.0.2",
   "name": "ISiKEkg",
   "status": "active",
   "experimental": false,
-  "date": "2024-02-01",
+  "date": "2024-01-30",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -64,20 +64,18 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding:loinc",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
-        "mustSupport": true
-      },
-      {
         "id": "Observation.subject",
         "path": "Observation.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
         "mustSupport": true
       },
       {

@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKAtemfrequenz",
-  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAtemfrequenz",
-  "version": "4.0.0-rc",
+  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKAtemfrequenz",
+  "version": "3.0.2",
   "name": "ISiKAtemfrequenz",
   "status": "active",
   "experimental": false,
-  "date": "2024-02-01",
+  "date": "2024-01-30",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -59,30 +59,14 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.category:VSCat",
+        "id": "Observation.category:vs-cat",
         "path": "Observation.category",
-        "sliceName": "VSCat",
+        "sliceName": "vs-cat",
         "mustSupport": true
       },
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
-        "patternCoding": {
-          "code": "86290005",
-          "system": "http://snomed.info/sct"
-        },
         "mustSupport": true
       },
       {

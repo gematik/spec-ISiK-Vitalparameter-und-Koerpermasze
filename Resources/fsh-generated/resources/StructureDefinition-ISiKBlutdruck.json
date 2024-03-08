@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ISiKBlutdruck",
-  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruck",
-  "version": "4.0.0-rc",
+  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKBlutdruck",
+  "version": "3.0.2",
   "name": "ISiKBlutdruck",
   "status": "active",
   "experimental": false,
-  "date": "2024-02-01",
+  "date": "2024-01-30",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -59,9 +59,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.category:VSCat",
+        "id": "Observation.category:vs-cat",
         "path": "Observation.category",
-        "sliceName": "VSCat",
+        "sliceName": "vs-cat",
         "mustSupport": true
       },
       {
@@ -70,15 +70,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding:loinc",
+        "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
         "mustSupport": true
       },
       {
@@ -134,6 +127,11 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.component:SystolicBP.dataAbsentReason",
+        "path": "Observation.component.dataAbsentReason",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.component:DiastolicBP",
         "path": "Observation.component",
         "sliceName": "DiastolicBP",
@@ -163,6 +161,11 @@
             "code": "Quantity"
           }
         ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:DiastolicBP.dataAbsentReason",
+        "path": "Observation.component.dataAbsentReason",
         "mustSupport": true
       }
     ]
