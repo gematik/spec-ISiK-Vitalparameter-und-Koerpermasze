@@ -88,6 +88,40 @@
           ]
         },
         {
+          "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases.md",
+          "title": "Übergreifende Use Cases",
+          "generation": "markdown",
+          "page": [
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung.md",
+              "title": "Intensivversorgung",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Motivation.md",
+                  "title": "Motivation",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Narrativ.md",
+                  "title": "Anwendung im Krankenhaus",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Diagramme.md",
+                  "title": "Grafische Zusammenfassung",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Profile.md",
+                  "title": "Profile",
+                  "generation": "markdown"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "generation": "markdown",
           "nameUrl": "ImplementationGuide/markdown/Datenobjekte.md",
           "title": "Datenobjekte",
