@@ -1,30 +1,6 @@
-## FHIR-Profile des Anwendungsfalls Intensivversorgung
+## FHIR-Profile des Use Case Überleitung Normal- und Intensivversorgung
 
 
-//TODO
-### Profil ISiKAMTSBewertung der Medikation
+Im Rahmen des Use Case Überleitung Normal- und Intensivversorgung sind neben den Profilen des Moduls Vitalparameter alle Profile des [ISIK Support Modul Labor](https://simplifier.net/isik-labor-v4) relevant.
 
 
-@```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/StructureDefinition/ISiKAMTSBewertung' select Name: name, Canonical: url
-```
-
-{{tree:https://gematik.de/fhir/isik/StructureDefinition/ISiKAMTSBewertung, hybrid}}
-
----
-
-Die vollständige Darstellung mit weiteren Details unter {{pagelink:ImplementationGuide/markdown/Datenobjekte/Profile_AMTSBewertung.md}}
-
-
-### Profil ISiKAllergienUnverträglichkeiten der Basis
-
-
-@```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/StructureDefinition/ISiKAllergieUnvertraeglichkeit' select Name: name, Canonical: url
-```
-
-{{tree:https://gematik.de/fhir/isik/StructureDefinition/ISiKAllergieUnvertraeglichkeit, hybrid}}
-
----
-
-Die vollständige Darstellung mit weiteren Details unter [Allergien und Unverträglichkeiten](https://simplifier.net/guide/isik-basis-v4/markdown-Datenobjekte-Datenobjekte_AllergieUnvertraeglichkeit)
