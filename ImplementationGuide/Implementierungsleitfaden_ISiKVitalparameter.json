@@ -103,16 +103,6 @@
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Narrativ.md",
-                  "title": "Anwendung im Krankenhaus",
-                  "generation": "markdown"
-                },
-                {
-                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Diagramme.md",
-                  "title": "Grafische Zusammenfassung",
-                  "generation": "markdown"
-                },
-                {
                   "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Profile.md",
                   "title": "Profile",
                   "generation": "markdown"
@@ -179,6 +169,11 @@
             {
               "nameUrl": "ImplementationGuide/markdown/Datenobjekte/GCS.md",
               "title": "GCS",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Laborprofile.md",
+              "title": "Laborprofile für Überleitung Intensivversorgung",
               "generation": "markdown"
             }
           ]
