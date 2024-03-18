@@ -65,7 +65,12 @@
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKKopfumfang",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigung",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
-            "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg"
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungSerumkreatinin",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungPCT",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungCRP",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungHb",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTroponin"
           ],
           "_supportedProfile": [
             {
@@ -145,6 +150,46 @@
                 {
                   "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
                 }
               ]
             }
