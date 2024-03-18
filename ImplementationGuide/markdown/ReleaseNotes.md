@@ -22,6 +22,11 @@ Datum: 07.03.2024
 * Hinzufügen von MS für einzelne Components : https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/138
 
 ----
+Version: 4.0.0-rc
+
+* Hinweis zu Profilen aus ISiK Support-Modul Labor hinzugefügt
+
+----
 Version: 3.0.1
 Datum: 05.01.2023
 

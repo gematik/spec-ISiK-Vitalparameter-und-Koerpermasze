@@ -142,42 +142,42 @@
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Koerpertemperatur.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Koerpertemperatur.md",
               "title": "Koerpertemperatur",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Kopfumfang.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Kopfumfang.md",
               "title": "Kopfumfang",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Atemfrequenz.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Atemfrequenz.md",
               "title": "Atemfrequenz",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Blutdruck.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Blutdruck.md",
               "title": "Blutdruck",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Herzfrequenz.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Herzfrequenz.md",
               "title": "Herzfrequenz",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Sauerstoffsaettigung.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Sauerstoffsaettigung.md",
               "title": "Sauerstoffsaettigung",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Ekg.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Ekg.md",
               "title": "EKG",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/GCS.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/GCS.md",
               "title": "GCS",
               "generation": "markdown"
             }
