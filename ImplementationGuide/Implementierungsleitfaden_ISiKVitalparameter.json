@@ -108,6 +108,11 @@
                   "generation": "markdown"
                 }
               ]
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/AMTS.md",
+              "title": "Arzneimitteltherapiesicherheit (AMTS)",
+              "generation": "markdown"
             }
           ]
         },
