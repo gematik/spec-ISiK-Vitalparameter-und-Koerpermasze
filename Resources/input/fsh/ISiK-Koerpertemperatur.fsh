@@ -7,7 +7,9 @@ Id: ISiKKoerpertemperatur
 * category[VSCat] MS
 * code MS
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] from ISiKKoerpertemperaturSCTVS
 * subject MS
 * encounter MS
@@ -33,7 +35,9 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
 * code.coding[loinc] = $loinc#8310-5 "Body temperature"
+  * version = "2.77"
 * code.coding[snomed] = $sct#386725007 "Body temperature (observable entity)"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * code.text = "Körpertemperatur"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

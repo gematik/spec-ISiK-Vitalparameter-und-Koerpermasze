@@ -7,7 +7,9 @@ Id: ISiKGCS
 * category[survey] MS
 * code
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -32,7 +34,9 @@ InstanceOf: ISiKGCS
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
 * code.coding[loinc] = $loinc#9269-2 "Glasgow coma score total"
+  * version = "2.77"
 * code.coding[snomed] = $sct#248241002 "Glasgow coma score (observable entity)"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * valueQuantity = 11 '1' "Punktwert"
 * status = #final
 * subject = Reference(PatientinMusterfrau)

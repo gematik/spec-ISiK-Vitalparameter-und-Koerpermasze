@@ -24,12 +24,14 @@
       {
         "system": "http://loinc.org",
         "code": "9843-4",
-        "display": "Head Occipital-frontal circumference"
+        "display": "Head Occipital-frontal circumference",
+        "version": "2.77"
       },
       {
         "code": "363812007",
         "system": "http://snomed.info/sct",
-        "display": "Head circumference (observable entity)"
+        "display": "Head circumference (observable entity)",
+        "version": "http://snomed.info/sct/11000274103/version/20231115"
       }
     ],
     "text": "Kopfumfang"

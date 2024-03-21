@@ -7,7 +7,9 @@ Id: ISiKKoerpergroesse
 * category[VSCat] MS
 * code MS
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] from ISiKKoerpergroesseSCTVS
 * subject MS
 * encounter MS
@@ -33,7 +35,9 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
 * code.coding[loinc] = $loinc#8302-2 "Body height"
+  * version = "2.77"
 * code.coding[snomed] = $sct#1153637007 "Body height (observable entity)"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * code.text = "Körpergröße"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

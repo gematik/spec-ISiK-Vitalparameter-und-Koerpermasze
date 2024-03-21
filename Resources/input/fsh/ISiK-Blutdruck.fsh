@@ -7,7 +7,9 @@ Id: ISiKBlutdruck
 * category[VSCat] MS
 * code MS
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -33,7 +35,9 @@ Usage: #example
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code
   * coding[loinc] = $loinc#85354-9 "Blood pressure panel with all children optional"
+    * version = "2.77"
   * coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
+    * version = "http://snomed.info/sct/11000274103/version/20231115"
   * text = "Systolischer und Diastolischer Blutdruck"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2012-09-17"

@@ -22,12 +22,14 @@
       {
         "system": "http://loinc.org",
         "code": "9269-2",
-        "display": "Glasgow coma score total"
+        "display": "Glasgow coma score total",
+        "version": "2.77"
       },
       {
         "system": "http://snomed.info/sct",
         "code": "248241002",
-        "display": "Glasgow coma score (observable entity)"
+        "display": "Glasgow coma score (observable entity)",
+        "version": "http://snomed.info/sct/11000274103/version/20231115"
       }
     ]
   },
