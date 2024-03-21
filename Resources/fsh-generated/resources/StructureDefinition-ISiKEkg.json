@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKEkg",
   "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKEkg",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "name": "ISiKEkg",
   "status": "active",
   "experimental": false,
-  "date": "2024-01-05",
+  "date": "2024-03-20",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -66,6 +66,11 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
         "mustSupport": true
       },
       {

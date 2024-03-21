@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKBlutdruck",
   "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKBlutdruck",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "name": "ISiKBlutdruck",
   "status": "active",
   "experimental": false,
-  "date": "2024-01-05",
+  "date": "2024-03-20",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -127,6 +127,11 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.component:SystolicBP.dataAbsentReason",
+        "path": "Observation.component.dataAbsentReason",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.component:DiastolicBP",
         "path": "Observation.component",
         "sliceName": "DiastolicBP",
@@ -156,6 +161,11 @@
             "code": "Quantity"
           }
         ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:DiastolicBP.dataAbsentReason",
+        "path": "Observation.component.dataAbsentReason",
         "mustSupport": true
       }
     ]
