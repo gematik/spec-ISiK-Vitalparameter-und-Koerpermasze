@@ -6,6 +6,7 @@ Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von R
 
 
 Version: 3.0.2
+
 Datum: 20.03.2023
 
 
@@ -16,6 +17,7 @@ Datum: 20.03.2023
 
 ----
 Version: 3.0.1
+
 Datum: 05.01.2023
 
 * Update der ISIk Basis Dependency: [update dependency ISIK Basis](https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/141/commits/2d00c0a267756694cd86dd0866e8b0339f88d593)
