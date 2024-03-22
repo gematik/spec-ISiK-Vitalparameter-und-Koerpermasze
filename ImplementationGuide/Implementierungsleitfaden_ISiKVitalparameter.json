@@ -103,6 +103,12 @@
                   "generation": "markdown"
                 },
                 {
+                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_UseCases.md",
+                  "title": "Use Cases",
+                  "generation": "markdown"
+                },
+                
+                {
                   "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Profile.md",
                   "title": "Profile",
                   "generation": "markdown"
