@@ -1,7 +1,7 @@
 ## Use Cases - Übergang zwischen Akut- und Normalversorgung
-Zahlreiche Use Cases rund um den bidirektionalen Überleitungsprozess zwischen einer Intensiv- und einer Normalstation innerhalb eines Krankenhauses sind vorstellbar. Neben illustrierenden Use Cases wird an dieser Stelle auch auf eine Workflow-Sicht eingegangen. 
+Zahlreiche Use Cases rund um den Überleitungsprozess zwischen einer Intensiv- und einer Normalstation  (bidirektional) innerhalb eines Krankenhauses sind vorstellbar. Neben illustrierenden Use Cases wird an dieser Stelle auch eine Workflow-Sicht vorgestellt. 
 
-Zum jetzigen Stand kann die Spezifikation keine umfängliche Abdeckung des Überleitungsprozesses leisten. Vielmehr wird die Überleitung zwischen Intensiv- und Normalversorgung (bidirektional) auf der Ebene eines Workflows abgebildet mit dem Zweck der Kommunikation relevanter Daten aus Normalversorgung (Quelle KIS) und Intensivversorgung (Quelle PDMS).
+Zum jetzigen Stand kann die Spezifikation keine umfassende Abdeckung eines Überleitungsprozesses vorweisen. Vielmehr wird die Überleitung zwischen Intensiv- und Normalversorgung (bidirektional) auf der Ebene eines Workflows abgebildet mit dem Fokus allein auf die Kommunikation relevanter Daten aus Normalversorgung (KIS) und Intensivversorgung (PDMS).
 
 ### Werte aus KIS und PDMS
 
@@ -16,7 +16,7 @@ Hintergrund: fachlich wäre hier auch eine Blutdruckabfrage relevant - auch dies
 ### Laborwerte
 Einige Werte, die für den geschilderten Kontext relevant sind, stammen aus einem Labor Information System (LIS). Hierzu illustrierend:
 
-**UC-VIT-ICU-NORM-LAB**: Eine Ärztin fragt während einer Kontroll-Maßnahme in der normalstationären Kontrolle nachträglich Daten zum Serumkreatinin eines Patienten über ein KIS mit der Funktion einer elektronische Kurve ab, um die Stabilität der Nierenfunktion anhand der glomerulären Filtrationsrate sicherzustellen. Die Daten stammen aus einem intensivstationären Aufenthalt, den der Patient aufgrund eines akuten Nierenversagens durchlaufen hat.
+**UC-VIT-ICU-NORM-LAB-001**: Eine Ärztin fragt während einer Kontroll-Maßnahme in der normalstationären Kontrolle nachträglich Daten zum Serumkreatinin eines Patienten über ein KIS mit der Funktion einer elektronische Kurve ab, um die Stabilität der Nierenfunktion anhand der glomerulären Filtrationsrate sicherzustellen. Die Daten stammen aus einem intensivstationären Aufenthalt, den der Patient aufgrund eines akuten Nierenversagens durchlaufen hat.
 
 Vorannahmen zum Use Case: Das PDMS verfügt über eine Historie der Serumkreatininwerte, da es die Labordaten (aus einem LIS stammend) persistiert. Das PDMS verfügt auch über eine Schnittstelle für READ-Interaktionen entsprechend der ISIK Festlegung. 
 
@@ -29,10 +29,17 @@ Zur Abbildung des bidirektionalen Überleitungsprozesses zwischen einer Intensiv
 
 Siehe dazu {{pagelink:ImplementationGuide/markdownRestApi.md}}
 
-### grafische Darstellung - 
+### Diagramme
+Vorannahmen zu den Diagrammen sind, dass die betroffenen Patienten einen Zugang- oder Entlassungsprozess im Kontext der Intesivversorgung durchlaufen haben. 
 
-#### Get (nach Verlegung)
+Die Illustration möglicher bidirektionaler Überleitungs-Prozesse (analog zum [spezifischen Zulassungsprozess hier](https://breathe.ersjournals.com/content/16/2/200062)) erscheint in diesem Kontext nicht zielführend.
 
+Der Workflow dient im Wesentlichen der Darstellung zu verschiedenen Möglichkeiten der Nutzung der REST-Schnittstelle zur Unterstützung des Workflows durch abfrage-basierte Kommunikation von Werten.
 
-#### PUSH (vor Verlegung)
-tbd. 
+#### Get (Nach Verlegung nach ICU)
+Folgendes Diagramm Illustriert den Workflow zu **UC-VIT-ICU-NORM-002** als BPMN-Prozess:
+
+<img src="https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/rc/main-stufe-4/Material/images/Abfrage-aus-ICU.PNG" alt="Nachträgliche Blutdruck-Abfrage aus Intensivstation" width="90%"/>
+
+// #### PUSH (Nach Verlegung nach ICU)
+// tbd. 
