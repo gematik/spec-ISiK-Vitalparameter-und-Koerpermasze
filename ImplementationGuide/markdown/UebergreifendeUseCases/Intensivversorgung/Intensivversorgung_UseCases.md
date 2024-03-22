@@ -27,7 +27,7 @@ Falls die Vorannahmen zutreffen, MÜSSEN bestätigungsrelevante Systeme (KIS und
 ## Workflow
 Zur Abbildung des bidirektionalen Überleitungsprozesses zwischen einer Intensiv- und einer Normalstation können KIS und PDMS jeweils die Rolle des KIS und Client einnehmen. 
 
-Siehe dazu {{pagelink:ImplementationGuide/markdownRestApi.md}}
+Siehe dazu {{pagelink:ImplementationGuide/markdown/RestApi.md}}
 
 ### Diagramme
 Vorannahmen zu den Diagrammen sind, dass die betroffenen Patienten einen Zugang- oder Entlassungsprozess im Kontext der Intesivversorgung durchlaufen haben. 
@@ -39,7 +39,7 @@ Der Workflow dient im Wesentlichen der Darstellung zu verschiedenen Möglichkeit
 #### Get (Nach Verlegung nach ICU)
 Folgendes Diagramm Illustriert den Workflow zu **UC-VIT-ICU-NORM-002** als BPMN-Prozess:
 
-<img src="https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/rc/main-stufe-4/Material/images/Abfrage-aus-ICU.PNG" alt="Nachträgliche Blutdruck-Abfrage aus Intensivstation" width="90%"/>
+<img src="https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/rc/main-stufe-4/Material/images/Abfrage-aus-ICU.PNG" alt="Nachträgliche Blutdruck-Abfrage aus Intensivstation" width="90%"/>
 
 // #### PUSH (Nach Verlegung nach ICU)
 // tbd. 
