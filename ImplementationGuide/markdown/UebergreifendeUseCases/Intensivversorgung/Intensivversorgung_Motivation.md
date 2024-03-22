@@ -1,7 +1,7 @@
-#  Motivation und Hintergrund
+## Motivation und Hintergrund
 Dieser Abschnitt des Implementierungsleitfadens beschreibt eine bidirektionale Überleitung zwischen Intensiv- und Normalversorgung auf der Ebene eines Workflows zur Datenkommunikation zwischen den betroffenen Systemen (PDMS und KIS)
 
-##  Stakeholder, User und weitere Systeme
+###  Stakeholder, User und weitere Systeme
 Die Spezifikation richtet sich insbesondere an SW-Hersteller von KIS und PDMS.
 
 Es handelt sich um eine technische Spezifikation, zu der keine weiteren medizinischen Fachexperten zu Rate gezogen werden. 
@@ -26,7 +26,7 @@ Fachlich sind im ISiK-Kontext für die Intensivversorgung ebenfalls:
 - **ISiK Support Modul Labor: Mit Informationen aus der Labor Diagnostik** - In diesem Modul finden sich relevante Beobachtungen und Messwerte, die als Ergebnis eines diagnostischen Prozesses oder einer Probe zugeordnet werden können.
 [ISiK Modul Labor](https://simplifier.net/guide/isik-labor-v4)
  
-##  Out-of-Scope
+###  Out-of-Scope
 Aufgrund technischer Beschränkungen und Aufwände gibt es Aspekte, die aktuell außen vor bleiben müssen:
 * Die Festlegung und Abstimmung eines vollständigen ISiK Labor Moduls.
 * Die konkrete Abdeckung von Versorgungsprozessen in der Intensivmedizin jenseits des Überleitung zwischen Intensiv- und Normalversorgung (bidirektional)

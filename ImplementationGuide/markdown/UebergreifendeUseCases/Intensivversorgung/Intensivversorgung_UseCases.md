@@ -41,5 +41,6 @@ Folgendes Diagramm Illustriert den Workflow zu **UC-VIT-ICU-NORM-002** als BPMN-
 
 <img src="https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/rc/main-stufe-4/Material/images/Abfrage-aus-ICU.PNG" alt="Nachträgliche Blutdruck-Abfrage aus Intensivstation" width="90%"/>
 
-// #### PUSH (Nach Verlegung nach ICU)
-// tbd. 
+#### PUSH (Nach Verlegung nach ICU)
+
+tbd. 
