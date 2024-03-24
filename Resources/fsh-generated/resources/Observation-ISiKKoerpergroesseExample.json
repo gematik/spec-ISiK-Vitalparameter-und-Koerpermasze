@@ -27,12 +27,14 @@
       {
         "code": "8302-2",
         "system": "http://loinc.org",
-        "display": "Body height"
+        "display": "Body height",
+        "version": "2.77"
       },
       {
         "code": "1153637007",
         "system": "http://snomed.info/sct",
-        "display": "Body height (observable entity)"
+        "display": "Body height (observable entity)",
+        "version": "http://snomed.info/sct/11000274103/version/20231115"
       }
     ],
     "text": "Körpergröße"

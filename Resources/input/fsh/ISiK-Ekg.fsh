@@ -6,7 +6,9 @@ Id: ISiKEkg
 * category MS
 * code MS
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -24,7 +26,9 @@ Instance: ISiKEkgExample
 InstanceOf: ISiKEkg
 Usage: #example
 * code.coding[loinc] = $loinc#11524-6 "EKG study"
+  * version = "2.77"
 * code.coding[snomed] = $sct#271921002 "Electrocardiogram finding (observable entity)"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * subject = Reference(PatientinMusterfrau)
 * status = #final
 * category = $observation-category#procedure

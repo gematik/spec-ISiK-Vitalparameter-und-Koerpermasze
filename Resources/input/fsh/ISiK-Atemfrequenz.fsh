@@ -7,7 +7,9 @@ Id: ISiKAtemfrequenz
 * category[VSCat] MS
 * code MS
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] = $sct#86290005
 * subject MS
 * encounter MS
@@ -27,7 +29,9 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc] = $loinc#9279-1 "Respiratory rate"
+  * version = "2.77"
 * code.coding[snomed] = $sct#86290005 "Respiratory rate (observable entity)"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * code.text = "Atemfrequenz"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-07-02"

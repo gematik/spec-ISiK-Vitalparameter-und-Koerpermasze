@@ -7,7 +7,9 @@ Id: ISiKKopfumfang
 * category[VSCat] MS
 * code MS
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] from ISiKKopfumfangSCTVS
 * subject MS
 * encounter MS
@@ -33,7 +35,9 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc] = $loinc#9843-4 "Head Occipital-frontal circumference"
+  * version = "2.77"
 * code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * code.text = "Kopfumfang"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-07-02"

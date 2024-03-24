@@ -11,12 +11,14 @@
       {
         "system": "http://loinc.org",
         "code": "11524-6",
-        "display": "EKG study"
+        "display": "EKG study",
+        "version": "2.77"
       },
       {
         "system": "http://snomed.info/sct",
         "code": "271921002",
-        "display": "Electrocardiogram finding (observable entity)"
+        "display": "Electrocardiogram finding (observable entity)",
+        "version": "http://snomed.info/sct/11000274103/version/20231115"
       }
     ]
   },
