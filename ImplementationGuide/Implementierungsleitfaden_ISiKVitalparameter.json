@@ -101,6 +101,11 @@
                   "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Motivation.md",
                   "title": "Motivation",
                   "generation": "markdown"
+                },          
+                {
+                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Normativer_Status.md",
+                  "title": "Normativer Status",
+                  "generation": "markdown"
                 },
                 {
                   "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_UseCases.md",
