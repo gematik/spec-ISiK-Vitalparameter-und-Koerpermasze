@@ -1,5 +1,5 @@
 Instance: PatientinMusterfrau
-InstanceOf: https://gematik.de/fhir/isik/v3/Basismodul/StructureDefinition/ISiKPatient
+InstanceOf: ISiKPatient
 Usage: #example
 * identifier[Patientennummer].type = http://terminology.hl7.org/CodeSystem/v2-0203#MR
 * identifier[Patientennummer].system = "https://fhir.krankenhaus.example/NamingSystem/PID"

@@ -1,10 +1,15 @@
 # Interaktionen
 
-Alle bestätigungsrelevanten Systeme in diesem Modul nehmen nach QEDm die Rolle der *Data Source* ein (für mehr Informationen siehe [Basismodul - Abschnitt QEDm](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Basismodul-Stufe-3/markdown-UebergreifendeFestlegungen-KompatibilitaetDerGematikSpezifikation?version=current)).
+## Akteure
+Alle bestätigungsrelevanten Systeme für dieses Modul nehmen die Rolle des Servers ein im Sinne eines patientenführenden Systems, an das ein Client Suchabfragen richten kann und (bei erfolgter Autorisierung) Schreiboperationen vollziehen kann.
 
+In Bezug auf den Lesenden Zugriff gilt daher: Alle bestätigungsrelevanten Systeme in diesem Modul MÜSSEN nach QEDm die Rolle der *Data Source* einnehmen können (für mehr Informationen siehe [Basismodul - Abschnitt QEDm](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Basismodul-Stufe-3/markdown-UebergreifendeFestlegungen-KompatibilitaetDerGematikSpezifikation?version=current)).
+
+
+## Festlegungen zu lesendem Zugriff
 Für die Observation-Ressource MUSS die REST-Interaktion "READ" implementiert werden.
 
-Folgende Suchparameter sind für das Vitalparamter-Modul relevant, auch in Kombination:
+Folgende Suchparameter sind für das Vitalparameter-Modul relevant, auch in Kombination:
 
 1. Der Suchparameter "status" MUSS unterstützt werden:
 

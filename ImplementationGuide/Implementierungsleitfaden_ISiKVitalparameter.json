@@ -1,6 +1,6 @@
 {
   "resourceType": "ImplementationGuide",
-  "url": "https://gematik.de/fhir/isik/v3/Vitalparameter/ImplementationGuide/ISiK-vitalparameter",
+  "url": "https://gematik.de/fhir/isik/v4/Vitalparameter/ImplementationGuide/ISiK-vitalparameter",
   "name": "Implementierungsleitfaden ISiK-Modul Vitalparameter und Körpermaße",
   "status": "active",
   "fhirVersion": [
@@ -88,6 +88,46 @@
           ]
         },
         {
+          "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases.md",
+          "title": "Übergreifende Use Cases",
+          "generation": "markdown",
+          "page": [
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung.md",
+              "title": "Intensivversorgung",
+              "generation": "markdown",
+              "page": [
+                {
+                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Motivation.md",
+                  "title": "Motivation",
+                  "generation": "markdown"
+                },          
+                {
+                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Normativer_Status.md",
+                  "title": "Normativer Status",
+                  "generation": "markdown"
+                },
+                {
+                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_UseCases.md",
+                  "title": "Use Cases",
+                  "generation": "markdown"
+                },
+                
+                {
+                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Profile.md",
+                  "title": "Profile",
+                  "generation": "markdown"
+                }
+              ]
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/AMTS.md",
+              "title": "Arzneimitteltherapiesicherheit (AMTS)",
+              "generation": "markdown"
+            }
+          ]
+        },
+        {
           "generation": "markdown",
           "nameUrl": "ImplementationGuide/markdown/Datenobjekte.md",
           "title": "Datenobjekte",
@@ -108,43 +148,48 @@
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Koerpertemperatur.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Koerpertemperatur.md",
               "title": "Koerpertemperatur",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Kopfumfang.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Kopfumfang.md",
               "title": "Kopfumfang",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Atemfrequenz.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Atemfrequenz.md",
               "title": "Atemfrequenz",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Blutdruck.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Blutdruck.md",
               "title": "Blutdruck",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Herzfrequenz.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Herzfrequenz.md",
               "title": "Herzfrequenz",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Sauerstoffsaettigung.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Sauerstoffsaettigung.md",
               "title": "Sauerstoffsaettigung",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Ekg.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Ekg.md",
               "title": "EKG",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/GCS.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/GCS.md",
               "title": "GCS",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Laborprofile.md",
+              "title": "Laborprofile für Überleitung Intensivversorgung",
               "generation": "markdown"
             }
           ]

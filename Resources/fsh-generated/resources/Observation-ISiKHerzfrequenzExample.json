@@ -3,7 +3,7 @@
   "id": "ISiKHerzfrequenzExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKHerzfrequenz",
+      "https://gematik.de/fhir/isik/StructureDefinition/ISiKHerzfrequenz",
       "http://hl7.org/fhir/StructureDefinition/heartrate",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
     ]
@@ -24,6 +24,11 @@
         "system": "http://loinc.org",
         "code": "8867-4",
         "display": "Heart rate"
+      },
+      {
+        "code": "364075005",
+        "system": "http://snomed.info/sct",
+        "display": "Heart rate (observable entity)"
       }
     ],
     "text": "Herzfrequenz"

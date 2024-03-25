@@ -1,5 +1,9 @@
 # Körpergröße
 
+Dieses Profil beschreibt die Messung einer einzelnen Körpergröße bzw. Körperlänge. 
+
+Alle bestätigungsrelevanten Systeme für dieses Modul müssen Ressourcen verarbeiten können, die zu diesem Profil konform sind.
+
 ## Profil
 
 @```

@@ -4,8 +4,11 @@ Id: ISiKHerzfrequenz
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
+* category[VSCat] MS
 * code MS
+  * coding[loinc] MS
+  * coding[snomed] MS
+  * coding[snomed] from ISiKHerzfrequenzSCTVS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -16,14 +19,21 @@ Id: ISiKHerzfrequenz
 * valueQuantity.system MS
 * valueQuantity.code MS
 
+ValueSet: ISiKHerzfrequenzSCTVS
+Id: ISiKHerzfrequenzSCTVS
+Title: "ISiKHerzfrequenzSCTVS"
+Description: "ValueSet des Herzfrequenz SnomedCT Codes in ISiK"
+* $sct#364075005 "Herzfrequenz"
+
 Instance: ISiKHerzfrequenzExample
 InstanceOf: ISiKHerzfrequenz
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/heartrate"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs
-* code.coding[0] = $loinc#8867-4 "Heart rate"
+* category[VSCat] = $observation-category#vital-signs
+* code.coding[loinc] = $loinc#8867-4 "Heart rate"
+* code.coding[snomed] = $sct#364075005 "Heart rate (observable entity)"
 * code.text = "Herzfrequenz"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

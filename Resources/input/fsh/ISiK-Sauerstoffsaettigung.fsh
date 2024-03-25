@@ -1,11 +1,13 @@
 Profile: ISiKSauerstoffsaettigung
-Parent: VitalSignDE_Periphere_Artierielle_Sauerstoffsaettigung
+Parent: VitalSignDE_Arterielle_Sauerstoffsaettigung
 Id: ISiKSauerstoffsaettigung
 * insert Meta
 * status MS
 * category MS
-* category[vs-cat] MS
+* category[VSCat] MS
 * code MS
+  * coding[loinc] MS
+  * coding[snomed] MS
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -21,10 +23,9 @@ InstanceOf: ISiKSauerstoffsaettigung
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 * status = #final
-* category[vs-cat] = $observation-category#vital-signs
-* code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
-* code.coding[+] = $sct#442476006 "Arterial oxygen saturation"
-* code.coding[+] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
+* category[VSCat] = $observation-category#vital-signs
+* code.coding[loinc][+] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
+* code.coding[snomed] = $sct#442476006 "Arterial oxygen saturation"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
