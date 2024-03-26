@@ -893,7 +893,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Sonstige_Pulsatile_Druecke_Generisch.fsh",
     "startLine": 1,
-    "endLine": 142
+    "endLine": 143
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-systemischer-vaskulaerer-widerstandsindex.json",
