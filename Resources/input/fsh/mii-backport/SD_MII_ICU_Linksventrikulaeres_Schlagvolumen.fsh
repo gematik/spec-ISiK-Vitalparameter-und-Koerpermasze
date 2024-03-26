@@ -5,7 +5,7 @@ Title: "SD MII ICU Linksventrikulaeres Schlagvolumen"
 * code
   * coding[snomed] = $sct#90096001
   * coding[loinc] = $loinc#20562-5
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150428
+  * coding[IEEE-11073] = $IEEE11073#150428
 * valueQuantity
   * system = $unitsofmeasure
   * code = #mL
@@ -18,7 +18,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#20562-5 "Left ventricular Stroke volume"
   * coding[snomed] = $sct#90096001 "Stroke volume (observable entity)"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150428 "Ventricular stroke"
+  * coding[IEEE-11073] = $IEEE11073#150428 "Ventricular stroke"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

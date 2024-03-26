@@ -5,15 +5,15 @@ Title: "SD MII ICU Pulmonalarterieller Blutdruck"
 * code
   * coding[loinc] = $loinc#76284-9
 * component[SystolicBP].code
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150045
+  * coding[IEEE-11073] = $IEEE11073#150045
   * coding contains loinc-detailed 0..*
   * coding[loinc-detailed] = $loinc#8440-0
 * component[DiastolicBP].code
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150046
+  * coding[IEEE-11073] = $IEEE11073#150046
   * coding contains loinc-detailed 0..*
   * coding[loinc-detailed] = $loinc#8385-7
 * component[meanBP].code
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150047
+  * coding[IEEE-11073] = $IEEE11073#150047
   * coding contains loinc-detailed 0..*
   * coding[loinc-detailed] = $loinc#8414-5
 
@@ -30,17 +30,17 @@ Usage: #example
   * code
     * coding[loinc] = $loinc#8480-6
     * coding[loinc-detailed] = $loinc#8440-0 "Pulmonary artery Systolic blood pressure"
-    * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150045 "Systolic pulmonary arterial pressure"
+    * coding[IEEE-11073] = $IEEE11073#150045 "Systolic pulmonary arterial pressure"
   * valueQuantity = 18 'mm[Hg]' "millimeter Mercury column"
 * component[meanBP]
   * code
     * coding[loinc] = $loinc#8478-0
     * coding[loinc-detailed] = $loinc#8414-5 "Pulmonary artery Mean blood pressure"
-    * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150047 "Mean pulmonary arterial pressure"
+    * coding[IEEE-11073] = $IEEE11073#150047 "Mean pulmonary arterial pressure"
   * valueQuantity = 10 'mm[Hg]' "millimeter Mercury column"
 * component[DiastolicBP]
   * code
     * coding[loinc] = $loinc#8462-4
     * coding[loinc-detailed] = $loinc#8385-7 "Pulmonary artery Diastolic blood pressure"
-    * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150046 "Diastolic pulmonary arterial pressure"
+    * coding[IEEE-11073] = $IEEE11073#150046 "Diastolic pulmonary arterial pressure"
   * valueQuantity = 8 'mm[Hg]' "millimeter Mercury column"

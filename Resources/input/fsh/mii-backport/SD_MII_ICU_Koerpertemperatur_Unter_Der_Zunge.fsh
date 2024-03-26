@@ -5,7 +5,7 @@ Title: "SD MII ICU Koerpertemperatur unter der Zunge"
 * code
   * coding[snomed] = $sct#415945006
   * coding[loinc] = $loinc#8331-1
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188424
+  * coding[IEEE-11073] = $IEEE11073#188424
   * coding contains loinc-fhir-core 1..1 MS
   * coding[loinc-fhir-core] = $loinc#8310-5
     * system 1.. MS
@@ -19,7 +19,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#8331-1 "Oral temperature"
   * coding[snomed] = $sct#415945006 "Core body temperature measured in sublingual space (observable entity)"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188424 "Oral temperature"
+  * coding[IEEE-11073] = $IEEE11073#188424 "Oral temperature"
   * coding[loinc-fhir-core] = $loinc#8310-5 "Body temperature"
 * subject = Reference(Patient/111)
 * effectivePeriod

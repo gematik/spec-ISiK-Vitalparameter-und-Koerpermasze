@@ -5,7 +5,7 @@ Title: "SD MII ICU Pulmonalvaskulaerer Widerstandsindex"
 * code
   * coding[snomed] = $sct#276902009
   * coding[loinc] = $loinc#8834-4
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#152852
+  * coding[IEEE-11073] = $IEEE11073#152852
 * valueQuantity MS
   * ^patternQuantity.system = "http://unitsofmeasure.org"
   * unit 1..
@@ -18,7 +18,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#8834-4 "Pulmonary vascular Resistance index"
   * coding[snomed] = $sct#276902009 "Pulmonary vascular Resistance index (observable entity)"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#152852 "Pulmonary Vascular Resistance Index"
+  * coding[IEEE-11073] = $IEEE11073#152852 "Pulmonary Vascular Resistance Index"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

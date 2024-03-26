@@ -7,7 +7,7 @@ Title: "SD MII ICU Linksventrikulaeres Herzzeitvolumen Durch Indikatorverduennun
     * ^patternCoding.system = "http://snomed.info/sct"
   * coding[loinc] = $loinc#8737-9
   * coding[IEEE-11073]
-    * ^patternCoding.system = "urn:iso:std:iso:11073:10101"
+    * ^patternCoding.system = "$IEEE11073"
 * valueQuantity
   * unit 1..
   * code from VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute (required)

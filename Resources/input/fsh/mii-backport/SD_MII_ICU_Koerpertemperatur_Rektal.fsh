@@ -8,7 +8,7 @@ Title: "SD MII ICU Koerpertemperatur rektal"
 * code
   * coding[snomed] = $sct#307047009
   * coding[loinc] = $loinc#8332-9
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188420
+  * coding[IEEE-11073] = $IEEE11073#188420
   * coding contains loinc-fhir-core 1..1 MS
   * coding[loinc-fhir-core] = $loinc#8310-5
     * system 1.. MS
@@ -22,7 +22,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#8332-9 "Rectal temperature"
   * coding[snomed] = $sct#307047009 "Core body temperature measured in rectum (observable entity)"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188420 "Rectal temperature"
+  * coding[IEEE-11073] = $IEEE11073#188420 "Rectal temperature"
   * coding[loinc-fhir-core] = $loinc#8310-5 "Body temperature"
 * subject = Reference(Patient/111)
 * effectivePeriod

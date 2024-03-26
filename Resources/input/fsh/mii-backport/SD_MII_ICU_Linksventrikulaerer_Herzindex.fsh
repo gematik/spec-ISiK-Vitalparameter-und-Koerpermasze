@@ -5,7 +5,7 @@ Title: "SD MII ICU Linksventrikulaerer Herzindex"
 * code
   * coding[snomed] = $sct#54993008
   * coding[loinc] = $loinc#75919-1
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#149772
+  * coding[IEEE-11073] = $IEEE11073#149772
 * valueQuantity
   * ^patternQuantity.system = "http://unitsofmeasure.org"
   * unit 1..
@@ -18,7 +18,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#75919-1 "Left ventricular Cardiac index"
   * coding[snomed] = $sct#54993008 "Cardiac index (observable entity)"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#149772 "Cardiac index"
+  * coding[IEEE-11073] = $IEEE11073#149772 "Cardiac index"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

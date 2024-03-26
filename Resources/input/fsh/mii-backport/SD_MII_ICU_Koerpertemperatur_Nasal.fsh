@@ -4,7 +4,7 @@ Id: sd-mii-icu-koerpertemperatur-nasal
 Title: "SD MII ICU Koerpertemperatur nasal"
 * code
   * coding[loinc] = $loinc#76010-8
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188504
+  * coding[IEEE-11073] = $IEEE11073#188504
   * coding contains loinc-fhir-core 1..1 MS
   * coding[loinc-fhir-core] = $loinc#8310-5
     * system 1.. MS
@@ -17,7 +17,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#76010-8 "Nasal temperature"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188504 "Nasal temperature"
+  * coding[IEEE-11073] = $IEEE11073#188504 "Nasal temperature"
   * coding[loinc-fhir-core] = $loinc#8310-5 "Body temperature"
 * subject = Reference(Patient/111)
 * effectivePeriod

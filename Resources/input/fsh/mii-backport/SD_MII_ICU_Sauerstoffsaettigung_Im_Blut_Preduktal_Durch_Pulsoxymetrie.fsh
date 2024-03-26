@@ -6,7 +6,7 @@ Title: "SD MII ICU Sauerstoffsaettigung Im Blut Preduktal Durch Pulsoxymetrie"
   * coding[snomed]
     * ^patternCoding.system = "http://snomed.info/sct"
   * coding[loinc] = $loinc#59407-7
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#160296
+  * coding[IEEE-11073] = $IEEE11073#160296
   * coding contains loinc-fhir-core 0..1 MS
   * coding[loinc-fhir-core] = $loinc#2708-6
     * system 1.. MS
@@ -22,7 +22,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#59407-7 "Oxygen saturation in Blood Preductal by Pulse oximetry"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#160296 "Preductal SpO2"
+  * coding[IEEE-11073] = $IEEE11073#160296 "Preductal SpO2"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

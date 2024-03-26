@@ -5,7 +5,7 @@ Title: "SD MII ICU Intrakranieller Druck ICP"
 * code
   * coding[snomed] = $sct#250844005
   * coding[loinc] = $loinc#60956-0
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#153608
+  * coding[IEEE-11073] = $IEEE11073#153608
 * valueQuantity
   * system = $unitsofmeasure
   * code = #mm[Hg]
@@ -18,7 +18,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#60956-0 "Intracranial pressure (ICP)"
   * coding[snomed] = $sct#250844005 "Intracranial pressure (observable entity)"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#153608 "Intracranial pressure"
+  * coding[IEEE-11073] = $IEEE11073#153608 "Intracranial pressure"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

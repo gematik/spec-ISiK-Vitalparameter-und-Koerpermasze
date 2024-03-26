@@ -6,9 +6,9 @@ Title: "SD MII ICU Koerpertemperatur Generisch"
 * ^text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">No human-readable text provided in this case.</div>"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/koerpertemperatur-generisch"
 * code
-  * coding[snomed] ^patternCoding.system = "http://snomed.info/sct"
-  * coding[loinc] ^patternCoding.system = "http://loinc.org"
-  * coding[IEEE-11073] ^patternCoding.system = "urn:iso:std:iso:11073:10101"
+  * coding[snomed] ^patternCoding.system = $sct
+  * coding[loinc] ^patternCoding.system = $loinc
+  * coding[IEEE-11073] ^patternCoding.system = $IEEE11073
 * valueQuantity
   * system = $unitsofmeasure
   * code = #Cel

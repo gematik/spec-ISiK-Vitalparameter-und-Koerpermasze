@@ -4,7 +4,7 @@ Id: sd-mii-icu-koerpertemperatur-myokard
 Title: "SD MII ICU Koerpertemperatur Myokard"
 * code
   * coding[loinc] = $loinc#61009-7
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188500
+  * coding[IEEE-11073] = $IEEE11073#188500
   * coding contains loinc-fhir-core 1..1 MS
   * coding[loinc-fhir-core] = $loinc#8310-5
     * system 1.. MS
@@ -17,7 +17,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#61009-7 "Myocardial temperature"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188500 "Myocardial temperature"
+  * coding[IEEE-11073] = $IEEE11073#188500 "Myocardial temperature"
   * coding[loinc-fhir-core] = $loinc#8310-5 "Body temperature"
 * subject = Reference(Patient/111)
 * effectivePeriod

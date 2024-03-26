@@ -5,15 +5,15 @@ Title: "SD MII ICU Linksventrikulaerer Druck"
 * code
   * coding[snomed] = $sct#276769008
 * component[SystolicBP].code
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150101
+  * coding[IEEE-11073] = $IEEE11073#150101
   * coding contains loinc-detailed 0..*
   * coding[loinc-detailed] = $loinc#8430-1
 * component[DiastolicBP].code
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150102
+  * coding[IEEE-11073] = $IEEE11073#150102
   * coding contains loinc-detailed 0..*
   * coding[loinc-detailed] = $loinc#8375-8
 * component[meanBP].code
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150103
+  * coding[IEEE-11073] = $IEEE11073#150103
   * coding contains loinc-detailed 0..*
   * coding[loinc-detailed] = $loinc#8404-6
 
@@ -28,17 +28,17 @@ Usage: #example
   * code
     * coding[loinc] = $loinc#8478-0
     * coding[loinc-detailed] = $loinc#8404-6 "Left ventricular Intrachamber mean pressure"
-    * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150103 "Mean left ventricular pressure"
+    * coding[IEEE-11073] = $IEEE11073#150103 "Mean left ventricular pressure"
   * valueQuantity = 40 'mm[Hg]' "millimeter Mercury column"
 * component[SystolicBP]
   * code
     * coding[loinc] = $loinc#8480-6
     * coding[loinc-detailed] = $loinc#8430-1 "Left ventricular Intrachamber systolic pressure"
-    * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150101 "Systolic left ventricular pressure"
+    * coding[IEEE-11073] = $IEEE11073#150101 "Systolic left ventricular pressure"
   * valueQuantity = 120 'mm[Hg]' "millimeter Mercury column"
 * component[DiastolicBP]
   * code
     * coding[loinc] = $loinc#8462-4
     * coding[loinc-detailed] = $loinc#8375-8 "Left ventricular Intrachamber diastolic pressure"
-    * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150102 "Diastolic left ventricular pressure"
+    * coding[IEEE-11073] = $IEEE11073#150102 "Diastolic left ventricular pressure"
   * valueQuantity = 10 'mm[Hg]' "millimeter Mercury column"

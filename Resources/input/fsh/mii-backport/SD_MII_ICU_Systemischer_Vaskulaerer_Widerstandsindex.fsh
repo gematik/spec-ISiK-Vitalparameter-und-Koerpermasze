@@ -5,7 +5,7 @@ Title: "SD MII ICU Systemischer Vaskulaerer Widerstandsindex"
 * code
   * coding[snomed] = $sct#276900001
   * coding[loinc] = $loinc#8837-7
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#149760
+  * coding[IEEE-11073] = $IEEE11073#149760
 * valueQuantity MS
   * unit 1..
   * code from VS_MII_ICU_Unit_equivalent_UCUM_dyn_s_cm5_m2 (required)
@@ -17,7 +17,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#8837-7 "Systemic vascular Resistance index"
   * coding[snomed] = $sct#276900001 "Systemic vascular Resistance index (observable entity)"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#149760 "Systemic vascular resistance indexed"
+  * coding[IEEE-11073] = $IEEE11073#149760 "Systemic vascular resistance indexed"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

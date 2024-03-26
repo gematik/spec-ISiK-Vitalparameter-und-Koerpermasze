@@ -63,7 +63,7 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * system 1.. MS
       * code 1.. MS
       * display MS
-    * coding[IEEE-11073] ^patternCoding.system = urn:iso:std:iso:11073:10101
+    * coding[IEEE-11073] ^patternCoding.system = $IEEE11073
       * system 1.. MS
       * code 1.. MS
       * display MS
@@ -95,7 +95,7 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * system 1.. MS
       * code 1.. MS
       * display MS
-    * coding[IEEE-11073] ^patternCoding.system = urn:iso:std:iso:11073:10101
+    * coding[IEEE-11073] ^patternCoding.system = $IEEE11073
       * system 1.. MS
       * code 1.. MS
       * display MS
@@ -127,7 +127,7 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * system 1.. MS
       * code 1.. MS
       * display MS
-    * coding[IEEE-11073] ^patternCoding.system = urn:iso:std:iso:11073:10101
+    * coding[IEEE-11073] ^patternCoding.system = $IEEE11073
       * system 1.. MS
       * code 1.. MS
       * display MS

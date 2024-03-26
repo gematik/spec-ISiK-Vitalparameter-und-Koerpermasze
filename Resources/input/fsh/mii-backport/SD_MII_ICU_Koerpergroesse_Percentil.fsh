@@ -8,7 +8,7 @@ Title: "SD MII ICU Koerpergroesse Percentil"
   * coding[snomed] = $sct#1153605006
   * coding[loinc] = $loinc#8303-0
   * coding[IEEE-11073] ..0
-    * ^patternCoding.system = "urn:iso:std:iso:11073:10101"
+    * ^patternCoding.system = "$IEEE11073"
 * value[x] only Quantity
 * valueQuantity
   * system = $unitsofmeasure

@@ -6,7 +6,7 @@ Title: "SD MII ICU Linksventrikulaeres Schlagvolumenindex"
   * coding[snomed] = $sct#277381004
   * coding[loinc] = $loinc#76297-1
   * coding[IEEE-11073]
-    * ^patternCoding.system = "urn:iso:std:iso:11073:10101"
+    * ^patternCoding.system = "$IEEE11073"
 * valueQuantity
   * system = $unitsofmeasure
   * code = #mL/m2

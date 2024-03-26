@@ -5,7 +5,7 @@ Title: "SD MII ICU Koerpertemperatur Blut"
 * code
   * coding[snomed] = $sct#1222808002
   * coding[loinc] = $loinc#60834-9
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188436
+  * coding[IEEE-11073] = $IEEE11073#188436
   * coding contains loinc-fhir-core 1..1 MS
   * coding[loinc-fhir-core] = $loinc#8310-5
     * system 1.. MS
@@ -19,7 +19,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#60834-9 "Blood temperature"
   * coding[snomed] = $sct#1222808002 "Core body temperature measured in blood (observable entity)"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188436 "Blood temperature"
+  * coding[IEEE-11073] = $IEEE11073#188436 "Blood temperature"
   * coding[loinc-fhir-core] = $loinc#8310-5 "Body temperature"
 * subject = Reference(Patient/111)
 * effectivePeriod

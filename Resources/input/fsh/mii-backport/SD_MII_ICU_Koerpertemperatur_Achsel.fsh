@@ -5,7 +5,7 @@ Title: "SD MII ICU Koerpertemperatur Achsel"
 * code
   * coding[snomed] = $sct#415882003
   * coding[loinc] = $loinc#8328-7
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188496
+  * coding[IEEE-11073] = $IEEE11073#188496
   * coding contains loinc-fhir-core 1..1 MS
   * coding[loinc-fhir-core] = $loinc#8310-5
     * system 1.. MS
@@ -19,7 +19,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#8328-7 "Axillary temperature"
   * coding[snomed] = $sct#415882003 "Estimated core body temperature measured in axillary region (observable entity)"
-  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#188496 "Axillary temperature"
+  * coding[IEEE-11073] = $IEEE11073#188496 "Axillary temperature"
   * coding[loinc-fhir-core] = $loinc#8310-5 "Body temperature"
 * subject = Reference(Patient/111)
 * effectivePeriod

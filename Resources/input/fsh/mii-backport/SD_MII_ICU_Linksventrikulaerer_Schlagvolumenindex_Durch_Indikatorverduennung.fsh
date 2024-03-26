@@ -7,7 +7,7 @@ Title: "SD MII ICU Linksventrikulaerer Schlagvolumenindex Durch Indikatorverduen
     * ^patternCoding.system = "http://snomed.info/sct"
   * coding[loinc] = $loinc#8791-6
   * coding[IEEE-11073]
-    * ^patternCoding.system = "urn:iso:std:iso:11073:10101"
+    * ^patternCoding.system = "$IEEE11073"
 * valueQuantity
   * ^patternQuantity.system = "http://unitsofmeasure.org"
   * unit 1..
