@@ -2,7 +2,7 @@
   "resourceType": "CapabilityStatement",
   "id": "ISiK-capabilityStatement-vitalparameter-server",
   "url": "https://gematik.de/fhir/isik/CapabilityStatement/vitalparameter-server",
-  "status": "active",
+  "status": "draft",
   "experimental": false,
   "version": "4.0.0-rc",
   "publisher": "gematik GmbH",

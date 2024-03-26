@@ -4,7 +4,7 @@
   "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg",
   "version": "4.0.0-rc",
   "name": "ISiKEkg",
-  "status": "active",
+  "status": "draft",
   "experimental": false,
   "date": "2024-02-01",
   "publisher": "gematik GmbH",
