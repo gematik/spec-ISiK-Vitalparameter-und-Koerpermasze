@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung",
-  "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung",
-  "name": "SD_MII_ICU_Linksventrikulaeres_Schlagvolumen_Durch_Indikatorverduennung",
-  "title": "SD MII ICU Linksventrikulaeres Schlagvolumen Durch Indikatorverduennung",
+  "id": "sd-mii-icu-herzzeitvolumen",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-herzzeitvolumen",
+  "name": "SD_MII_ICU_Herzzeitvolumen",
+  "title": "SD MII ICU Herzzeitvolumen",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -50,7 +50,7 @@
         "path": "Observation.code.coding",
         "sliceName": "loinc",
         "patternCoding": {
-          "code": "8771-8",
+          "code": "8741-1",
           "system": "http://loinc.org"
         }
       },
@@ -59,6 +59,7 @@
         "path": "Observation.code.coding",
         "sliceName": "snomed",
         "patternCoding": {
+          "code": "82799009",
           "system": "http://snomed.info/sct"
         }
       },
@@ -67,7 +68,8 @@
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
         "patternCoding": {
-          "system": "urn:std:iso:11073:10101"
+          "code": "150276",
+          "system": "urn:iso:std:iso:11073:10101"
         }
       },
       {
@@ -79,10 +81,9 @@
             "code": "Quantity"
           }
         ],
-        "patternQuantity": {
-          "code": "mL",
-          "system": "http://unitsofmeasure.org",
-          "unit": "milliliter"
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-unit-equivalent-ucum-l-per-minute"
         }
       }
     ]
