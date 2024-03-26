@@ -9,6 +9,11 @@ Die Profile der MII sind medizinisch qualitätsgesichert und weisen eine feingra
 Durch die Übernahme der Profile der MII und Abbildung auf das ISIK-Setting, können feingranular kodierte Profile zu Vitalparametern im Krankenhauskontext genutzt werden - für die Normal- wie für die intensivmedizinische Versorgung.
 Insbesondere dienen die Profile der Abbildung des Workflows zur Überleitung zwischen Intensiv- und Normalversorgung (siehe {{pagelink:ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung.md}}).
 
+## Designentscheidung
+- Max Kardinalitäten von coding slices wurden entfernt (entsprechend des [Best Practice IGs](https://simplifier.net/guide/Best-Practice-bei-der-Implementierung-und-Spezifizierung-mit-HL7/%C3%9Cbersicht/Spezifikation/Profilierung?version=current))
+- Profile aus der MII, die den bisherigen, existenten Profilen entsprechen, wurden in die bisherigen Profile gemerged.
+- Abweichende Änderung: Das Element .quantity.unit sollte nicht per pattern fixiert werden, daher wurde es entfernt.
+
 ## Intensivversorgung - PDMS 
 
 ### Normativer Status
