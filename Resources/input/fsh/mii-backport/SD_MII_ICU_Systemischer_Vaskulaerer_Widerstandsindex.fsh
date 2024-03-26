@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Systemischer_Vaskulaerer_Widerstandsindex
 Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Id: sd-mii-icu-systemischer-vaskulaerer-widerstandsindex
 Title: "SD MII ICU Systemischer Vaskulaerer Widerstandsindex"
+* insert Meta
 * code
   * coding[snomed] = $sct#276900001
   * coding[loinc] = $loinc#8837-7

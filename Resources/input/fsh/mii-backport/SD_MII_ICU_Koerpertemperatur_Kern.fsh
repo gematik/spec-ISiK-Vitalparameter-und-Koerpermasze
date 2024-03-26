@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Koerpertemperatur_Kern
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-kern
 Title: "SD MII ICU Koerpertemperatur Kern"
+* insert Meta
 * code
   * coding[snomed] = $sct#276885007
   * coding[loinc] = $loinc#8329-5

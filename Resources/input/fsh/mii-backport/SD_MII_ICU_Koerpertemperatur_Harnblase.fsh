@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Koerpertemperatur_Harnblase
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-harnblase
 Title: "SD MII ICU Koerpertemperatur Harnblase"
+* insert Meta
 * code
   * coding[snomed] = $sct#698832009
   * coding[loinc] = $loinc#8334-5

@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Koerpertemperatur_Brustwirbelsaeule
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-brustwirbelsaeule
 Title: "SD MII ICU Koerpertemperatur Brustwirbelsaeule"
+* insert Meta
 * code
   * coding[snomed] = $sct#364424001
   * coding[loinc] = $loinc#8310-5

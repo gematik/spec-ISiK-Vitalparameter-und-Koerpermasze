@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Koerpertemperatur_Lendenwirbelsaeule
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-lendenwirbelsaeule
 Title: "SD MII ICU Koerpertemperatur Lendenwirbelsaeule"
+* insert Meta
 * code
   * coding[snomed] = $sct#364429006
   * coding[loinc] = $loinc#8310-5

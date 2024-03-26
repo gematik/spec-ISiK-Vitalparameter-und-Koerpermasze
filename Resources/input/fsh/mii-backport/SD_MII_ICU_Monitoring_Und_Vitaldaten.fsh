@@ -2,8 +2,8 @@ Profile: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Parent: VitalSignDE
 Id: sd-mii-icu-monitoring-und-vitaldaten
 Title: "SD MII ICU Monitoring und Vitaldaten"
+* insert Meta
 * identifier MS
-//* basedOn ..1
 * partOf only Reference(Procedure)
 * status MS
 * category MS
@@ -60,7 +60,6 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
 * bodySite MS
 * bodySite from VS_MII_ICU_BodySite_Observation_Monitoring_und_Vitaldaten (extensible)
 * device MS
-  * ^type.profile = "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
 * referenceRange MS
 * component MS
   * code MS
@@ -75,3 +74,5 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
   * dataAbsentReason MS
   * interpretation MS
   * referenceRange MS
+* performer MS
+* method MS

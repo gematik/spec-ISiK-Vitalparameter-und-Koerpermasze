@@ -2,9 +2,7 @@ Profile: SD_MII_ICU_Koerpertemperatur_Rektal
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-rektal
 Title: "SD MII ICU Koerpertemperatur rektal"
-* ^text.status = #empty
-* ^text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">No human-readable text provided in this case.</div>"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/koerpertemperatur-rektal"
+* insert Meta
 * code
   * coding[snomed] = $sct#307047009
   * coding[loinc] = $loinc#8332-9

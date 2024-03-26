@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Herzzeitvolumen
 Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Id: sd-mii-icu-herzzeitvolumen
 Title: "SD MII ICU Herzzeitvolumen"
+* insert Meta
 * code
   * coding[snomed] = $sct#82799009
   * coding[loinc] = $loinc#8741-1

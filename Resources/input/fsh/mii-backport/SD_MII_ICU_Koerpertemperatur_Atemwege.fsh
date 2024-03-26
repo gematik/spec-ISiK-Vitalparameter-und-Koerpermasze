@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Koerpertemperatur_Atemwege
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-atemwege
 Title: "SD MII ICU Koerpertemperatur Atemwege"
+* insert Meta
 * code
   * coding[loinc] = $loinc#60955-2
   * coding contains loinc-fhir-core 1..1 MS
