@@ -2,6 +2,7 @@ ValueSet: VS_MII_ICU_Code_Monitoring_und_Vitaldaten_ISO11073
 Id: vs-mii-icu-code-monitoring-und-vitaldaten-iso11073
 Title: "VS MII ICU Code Monitoring und Vitaldaten [ISO11073]"
 Description: "Dieses ValueSet enthält Codes für Vitaldaten sowie Daten aus dem Patientenmonitoring."
+* insert Meta
 * Mdc#150017 "Systolic blood pressure"
 * Mdc#150019 "Mean blood pressure"
 * Mdc#150018 "Diastolic blood pressure"

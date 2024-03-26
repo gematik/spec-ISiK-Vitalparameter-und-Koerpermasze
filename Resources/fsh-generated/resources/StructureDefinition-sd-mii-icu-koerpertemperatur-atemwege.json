@@ -2,9 +2,13 @@
   "resourceType": "StructureDefinition",
   "id": "sd-mii-icu-koerpertemperatur-atemwege",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-atemwege",
+  "version": "4.0.0-rc",
   "name": "SD_MII_ICU_Koerpertemperatur_Atemwege",
   "title": "SD MII ICU Koerpertemperatur Atemwege",
-  "status": "draft",
+  "status": "active",
+  "experimental": false,
+  "date": "2024-02-01",
+  "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -41,7 +45,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/koerpertemperatur-generisch",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-generisch",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -58,6 +62,12 @@
           "code": "60955-2",
           "system": "http://loinc.org"
         }
+      },
+      {
+        "id": "Observation.code.coding:IEEE-11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE-11073",
+        "max": "0"
       },
       {
         "id": "Observation.code.coding:loinc-fhir-core",

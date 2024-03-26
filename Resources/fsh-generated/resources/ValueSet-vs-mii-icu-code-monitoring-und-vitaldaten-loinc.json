@@ -1,11 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "VS_MII_ICU_Code_Monitoring_und_Vitaldaten_LOINC",
   "id": "vs-mii-icu-code-monitoring-und-vitaldaten-loinc",
   "title": "VS MII ICU Code Monitoring und Vitaldaten [LOINC]",
   "description": "Dieses ValueSet enthält Codes für Vitaldaten sowie Daten aus dem Patientenmonitoring.",
   "url": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-loinc",
+  "experimental": false,
+  "version": "4.0.0-rc",
+  "publisher": "gematik GmbH",
+  "date": "2024-02-01",
   "compose": {
     "include": [
       {

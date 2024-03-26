@@ -2,9 +2,11 @@ Profile: SD_MII_ICU_Koerpertemperatur_Trommelfell
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-trommelfell
 Title: "SD MII ICU Koerpertemperatur Trommelfell"
+* insert Meta
 * code
   * coding[snomed] = $sct#415974002
   * coding[loinc] = $loinc#8333-7
+  * coding[IEEE-11073] ..0
   * coding contains loinc-fhir-core 1..1 MS
   * coding[loinc-fhir-core] = $loinc#8310-5
     * system 1.. MS

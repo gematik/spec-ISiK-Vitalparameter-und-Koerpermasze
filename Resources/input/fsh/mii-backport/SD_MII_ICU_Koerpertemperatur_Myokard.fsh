@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Koerpertemperatur_Myokard
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-myokard
 Title: "SD MII ICU Koerpertemperatur Myokard"
+* insert Meta
 * code
   * coding[loinc] = $loinc#61009-7
   * coding[IEEE-11073] = $IEEE11073#188500

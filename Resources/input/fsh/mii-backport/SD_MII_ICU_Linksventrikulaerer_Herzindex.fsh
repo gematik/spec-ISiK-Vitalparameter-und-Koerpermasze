@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Linksventrikulaerer_Herzindex
 Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Id: sd-mii-icu-linksventrikulaerer-herzindex
 Title: "SD MII ICU Linksventrikulaerer Herzindex"
+* insert Meta
 * code
   * coding[snomed] = $sct#54993008
   * coding[loinc] = $loinc#75919-1

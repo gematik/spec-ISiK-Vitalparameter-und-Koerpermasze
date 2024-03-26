@@ -2,9 +2,11 @@ Profile: SD_MII_ICU_Koerpertemperatur_Speiseroehre
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-speiseroehre
 Title: "SD MII ICU Koerpertemperatur Speiseroehre"
+* insert Meta
 * code
   * coding[snomed] = $sct#431598003
   * coding[loinc] = $loinc#60836-4
+  * coding[IEEE-11073] ..0
   * coding contains loinc-fhir-core 1..1 MS
   * coding[loinc-fhir-core] = $loinc#8310-5
     * system 1.. MS

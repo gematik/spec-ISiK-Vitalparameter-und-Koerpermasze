@@ -1,11 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "VS_MII_ICU_BodySite_Observation_Monitoring_und_Vitaldaten",
   "id": "vs-mii-icu-bodysite-observation-monitoring-und-vitaldaten",
   "title": "VS MII ICU BodySite Observation Monitoring und Vitaldaten",
   "description": "Dieses ValueSet enthält Codes für bodySites von Vitaldaten sowie Daten aus dem Patientenmonitoring.",
   "url": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-bodysite-observation-monitoring-und-vitaldaten",
+  "experimental": false,
+  "version": "4.0.0-rc",
+  "publisher": "gematik GmbH",
+  "date": "2024-02-01",
   "compose": {
     "include": [
       {

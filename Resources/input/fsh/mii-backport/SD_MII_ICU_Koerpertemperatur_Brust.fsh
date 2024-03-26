@@ -2,9 +2,12 @@ Profile: SD_MII_ICU_Koerpertemperatur_Brust
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-brust
 Title: "SD MII ICU Koerpertemperatur Brust"
+* insert Meta
 * code
+  * coding[snomed] 1..
   * coding[snomed] = $sct#248835004
   * coding[loinc] = $loinc#8310-5
+  * coding[IEEE-11073] ..0
 * bodySite = $sct#76752008
 
 Instance: Koerpertemperatur-Brust

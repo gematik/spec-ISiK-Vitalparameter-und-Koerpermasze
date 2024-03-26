@@ -2,9 +2,12 @@ Profile: SD_MII_ICU_Koerpertemperatur_Gelenk
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-gelenk
 Title: "SD MII ICU Koerpertemperatur Gelenk"
+* insert Meta
 * code
+  * coding[snomed] 1..
   * coding[snomed] = $sct#250124002
   * coding[loinc] = $loinc#8310-5
+  * coding[IEEE-11073] ..0
 * bodySite = $sct#39352004
 
 Instance: Koerpertemperatur-Gelenk

@@ -2,9 +2,13 @@
   "resourceType": "StructureDefinition",
   "id": "sd-mii-icu-pulmonalarterieller-blutdruck",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalarterieller-blutdruck",
+  "version": "4.0.0-rc",
   "name": "SD_MII_ICU_Pulmonalarterieller_Blutdruck",
   "title": "SD MII ICU Pulmonalarterieller Blutdruck",
-  "status": "draft",
+  "status": "active",
+  "experimental": false,
+  "date": "2024-02-01",
+  "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -45,6 +49,15 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "patternCoding": {
+          "code": "75367002",
+          "system": "http://snomed.info/sct"
+        }
+      },
       {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",

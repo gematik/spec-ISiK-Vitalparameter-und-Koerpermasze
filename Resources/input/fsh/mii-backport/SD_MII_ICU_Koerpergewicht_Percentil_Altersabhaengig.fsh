@@ -2,13 +2,13 @@ Profile: SD_MII_ICU_Koerpergewicht_Percentil_Altersabhaengig
 Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Id: sd-mii-icu-koerpergewicht-percentil-altersabhaengig
 Title: "SD MII ICU Koerpergewicht Percentil Altersabhaengig"
+* insert Meta
 * category contains snomed 0..*
 * category[snomed] = $sct#248326004
 * code
   * coding[snomed] = $sct#1153592008
   * coding[loinc] = $loinc#8336-0
   * coding[IEEE-11073] ..0
-    * ^patternCoding.system = "$IEEE11073"
 * valueQuantity
   * system = $unitsofmeasure
   * code = #%

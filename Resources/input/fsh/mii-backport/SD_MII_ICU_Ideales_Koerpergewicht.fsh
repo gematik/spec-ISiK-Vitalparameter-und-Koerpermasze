@@ -2,11 +2,11 @@ Profile: SD_MII_ICU_Ideales_Koerpergewicht
 Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Id: sd-mii-icu-ideales-koerpergewicht
 Title: "SD MII ICU Ideales Koerpergewicht"
+* insert Meta
 * code
   * coding[snomed] = $sct#170804003
   * coding[loinc] = $loinc#50064-5
   * coding[IEEE-11073] ..0
-    * ^patternCoding.system = "$IEEE11073"
 * valueQuantity
   * system = $unitsofmeasure
   * code = #kg

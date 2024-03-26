@@ -2,9 +2,12 @@ Profile: SD_MII_ICU_Koerpertemperatur_Nasen_Rachen_Raum
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-nasen-rachen-raum
 Title: "SD MII ICU Koerpertemperatur Nasen-Rachen-Raum"
+* insert Meta
 * code
+  * coding[snomed] 1..
   * coding[snomed] = $sct#698831002
   * coding[loinc] = $loinc#8310-5
+  * coding[IEEE-11073] ..0
 * bodySite = $sct#71836000
 
 Instance: Koerpertemperatur-Nasen-Rachen-Raum

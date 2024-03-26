@@ -2,7 +2,9 @@ Profile: SD_MII_ICU_Linksventrikulaerer_Druck
 Parent: SD_MII_ICU_Sonstige_Pulsatile_Druecke_Generisch
 Id: sd-mii-icu-linksventrikulaerer-druck
 Title: "SD MII ICU Linksventrikulaerer Druck"
+* insert Meta
 * code
+  * coding[snomed] 1..
   * coding[snomed] = $sct#276769008
 * component[SystolicBP].code
   * coding[IEEE-11073] = $IEEE11073#150101

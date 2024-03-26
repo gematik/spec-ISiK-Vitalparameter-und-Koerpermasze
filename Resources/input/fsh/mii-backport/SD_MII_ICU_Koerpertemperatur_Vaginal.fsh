@@ -2,9 +2,12 @@ Profile: SD_MII_ICU_Koerpertemperatur_Vaginal
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-vaginal
 Title: "SD MII ICU Koerpertemperatur vaginal"
+* insert Meta
 * code
+  * coding[snomed] 1..
   * coding[snomed] = $sct#364246006
   * coding[loinc] = $loinc#8310-5
+  * coding[IEEE-11073] ..0
 * bodySite = $sct#76784001
 
 Instance: Koerpertemperatur-vaginal

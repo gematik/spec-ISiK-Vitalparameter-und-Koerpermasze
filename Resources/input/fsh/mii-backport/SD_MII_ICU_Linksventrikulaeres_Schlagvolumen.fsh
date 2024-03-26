@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Linksventrikulaeres_Schlagvolumen
 Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Id: sd-mii-icu-linksventrikulaeres-schlagvolumen
 Title: "SD MII ICU Linksventrikulaeres Schlagvolumen"
+* insert Meta
 * code
   * coding[snomed] = $sct#90096001
   * coding[loinc] = $loinc#20562-5

@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Koerpertemperatur_Blut
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-blut
 Title: "SD MII ICU Koerpertemperatur Blut"
+* insert Meta
 * code
   * coding[snomed] = $sct#1222808002
   * coding[loinc] = $loinc#60834-9

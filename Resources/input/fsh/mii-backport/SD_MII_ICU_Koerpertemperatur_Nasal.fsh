@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Koerpertemperatur_Nasal
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-nasal
 Title: "SD MII ICU Koerpertemperatur nasal"
+* insert Meta
 * code
   * coding[loinc] = $loinc#76010-8
   * coding[IEEE-11073] = $IEEE11073#188504

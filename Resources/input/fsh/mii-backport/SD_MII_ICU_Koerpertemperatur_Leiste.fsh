@@ -2,9 +2,12 @@ Profile: SD_MII_ICU_Koerpertemperatur_Leiste
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-leiste
 Title: "SD MII ICU Koerpertemperatur Leiste"
+* insert Meta
 * code
+  * coding[snomed] 1..
   * coding[snomed] = $sct#415929009
   * coding[loinc] = $loinc#8310-5
+  * coding[IEEE-11073] ..0
 * bodySite = $sct#26893007
 
 Instance: Koerpertemperatur-Leiste

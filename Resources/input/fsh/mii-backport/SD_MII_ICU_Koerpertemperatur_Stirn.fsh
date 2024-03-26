@@ -2,9 +2,12 @@ Profile: SD_MII_ICU_Koerpertemperatur_Stirn
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-stirn
 Title: "SD MII ICU Koerpertemperatur Stirn"
+* insert Meta
 * code
+  * coding[snomed] 1..
   * coding[snomed] = $sct#415922000
   * coding[loinc] = $loinc#8310-5
+  * coding[IEEE-11073] ..0
 * bodySite = $sct#52795006
 
 Instance: Koerpertemperatur-Stirn

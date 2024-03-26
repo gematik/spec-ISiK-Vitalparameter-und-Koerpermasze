@@ -2,6 +2,7 @@ ValueSet: VS_MII_ICU_BodySite_Observation_Monitoring_und_Vitaldaten
 Id: vs-mii-icu-bodysite-observation-monitoring-und-vitaldaten
 Title: "VS MII ICU BodySite Observation Monitoring und Vitaldaten"
 Description: "Dieses ValueSet enthält Codes für bodySites von Vitaldaten sowie Daten aus dem Patientenmonitoring."
+* insert Meta
 * SNOMED_CT#80891009
 * SNOMED_CT#81040000
 * SNOMED_CT#87878005
