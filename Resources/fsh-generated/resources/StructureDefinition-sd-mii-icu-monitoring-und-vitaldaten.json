@@ -1,72 +1,22 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sd-mii-icu-monitoring-und-vitaldaten",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
   "name": "SD_MII_ICU_Monitoring_Und_Vitaldaten",
   "title": "SD MII ICU Monitoring und Vitaldaten",
   "status": "draft",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "workflow",
-      "uri": "http://hl7.org/fhir/workflow",
-      "name": "Workflow Pattern"
-    },
-    {
-      "identity": "sct-concept",
-      "uri": "http://snomed.info/conceptdomain",
-      "name": "SNOMED CT Concept Domain Binding"
-    },
-    {
-      "identity": "v2",
-      "uri": "http://hl7.org/v2",
-      "name": "HL7 v2 Mapping"
-    },
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    },
-    {
-      "identity": "w5",
-      "uri": "http://hl7.org/fhir/fivews",
-      "name": "FiveWs Pattern Mapping"
-    },
-    {
-      "identity": "sct-attr",
-      "uri": "http://snomed.org/attributebinding",
-      "name": "SNOMED CT Attribute Binding"
-    }
-  ],
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "baseDefinition": "http://fhir.de/StructureDefinition/observation-de-vitalsign",
   "derivation": "constraint",
   "differential": {
     "element": [
       {
-        "id": "Observation",
-        "path": "Observation",
-        "constraint": [
-          {
-            "key": "vs-de-2",
-            "human": "If there is no component or hasMember element then either a value[x] or a data absent reason must be present",
-            "source": "http://fhir.de/StructureDefinition/observation-de-vitalsign",
-            "severity": "error",
-            "expression": "(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())"
-          }
-        ]
-      },
-      {
         "id": "Observation.identifier",
         "path": "Observation.identifier",
         "mustSupport": true
-      },
-      {
-        "id": "Observation.basedOn",
-        "path": "Observation.basedOn",
-        "max": "1"
       },
       {
         "id": "Observation.partOf",
@@ -74,9 +24,6 @@
         "type": [
           {
             "code": "Reference",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
-            ],
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Procedure"
             ]
@@ -98,43 +45,9 @@
               "path": "$this"
             }
           ],
-          "ordered": false,
-          "rules": "open"
+          "rules": "open",
+          "ordered": false
         },
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category:vs-cat",
-        "path": "Observation.category",
-        "sliceName": "vs-cat",
-        "min": 1,
-        "max": "1",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "vital-signs",
-              "system": "http://terminology.hl7.org/CodeSystem/observation-category"
-            }
-          ]
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category:vs-cat.coding",
-        "path": "Observation.category.coding",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category:vs-cat.coding.system",
-        "path": "Observation.category.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category:vs-cat.coding.code",
-        "path": "Observation.category.coding.code",
-        "min": 1,
         "mustSupport": true
       },
       {
@@ -176,62 +89,20 @@
         "constraint": [
           {
             "key": "code-coding-icu",
-            "human": "Es muss mindestens ein snomed oder loinc code vorhanden sein",
-            "source": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
             "severity": "error",
+            "human": "Es muss mindestens ein snomed oder loinc code vorhanden sein",
             "expression": "coding.exists() implies coding.where(system = 'http://snomed.info/sct').exists() or coding.where(system = 'http://loinc.org').exists()"
           }
         ],
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding",
-        "path": "Observation.code.coding",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "pattern",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 1
-      },
-      {
-        "id": "Observation.code.coding:sct",
-        "path": "Observation.code.coding",
-        "sliceName": "sct",
-        "min": 0,
-        "max": "*",
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/Code-Monitoring-und-Vitaldaten-SNOMED"
-        }
-      },
-      {
-        "id": "Observation.code.coding:sct.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:sct.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
-        "min": 0,
-        "max": "*",
-        "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/Code-Monitoring-und-Vitaldaten-LOINC"
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-loinc"
         }
       },
       {
@@ -247,6 +118,27 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-snomed"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.code.coding:IEEE-11073",
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
@@ -255,7 +147,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/Code-Monitoring-und-Vitaldaten-ISO11073"
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-iso11073"
         }
       },
       {
@@ -273,15 +165,6 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "min": 1,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient"
-            ]
-          }
-        ],
         "mustSupport": true
       },
       {
@@ -292,15 +175,6 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "dateTime"
-          },
-          {
-            "code": "Period"
-          }
-        ],
         "mustSupport": true
       },
       {
@@ -340,14 +214,43 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.value",
+        "path": "Observation.value[x].value",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.unit",
+        "path": "Observation.value[x].unit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.system",
+        "path": "Observation.value[x].system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.code",
+        "path": "Observation.value[x].code",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.dataAbsentReason",
         "path": "Observation.dataAbsentReason",
         "constraint": [
           {
             "key": "mii-icu-1",
-            "human": "If there is no Observation.value, a dataAbsentReason must be given.",
-            "source": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
             "severity": "error",
+            "human": "If there is no Observation.value, a dataAbsentReason must be given.",
             "expression": "value.exists().not() implies dataAbsentReason.exists()"
           }
         ],
@@ -364,8 +267,25 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/BodySite-Observation-Monitoring-und-Vitaldaten"
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-bodysite-observation-monitoring-und-vitaldaten"
         }
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "type": [
+          {
+            "code": "Reference",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference"
+            ],
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Device",
+              "http://hl7.org/fhir/StructureDefinition/DeviceMetric"
+            ]
+          }
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.referenceRange",
@@ -385,16 +305,17 @@
       {
         "id": "Observation.component.value[x]",
         "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
         "sliceName": "valueQuantity",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
         "type": [
           {
             "code": "Quantity"

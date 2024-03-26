@@ -1,43 +1,11 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sd-mii-icu-atemfrequenz",
-  "url": "https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/sd-mii-icu-atemfrequenz",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-atemfrequenz",
   "name": "SD_MII_ICU_Atemfrequenz",
   "title": "SD MII ICU Atemfrequenz",
   "status": "draft",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "workflow",
-      "uri": "http://hl7.org/fhir/workflow",
-      "name": "Workflow Pattern"
-    },
-    {
-      "identity": "sct-concept",
-      "uri": "http://snomed.info/conceptdomain",
-      "name": "SNOMED CT Concept Domain Binding"
-    },
-    {
-      "identity": "v2",
-      "uri": "http://hl7.org/v2",
-      "name": "HL7 v2 Mapping"
-    },
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    },
-    {
-      "identity": "w5",
-      "uri": "http://hl7.org/fhir/fivews",
-      "name": "FiveWs Pattern Mapping"
-    },
-    {
-      "identity": "sct-attr",
-      "uri": "http://snomed.org/attributebinding",
-      "name": "SNOMED CT Attribute Binding"
-    }
-  ],
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -71,26 +39,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.category:vs-cat",
+        "id": "Observation.category:VSCat",
         "path": "Observation.category",
-        "sliceName": "vs-cat",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category:vs-cat.coding",
-        "path": "Observation.category.coding",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category:vs-cat.coding.system",
-        "path": "Observation.category.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category:vs-cat.coding.code",
-        "path": "Observation.category.coding.code",
-        "min": 1,
+        "sliceName": "VSCat",
         "mustSupport": true
       },
       {
@@ -99,26 +50,15 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding",
+        "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "pattern",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
-        "min": 2,
+        "sliceName": "loinc",
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding:sct",
+        "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
-        "sliceName": "sct",
-        "min": 1,
-        "max": "1",
+        "sliceName": "snomed",
         "patternCoding": {
           "code": "86290005",
           "system": "http://snomed.info/sct"
@@ -126,48 +66,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding:sct.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:sct.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "min": 1,
-        "max": "*",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient"
-            ]
-          }
-        ],
         "mustSupport": true
       },
       {
@@ -178,14 +78,6 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
-        "type": [
-          {
-            "code": "dateTime"
-          },
-          {
-            "code": "Period"
-          }
-        ],
         "mustSupport": true
       },
       {
@@ -203,7 +95,12 @@
           {
             "code": "Quantity"
           }
-        ]
+        ],
+        "patternQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "code": "/min",
+          "unit": "breaths per minute"
+        }
       },
       {
         "id": "Observation.value[x]:valueQuantity.value",
@@ -223,11 +120,8 @@
       {
         "id": "Observation.value[x]:valueQuantity.code",
         "path": "Observation.value[x].code",
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/ValueSet/ValueSet-Unit-equivalent-UCUM-breaths_per-minute"
-        }
+        "patternCode": "/min",
+        "mustSupport": true
       },
       {
         "id": "Observation.dataAbsentReason",

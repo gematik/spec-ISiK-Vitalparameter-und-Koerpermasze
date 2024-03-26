@@ -1,0 +1,155 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sd-mii-icu-koerpergewicht",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergewicht",
+  "name": "SD_MII_ICU_Koerpergewicht",
+  "title": "SD MII ICU Koerpergewicht",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:snomed",
+        "path": "Observation.category",
+        "sliceName": "snomed",
+        "min": 0,
+        "max": "*",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "248326004",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergewichtSCTVS"
+        }
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]:effectiveDateTime",
+        "path": "Observation.effective[x]",
+        "sliceName": "effectiveDateTime",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "patternQuantity": {
+          "code": "kg",
+          "system": "http://unitsofmeasure.org",
+          "unit": "kilogram"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.value",
+        "path": "Observation.value[x].value",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.unit",
+        "path": "Observation.value[x].unit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.system",
+        "path": "Observation.value[x].system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.code",
+        "path": "Observation.value[x].code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "constraint": [
+          {
+            "key": "mii-icu-1",
+            "severity": "error",
+            "human": "If there is no Observation.value, a dataAbsentReason must be given.",
+            "expression": "value.exists().not() implies dataAbsentReason.exists()"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "mustSupport": true
+      }
+    ]
+  }
+}

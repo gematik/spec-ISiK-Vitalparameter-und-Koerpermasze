@@ -1,0 +1,64 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd",
+  "name": "SD_MII_ICU_Linksventrikulaeres_Herzzeitvolumen_Durch_Indikatorverduennung",
+  "title": "SD MII ICU Linksventrikulaeres Herzzeitvolumen Durch Indikatorverduennung",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "patternCoding": {
+          "code": "8737-9",
+          "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:IEEE-11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE-11073",
+        "patternCoding": {
+          "system": "urn:std:iso:11073:10101"
+        }
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "patternQuantity": {
+          "unit": "liter per minute"
+        }
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.code",
+        "path": "Observation.value[x].code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-unit-equivalent-ucum-l-per-minute"
+        }
+      }
+    ]
+  }
+}

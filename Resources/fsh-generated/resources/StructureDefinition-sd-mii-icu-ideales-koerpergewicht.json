@@ -1,0 +1,60 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sd-mii-icu-ideales-koerpergewicht",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-ideales-koerpergewicht",
+  "name": "SD_MII_ICU_Ideales_Koerpergewicht",
+  "title": "SD MII ICU Ideales Koerpergewicht",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "patternCoding": {
+          "code": "50064-5",
+          "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "patternCoding": {
+          "code": "170804003",
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:IEEE-11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE-11073",
+        "max": "0",
+        "patternCoding": {
+          "system": "urn:std:iso:11073:10101"
+        }
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "patternQuantity": {
+          "code": "kg",
+          "system": "http://unitsofmeasure.org",
+          "unit": "kilogram"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sd-mii-icu-kopfumfang",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-kopfumfang",
+  "name": "SD_MII_ICU_Kopfumfang",
+  "title": "SD MII ICU Kopfumfang",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.de/StructureDefinition/observation-de-vitalsign-kopfumfang",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:snomed",
+        "path": "Observation.category",
+        "sliceName": "snomed",
+        "min": 0,
+        "max": "1",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "248326004",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/ISiKKopfumfangSCTVS"
+        }
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]:effectiveDateTime",
+        "path": "Observation.effective[x]",
+        "sliceName": "effectiveDateTime",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "patternQuantity": {
+          "code": "cm",
+          "system": "http://unitsofmeasure.org",
+          "unit": "centimeter"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.value",
+        "path": "Observation.value[x].value",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.unit",
+        "path": "Observation.value[x].unit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.system",
+        "path": "Observation.value[x].system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.code",
+        "path": "Observation.value[x].code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "69536005",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.bodySite.coding",
+        "path": "Observation.bodySite.coding",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.bodySite.coding.system",
+        "path": "Observation.bodySite.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.bodySite.coding.code",
+        "path": "Observation.bodySite.coding.code",
+        "min": 1,
+        "mustSupport": true
+      }
+    ]
+  }
+}

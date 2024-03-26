@@ -1,0 +1,75 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sd-mii-icu-koerpergroesse-percentil",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergroesse-percentil",
+  "name": "SD_MII_ICU_Koerpergroesse_Percentil",
+  "title": "SD MII ICU Koerpergroesse Percentil",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.category:snomed",
+        "path": "Observation.category",
+        "sliceName": "snomed",
+        "min": 0,
+        "max": "*",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "248326004",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "patternCoding": {
+          "code": "8303-0",
+          "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "patternCoding": {
+          "code": "1153605006",
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:IEEE-11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE-11073",
+        "max": "0",
+        "patternCoding": {
+          "system": "urn:std:iso:11073:10101"
+        }
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "patternQuantity": {
+          "code": "%",
+          "system": "http://unitsofmeasure.org",
+          "unit": "percent"
+        }
+      }
+    ]
+  }
+}

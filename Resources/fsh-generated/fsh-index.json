@@ -16,6 +16,22 @@
     "endLine": 17
   },
   {
+    "outputFile": "Observation-Beispiel-Atemfrequenz.json",
+    "fshName": "Beispiel-Atemfrequenz",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Atemfrequenz.fsh",
+    "startLine": 31,
+    "endLine": 42
+  },
+  {
+    "outputFile": "Observation-Beispiel-Kopfumfang.json",
+    "fshName": "Beispiel-Kopfumfang",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Kopfumfang.fsh",
+    "startLine": 31,
+    "endLine": 42
+  },
+  {
     "outputFile": "Observation-ISiKAtemfrequenzExample.json",
     "fshName": "ISiKAtemfrequenzExample",
     "fshType": "Instance",
@@ -94,6 +110,142 @@
     "fshFile": "ISiK-Sauerstoffsaettigung.fsh",
     "startLine": 21,
     "endLine": 40
+  },
+  {
+    "outputFile": "Observation-Ideales-Koerpergewicht.json",
+    "fshName": "Ideales-Koerpergewicht",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Ideales_Koerpergewicht.fsh",
+    "startLine": 13,
+    "endLine": 24
+  },
+  {
+    "outputFile": "Observation-Koerpergewicht-Percentile-altersabhaengig.json",
+    "fshName": "Koerpergewicht-Percentile-altersabhaengig",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpergewicht_Percentil_Altersabhaengig.fsh",
+    "startLine": 15,
+    "endLine": 26
+  },
+  {
+    "outputFile": "Observation-Koerpergewicht.json",
+    "fshName": "Koerpergewicht",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpergewicht.fsh",
+    "startLine": 31,
+    "endLine": 42
+  },
+  {
+    "outputFile": "Observation-Koerpergroesse-Percentil.json",
+    "fshName": "Koerpergroesse-Percentil",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpergroesse_Percentil.fsh",
+    "startLine": 16,
+    "endLine": 27
+  },
+  {
+    "outputFile": "Observation-Koerpergroesse.json",
+    "fshName": "Koerpergroesse",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpergroesse.fsh",
+    "startLine": 28,
+    "endLine": 39
+  },
+  {
+    "outputFile": "Observation-Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung.json",
+    "fshName": "Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Schlagvolumenindex_Durch_Indikatorverduennung.fsh",
+    "startLine": 17,
+    "endLine": 26
+  },
+  {
+    "outputFile": "Observation-Linksventrikulaerer-Druck.json",
+    "fshName": "Linksventrikulaerer-Druck",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Druck.fsh",
+    "startLine": 20,
+    "endLine": 44
+  },
+  {
+    "outputFile": "Observation-Linksventrikulaerer-Herzindex-Durch-Indikatorverduennung.json",
+    "fshName": "Linksventrikulaerer-Herzindex-Durch-Indikatorverduennung",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Herzindex_Durch_Indikatorverduennung.fsh",
+    "startLine": 17,
+    "endLine": 26
+  },
+  {
+    "outputFile": "Observation-Linksventrikulaerer-Herzindex.json",
+    "fshName": "Linksventrikulaerer-Herzindex",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Herzindex.fsh",
+    "startLine": 15,
+    "endLine": 27
+  },
+  {
+    "outputFile": "Observation-Linksventrikulaeres-Herzzeitvolumen-durch-Indikatorverduennung.json",
+    "fshName": "Linksventrikulaeres-Herzzeitvolumen-durch-Indikatorverduennung",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Herzzeitvolumen_Durch_Indikatorverduennung.fsh",
+    "startLine": 16,
+    "endLine": 25
+  },
+  {
+    "outputFile": "Observation-Linksventrikulaeres-Schlagvolumen-Durch-Indikatorverduennung.json",
+    "fshName": "Linksventrikulaeres-Schlagvolumen-Durch-Indikatorverduennung",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Schlagvolumen_Durch_Indikatorverduennung.fsh",
+    "startLine": 14,
+    "endLine": 23
+  },
+  {
+    "outputFile": "Observation-Linksventrikulaeres-Schlagvolumen.json",
+    "fshName": "Linksventrikulaeres-Schlagvolumen",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Schlagvolumen.fsh",
+    "startLine": 12,
+    "endLine": 24
+  },
+  {
+    "outputFile": "Observation-Linksventrikulaeres-Schlagvolumenindex.json",
+    "fshName": "Linksventrikulaeres-Schlagvolumenindex",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Schlagvolumenindex.fsh",
+    "startLine": 13,
+    "endLine": 24
+  },
+  {
+    "outputFile": "Observation-Pulmonalarterieller-wedge-Blutdruck.json",
+    "fshName": "Pulmonalarterieller-wedge-Blutdruck",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Pulmonalarterieller_Wedge_Druck.fsh",
+    "startLine": 16,
+    "endLine": 28
+  },
+  {
+    "outputFile": "Observation-Sauerstoffsaettigung-im-Arteriellen-Blut-durch-Pulsoxymetrie.json",
+    "fshName": "Sauerstoffsaettigung-im-Arteriellen-Blut-durch-Pulsoxymetrie",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Sauerstoffsaettigung_Im_Arteriellen_Blut_Durch_Pulsoxymetrie.fsh",
+    "startLine": 20,
+    "endLine": 33
+  },
+  {
+    "outputFile": "Observation-Sauerstoffsaettigung-im-Blut-Postduktal-durch-Pulsoxymetrie.json",
+    "fshName": "Sauerstoffsaettigung-im-Blut-Postduktal-durch-Pulsoxymetrie",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Postduktal_Durch_Pulsoxymetrie.fsh",
+    "startLine": 17,
+    "endLine": 28
+  },
+  {
+    "outputFile": "Observation-Sauerstoffsaettigung-im-Blut-Preduktal-durch-Pulsoxymetrie.json",
+    "fshName": "Sauerstoffsaettigung-im-Blut-Preduktal-durch-Pulsoxymetrie",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Preduktal_Durch_Pulsoxymetrie.fsh",
+    "startLine": 17,
+    "endLine": 28
   },
   {
     "outputFile": "Patient-PatientinMusterfrau.json",
@@ -184,6 +336,174 @@
     "endLine": 19
   },
   {
+    "outputFile": "StructureDefinition-sd-mii-icu-atemfrequenz.json",
+    "fshName": "SD_MII_ICU_Atemfrequenz",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Atemfrequenz.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-ideales-koerpergewicht.json",
+    "fshName": "SD_MII_ICU_Ideales_Koerpergewicht",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Ideales_Koerpergewicht.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpergewicht-percentil-altersabhaengig.json",
+    "fshName": "SD_MII_ICU_Koerpergewicht_Percentil_Altersabhaengig",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpergewicht_Percentil_Altersabhaengig.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpergewicht.json",
+    "fshName": "SD_MII_ICU_Koerpergewicht",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpergewicht.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpergroesse-percentil.json",
+    "fshName": "SD_MII_ICU_Koerpergroesse_Percentil",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpergroesse_Percentil.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpergroesse.json",
+    "fshName": "SD_MII_ICU_Koerpergroesse",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpergroesse.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-kopfumfang.json",
+    "fshName": "SD_MII_ICU_Kopfumfang",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Kopfumfang.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-links-herzindex-indikatorverduennung.json",
+    "fshName": "SD_MII_ICU_Linksventrikulaerer_Herzindex_Durch_Indikatorverduennung",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Herzindex_Durch_Indikatorverduennung.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd.json",
+    "fshName": "SD_MII_ICU_Linksventrikulaeres_Herzzeitvolumen_Durch_Indikatorverduennung",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Herzzeitvolumen_Durch_Indikatorverduennung.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung.json",
+    "fshName": "SD_MII_ICU_Linksventrikulaeres_Schlagvolumen_Durch_Indikatorverduennung",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Schlagvolumen_Durch_Indikatorverduennung.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd.json",
+    "fshName": "SD_MII_ICU_Linksventrikulaerer_Schlagvolumenindex_Durch_Indikatorverduennung",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Schlagvolumenindex_Durch_Indikatorverduennung.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-linksventrikulaerer-druck.json",
+    "fshName": "SD_MII_ICU_Linksventrikulaerer_Druck",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Druck.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-linksventrikulaerer-herzindex.json",
+    "fshName": "SD_MII_ICU_Linksventrikulaerer_Herzindex",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Herzindex.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumen.json",
+    "fshName": "SD_MII_ICU_Linksventrikulaeres_Schlagvolumen",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Schlagvolumen.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumenindex.json",
+    "fshName": "SD_MII_ICU_Linksventrikulaeres_Schlagvolumenindex",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Schlagvolumenindex.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-monitoring-und-vitaldaten.json",
+    "fshName": "SD_MII_ICU_Monitoring_Und_Vitaldaten",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Monitoring_Und_Vitaldaten.fsh",
+    "startLine": 1,
+    "endLine": 75
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json",
+    "fshName": "SD_MII_ICU_Sauerstoffsaettigung_Im_Arteriellen_Blut_Durch_Pulsoxymetrie",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Sauerstoffsaettigung_Im_Arteriellen_Blut_Durch_Pulsoxymetrie.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-o2saettigung-im-blut-postduktal-durch-pulsoxymetrie.json",
+    "fshName": "SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Postduktal_Durch_Pulsoxymetrie",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Postduktal_Durch_Pulsoxymetrie.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie.json",
+    "fshName": "SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Preduktal_Durch_Pulsoxymetrie",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Preduktal_Durch_Pulsoxymetrie.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-pulmonalarterieller-wedge-druck.json",
+    "fshName": "SD_MII_ICU_Pulmonalarterieller_Wedge_Druck",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Pulmonalarterieller_Wedge_Druck.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-sonstige-pulsatile-druecke-generisch.json",
+    "fshName": "SD_MII_ICU_Sonstige_Pulsatile_Druecke_Generisch",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Sonstige_Pulsatile_Druecke_Generisch.fsh",
+    "startLine": 1,
+    "endLine": 140
+  },
+  {
     "outputFile": "ValueSet-ISiKHerzfrequenzSCTVS.json",
     "fshName": "ISiKHerzfrequenzSCTVS",
     "fshType": "ValueSet",
@@ -222,5 +542,69 @@
     "fshFile": "ISiK-Kopfumfang.fsh",
     "startLine": 22,
     "endLine": 26
+  },
+  {
+    "outputFile": "ValueSet-vs-mii-icu-bodysite-observation-blutdruck.json",
+    "fshName": "VS_MII_ICU_BodySite_Observation_Blutdruck",
+    "fshType": "ValueSet",
+    "fshFile": "mii-backport/valueSet/VS_MII_ICU_BodySite_Observation_Blutdruck.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-vs-mii-icu-bodysite-observation-monitoring-und-vitaldaten.json",
+    "fshName": "VS_MII_ICU_BodySite_Observation_Monitoring_und_Vitaldaten",
+    "fshType": "ValueSet",
+    "fshFile": "mii-backport/valueSet/VS_MII_ICU_BodySite_Observation_Monitoring_und_Vitaldaten.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
+    "outputFile": "ValueSet-vs-mii-icu-code-monitoring-und-vitaldaten-iso11073.json",
+    "fshName": "VS_MII_ICU_Code_Monitoring_und_Vitaldaten_ISO11073",
+    "fshType": "ValueSet",
+    "fshFile": "mii-backport/valueSet/VS_MII_ICU_Code_Monitoring_und_Vitaldaten_ISO11073.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "ValueSet-vs-mii-icu-code-monitoring-und-vitaldaten-loinc.json",
+    "fshName": "VS_MII_ICU_Code_Monitoring_und_Vitaldaten_LOINC",
+    "fshType": "ValueSet",
+    "fshFile": "mii-backport/valueSet/VS_MII_ICU_Code_Monitoring_und_Vitaldaten_LOINC.fsh",
+    "startLine": 1,
+    "endLine": 56
+  },
+  {
+    "outputFile": "ValueSet-vs-mii-icu-code-monitoring-und-vitaldaten-snomed.json",
+    "fshName": "VS_MII_ICU_Code_Monitoring_und_Vitaldaten_SNOMED",
+    "fshType": "ValueSet",
+    "fshFile": "mii-backport/valueSet/VS_MII_ICU_Code_Monitoring_und_Vitaldaten_SNOMED.fsh",
+    "startLine": 1,
+    "endLine": 42
+  },
+  {
+    "outputFile": "ValueSet-vs-mii-icu-method-observation-blutdruck.json",
+    "fshName": "VS_MII_ICU_Method_Observation_Blutdruck",
+    "fshType": "ValueSet",
+    "fshFile": "mii-backport/valueSet/VS_MII_ICU_Method_Observation_Blutdruck.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "ValueSet-vs-mii-icu-unit-equivalent-ucum-l-per-minute-and-squaremeter.json",
+    "fshName": "VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute_and_squaremeter",
+    "fshType": "ValueSet",
+    "fshFile": "mii-backport/valueSet/VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute_and_squaremeter.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-vs-mii-icu-unit-equivalent-ucum-l-per-minute.json",
+    "fshName": "VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute",
+    "fshType": "ValueSet",
+    "fshFile": "mii-backport/valueSet/VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute.fsh",
+    "startLine": 1,
+    "endLine": 6
   }
 ]
