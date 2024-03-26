@@ -392,6 +392,14 @@
     "endLine": 27
   },
   {
+    "outputFile": "Observation-Puls.json",
+    "fshName": "Puls",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Puls.fsh",
+    "startLine": 19,
+    "endLine": 31
+  },
+  {
     "outputFile": "Observation-Rechtsatrialer-Druck.json",
     "fshName": "Rechtsatrialer-Druck",
     "fshType": "Instance",
@@ -872,6 +880,14 @@
     "endLine": 13
   },
   {
+    "outputFile": "StructureDefinition-sd-mii-icu-puls.json",
+    "fshName": "SD_MII_ICU_Puls",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Puls.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
     "outputFile": "StructureDefinition-sd-mii-icu-rechtsatrialer-druck.json",
     "fshName": "SD_MII_ICU_Rechtsatrialer_Druck",
     "fshType": "Profile",
@@ -998,6 +1014,14 @@
     "fshFile": "mii-backport/valueSet/VS_MII_ICU_Method_Observation_Blutdruck.fsh",
     "startLine": 1,
     "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-vs-mii-icu-unit-equivalent-ucum-beats-per-minute.json",
+    "fshName": "VS_MII_ICU_Unit_equivalent_UCUM_beats_per_minute",
+    "fshType": "ValueSet",
+    "fshFile": "mii-backport/valueSet/VS_MII_ICU_Unit_equivalent_UCUM_beats_per_minute.fsh",
+    "startLine": 1,
+    "endLine": 9
   },
   {
     "outputFile": "ValueSet-vs-mii-icu-unit-equivalent-ucum-dyn-s-cm5-m2.json",

@@ -2,6 +2,7 @@ Designentscheidung
 - Max Kardinalitäten von coding slices wurden entfernt
 - Profile aus der MII die den bisherigen, existenten Profilen entsprechen wurden in die bisherigen Profile gemerged, Anpassungen aus der MII wurden in "comments" des elements erfasst
 - Änderung: unit sollte nicht per pattern fixiert werden -> entfernt
+- Da es keinen generischen LOINC-Code "Pulse" gibt, und wir immer einen LOINC-Code fordern wurde Pulse der Loinc Code:8867-4 "Heart Rate" zugeordnet
 
 Korrekturen:
 - In teilen falscher IEE code: urn:std:iso:11073:10101, korrekt wäre: urn:iso:std:iso:11073:10101
