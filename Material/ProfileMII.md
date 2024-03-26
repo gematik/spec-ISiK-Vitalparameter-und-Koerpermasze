@@ -78,7 +78,7 @@ Die Anforderung zur Implmenentierung - d.h. Bereitstellung einer Schnittstelle -
 - Pulmonalarterieller Blutdruck (Observation)
     - PDMS :warning:
 - Blutdruck (Observation)
-    - bereits verpflichtend (siehe [ISIK Stufe 3 Blutdruck](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Modul-Vitalparameter-Stufe-3/ImplementationGuide-markdown-Blutdruck?version=current) - LOINC Codierung hier überinstimmend )
+    - bereits verpflichtend (siehe [ISIK Stufe 3 Blutdruck](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Modul-Vitalparameter-Stufe-3/ImplementationGuide-markdown-Blutdruck?version=current) - LOINC Codierung hier übereinstimmend )
 - Puls (Observation)
     - ALLE :hospital:
 - Koerpertemperatur Generisch (Observation)

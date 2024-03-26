@@ -188,6 +188,11 @@
               "generation": "markdown"
             },
             {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/MII_Intensiv_Normal.md",
+              "title": "MII Profile der Intensiv- und Normalversorgung",
+              "generation": "markdown"
+            },
+            {
               "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Laborprofile.md",
               "title": "Laborprofile für Überleitung Intensivversorgung",
               "generation": "markdown"
