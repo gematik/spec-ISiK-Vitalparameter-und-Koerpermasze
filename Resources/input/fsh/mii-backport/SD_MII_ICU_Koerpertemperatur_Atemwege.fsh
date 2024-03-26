@@ -9,6 +9,7 @@ Title: "SD MII ICU Koerpertemperatur Atemwege"
   * coding[loinc-fhir-core] = $loinc#8310-5
     * system 1.. MS
     * code 1.. MS
+  * coding[IEEE-11073] ..0
 * bodySite = $sct#89187006
 
 Instance: Koerpertemperatur-Atemwege

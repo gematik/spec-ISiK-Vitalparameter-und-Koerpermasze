@@ -9,8 +9,8 @@
   "code": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
         "code": "75367002",
+        "system": "http://snomed.info/sct",
         "display": "Blood pressure (observable entity)"
       },
       {

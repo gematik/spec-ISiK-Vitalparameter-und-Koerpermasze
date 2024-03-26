@@ -4,11 +4,8 @@ Id: sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung
 Title: "SD MII ICU Linksventrikulaeres Schlagvolumen Durch Indikatorverduennung"
 * insert Meta
 * code
-  * coding[snomed]
-    * ^patternCoding.system = "http://snomed.info/sct"
   * coding[loinc] = $loinc#8771-8
-  * coding[IEEE-11073]
-    * ^patternCoding.system = "$IEEE11073"
+  * coding[IEEE-11073] ..0
 * valueQuantity
   * system = $unitsofmeasure
   * code = #mL

@@ -6,6 +6,7 @@ Title: "SD MII ICU Koerpertemperatur Speiseroehre"
 * code
   * coding[snomed] = $sct#431598003
   * coding[loinc] = $loinc#60836-4
+  * coding[IEEE-11073] ..0
   * coding contains loinc-fhir-core 1..1 MS
   * coding[loinc-fhir-core] = $loinc#8310-5
     * system 1.. MS

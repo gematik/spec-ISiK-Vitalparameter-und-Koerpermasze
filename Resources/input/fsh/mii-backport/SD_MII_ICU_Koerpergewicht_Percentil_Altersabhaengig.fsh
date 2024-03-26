@@ -9,7 +9,6 @@ Title: "SD MII ICU Koerpergewicht Percentil Altersabhaengig"
   * coding[snomed] = $sct#1153592008
   * coding[loinc] = $loinc#8336-0
   * coding[IEEE-11073] ..0
-    * ^patternCoding.system = "$IEEE11073"
 * valueQuantity
   * system = $unitsofmeasure
   * code = #%

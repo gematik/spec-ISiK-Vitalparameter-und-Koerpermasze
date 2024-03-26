@@ -4,8 +4,10 @@ Id: sd-mii-icu-koerpertemperatur-lendenwirbelsaeule
 Title: "SD MII ICU Koerpertemperatur Lendenwirbelsaeule"
 * insert Meta
 * code
+  * coding[snomed] 1..
   * coding[snomed] = $sct#364429006
   * coding[loinc] = $loinc#8310-5
+  * coding[IEEE-11073] ..0
 * bodySite = $sct#122496007
 
 Instance: Koerpertemperatur-Lendenwirbelsaeule

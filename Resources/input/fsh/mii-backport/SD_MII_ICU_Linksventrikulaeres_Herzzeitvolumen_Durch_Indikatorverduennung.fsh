@@ -4,11 +4,8 @@ Id: sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd
 Title: "SD MII ICU Linksventrikulaeres Herzzeitvolumen Durch Indikatorverduennung"
 * insert Meta
 * code
-  * coding[snomed]
-    * ^patternCoding.system = "http://snomed.info/sct"
   * coding[loinc] = $loinc#8737-9
-  * coding[IEEE-11073]
-    * ^patternCoding.system = "$IEEE11073"
+  * coding[IEEE-11073] ..0
 * valueQuantity
   * unit 1..
   * code from VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute (required)

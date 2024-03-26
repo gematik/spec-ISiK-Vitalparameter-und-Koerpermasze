@@ -4,6 +4,7 @@ Id: sd-mii-icu-rechtsventrikulaerer-druck
 Title: "SD MII ICU Rechtsventrikulaerer Druck"
 * insert Meta
 * code
+  * coding[snomed] 1..
   * coding[snomed] = $sct#276756009
 * component[SystolicBP].code
   * coding[IEEE-11073] = $IEEE11073#150105

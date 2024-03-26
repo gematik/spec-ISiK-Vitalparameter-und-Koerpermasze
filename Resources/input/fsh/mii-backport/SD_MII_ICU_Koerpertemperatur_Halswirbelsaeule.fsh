@@ -4,8 +4,10 @@ Id: sd-mii-icu-koerpertemperatur-halswirbelsaeule
 Title: "SD MII ICU Koerpertemperatur Halswirbelsaeule"
 * insert Meta
 * code
+  * coding[snomed] 1..
   * coding[snomed] = $sct#364419004
   * coding[loinc] = $loinc#8310-5
+  * coding[IEEE-11073] ..0
 * bodySite = $sct#122494005
 
 Instance: Koerpertemperatur-Halswirbelsaeule

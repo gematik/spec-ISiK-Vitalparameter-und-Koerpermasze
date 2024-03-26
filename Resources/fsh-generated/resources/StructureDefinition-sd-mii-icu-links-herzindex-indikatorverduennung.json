@@ -27,20 +27,10 @@
         }
       },
       {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
-        "patternCoding": {
-          "system": "http://snomed.info/sct"
-        }
-      },
-      {
         "id": "Observation.code.coding:IEEE-11073",
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
-        "patternCoding": {
-          "system": "$IEEE11073"
-        }
+        "max": "0"
       },
       {
         "id": "Observation.value[x]",

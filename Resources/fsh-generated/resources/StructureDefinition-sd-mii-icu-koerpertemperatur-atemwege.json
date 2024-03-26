@@ -32,6 +32,12 @@
         }
       },
       {
+        "id": "Observation.code.coding:IEEE-11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE-11073",
+        "max": "0"
+      },
+      {
         "id": "Observation.code.coding:loinc-fhir-core",
         "path": "Observation.code.coding",
         "sliceName": "loinc-fhir-core",
