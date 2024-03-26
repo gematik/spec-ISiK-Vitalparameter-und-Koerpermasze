@@ -62,7 +62,7 @@ Denkbar sind auch Workflows, bei denen erhobene Daten aus einem System vor der V
 
 Hier genügt eine Abfrage per HTTP GET nicht (diese kann ggf. aber durch einen weiteren Kommunikationsschritt getriggert werden und damit die Vorab-Übermittlung unterstützen). An dieser Stelle werden keine weiteren Festlegungen zur vorgelagerten Übermittlung der  Daten erhoben und es wird keine direkte Schreiboperation auf FHIR-Basis des KIS im PDMS für diesen Fall gefordert. Die Vorab-Übermittlung könnte durch verschiedene Mechanismen unterstützt werden:
 - FHIR Subscription (vgl. im ISiK Kontext [Patient merge Notification](https://simplifier.net/guide/isik-basis-v4/UebergreifendeFestlegungen-UebergreifendeFestlegungen_Patient-merge?version=current))
-- Übernahme mittels Composition (vgl. im ISiK Kontext [Rückübermittlung Bericht aus Subsystemen (Composition)](https://simplifier.net/guide/isik-basis-v4/ImplementationGuide-markdown-Datenobjekte-Datenobjekte_BerichtSubsystem?version=current))
+- Create-Interaktion (POST) (vgl. im ISiK Kontext [REST-API](https://simplifier.net/guide/isik-basis-v4/markdown-UebergreifendeFestlegungen-UebergreifendeFestlegungen_Rest?version=current))
 - HL7 v2 Messaging
 
 - etc.
