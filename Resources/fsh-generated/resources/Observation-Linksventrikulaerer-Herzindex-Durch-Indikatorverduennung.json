@@ -18,9 +18,9 @@
   ],
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "unit": "liter per minute and square meter",
     "value": 3,
-    "code": "L/min/m2"
+    "code": "L/min/m2",
+    "unit": "liter per minute and square meter"
   },
   "code": {
     "coding": [

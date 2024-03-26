@@ -18,6 +18,10 @@ Id: ISiKKopfumfang
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* performer MS
+* method MS
+* device MS
+* dataAbsentReason MS
 
 ValueSet: ISiKKopfumfangSCTVS
 Id: ISiKKopfumfangSCTVS

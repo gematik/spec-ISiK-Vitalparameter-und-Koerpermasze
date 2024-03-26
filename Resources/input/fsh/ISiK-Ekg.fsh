@@ -19,6 +19,10 @@ Id: ISiKEkg
 * component.valueSampledData.period MS
 * component.valueSampledData.dimensions MS
 * component.valueSampledData.data MS
+* performer MS
+* method MS
+* device MS
+* dataAbsentReason MS
 
 Instance: ISiKEkgExample
 InstanceOf: ISiKEkg

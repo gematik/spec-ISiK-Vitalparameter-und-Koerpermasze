@@ -24,6 +24,10 @@ Id: ISiKBlutdruck
 * component[DiastolicBP].value[x] MS
 * component[DiastolicBP].valueQuantity MS
 * component[DiastolicBP].dataAbsentReason MS
+* performer MS
+* method MS
+* device MS
+* dataAbsentReason MS
 
 Instance: ISiKBlutdruckExample
 InstanceOf: ISiKBlutdruck

@@ -10,7 +10,6 @@ Title: "SD MII ICU Linksventrikulaerer Herzindex durch Indikatorverduennung"
     * ^patternCoding.system = "urn:std:iso:11073:10101"
 * valueQuantity 1..
   * ^patternQuantity.system = "http://unitsofmeasure.org"
-  * ^patternQuantity.unit = "liter per minute and square meter"
   * unit 1..
   * code from VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute_and_squaremeter (required)
 

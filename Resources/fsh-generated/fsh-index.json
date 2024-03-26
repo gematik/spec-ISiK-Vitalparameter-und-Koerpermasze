@@ -16,100 +16,84 @@
     "endLine": 17
   },
   {
-    "outputFile": "Observation-Beispiel-Atemfrequenz.json",
-    "fshName": "Beispiel-Atemfrequenz",
-    "fshType": "Instance",
-    "fshFile": "mii-backport/SD_MII_ICU_Atemfrequenz.fsh",
-    "startLine": 31,
-    "endLine": 42
-  },
-  {
-    "outputFile": "Observation-Beispiel-Kopfumfang.json",
-    "fshName": "Beispiel-Kopfumfang",
-    "fshType": "Instance",
-    "fshFile": "mii-backport/SD_MII_ICU_Kopfumfang.fsh",
-    "startLine": 31,
-    "endLine": 42
-  },
-  {
     "outputFile": "Observation-ISiKAtemfrequenzExample.json",
     "fshName": "ISiKAtemfrequenzExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Atemfrequenz.fsh",
-    "startLine": 22,
-    "endLine": 34
+    "startLine": 26,
+    "endLine": 38
   },
   {
     "outputFile": "Observation-ISiKBlutdruckExample.json",
     "fshName": "ISiKBlutdruckExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Blutdruck.fsh",
-    "startLine": 28,
-    "endLine": 47
+    "startLine": 32,
+    "endLine": 51
   },
   {
     "outputFile": "Observation-ISiKEkgExample.json",
     "fshName": "ISiKEkgExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Ekg.fsh",
-    "startLine": 23,
-    "endLine": 48
+    "startLine": 27,
+    "endLine": 52
   },
   {
     "outputFile": "Observation-ISiKGCSExample.json",
     "fshName": "ISiKGCSExample",
     "fshType": "Instance",
     "fshFile": "ISiK-GCS.fsh",
-    "startLine": 30,
-    "endLine": 45
+    "startLine": 34,
+    "endLine": 49
   },
   {
     "outputFile": "Observation-ISiKHerzfrequenzExample.json",
     "fshName": "ISiKHerzfrequenzExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Herzfrequenz.fsh",
-    "startLine": 28,
-    "endLine": 40
+    "startLine": 32,
+    "endLine": 44
   },
   {
     "outputFile": "Observation-ISiKKoerpergewichtExample.json",
     "fshName": "ISiKKoerpergewichtExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Koerpergewicht.fsh",
-    "startLine": 28,
-    "endLine": 40
+    "startLine": 32,
+    "endLine": 44
   },
   {
     "outputFile": "Observation-ISiKKoerpergroesseExample.json",
     "fshName": "ISiKKoerpergroesseExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Koerpergroesse.fsh",
-    "startLine": 28,
-    "endLine": 40
+    "startLine": 32,
+    "endLine": 44
   },
   {
     "outputFile": "Observation-ISiKKoerpertemperaturExample.json",
     "fshName": "ISiKKoerpertemperaturExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Koerpertemperatur.fsh",
-    "startLine": 28,
-    "endLine": 40
+    "startLine": 32,
+    "endLine": 44
   },
   {
     "outputFile": "Observation-ISiKKopfumfangExample.json",
     "fshName": "ISiKKopfumfangExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Kopfumfang.fsh",
-    "startLine": 28,
-    "endLine": 40
+    "startLine": 32,
+    "endLine": 44
   },
   {
     "outputFile": "Observation-ISiKSauerstoffsaettigungExample.json",
     "fshName": "ISiKSauerstoffsaettigungExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Sauerstoffsaettigung.fsh",
-    "startLine": 21,
-    "endLine": 40
+    "startLine": 26,
+    "endLine": 45
   },
   {
     "outputFile": "Observation-Ideales-Koerpergewicht.json",
@@ -128,14 +112,6 @@
     "endLine": 26
   },
   {
-    "outputFile": "Observation-Koerpergewicht.json",
-    "fshName": "Koerpergewicht",
-    "fshType": "Instance",
-    "fshFile": "mii-backport/SD_MII_ICU_Koerpergewicht.fsh",
-    "startLine": 31,
-    "endLine": 42
-  },
-  {
     "outputFile": "Observation-Koerpergroesse-Percentil.json",
     "fshName": "Koerpergroesse-Percentil",
     "fshType": "Instance",
@@ -144,20 +120,12 @@
     "endLine": 27
   },
   {
-    "outputFile": "Observation-Koerpergroesse.json",
-    "fshName": "Koerpergroesse",
-    "fshType": "Instance",
-    "fshFile": "mii-backport/SD_MII_ICU_Koerpergroesse.fsh",
-    "startLine": 28,
-    "endLine": 39
-  },
-  {
     "outputFile": "Observation-Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung.json",
     "fshName": "Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Schlagvolumenindex_Durch_Indikatorverduennung.fsh",
-    "startLine": 17,
-    "endLine": 26
+    "startLine": 16,
+    "endLine": 25
   },
   {
     "outputFile": "Observation-Linksventrikulaerer-Druck.json",
@@ -172,24 +140,24 @@
     "fshName": "Linksventrikulaerer-Herzindex-Durch-Indikatorverduennung",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Herzindex_Durch_Indikatorverduennung.fsh",
-    "startLine": 17,
-    "endLine": 26
+    "startLine": 16,
+    "endLine": 25
   },
   {
     "outputFile": "Observation-Linksventrikulaerer-Herzindex.json",
     "fshName": "Linksventrikulaerer-Herzindex",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Herzindex.fsh",
-    "startLine": 15,
-    "endLine": 27
+    "startLine": 14,
+    "endLine": 26
   },
   {
     "outputFile": "Observation-Linksventrikulaeres-Herzzeitvolumen-durch-Indikatorverduennung.json",
     "fshName": "Linksventrikulaeres-Herzzeitvolumen-durch-Indikatorverduennung",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Herzzeitvolumen_Durch_Indikatorverduennung.fsh",
-    "startLine": 16,
-    "endLine": 25
+    "startLine": 15,
+    "endLine": 24
   },
   {
     "outputFile": "Observation-Linksventrikulaeres-Schlagvolumen-Durch-Indikatorverduennung.json",
@@ -224,6 +192,14 @@
     "endLine": 28
   },
   {
+    "outputFile": "Observation-Pulmonalvaskulaerer-Widerstandsindex.json",
+    "fshName": "Pulmonalvaskulaerer-Widerstandsindex",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Pulmonalvaskulaerer_Widerstandsindex.fsh",
+    "startLine": 14,
+    "endLine": 26
+  },
+  {
     "outputFile": "Observation-Sauerstoffsaettigung-im-Arteriellen-Blut-durch-Pulsoxymetrie.json",
     "fshName": "Sauerstoffsaettigung-im-Arteriellen-Blut-durch-Pulsoxymetrie",
     "fshType": "Instance",
@@ -248,6 +224,14 @@
     "endLine": 28
   },
   {
+    "outputFile": "Observation-Systemischer-vaskulaerer-Widerstandsindex.json",
+    "fshName": "Systemischer-vaskulaerer-Widerstandsindex",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Systemischer_Vaskulaerer_Widerstandsindex.fsh",
+    "startLine": 16,
+    "endLine": 28
+  },
+  {
     "outputFile": "Patient-PatientinMusterfrau.json",
     "fshName": "PatientinMusterfrau",
     "fshType": "Instance",
@@ -261,7 +245,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Atemfrequenz.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-ISiKBlutdruck.json",
@@ -269,7 +253,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Blutdruck.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 30
   },
   {
     "outputFile": "StructureDefinition-ISiKEkg.json",
@@ -277,7 +261,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Ekg.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 25
   },
   {
     "outputFile": "StructureDefinition-ISiKGCS.json",
@@ -285,7 +269,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-GCS.fsh",
     "startLine": 1,
-    "endLine": 28
+    "endLine": 32
   },
   {
     "outputFile": "StructureDefinition-ISiKHerzfrequenz.json",
@@ -293,7 +277,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Herzfrequenz.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-ISiKKoerpergewicht.json",
@@ -301,7 +285,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Koerpergewicht.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-ISiKKoerpergroesse.json",
@@ -309,7 +293,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Koerpergroesse.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-ISiKKoerpertemperatur.json",
@@ -317,7 +301,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Koerpertemperatur.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-ISiKKopfumfang.json",
@@ -325,7 +309,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Kopfumfang.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-ISiKSauerstoffsaettigung.json",
@@ -333,15 +317,15 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Sauerstoffsaettigung.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 24
   },
   {
-    "outputFile": "StructureDefinition-sd-mii-icu-atemfrequenz.json",
-    "fshName": "SD_MII_ICU_Atemfrequenz",
+    "outputFile": "StructureDefinition-sd-mii-icu-herzzeitvolumen.json",
+    "fshName": "SD_MII_ICU_Herzzeitvolumen",
     "fshType": "Profile",
-    "fshFile": "mii-backport/SD_MII_ICU_Atemfrequenz.fsh",
+    "fshFile": "mii-backport/SD_MII_ICU_Herzzeitvolumen.fsh",
     "startLine": 1,
-    "endLine": 29
+    "endLine": 10
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-ideales-koerpergewicht.json",
@@ -360,14 +344,6 @@
     "endLine": 13
   },
   {
-    "outputFile": "StructureDefinition-sd-mii-icu-koerpergewicht.json",
-    "fshName": "SD_MII_ICU_Koerpergewicht",
-    "fshType": "Profile",
-    "fshFile": "mii-backport/SD_MII_ICU_Koerpergewicht.fsh",
-    "startLine": 1,
-    "endLine": 29
-  },
-  {
     "outputFile": "StructureDefinition-sd-mii-icu-koerpergroesse-percentil.json",
     "fshName": "SD_MII_ICU_Koerpergroesse_Percentil",
     "fshType": "Profile",
@@ -376,28 +352,12 @@
     "endLine": 14
   },
   {
-    "outputFile": "StructureDefinition-sd-mii-icu-koerpergroesse.json",
-    "fshName": "SD_MII_ICU_Koerpergroesse",
-    "fshType": "Profile",
-    "fshFile": "mii-backport/SD_MII_ICU_Koerpergroesse.fsh",
-    "startLine": 1,
-    "endLine": 26
-  },
-  {
-    "outputFile": "StructureDefinition-sd-mii-icu-kopfumfang.json",
-    "fshName": "SD_MII_ICU_Kopfumfang",
-    "fshType": "Profile",
-    "fshFile": "mii-backport/SD_MII_ICU_Kopfumfang.fsh",
-    "startLine": 1,
-    "endLine": 29
-  },
-  {
     "outputFile": "StructureDefinition-sd-mii-icu-links-herzindex-indikatorverduennung.json",
     "fshName": "SD_MII_ICU_Linksventrikulaerer_Herzindex_Durch_Indikatorverduennung",
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Herzindex_Durch_Indikatorverduennung.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd.json",
@@ -405,7 +365,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Herzzeitvolumen_Durch_Indikatorverduennung.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 13
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung.json",
@@ -421,7 +381,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Schlagvolumenindex_Durch_Indikatorverduennung.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-linksventrikulaerer-druck.json",
@@ -437,7 +397,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Herzindex.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumen.json",
@@ -496,6 +456,14 @@
     "endLine": 14
   },
   {
+    "outputFile": "StructureDefinition-sd-mii-icu-pulmonalvaskulaerer-widerstandsindex.json",
+    "fshName": "SD_MII_ICU_Pulmonalvaskulaerer_Widerstandsindex",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Pulmonalvaskulaerer_Widerstandsindex.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
     "outputFile": "StructureDefinition-sd-mii-icu-sonstige-pulsatile-druecke-generisch.json",
     "fshName": "SD_MII_ICU_Sonstige_Pulsatile_Druecke_Generisch",
     "fshType": "Profile",
@@ -504,44 +472,52 @@
     "endLine": 140
   },
   {
+    "outputFile": "StructureDefinition-sd-mii-icu-systemischer-vaskulaerer-widerstandsindex.json",
+    "fshName": "SD_MII_ICU_Systemischer_Vaskulaerer_Widerstandsindex",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Systemischer_Vaskulaerer_Widerstandsindex.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
     "outputFile": "ValueSet-ISiKHerzfrequenzSCTVS.json",
     "fshName": "ISiKHerzfrequenzSCTVS",
     "fshType": "ValueSet",
     "fshFile": "ISiK-Herzfrequenz.fsh",
-    "startLine": 22,
-    "endLine": 26
+    "startLine": 26,
+    "endLine": 30
   },
   {
     "outputFile": "ValueSet-ISiKKoerpergewichtSCTVS.json",
     "fshName": "ISiKKoerpergewichtSCTVS",
     "fshType": "ValueSet",
     "fshFile": "ISiK-Koerpergewicht.fsh",
-    "startLine": 22,
-    "endLine": 26
+    "startLine": 26,
+    "endLine": 30
   },
   {
     "outputFile": "ValueSet-ISiKKoerpergroesseSCTVS.json",
     "fshName": "ISiKKoerpergroesseSCTVS",
     "fshType": "ValueSet",
     "fshFile": "ISiK-Koerpergroesse.fsh",
-    "startLine": 22,
-    "endLine": 26
+    "startLine": 26,
+    "endLine": 30
   },
   {
     "outputFile": "ValueSet-ISiKKoerpertemperaturSCTVS.json",
     "fshName": "ISiKKoerpertemperaturSCTVS",
     "fshType": "ValueSet",
     "fshFile": "ISiK-Koerpertemperatur.fsh",
-    "startLine": 22,
-    "endLine": 26
+    "startLine": 26,
+    "endLine": 30
   },
   {
     "outputFile": "ValueSet-ISiKKopfumfangSCTVS.json",
     "fshName": "ISiKKopfumfangSCTVS",
     "fshType": "ValueSet",
     "fshFile": "ISiK-Kopfumfang.fsh",
-    "startLine": 22,
-    "endLine": 26
+    "startLine": 26,
+    "endLine": 30
   },
   {
     "outputFile": "ValueSet-vs-mii-icu-bodysite-observation-blutdruck.json",
@@ -590,6 +566,14 @@
     "fshFile": "mii-backport/valueSet/VS_MII_ICU_Method_Observation_Blutdruck.fsh",
     "startLine": 1,
     "endLine": 14
+  },
+  {
+    "outputFile": "ValueSet-vs-mii-icu-unit-equivalent-ucum-dyn-s-cm5-m2.json",
+    "fshName": "VS_MII_ICU_Unit_equivalent_UCUM_dyn_s_cm5_m2",
+    "fshType": "ValueSet",
+    "fshFile": "mii-backport/valueSet/VS_MII_ICU_Unit_equivalent_UCUM_dyn_s_cm5_m2.fsh",
+    "startLine": 1,
+    "endLine": 8
   },
   {
     "outputFile": "ValueSet-vs-mii-icu-unit-equivalent-ucum-l-per-minute-and-squaremeter.json",

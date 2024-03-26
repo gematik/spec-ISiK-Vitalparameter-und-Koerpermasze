@@ -1,0 +1,28 @@
+Profile: SD_MII_ICU_Systemischer_Vaskulaerer_Widerstandsindex
+Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten
+Id: sd-mii-icu-systemischer-vaskulaerer-widerstandsindex
+Title: "SD MII ICU Systemischer Vaskulaerer Widerstandsindex"
+* code
+  * coding[snomed] = $sct#276900001
+  * coding[loinc] = $loinc#8837-7
+  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#149760
+* value[x] ^slicing.discriminator.type = #type
+  * ^slicing.discriminator.path = "$this"
+  * ^slicing.rules = #open
+* valueQuantity
+  * unit 1..
+  * code from VS_MII_ICU_Unit_equivalent_UCUM_dyn_s_cm5_m2 (required)
+
+Instance: Systemischer-vaskulaerer-Widerstandsindex
+InstanceOf: SD_MII_ICU_Systemischer_Vaskulaerer_Widerstandsindex
+Usage: #example
+* status = #final
+* code
+  * coding[loinc] = $loinc#8837-7 "Systemic vascular Resistance index"
+  * coding[snomed] = $sct#276900001 "Systemic vascular Resistance index (observable entity)"
+  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#149760 "Systemic vascular resistance indexed"
+* subject = Reference(Patient/111)
+* effectivePeriod
+  * start = "2019-12-23T09:30:10+01:00"
+  * end = "2019-12-23T10:30:10+01:00"
+* valueQuantity = 2000 'dyn.s/(cm5.m2)' "dyne second per centimeter5 and square meter"

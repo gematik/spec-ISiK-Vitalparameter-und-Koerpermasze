@@ -18,6 +18,10 @@ Id: ISiKKoerpergroesse
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* performer MS
+* method MS
+* device MS
+* dataAbsentReason MS
 
 ValueSet: ISiKKoerpergroesseSCTVS
 Id: ISiKKoerpergroesseSCTVS
