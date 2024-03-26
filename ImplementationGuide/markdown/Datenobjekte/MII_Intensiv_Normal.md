@@ -7,7 +7,7 @@ Im Rahmen des [Moduls zur Intensivmedizinische Versorgung (ICU) der MII](https:/
 Die Profile der MII sind medizinisch qualitätsgesichert und weisen eine feingranulare Kodierung vor.
 
 Durch die Übernahme der Profile der MII und Abbildung auf das ISIK-Setting, können feingranular kodierte Profile zu Vitalparametern im Krankenhauskontext genutzt werden - für die Normal- wie für die intensivmedizinische Versorgung.
-Insbesondere dienen die Profile der Abbildung des Workflows zur Überleitung zwischen Intensiv- und Normalversorgung (siehe {{pagelink:ImplementationGuide/markdown/markdown/UebergreifendeUseCases/Intensivversorgung.md}}).
+Insbesondere dienen die Profile der Abbildung des Workflows zur Überleitung zwischen Intensiv- und Normalversorgung (siehe {{pagelink:ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung.md}}).
 
 ## Intensivversorgung - PDMS 
 
