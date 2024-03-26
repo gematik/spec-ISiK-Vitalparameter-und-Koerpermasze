@@ -15,8 +15,8 @@ Die Verwendung der [CapabilityStatement-Expectation](https://hl7.org/fhir/R4/ext
 
 ## CapabilityStatement (Requirement) ISiK-Vitalparameter
 
-[Link Simplifier Profil Übersicht](https://simplifier.net/isik-vitalparameter-und-koerpermasze-v3/isik-capabilitystatement-vitalparameter-server)
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-vitalparameter-v4/isik-capabilitystatement-vitalparameter-server)
 
-{{render:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/CapabilityStatement/vitalparameter-server}}
+{{render:https://gematik.de/fhir/isik/CapabilityStatement/vitalparameter-server}}
 
 
