@@ -6,7 +6,7 @@ Title: "SD MII ICU Ideales Koerpergewicht"
   * coding[snomed] = $sct#170804003
   * coding[loinc] = $loinc#50064-5
   * coding[IEEE-11073] ..0
-    * ^patternCoding.system = "urn:std:iso:11073:10101"
+    * ^patternCoding.system = "urn:iso:std:iso:11073:10101"
 * valueQuantity
   * system = $unitsofmeasure
   * code = #kg

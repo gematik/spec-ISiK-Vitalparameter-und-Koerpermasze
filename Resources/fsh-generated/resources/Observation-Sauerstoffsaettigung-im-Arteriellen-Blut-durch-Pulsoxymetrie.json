@@ -32,6 +32,10 @@
         "code": "150456",
         "system": "urn:iso:std:iso:11073:10101",
         "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+      },
+      {
+        "code": "2708-6",
+        "system": "http://loinc.org"
       }
     ]
   },

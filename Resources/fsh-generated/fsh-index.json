@@ -136,6 +136,166 @@
     "endLine": 29
   },
   {
+    "outputFile": "Observation-Koerpertemperatur-Achsel.json",
+    "fshName": "Koerpertemperatur-Achsel",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Achsel.fsh",
+    "startLine": 15,
+    "endLine": 29
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Atemwege.json",
+    "fshName": "Koerpertemperatur-Atemwege",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Atemwege.fsh",
+    "startLine": 13,
+    "endLine": 25
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Blut.json",
+    "fshName": "Koerpertemperatur-Blut",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Blut.fsh",
+    "startLine": 15,
+    "endLine": 28
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Brust.json",
+    "fshName": "Koerpertemperatur-Brust",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Brust.fsh",
+    "startLine": 10,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Brustwirbelsaeule.json",
+    "fshName": "Koerpertemperatur-Brustwirbelsaeule",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Brustwirbelsaeule.fsh",
+    "startLine": 10,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Gelenk.json",
+    "fshName": "Koerpertemperatur-Gelenk",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Gelenk.fsh",
+    "startLine": 10,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Halswirbelsaeule.json",
+    "fshName": "Koerpertemperatur-Halswirbelsaeule",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Halswirbelsaeule.fsh",
+    "startLine": 10,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Harnblase.json",
+    "fshName": "Koerpertemperatur-Harnblase",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Harnblase.fsh",
+    "startLine": 14,
+    "endLine": 27
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Kern.json",
+    "fshName": "Koerpertemperatur-Kern",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Kern.fsh",
+    "startLine": 14,
+    "endLine": 27
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Leiste.json",
+    "fshName": "Koerpertemperatur-Leiste",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Leiste.fsh",
+    "startLine": 10,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Lendenwirbelsaeule.json",
+    "fshName": "Koerpertemperatur-Lendenwirbelsaeule",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Lendenwirbelsaeule.fsh",
+    "startLine": 10,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Myokard.json",
+    "fshName": "Koerpertemperatur-Myokard",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Myokard.fsh",
+    "startLine": 14,
+    "endLine": 27
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Nasen-Rachen-Raum.json",
+    "fshName": "Koerpertemperatur-Nasen-Rachen-Raum",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Nasen_Rachen_Raum.fsh",
+    "startLine": 10,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Speiseroehre.json",
+    "fshName": "Koerpertemperatur-Speiseroehre",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Speiseroehre.fsh",
+    "startLine": 15,
+    "endLine": 28
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Stirn.json",
+    "fshName": "Koerpertemperatur-Stirn",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Stirn.fsh",
+    "startLine": 10,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-Trommelfell.json",
+    "fshName": "Koerpertemperatur-Trommelfell",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Trommelfell.fsh",
+    "startLine": 14,
+    "endLine": 27
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-nasal.json",
+    "fshName": "Koerpertemperatur-nasal",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Nasal.fsh",
+    "startLine": 14,
+    "endLine": 27
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-rektal.json",
+    "fshName": "Koerpertemperatur-rektal",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Rektal.fsh",
+    "startLine": 18,
+    "endLine": 32
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-unter-der-Zunge.json",
+    "fshName": "Koerpertemperatur-unter-der-Zunge",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Unter_Der_Zunge.fsh",
+    "startLine": 15,
+    "endLine": 29
+  },
+  {
+    "outputFile": "Observation-Koerpertemperatur-vaginal.json",
+    "fshName": "Koerpertemperatur-vaginal",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Vaginal.fsh",
+    "startLine": 10,
+    "endLine": 22
+  },
+  {
     "outputFile": "Observation-Linksatrialer-Druck.json",
     "fshName": "Linksatrialer-Druck",
     "fshType": "Instance",
@@ -416,6 +576,174 @@
     "endLine": 16
   },
   {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-achsel.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Achsel",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Achsel.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-atemwege.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Atemwege",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Atemwege.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-blut.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Blut",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Blut.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-brust.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Brust",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Brust.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-brustwirbelsaeule.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Brustwirbelsaeule",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Brustwirbelsaeule.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-gelenk.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Gelenk",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Gelenk.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-generisch.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Generisch",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Generisch.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-halswirbelsaeule.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Halswirbelsaeule",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Halswirbelsaeule.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-harnblase.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Harnblase",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Harnblase.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-kern.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Kern",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Kern.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-leiste.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Leiste",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Leiste.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-lendenwirbelsaeule.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Lendenwirbelsaeule",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Lendenwirbelsaeule.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-myokard.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Myokard",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Myokard.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-nasal.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Nasal",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Nasal.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-nasen-rachen-raum.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Nasen_Rachen_Raum",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Nasen_Rachen_Raum.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-rektal.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Rektal",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Rektal.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-speiseroehre.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Speiseroehre",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Speiseroehre.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-stirn.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Stirn",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Stirn.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-trommelfell.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Trommelfell",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Trommelfell.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-unter-der-zunge.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Unter_Der_Zunge",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Unter_Der_Zunge.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-vaginal.json",
+    "fshName": "SD_MII_ICU_Koerpertemperatur_Vaginal",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Vaginal.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
     "outputFile": "StructureDefinition-sd-mii-icu-links-herzindex-indikatorverduennung.json",
     "fshName": "SD_MII_ICU_Linksventrikulaerer_Herzindex_Durch_Indikatorverduennung",
     "fshType": "Profile",
@@ -493,7 +821,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Monitoring_Und_Vitaldaten.fsh",
     "startLine": 1,
-    "endLine": 75
+    "endLine": 77
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json",

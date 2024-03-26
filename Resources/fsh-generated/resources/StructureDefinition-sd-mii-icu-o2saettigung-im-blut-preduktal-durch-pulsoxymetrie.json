@@ -76,7 +76,7 @@
         "path": "Observation.code.coding",
         "sliceName": "loinc-fhir-core",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "2708-6",
           "system": "http://loinc.org"

@@ -6,7 +6,7 @@ Title: "SD MII ICU Sauerstoffsaettigung Im Arteriellen Blut Durch Pulsoxymetrie"
   * coding[snomed] = $sct#442476006
   * coding[loinc] = $loinc#59408-5
   * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150456
-  * coding contains loinc-fhir-core 0..* MS
+  * coding contains loinc-fhir-core 1..1 MS
   * coding[loinc-fhir-core] = $loinc#2708-6
     * system 1.. MS
     * code 1.. MS

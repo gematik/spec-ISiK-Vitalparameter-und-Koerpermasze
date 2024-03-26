@@ -132,6 +132,7 @@
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
+        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-loinc"
@@ -153,6 +154,7 @@
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
+        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-snomed"

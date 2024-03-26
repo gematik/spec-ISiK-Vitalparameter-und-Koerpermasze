@@ -7,7 +7,7 @@ Title: "SD MII ICU Linksventrikulaerer Herzindex durch Indikatorverduennung"
     * ^patternCoding.system = "http://snomed.info/sct"
   * coding[loinc] = $loinc#8751-0
   * coding[IEEE-11073]
-    * ^patternCoding.system = "urn:std:iso:11073:10101"
+    * ^patternCoding.system = "urn:iso:std:iso:11073:10101"
 * valueQuantity 1..
   * ^patternQuantity.system = "http://unitsofmeasure.org"
   * unit 1..

@@ -28,9 +28,11 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
     * ^slicing.rules = #open
   * coding contains
       IEEE-11073 0..* MS
+  * coding[snomed] MS
   * coding[snomed] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_SNOMED (required)
     * system 1.. MS
     * code 1.. MS
+  * coding[loinc] MS
   * coding[loinc] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_LOINC (required)
     * system 1.. MS
     * code 1.. MS

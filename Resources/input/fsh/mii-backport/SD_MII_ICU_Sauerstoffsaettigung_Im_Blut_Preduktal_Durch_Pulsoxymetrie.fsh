@@ -7,7 +7,7 @@ Title: "SD MII ICU Sauerstoffsaettigung Im Blut Preduktal Durch Pulsoxymetrie"
     * ^patternCoding.system = "http://snomed.info/sct"
   * coding[loinc] = $loinc#59407-7
   * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#160296
-  * coding contains loinc-fhir-core 0..* MS
+  * coding contains loinc-fhir-core 0..1 MS
   * coding[loinc-fhir-core] = $loinc#2708-6
     * system 1.. MS
     * code 1.. MS
