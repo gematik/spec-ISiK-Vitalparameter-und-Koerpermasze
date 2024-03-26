@@ -36,8 +36,8 @@
     "fshName": "ISiKBlutdruckExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Blutdruck.fsh",
-    "startLine": 32,
-    "endLine": 51
+    "startLine": 38,
+    "endLine": 58
   },
   {
     "outputFile": "Observation-ISiKEkgExample.json",
@@ -136,6 +136,14 @@
     "endLine": 29
   },
   {
+    "outputFile": "Observation-Linksatrialer-Druck.json",
+    "fshName": "Linksatrialer-Druck",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksatrialer_Druck.fsh",
+    "startLine": 21,
+    "endLine": 47
+  },
+  {
     "outputFile": "Observation-Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung.json",
     "fshName": "Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung",
     "fshType": "Instance",
@@ -200,6 +208,14 @@
     "endLine": 26
   },
   {
+    "outputFile": "Observation-Pulmonalarterieller-Blutdruck.json",
+    "fshName": "Pulmonalarterieller-Blutdruck",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Pulmonalarterieller_Blutdruck.fsh",
+    "startLine": 20,
+    "endLine": 46
+  },
+  {
     "outputFile": "Observation-Pulmonalarterieller-wedge-Blutdruck.json",
     "fshName": "Pulmonalarterieller-wedge-Blutdruck",
     "fshType": "Instance",
@@ -214,6 +230,22 @@
     "fshFile": "mii-backport/SD_MII_ICU_Pulmonalvaskulaerer_Widerstandsindex.fsh",
     "startLine": 14,
     "endLine": 26
+  },
+  {
+    "outputFile": "Observation-Rechtsatrialer-Druck.json",
+    "fshName": "Rechtsatrialer-Druck",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Rechtsatrialer_Druck.fsh",
+    "startLine": 21,
+    "endLine": 47
+  },
+  {
+    "outputFile": "Observation-Rechtsventrikulaerer-Druck.json",
+    "fshName": "Rechtsventrikulaerer-Druck",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/SD_MII_ICU_Rechtsventrikulaerer_Druck.fsh",
+    "startLine": 20,
+    "endLine": 44
   },
   {
     "outputFile": "Observation-Sauerstoffsaettigung-im-Arteriellen-Blut-durch-Pulsoxymetrie.json",
@@ -277,7 +309,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Blutdruck.fsh",
     "startLine": 1,
-    "endLine": 30
+    "endLine": 36
   },
   {
     "outputFile": "StructureDefinition-ISiKEkg.json",
@@ -392,6 +424,14 @@
     "endLine": 14
   },
   {
+    "outputFile": "StructureDefinition-sd-mii-icu-linksatrialer-druck.json",
+    "fshName": "SD_MII_ICU_Linksatrialer_Druck",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Linksatrialer_Druck.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
     "outputFile": "StructureDefinition-sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd.json",
     "fshName": "SD_MII_ICU_Linksventrikulaeres_Herzzeitvolumen_Durch_Indikatorverduennung",
     "fshType": "Profile",
@@ -480,6 +520,14 @@
     "endLine": 17
   },
   {
+    "outputFile": "StructureDefinition-sd-mii-icu-pulmonalarterieller-blutdruck.json",
+    "fshName": "SD_MII_ICU_Pulmonalarterieller_Blutdruck",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Pulmonalarterieller_Blutdruck.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
     "outputFile": "StructureDefinition-sd-mii-icu-pulmonalarterieller-wedge-druck.json",
     "fshName": "SD_MII_ICU_Pulmonalarterieller_Wedge_Druck",
     "fshType": "Profile",
@@ -496,12 +544,28 @@
     "endLine": 12
   },
   {
+    "outputFile": "StructureDefinition-sd-mii-icu-rechtsatrialer-druck.json",
+    "fshName": "SD_MII_ICU_Rechtsatrialer_Druck",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Rechtsatrialer_Druck.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-sd-mii-icu-rechtsventrikulaerer-druck.json",
+    "fshName": "SD_MII_ICU_Rechtsventrikulaerer_Druck",
+    "fshType": "Profile",
+    "fshFile": "mii-backport/SD_MII_ICU_Rechtsventrikulaerer_Druck.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
     "outputFile": "StructureDefinition-sd-mii-icu-sonstige-pulsatile-druecke-generisch.json",
     "fshName": "SD_MII_ICU_Sonstige_Pulsatile_Druecke_Generisch",
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Sonstige_Pulsatile_Druecke_Generisch.fsh",
     "startLine": 1,
-    "endLine": 137
+    "endLine": 141
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-systemischer-vaskulaerer-widerstandsindex.json",

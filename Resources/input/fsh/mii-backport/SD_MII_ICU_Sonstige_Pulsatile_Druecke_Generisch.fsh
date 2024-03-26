@@ -11,8 +11,12 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
-  * coding contains snomed 1..1 MS
+  * coding contains snomed 1.. MS and loinc 0..* MS
   * coding[snomed] ^patternCoding.system = $sct
+    * system 1.. MS
+    * code 1.. MS
+    * display MS
+  * coding[loinc] ^patternCoding.system = $loinc
     * system 1.. MS
     * code 1.. MS
     * display MS
