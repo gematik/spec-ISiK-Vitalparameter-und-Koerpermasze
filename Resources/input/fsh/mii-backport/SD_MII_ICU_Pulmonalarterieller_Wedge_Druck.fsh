@@ -6,11 +6,9 @@ Title: "SD MII ICU Pulmonalarterieller Wedge Druck"
   * coding[snomed] = $sct#118433006
   * coding[loinc] = $loinc#75994-4
   * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150052
-* value[x] ^slicing.discriminator.type = #type
-  * ^slicing.discriminator.path = "$this"
-  * ^slicing.rules = #open
-* valueQuantity = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
-  * ^sliceName = "valueQuantity"
+* valueQuantity
+  * system = $unitsofmeasure
+  * code = #mm[Hg]
   * unit 1..
 
 Instance: Pulmonalarterieller-wedge-Blutdruck

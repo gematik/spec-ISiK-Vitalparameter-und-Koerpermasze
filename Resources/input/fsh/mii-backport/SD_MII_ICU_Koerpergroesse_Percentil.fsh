@@ -10,7 +10,9 @@ Title: "SD MII ICU Koerpergroesse Percentil"
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = "urn:std:iso:11073:10101"
 * value[x] only Quantity
-* valueQuantity = $unitsofmeasure#% "percent"
+* valueQuantity
+  * system = $unitsofmeasure
+  * code = #%
   * unit 1..
 
 Instance: Koerpergroesse-Percentil

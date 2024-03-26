@@ -6,38 +6,6 @@
   "title": "SD MII ICU Linksventrikulaeres Schlagvolumenindex",
   "status": "draft",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "workflow",
-      "uri": "http://hl7.org/fhir/workflow",
-      "name": "Workflow Pattern"
-    },
-    {
-      "identity": "sct-concept",
-      "uri": "http://snomed.info/conceptdomain",
-      "name": "SNOMED CT Concept Domain Binding"
-    },
-    {
-      "identity": "v2",
-      "uri": "http://hl7.org/v2",
-      "name": "HL7 v2 Mapping"
-    },
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    },
-    {
-      "identity": "w5",
-      "uri": "http://hl7.org/fhir/fivews",
-      "name": "FiveWs Pattern Mapping"
-    },
-    {
-      "identity": "sct-attr",
-      "uri": "http://snomed.org/attributebinding",
-      "name": "SNOMED CT Attribute Binding"
-    }
-  ],
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -72,18 +40,19 @@
         }
       },
       {
-        "id": "Observation.value[x]",
+        "id": "Observation.value[x]:valueQuantity",
         "path": "Observation.value[x]",
-        "patternQuantity": {
-          "code": "mL/m2",
-          "system": "http://unitsofmeasure.org",
-          "unit": "milliliter per square meter"
-        }
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
       },
       {
-        "id": "Observation.value[x].unit",
-        "path": "Observation.value[x].unit",
-        "min": 1
+        "id": "Observation.value[x]:valueQuantity.code",
+        "path": "Observation.value[x].code",
+        "patternCode": "mL/m2"
       }
     ]
   }

@@ -6,10 +6,7 @@ Title: "SD MII ICU Systemischer Vaskulaerer Widerstandsindex"
   * coding[snomed] = $sct#276900001
   * coding[loinc] = $loinc#8837-7
   * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#149760
-* value[x] ^slicing.discriminator.type = #type
-  * ^slicing.discriminator.path = "$this"
-  * ^slicing.rules = #open
-* valueQuantity
+* valueQuantity MS
   * unit 1..
   * code from VS_MII_ICU_Unit_equivalent_UCUM_dyn_s_cm5_m2 (required)
 

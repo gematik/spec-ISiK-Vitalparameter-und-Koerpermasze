@@ -33,8 +33,8 @@
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "kg",
-    "unit": "kilogram",
-    "value": 70
+    "value": 70,
+    "unit": "kilogram"
   },
   "status": "final",
   "subject": {

@@ -6,7 +6,9 @@ Title: "SD MII ICU Linksventrikulaeres Schlagvolumen"
   * coding[snomed] = $sct#90096001
   * coding[loinc] = $loinc#20562-5
   * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150428
-* valueQuantity = $unitsofmeasure#mL "milliliter"
+* valueQuantity
+  * system = $unitsofmeasure
+  * code = #mL
   * unit 1..
 
 Instance: Linksventrikulaeres-Schlagvolumen

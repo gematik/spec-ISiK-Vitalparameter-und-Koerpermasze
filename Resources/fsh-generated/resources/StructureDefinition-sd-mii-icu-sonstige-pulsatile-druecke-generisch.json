@@ -6,38 +6,6 @@
   "title": "SD MII ICU Sonstige pulsatile Druecke Generisch",
   "status": "draft",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "workflow",
-      "uri": "http://hl7.org/fhir/workflow",
-      "name": "Workflow Pattern"
-    },
-    {
-      "identity": "sct-concept",
-      "uri": "http://snomed.info/conceptdomain",
-      "name": "SNOMED CT Concept Domain Binding"
-    },
-    {
-      "identity": "v2",
-      "uri": "http://hl7.org/v2",
-      "name": "HL7 v2 Mapping"
-    },
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    },
-    {
-      "identity": "w5",
-      "uri": "http://hl7.org/fhir/fivews",
-      "name": "FiveWs Pattern Mapping"
-    },
-    {
-      "identity": "sct-attr",
-      "uri": "http://snomed.org/attributebinding",
-      "name": "SNOMED CT Attribute Binding"
-    }
-  ],
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -339,25 +307,11 @@
       {
         "id": "Observation.component:SystolicBP.value[x]",
         "path": "Observation.component.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
         "type": [
           {
             "code": "Quantity"
           }
         ],
-        "patternQuantity": {
-          "code": "mm[Hg]",
-          "system": "http://unitsofmeasure.org",
-          "unit": "millimeter Mercury column"
-        },
         "mustSupport": true
       },
       {
@@ -376,12 +330,14 @@
         "id": "Observation.component:SystolicBP.value[x].system",
         "path": "Observation.component.value[x].system",
         "min": 1,
+        "patternUri": "http://unitsofmeasure.org",
         "mustSupport": true
       },
       {
         "id": "Observation.component:SystolicBP.value[x].code",
         "path": "Observation.component.value[x].code",
         "min": 1,
+        "patternCode": "mm[Hg]",
         "mustSupport": true
       },
       {
@@ -523,25 +479,11 @@
       {
         "id": "Observation.component:DiastolicBP.value[x]",
         "path": "Observation.component.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
         "type": [
           {
             "code": "Quantity"
           }
         ],
-        "patternQuantity": {
-          "code": "mm[Hg]",
-          "system": "http://unitsofmeasure.org",
-          "unit": "millimeter Mercury column"
-        },
         "mustSupport": true
       },
       {
@@ -560,12 +502,14 @@
         "id": "Observation.component:DiastolicBP.value[x].system",
         "path": "Observation.component.value[x].system",
         "min": 1,
+        "patternUri": "http://unitsofmeasure.org",
         "mustSupport": true
       },
       {
         "id": "Observation.component:DiastolicBP.value[x].code",
         "path": "Observation.component.value[x].code",
         "min": 1,
+        "patternCode": "mm[Hg]",
         "mustSupport": true
       },
       {
@@ -712,11 +656,6 @@
             "code": "Quantity"
           }
         ],
-        "patternQuantity": {
-          "code": "mm[Hg]",
-          "system": "http://unitsofmeasure.org",
-          "unit": "millimeter Mercury column"
-        },
         "mustSupport": true
       },
       {
@@ -735,12 +674,14 @@
         "id": "Observation.component:meanBP.value[x].system",
         "path": "Observation.component.value[x].system",
         "min": 1,
+        "patternUri": "http://unitsofmeasure.org",
         "mustSupport": true
       },
       {
         "id": "Observation.component:meanBP.value[x].code",
         "path": "Observation.component.value[x].code",
         "min": 1,
+        "patternCode": "mm[Hg]",
         "mustSupport": true
       }
     ]

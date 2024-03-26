@@ -28,8 +28,8 @@
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "mL",
-    "unit": "milliliter",
-    "value": 40
+    "value": 40,
+    "unit": "milliliter"
   },
   "status": "final",
   "subject": {

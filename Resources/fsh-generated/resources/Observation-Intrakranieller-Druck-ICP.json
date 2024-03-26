@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "Sauerstoffsaettigung-im-Blut-Preduktal-durch-Pulsoxymetrie",
+  "id": "Intrakranieller-Druck-ICP",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie"
+      "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-intrakranieller-druck-icp"
     ]
   },
   "category": [
@@ -19,22 +19,27 @@
   "code": {
     "coding": [
       {
-        "code": "59407-7",
+        "code": "60956-0",
         "system": "http://loinc.org",
-        "display": "Oxygen saturation in Blood Preductal by Pulse oximetry"
+        "display": "Intracranial pressure (ICP)"
       },
       {
-        "code": "160296",
+        "code": "250844005",
+        "system": "http://snomed.info/sct",
+        "display": "Intracranial pressure (observable entity)"
+      },
+      {
+        "code": "153608",
         "system": "urn:iso:std:iso:11073:10101",
-        "display": "Preductal SpO2"
+        "display": "Intracranial pressure"
       }
     ]
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "code": "%",
-    "value": 96,
-    "unit": "percent"
+    "code": "mm[Hg]",
+    "value": 10,
+    "unit": "millimeter Mercury column"
   },
   "status": "final",
   "subject": {

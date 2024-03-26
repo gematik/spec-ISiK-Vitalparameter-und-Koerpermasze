@@ -33,8 +33,8 @@
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "%",
-    "unit": "percent",
-    "value": 50
+    "value": 50,
+    "unit": "percent"
   },
   "status": "final",
   "subject": {

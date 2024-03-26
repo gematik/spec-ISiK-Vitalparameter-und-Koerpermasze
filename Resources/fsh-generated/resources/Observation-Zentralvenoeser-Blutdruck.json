@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "Sauerstoffsaettigung-im-Blut-Preduktal-durch-Pulsoxymetrie",
+  "id": "Zentralvenoeser-Blutdruck",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie"
+      "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-zentralvenoeser-blutdruck"
     ]
   },
   "category": [
@@ -19,22 +19,27 @@
   "code": {
     "coding": [
       {
-        "code": "59407-7",
+        "code": "60985-9",
         "system": "http://loinc.org",
-        "display": "Oxygen saturation in Blood Preductal by Pulse oximetry"
+        "display": "Central venous pressure (CVP)"
       },
       {
-        "code": "160296",
+        "code": "71420008",
+        "system": "http://snomed.info/sct",
+        "display": "Central venous pressure (observable entity)"
+      },
+      {
+        "code": "150084",
         "system": "urn:iso:std:iso:11073:10101",
-        "display": "Preductal SpO2"
+        "display": "Central venous pressure"
       }
     ]
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "code": "%",
-    "value": 96,
-    "unit": "percent"
+    "code": "mm[Hg]",
+    "value": 12,
+    "unit": "millimeter Mercury column"
   },
   "status": "final",
   "subject": {

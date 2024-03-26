@@ -10,7 +10,9 @@ Title: "SD MII ICU Sauerstoffsaettigung Im Arteriellen Blut Durch Pulsoxymetrie"
   * coding[loinc-fhir-core] = $loinc#2708-6
     * system 1.. MS
     * code 1.. MS
-* valueQuantity = $unitsofmeasure#% "percent"
+* valueQuantity
+  * system = $unitsofmeasure
+  * code = #%
   * unit 1..
 * bodySite = $sct#11527006
   * coding MS

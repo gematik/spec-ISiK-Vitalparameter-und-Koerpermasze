@@ -64,11 +64,9 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * code 1.. MS
       * display MS
   * value[x] only Quantity
-  * value[x] = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
-  * value[x] MS
-    * ^slicing.discriminator.type = #type
-    * ^slicing.discriminator.path = "$this"
-    * ^slicing.rules = #open
+  * valueQuantity MS
+    * system = $unitsofmeasure
+    * code = #mm[Hg]
     * value 1.. MS
     * unit 1.. MS
     * system 1.. MS
@@ -98,11 +96,9 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * code 1.. MS
       * display MS
   * value[x] only Quantity
-  * value[x] = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
-  * value[x] MS
-    * ^slicing.discriminator.type = #type
-    * ^slicing.discriminator.path = "$this"
-    * ^slicing.rules = #open
+  * valueQuantity MS
+    * system = $unitsofmeasure
+    * code = #mm[Hg]
     * value 1.. MS
     * unit 1.. MS
     * system 1.. MS
@@ -132,8 +128,9 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * code 1.. MS
       * display MS
   * value[x] only Quantity
-  * value[x] = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
   * valueQuantity MS
+    * system = $unitsofmeasure
+    * code = #mm[Hg]
     * value 1.. MS
     * unit 1.. MS
     * system 1.. MS

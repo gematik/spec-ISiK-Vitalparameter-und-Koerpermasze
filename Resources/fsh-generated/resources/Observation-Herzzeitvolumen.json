@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "Sauerstoffsaettigung-im-Blut-Preduktal-durch-Pulsoxymetrie",
+  "id": "Herzzeitvolumen",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie"
+      "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-herzzeitvolumen"
     ]
   },
   "category": [
@@ -19,26 +19,31 @@
   "code": {
     "coding": [
       {
-        "code": "59407-7",
+        "code": "8741-1",
         "system": "http://loinc.org",
-        "display": "Oxygen saturation in Blood Preductal by Pulse oximetry"
+        "display": "Left ventricular Cardiac output"
       },
       {
-        "code": "160296",
+        "code": "82799009",
+        "system": "http://snomed.info/sct",
+        "display": "Cardiac output (observable entity)"
+      },
+      {
+        "code": "150276",
         "system": "urn:iso:std:iso:11073:10101",
-        "display": "Preductal SpO2"
+        "display": "Cardiac output"
       }
     ]
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "code": "%",
-    "value": 96,
-    "unit": "percent"
+    "value": 5,
+    "code": "L/min",
+    "unit": "liter per minute"
   },
   "status": "final",
   "subject": {
-    "reference": "Patient/111"
+    "reference": "Patient/PatientinMusterfrau"
   },
   "effectivePeriod": {
     "start": "2019-12-23T09:30:10+01:00",

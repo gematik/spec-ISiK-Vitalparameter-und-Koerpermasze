@@ -8,3 +8,17 @@ Title: "SD MII ICU Herzzeitvolumen"
   * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150276
 * valueQuantity from VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute (required)
   * unit 1..
+
+Instance: Herzzeitvolumen
+InstanceOf: SD_MII_ICU_Herzzeitvolumen
+Usage: #example
+* status = #final
+* code
+  * coding[loinc] = $loinc#8741-1 "Left ventricular Cardiac output"
+  * coding[snomed] = $sct#82799009 "Cardiac output (observable entity)"
+  * coding[IEEE-11073] = urn:iso:std:iso:11073:10101#150276 "Cardiac output"
+* subject = Reference(PatientinMusterfrau)
+* effectivePeriod
+  * start = "2019-12-23T09:30:10+01:00"
+  * end = "2019-12-23T10:30:10+01:00"
+* valueQuantity = 5 'L/min' "liter per minute"

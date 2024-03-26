@@ -9,7 +9,9 @@ Title: "SD MII ICU Koerpergewicht Percentil Altersabhaengig"
   * coding[loinc] = $loinc#8336-0
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = "urn:std:iso:11073:10101"
-* valueQuantity = $unitsofmeasure#% "percent"
+* valueQuantity
+  * system = $unitsofmeasure
+  * code = #%
   * unit 1..
 
 Instance: Koerpergewicht-Percentile-altersabhaengig

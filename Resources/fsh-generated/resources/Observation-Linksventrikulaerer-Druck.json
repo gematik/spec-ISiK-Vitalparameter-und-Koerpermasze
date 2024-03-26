@@ -36,10 +36,10 @@
         ]
       },
       "valueQuantity": {
-        "code": "mm[Hg]",
         "system": "http://unitsofmeasure.org",
-        "unit": "millimeter Mercury column",
-        "value": 120
+        "code": "mm[Hg]",
+        "value": 120,
+        "unit": "millimeter Mercury column"
       }
     },
     {
@@ -62,10 +62,10 @@
         ]
       },
       "valueQuantity": {
-        "code": "mm[Hg]",
         "system": "http://unitsofmeasure.org",
-        "unit": "millimeter Mercury column",
-        "value": 10
+        "code": "mm[Hg]",
+        "value": 10,
+        "unit": "millimeter Mercury column"
       }
     },
     {
@@ -88,10 +88,10 @@
         ]
       },
       "valueQuantity": {
-        "code": "mm[Hg]",
         "system": "http://unitsofmeasure.org",
-        "unit": "millimeter Mercury column",
-        "value": 40
+        "code": "mm[Hg]",
+        "value": 40,
+        "unit": "millimeter Mercury column"
       }
     }
   ],

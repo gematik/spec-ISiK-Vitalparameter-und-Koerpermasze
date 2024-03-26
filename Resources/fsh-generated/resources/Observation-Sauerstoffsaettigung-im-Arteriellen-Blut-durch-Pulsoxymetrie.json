@@ -38,8 +38,8 @@
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "%",
-    "unit": "percent",
-    "value": 98
+    "value": 98,
+    "unit": "percent"
   },
   "bodySite": {
     "coding": [

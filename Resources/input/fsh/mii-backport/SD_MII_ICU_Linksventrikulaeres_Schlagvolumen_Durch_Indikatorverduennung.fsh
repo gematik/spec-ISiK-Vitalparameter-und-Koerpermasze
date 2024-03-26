@@ -8,7 +8,9 @@ Title: "SD MII ICU Linksventrikulaeres Schlagvolumen Durch Indikatorverduennung"
   * coding[loinc] = $loinc#8771-8
   * coding[IEEE-11073]
     * ^patternCoding.system = "urn:std:iso:11073:10101"
-* valueQuantity = $unitsofmeasure#mL "milliliter"
+* valueQuantity
+  * system = $unitsofmeasure
+  * code = #mL
   * unit 1..
 
 Instance: Linksventrikulaeres-Schlagvolumen-Durch-Indikatorverduennung
