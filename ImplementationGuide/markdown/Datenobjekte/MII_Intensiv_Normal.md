@@ -17,7 +17,7 @@ Insbesondere dienen die Profile der Abbildung des Workflows zur Überleitung zwi
 
 ## Intensivversorgung - PDMS 
 
-### Normativer Status
+### Normativer Status Intensivversorgung
 Für folgende Profile, die den Festlegungen der MII entstammen, gelten gesonderte Festlegungen in Bezug auf die Notwendigkeit der Implementierung durch SW-Hersteller.
 
 ### Profile und Beispiele für die Intensivversorgung
@@ -80,7 +80,7 @@ Folgende Profile MÜSSEN durch PDMS implementiert werden und - was als gleichwer
 
 ## Normalversorgung - alle bestätigungsrelevanten Systeme 
 
-### Normativer Status
+### Normativer Status Normalversorgung
 Alle bestätigungsrelevanten Systeme für dieses Modul MÜSSEN Ressourcen verarbeiten können, die zu folgenden Profilen konform sind.
 
 
@@ -96,8 +96,8 @@ Alle bestätigungsrelevanten Systeme für dieses Modul MÜSSEN Ressourcen verarb
     -  Beispiel: https://simplifier.net/isik-sandbox/Ideales-Koerpergewicht
 - Sauerstoffsättigung im art. Blut durch Pulsoxymetrie (Obs) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie
     -  Beispiel: https://simplifier.net/isik-sandbox/Sauerstoffsaettigung-im-Arteriellen-Blut-durch-Pulsoxymetrie
-- Puls (Observation) #TODO
-    -  Beispiel: https://simplifier.net/isik-sandbox/
+- Puls (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-puls
+    -  Beispiel: https://simplifier.net/isik-sandbox/Puls
 - Koerpertemperatur Kern (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-kern
     -  Beispiel: https://simplifier.net/isik-sandbox/Koerpertemperatur-Kern
 - Koerpertemperatur Gelenk (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-gelenk
