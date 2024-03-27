@@ -31,11 +31,13 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
 * bodySite from VS_MII_ICU_BodySite_Observation_Blutdruck (extensible)
   * ^binding.description = "Codes describing anatomical locations. May include laterality. Subset of ValueSet for Monitoring und Vitaldaten."
 * method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * method from VS_MII_ICU_Method_Observation_Blutdruck (extensible)
   * coding MS
     * system MS
     * code MS
 * device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * referenceRange ..0 MS
 * component MS
   * ^slicing.discriminator.type = #pattern
@@ -141,4 +143,5 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
     * system 1.. MS
     * code 1.. MS
 * performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 

@@ -218,6 +218,7 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
         "mustSupport": true
       },
       {
@@ -316,11 +317,13 @@
       {
         "id": "Observation.method",
         "path": "Observation.method",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
         "mustSupport": true
       },
       {
         "id": "Observation.device",
         "path": "Observation.device",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
         "mustSupport": true
       },
       {

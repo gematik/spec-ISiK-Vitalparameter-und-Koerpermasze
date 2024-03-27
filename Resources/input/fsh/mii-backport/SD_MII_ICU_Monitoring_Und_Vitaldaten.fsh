@@ -60,6 +60,7 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
 * bodySite MS
 * bodySite from VS_MII_ICU_BodySite_Observation_Monitoring_und_Vitaldaten (extensible)
 * device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * referenceRange MS
 * component MS
   * code MS
@@ -75,4 +76,6 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
   * interpretation MS
   * referenceRange MS
 * performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
