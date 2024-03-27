@@ -69,6 +69,22 @@ Usage: #definition
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Trommelfell, SHALL)
 
 * rest.resource.interaction[0].extension.url = $capabilitystatement-expectation
+* rest.resource.supportedProfile[+] = $iSiKLaboruntersuchungSerumkreatinin
+  * extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension.valueCode = #SHALL
+* rest.resource.supportedProfile[+] = $iSiKLaboruntersuchungPCT
+  * extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension.valueCode = #SHALL
+* rest.resource.supportedProfile[+] = $iSiKLaboruntersuchungCRP
+  * extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension.valueCode = #SHALL
+* rest.resource.supportedProfile[+] = $iSiKLaboruntersuchungHb
+  * extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension.valueCode = #SHALL
+* rest.resource.supportedProfile[+] = $iSiKLaboruntersuchungTroponin
+  * extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension.valueCode = #SHALL
+* rest.resource.interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource.interaction[=].extension.valueCode = #SHALL
 * rest.resource.interaction[=].code = #read
 * rest.resource.interaction[+].extension.url = $capabilitystatement-expectation
