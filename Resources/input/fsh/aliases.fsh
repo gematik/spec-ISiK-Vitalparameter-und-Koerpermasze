@@ -4,3 +4,4 @@ Alias: $v3-ObservationInterpretation = http://terminology.hl7.org/CodeSystem/v3-
 Alias: $sct = http://snomed.info/sct
 Alias: $unitsofmeasure = http://unitsofmeasure.org
 Alias: $IEEE11073 = urn:iso:std:iso:11073:10101
+Alias: $capabilitystatement-expectation =  http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation
