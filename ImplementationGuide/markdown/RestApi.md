@@ -1,6 +1,6 @@
 # REST-API
 
-Es gelten die Festlegungen aus dem [Basismodul](https://simplifier.net/guide/implementierungsleitfadenisik-basismodul/I-markdown-UebergreifendeFestlegungen-UebergreifendeFestlegungen-Rest?version=current).
+Es gelten die Festlegungen aus dem [Basismodul](https://simplifier.net/guide/isik-basis-v4/markdown-UebergreifendeFestlegungen-UebergreifendeFestlegungen_Rest?version=current).
 
 ## Datenübernahme - Zusammenspiel von KIS & Patientendatenmanagementsysteme (PDMS)
 
