@@ -65,6 +65,22 @@
         "value": 60,
         "unit": "mmHg"
       }
+    },
+    {
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]",
+        "value": 80,
+        "unit": "mmHg"
+      },
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8478-0"
+          }
+        ]
+      }
     }
   ],
   "status": "final",

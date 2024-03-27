@@ -18,6 +18,10 @@ Id: ISiKHerzfrequenz
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* performer MS
+* method MS
+* device MS
+* dataAbsentReason MS
 
 ValueSet: ISiKHerzfrequenzSCTVS
 Id: ISiKHerzfrequenzSCTVS

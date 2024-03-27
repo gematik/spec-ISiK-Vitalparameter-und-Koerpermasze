@@ -7,6 +7,7 @@ Id: ISiKSauerstoffsaettigung
 * category[VSCat] MS
 * code MS
   * coding[loinc] MS
+  * coding = $loinc#2708-6
   * coding[snomed] MS
 * subject MS
 * encounter MS
@@ -17,6 +18,10 @@ Id: ISiKSauerstoffsaettigung
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* performer MS
+* method MS
+* device MS
+* dataAbsentReason MS
 
 Instance: ISiKSauerstoffsaettigungExample
 InstanceOf: ISiKSauerstoffsaettigung

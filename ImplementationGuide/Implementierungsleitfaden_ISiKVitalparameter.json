@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "url": "https://gematik.de/fhir/isik/v4/Vitalparameter/ImplementationGuide/ISiK-vitalparameter",
   "name": "Implementierungsleitfaden ISiK-Modul Vitalparameter und Körpermaße",
-  "status": "active",
+  "status": "draft",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -185,6 +185,11 @@
             {
               "nameUrl": "ImplementationGuide/markdown/Datenobjekte/GCS.md",
               "title": "GCS",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/MII_Intensiv_Normal.md",
+              "title": "MII Profile der Intensiv- und Normalversorgung",
               "generation": "markdown"
             },
             {

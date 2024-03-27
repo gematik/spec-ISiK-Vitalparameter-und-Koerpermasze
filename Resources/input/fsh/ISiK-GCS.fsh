@@ -26,6 +26,10 @@ Id: ISiKGCS
 * component[Eye] MS
 * component[Motor] MS
 * component[Verbal] MS
+* performer MS
+* method MS
+* device MS
+* dataAbsentReason MS
 
 Instance: ISiKGCSExample
 InstanceOf: ISiKGCS

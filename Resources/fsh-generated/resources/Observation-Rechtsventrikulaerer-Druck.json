@@ -1,0 +1,103 @@
+{
+  "resourceType": "Observation",
+  "id": "Rechtsventrikulaerer-Druck",
+  "meta": {
+    "profile": [
+      "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-rechtsventrikulaerer-druck"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "276756009",
+        "system": "http://snomed.info/sct",
+        "display": "Right ventricular pressure (observable entity)"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8480-6",
+            "system": "http://loinc.org"
+          },
+          {
+            "code": "150105",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "Systolic right ventricular pressure"
+          },
+          {
+            "code": "8432-7",
+            "system": "http://loinc.org",
+            "display": "Right ventricular Intrachamber systolic pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]",
+        "value": 25,
+        "unit": "millimeter Mercury column"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8462-4",
+            "system": "http://loinc.org"
+          },
+          {
+            "code": "150106",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "Diastolic right ventricular pressure"
+          },
+          {
+            "code": "8377-4",
+            "system": "http://loinc.org",
+            "display": "Right ventricular Intrachamber diastolic pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]",
+        "value": 5,
+        "unit": "millimeter Mercury column"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8478-0",
+            "system": "http://loinc.org"
+          },
+          {
+            "code": "150107",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "Mean right ventricular pressure"
+          },
+          {
+            "code": "8406-1",
+            "system": "http://loinc.org",
+            "display": "Right ventricular Intrachamber mean pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]",
+        "value": 10,
+        "unit": "millimeter Mercury column"
+      }
+    }
+  ],
+  "status": "final",
+  "subject": {
+    "reference": "Patient/111"
+  },
+  "effectiveDateTime": "2019-12-23T09:30:10+01:00"
+}

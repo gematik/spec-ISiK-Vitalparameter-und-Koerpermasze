@@ -97,6 +97,26 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.component",
         "path": "Observation.component",
         "mustSupport": true
@@ -172,6 +192,43 @@
       },
       {
         "id": "Observation.component:DiastolicBP.dataAbsentReason",
+        "path": "Observation.component.dataAbsentReason",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:meanBP",
+        "path": "Observation.component",
+        "sliceName": "meanBP",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:meanBP.code",
+        "path": "Observation.component.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:meanBP.code.coding",
+        "path": "Observation.component.code.coding",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:meanBP.value[x]",
+        "path": "Observation.component.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:meanBP.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:meanBP.dataAbsentReason",
         "path": "Observation.component.dataAbsentReason",
         "mustSupport": true
       }
