@@ -30,7 +30,7 @@ ValueSet: ISiKKoerpertemperaturSCTVS
 Id: ISiKKoerpertemperaturSCTVS
 Title: "ISiKKoerpertemperaturSCTVS"
 Description: "ValueSet des Körpergewicht SnomedCT Codes in ISiK"
-* $sct#386725007 "Körpergewicht"
+* $sct#386725007 "Body temperature (observable entity)"
 
 Instance: ISiKKoerpertemperaturExample
 InstanceOf: ISiKKoerpertemperatur
