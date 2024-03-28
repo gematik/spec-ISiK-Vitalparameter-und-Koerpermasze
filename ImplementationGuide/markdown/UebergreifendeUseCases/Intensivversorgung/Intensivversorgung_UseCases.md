@@ -64,5 +64,5 @@ Hier genügt eine Abfrage per HTTP GET nicht (diese kann ggf. aber durch einen w
 - FHIR Subscription (vgl. im ISiK Kontext [Patient merge Notification](https://simplifier.net/guide/isik-basis-v4/UebergreifendeFestlegungen-UebergreifendeFestlegungen_Patient-merge?version=current))
 - Übernahme mittels Composition (vgl. im ISiK Kontext [Rückübermittlung Bericht aus Subsystemen (Composition)](https://simplifier.net/guide/isik-basis-v4/ImplementationGuide-markdown-Datenobjekte-Datenobjekte_BerichtSubsystem?version=current))
 - HL7 v2 Messaging
-
 - etc.
+
