@@ -1,12 +1,12 @@
 RuleSet: Meta
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^version = "4.0.0-rc"
 * ^publisher = "gematik GmbH"
 * ^date = "2024-02-01"
 
 RuleSet: Meta-CapabilityStatement
-* status = #draft
+* status = #active
 * experimental = false
 * version = "4.0.0-rc"
 * publisher = "gematik GmbH"
