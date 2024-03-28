@@ -1,14 +1,14 @@
 {
   "resourceType": "CapabilityStatement",
   "id": "ISiK-capabilityStatement-vitalparameter-server",
-  "url": "https://gematik.de/fhir/isik/CapabilityStatement/vitalparameter-server",
+  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServer",
   "status": "draft",
   "experimental": false,
   "version": "4.0.0-rc",
   "publisher": "gematik GmbH",
   "date": "2024-02-01",
   "implementationGuide": [
-    "https://gematik.de/fhir/isik/v4/Vitalparameter/ImplementationGuide/ISiK-vitalparameter|4.0.0-rc"
+    "https://gematik.de/fhir/isik/ImplementationGuide/ISiK-Vitalparameter"
   ],
   "name": "ISiKCapabilityStatementVitalparameterServer",
   "title": "ISiK CapabilityStatement Vitalparameter Server",
@@ -41,7 +41,7 @@
     "application/fhir+json"
   ],
   "instantiates": [
-    "https://gematik.de/fhir/isik/CapabilityStatement/vitalparameter-server"
+    "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServer"
   ],
   "rest": [
     {
