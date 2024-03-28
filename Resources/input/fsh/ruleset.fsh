@@ -15,6 +15,23 @@ RuleSet: Meta-CapabilityStatement
 * url = "https://gematik.de/fhir/isik/CapabilityStatement/vitalparameter-server"
 
 RuleSet: supporteProfile-SHALL(canonical, expectation)
-* rest.resource.supportedProfile[+] = Canonical({canonical})
+* rest.resource[=].supportedProfile[+] = Canonical({canonical})
   * extension.url = $capabilitystatement-expectation
   * extension.valueCode = #{expectation}
+
+RuleSet: supportedLaborProfile
+* rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungSerumkreatinin
+  * extension.url = $capabilitystatement-expectation
+  * extension.valueCode = #SHALL
+* rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungPCT
+  * extension.url = $capabilitystatement-expectation
+  * extension.valueCode = #SHALL
+* rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungCRP
+  * extension.url = $capabilitystatement-expectation
+  * extension.valueCode = #SHALL
+* rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungHb
+  * extension.url = $capabilitystatement-expectation
+  * extension.valueCode = #SHALL
+* rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungTroponin
+  * extension.url = $capabilitystatement-expectation
+  * extension.valueCode = #SHALL

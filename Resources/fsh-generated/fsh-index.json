@@ -5,7 +5,7 @@
     "fshType": "Instance",
     "fshFile": "ISiK-CapabilityStatement-Hospital.fsh",
     "startLine": 1,
-    "endLine": 131
+    "endLine": 147
   },
   {
     "outputFile": "CapabilityStatement-ISiK-capabilityStatement-vitalparameter-server-pdms.json",
@@ -13,7 +13,7 @@
     "fshType": "Instance",
     "fshFile": "ISiK-CapabilityStatement-PDMS.fsh",
     "startLine": 1,
-    "endLine": 159
+    "endLine": 160
   },
   {
     "outputFile": "Device-ExampleDevice.json",

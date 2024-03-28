@@ -592,7 +592,7 @@
                 }
               ],
               "name": "_id",
-              "definition": "http://hl7.org/fhir/SearchParameter/Resource-id",
+              "definition": "http://hl7.org/fhir/SearchParameter/resource[=]-id",
               "type": "token"
             },
             {
