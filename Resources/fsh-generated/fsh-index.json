@@ -1005,7 +1005,7 @@
     "fshType": "ValueSet",
     "fshFile": "mii-backport/valueSet/VS_MII_ICU_Code_Monitoring_und_Vitaldaten_LOINC.fsh",
     "startLine": 1,
-    "endLine": 56
+    "endLine": 57
   },
   {
     "outputFile": "ValueSet-vs-mii-icu-code-monitoring-und-vitaldaten-snomed.json",

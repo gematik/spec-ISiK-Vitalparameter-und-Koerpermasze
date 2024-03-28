@@ -218,6 +218,10 @@
           {
             "code": "76010-8",
             "display": "Nasal temperature"
+          },
+          {
+            "code": "8310-5",
+            "display": "Body temperature"
           }
         ]
       }
