@@ -97,6 +97,10 @@ Usage: #definition
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Blut, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Nasen_Rachen_Raum, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Speiseroehre, SHALL)
+
+//Support fuer Laborprofile
+* insert supportedLaborProfile
+
 * rest.resource[=].interaction[0].extension.url = $capabilitystatement-expectation
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #read

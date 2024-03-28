@@ -35,3 +35,12 @@ RuleSet: supportedLaborProfile
 * rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungTroponin
   * extension.url = $capabilitystatement-expectation
   * extension.valueCode = #SHALL
+* rest.resource[=].supportedProfile[+] = $ISiKLaboruntersuchungGFR
+  * extension.url = $capabilitystatement-expectation
+  * extension.valueCode = #SHALL
+* rest.resource[=].supportedProfile[+] = $ISiKLaboruntersuchungThrombozyten
+  * extension.url = $capabilitystatement-expectation
+  * extension.valueCode = #SHALL
+* rest.resource[=].supportedProfile[+] = $ISiKLaboruntersuchungTSH
+  * extension.url = $capabilitystatement-expectation
+  * extension.valueCode = #SHALL

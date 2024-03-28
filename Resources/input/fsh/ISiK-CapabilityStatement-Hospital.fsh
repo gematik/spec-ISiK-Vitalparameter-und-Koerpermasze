@@ -68,21 +68,8 @@ Usage: #definition
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Rektal, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Trommelfell, SHALL)
 
-* rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungSerumkreatinin
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungPCT
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungCRP
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungHb
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = $iSiKLaboruntersuchungTroponin
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
+//Support fuer Laborprofile
+* insert supportedLaborProfile
 
 * rest.resource[=].interaction[0].extension.url = $capabilitystatement-expectation
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL

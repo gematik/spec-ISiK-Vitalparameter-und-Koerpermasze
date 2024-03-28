@@ -87,7 +87,10 @@
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungPCT",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungCRP",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungHb",
-            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTroponin"
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTroponin",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungGFR",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungThrombozyten",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTSH"
           ],
           "_supportedProfile": [
             {
@@ -167,6 +170,30 @@
                 {
                   "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
                   "valueCode": "MAY"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
                 }
               ]
             },

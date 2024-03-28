@@ -10,3 +10,7 @@ Alias: $iSiKLaboruntersuchungPCT = https://gematik.de/fhir/isik/StructureDefinit
 Alias: $iSiKLaboruntersuchungCRP = https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungCRP
 Alias: $iSiKLaboruntersuchungHb = https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungHb
 Alias: $iSiKLaboruntersuchungTroponin =  https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTroponin
+
+Alias: $ISiKLaboruntersuchungGFR = https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungGFR
+Alias: $ISiKLaboruntersuchungThrombozyten = https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungThrombozyten
+Alias: $ISiKLaboruntersuchungTSH = https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTSH
