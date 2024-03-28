@@ -108,8 +108,8 @@
     "fshName": "ISiKSauerstoffsaettigungExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Sauerstoffsaettigung.fsh",
-    "startLine": 29,
-    "endLine": 48
+    "startLine": 28,
+    "endLine": 47
   },
   {
     "outputFile": "Observation-Ideales-Koerpergewicht.json",
@@ -549,7 +549,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Sauerstoffsaettigung.fsh",
     "startLine": 1,
-    "endLine": 27
+    "endLine": 26
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-herzzeitvolumen.json",

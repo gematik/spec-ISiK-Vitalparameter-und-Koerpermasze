@@ -70,14 +70,6 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding",
-        "path": "Observation.code.coding",
-        "patternCoding": {
-          "code": "2708-6",
-          "system": "http://loinc.org"
-        }
-      },
-      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",

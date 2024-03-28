@@ -7,7 +7,6 @@ Id: ISiKSauerstoffsaettigung
 * category[VSCat] MS
 * code MS
   * coding[loinc] MS
-  * coding = $loinc#2708-6
   * coding[snomed] MS
 * subject MS
 * encounter MS
@@ -32,7 +31,7 @@ Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[loinc][+] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
+* code.coding[loinc] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[snomed] = $sct#442476006 "Arterial oxygen saturation"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
 * subject = Reference(PatientinMusterfrau)
