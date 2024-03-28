@@ -1,15 +1,15 @@
 [
   {
-    "outputFile": "CapabilityStatement-ISiK-capabilityStatement-vitalparameter-server-hospital.json",
-    "fshName": "ISiK-capabilityStatement-vitalparameter-server-hospital",
+    "outputFile": "CapabilityStatement-ISiKCapabilityStatementVitalparameterServerHospital.json",
+    "fshName": "ISiKCapabilityStatementVitalparameterServerHospital",
     "fshType": "Instance",
     "fshFile": "ISiK-CapabilityStatement-Hospital.fsh",
     "startLine": 1,
     "endLine": 134
   },
   {
-    "outputFile": "CapabilityStatement-ISiK-capabilityStatement-vitalparameter-server-pdms.json",
-    "fshName": "ISiK-capabilityStatement-vitalparameter-server-pdms",
+    "outputFile": "CapabilityStatement-ISiKCapabilityStatementVitalparameterServerPDMS.json",
+    "fshName": "ISiKCapabilityStatementVitalparameterServerPDMS",
     "fshType": "Instance",
     "fshFile": "ISiK-CapabilityStatement-PDMS.fsh",
     "startLine": 1,

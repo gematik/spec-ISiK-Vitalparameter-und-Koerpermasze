@@ -1,18 +1,18 @@
-Instance: ISiK-capabilityStatement-vitalparameter-server-pdms
+Instance: ISiKCapabilityStatementVitalparameterServerPDMS
 InstanceOf: CapabilityStatement
 Usage: #definition
 * insert Meta-CapabilityStatement
-* name = "ISiKCapabilityStatementVitalparameterServer"
-* title = "ISiK CapabilityStatement Vitalparameter Server"
+* name = "ISiKCapabilityStatementVitalparameterServerPDMS"
+* title = "ISiK CapabilityStatement Vitalparameter Server PDMS"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.gematik.de"
-* description = "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein ISiK-konformes System unterstützen muss um das Bestätigungsverfahren für das Modul Vitalparameter zu bestehen."
+* description = "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein ISiK-konformes PDMS-System unterstützen muss um das Bestätigungsverfahren für das Modul Vitalparameter zu bestehen."
 * jurisdiction = urn:iso:std:iso:3166#DE "Germany"
 * kind = #requirements
 * fhirVersion = #4.0.1
 * format[0] = #application/fhir+xml
 * format[+] = #application/fhir+json
-* instantiates = Canonical(ISiK-capabilityStatement-vitalparameter-server-pdms)
+* instantiates = Canonical(ISiKCapabilityStatementVitalparameterServerPDMS)
 * rest.mode = #server
 * rest.resource[+]
 * rest.resource[=].extension.url = $capabilitystatement-expectation
