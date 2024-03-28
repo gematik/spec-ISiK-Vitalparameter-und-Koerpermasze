@@ -8,10 +8,10 @@ Bestätigungsrelevante Systeme, welche EKG-Daten mittels FHIR verarbeiten, SOLLE
 ## Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKEkg' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg' select Name: name, Canonical: url
 ```
 
-{{tree:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKEkg, hybrid}}
+{{tree:https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg, hybrid}}
 
 ## Beispiele
 
