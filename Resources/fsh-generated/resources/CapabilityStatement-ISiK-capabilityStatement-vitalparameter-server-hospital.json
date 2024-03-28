@@ -1,7 +1,7 @@
 {
   "resourceType": "CapabilityStatement",
   "id": "ISiK-capabilityStatement-vitalparameter-server-hospital",
-  "url": "https://gematik.de/fhir/isik/CapabilityStatement/vitalparameter-server",
+  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiK-capabilityStatement-vitalparameter-server-hospital",
   "status": "draft",
   "experimental": false,
   "version": "4.0.0-rc",
@@ -41,7 +41,7 @@
     "application/fhir+json"
   ],
   "instantiates": [
-    "https://gematik.de/fhir/isik/CapabilityStatement/vitalparameter-server"
+    "https://gematik.de/fhir/isik/CapabilityStatement/ISiK-capabilityStatement-vitalparameter-server-hospital"
   ],
   "rest": [
     {
