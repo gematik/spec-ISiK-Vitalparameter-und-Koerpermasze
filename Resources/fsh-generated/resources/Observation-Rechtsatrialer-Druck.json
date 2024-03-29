@@ -9,6 +9,10 @@
   "code": {
     "coding": [
       {
+        "code": "75367002",
+        "system": "http://snomed.info/sct"
+      },
+      {
         "code": "276755008",
         "system": "http://snomed.info/sct",
         "display": "Right atrial pressure (observable entity)"
@@ -41,10 +45,10 @@
         ]
       },
       "valueQuantity": {
-        "system": "http://unitsofmeasure.org",
         "code": "mm[Hg]",
-        "value": 5,
-        "unit": "millimeter Mercury column"
+        "system": "http://unitsofmeasure.org",
+        "unit": "millimeter Mercury column",
+        "value": 5
       }
     },
     {
@@ -67,10 +71,10 @@
         ]
       },
       "valueQuantity": {
-        "system": "http://unitsofmeasure.org",
         "code": "mm[Hg]",
-        "value": 3,
-        "unit": "millimeter Mercury column"
+        "system": "http://unitsofmeasure.org",
+        "unit": "millimeter Mercury column",
+        "value": 3
       }
     },
     {
@@ -93,10 +97,10 @@
         ]
       },
       "valueQuantity": {
-        "system": "http://unitsofmeasure.org",
         "code": "mm[Hg]",
-        "value": 4,
-        "unit": "millimeter Mercury column"
+        "system": "http://unitsofmeasure.org",
+        "unit": "millimeter Mercury column",
+        "value": 4
       }
     }
   ],

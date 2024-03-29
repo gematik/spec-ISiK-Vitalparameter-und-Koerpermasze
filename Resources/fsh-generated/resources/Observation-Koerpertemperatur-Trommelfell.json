@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code": "vital-signs"
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
     }
@@ -19,27 +19,22 @@
   "code": {
     "coding": [
       {
-        "code": "8333-7",
-        "system": "http://loinc.org",
-        "display": "Tympanic membrane temperature"
-      },
-      {
         "code": "415974002",
         "system": "http://snomed.info/sct",
         "display": "Core body temperature measured at tympanic membrane (observable entity)"
       },
       {
-        "code": "8310-5",
+        "code": "8333-7",
         "system": "http://loinc.org",
-        "display": "Body temperature"
+        "display": "Tympanic membrane temperature"
       }
     ]
   },
   "valueQuantity": {
-    "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "value": 37,
-    "unit": "degree Celsius"
+    "system": "http://unitsofmeasure.org",
+    "unit": "degree Celsius",
+    "value": 37
   },
   "bodySite": {
     "coding": [

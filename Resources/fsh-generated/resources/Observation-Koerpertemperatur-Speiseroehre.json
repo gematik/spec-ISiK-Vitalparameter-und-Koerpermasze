@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code": "vital-signs"
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
     }
@@ -19,27 +19,22 @@
   "code": {
     "coding": [
       {
-        "code": "60836-4",
-        "system": "http://loinc.org",
-        "display": "Esophageal temperature"
-      },
-      {
         "code": "431598003",
         "system": "http://snomed.info/sct",
         "display": "Core body temperature measured in esophagus (observable entity)"
       },
       {
-        "code": "8310-5",
+        "code": "60836-4",
         "system": "http://loinc.org",
-        "display": "Body temperature"
+        "display": "Esophageal temperature"
       }
     ]
   },
   "valueQuantity": {
-    "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "value": 37,
-    "unit": "degree Celsius"
+    "system": "http://unitsofmeasure.org",
+    "unit": "degree Celsius",
+    "value": 37
   },
   "bodySite": {
     "coding": [

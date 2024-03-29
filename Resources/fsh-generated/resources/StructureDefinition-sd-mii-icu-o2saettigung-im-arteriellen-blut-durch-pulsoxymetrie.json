@@ -20,30 +20,36 @@
       {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "min": 2
+        "min": 3
       },
       {
-        "id": "Observation.code.coding:loinc",
+        "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "patternCoding": {
-          "code": "59408-5",
-          "system": "http://loinc.org"
-        }
-      },
-      {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
+        "sliceName": "sct",
+        "min": 1,
+        "max": "1",
         "patternCoding": {
           "code": "442476006",
           "system": "http://snomed.info/sct"
         }
       },
       {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "59408-5",
+          "system": "http://loinc.org"
+        }
+      },
+      {
         "id": "Observation.code.coding:IEEE-11073",
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
+        "min": 1,
+        "max": "1",
         "patternCoding": {
           "code": "150456",
           "system": "urn:iso:std:iso:11073:10101"
@@ -53,8 +59,8 @@
         "id": "Observation.code.coding:loinc-fhir-core",
         "path": "Observation.code.coding",
         "sliceName": "loinc-fhir-core",
-        "min": 1,
-        "max": "1",
+        "min": 0,
+        "max": "*",
         "patternCoding": {
           "code": "2708-6",
           "system": "http://loinc.org"
@@ -74,19 +80,18 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]:valueQuantity",
+        "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "sliceName": "valueQuantity",
-        "type": [
-          {
-            "code": "Quantity"
-          }
-        ]
+        "patternQuantity": {
+          "code": "%",
+          "system": "http://unitsofmeasure.org",
+          "unit": "percent"
+        }
       },
       {
-        "id": "Observation.value[x]:valueQuantity.code",
-        "path": "Observation.value[x].code",
-        "patternCode": "%"
+        "id": "Observation.value[x].unit",
+        "path": "Observation.value[x].unit",
+        "min": 1
       },
       {
         "id": "Observation.bodySite",

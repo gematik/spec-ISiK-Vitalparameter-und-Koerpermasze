@@ -4,10 +4,12 @@ Id: sd-mii-icu-koerpertemperatur-leiste
 Title: "SD MII ICU Koerpertemperatur Leiste"
 * insert Meta
 * code
-  * coding[snomed] 1..
-  * coding[snomed] = $sct#415929009
-  * coding[loinc] = $loinc#8310-5
+  * coding[sct] 1..1
+  * coding[sct] = $sct#415929009
+  * coding[loinc] ..0
+    * ^patternCoding.system = "http://loinc.org"
   * coding[IEEE-11073] ..0
+    * ^patternCoding.system = $IEEE11073
 * bodySite = $sct#26893007
 
 Instance: Koerpertemperatur-Leiste
@@ -15,8 +17,7 @@ InstanceOf: SD_MII_ICU_Koerpertemperatur_Leiste
 Usage: #example
 * status = #final
 * code
-  * coding[snomed] = $sct#415929009 "Estimated core body temperature measured in inguinal region (observable entity)"
-  * coding[loinc] = $loinc#8310-5 "Body temperature"
+  * coding[sct] = $sct#415929009 "Estimated core body temperature measured in inguinal region (observable entity)"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

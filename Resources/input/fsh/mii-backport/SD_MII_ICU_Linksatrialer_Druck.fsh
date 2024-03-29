@@ -4,8 +4,13 @@ Id: sd-mii-icu-linksatrialer-druck
 Title: "SD MII ICU Linksatrialer Druck"
 * insert Meta
 * code
-  * coding[snomed] = $sct#276762004
+  * coding ..3
+  * coding contains loinc 1..1
+  * coding[sct] = $sct#276762004
   * coding[loinc] = $loinc#60988-3
+    * system 1.. MS
+    * code 1.. MS
+    * display MS
 * component[SystolicBP].code
   * coding[IEEE-11073] = $IEEE11073#150065
   * coding contains loinc-detailed 0..*
@@ -24,7 +29,7 @@ InstanceOf: SD_MII_ICU_Linksatrialer_Druck
 Usage: #example
 * status = #final
 * code
-  * coding[snomed] = $sct#276762004 "Direct left atrial pressure (observable entity)"
+  * coding[sct] = $sct#276762004 "Direct left atrial pressure (observable entity)"
   * coding[loinc] = $loinc#60988-3 "Left atrial pressure"
 * subject = Reference(Patient/111)
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"

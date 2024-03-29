@@ -12,12 +12,8 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
-  * coding contains snomed 1.. MS and loinc 0..* MS
-  * coding[snomed] ^patternCoding.system = $sct
-    * system 1.. MS
-    * code 1.. MS
-    * display MS
-  * coding[loinc] ^patternCoding.system = $loinc
+  * coding contains sct-generic 1..1 MS and sct 1..1 MS
+  * coding[sct-generic] = $sct#75367002
     * system 1.. MS
     * code 1.. MS
     * display MS
@@ -31,13 +27,11 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
 * bodySite from VS_MII_ICU_BodySite_Observation_Blutdruck (extensible)
   * ^binding.description = "Codes describing anatomical locations. May include laterality. Subset of ValueSet for Monitoring und Vitaldaten."
 * method MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * method from VS_MII_ICU_Method_Observation_Blutdruck (extensible)
   * coding MS
     * system MS
     * code MS
 * device MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * referenceRange ..0 MS
 * component MS
   * ^slicing.discriminator.type = #pattern
@@ -56,13 +50,13 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * ^slicing.rules = #open
     * coding contains
         loinc 1..1 MS and
-        snomed 0..1 MS and
+        sct 0..1 MS and
         IEEE-11073 0..* MS
     * coding[loinc] = $loinc#8480-6
       * system 1.. MS
       * code 1.. MS
       * display MS
-    * coding[snomed] = $sct#271649006
+    * coding[sct] = $sct#271649006
       * system 1.. MS
       * code 1.. MS
       * display MS
@@ -71,9 +65,8 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * code 1.. MS
       * display MS
   * value[x] only Quantity
+  * valueQuantity = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
   * valueQuantity MS
-    * system = $unitsofmeasure
-    * code = #mm[Hg]
     * value 1.. MS
     * unit 1.. MS
     * system 1.. MS
@@ -88,13 +81,13 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * ^slicing.rules = #open
     * coding contains
         loinc 1..1 MS and
-        snomed 0..1 MS and
+        sct 0..1 MS and
         IEEE-11073 0..* MS
     * coding[loinc] = $loinc#8462-4
       * system 1.. MS
       * code 1.. MS
       * display MS
-    * coding[snomed] = $sct#271650006
+    * coding[sct] = $sct#271650006
       * system 1.. MS
       * code 1.. MS
       * display MS
@@ -103,9 +96,8 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * code 1.. MS
       * display MS
   * value[x] only Quantity
+  * valueQuantity = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
   * valueQuantity MS
-    * system = $unitsofmeasure
-    * code = #mm[Hg]
     * value 1.. MS
     * unit 1.. MS
     * system 1.. MS
@@ -120,13 +112,13 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * ^slicing.rules = #open
     * coding contains
         loinc 1..1 MS and
-        snomed 0..1 MS and
+        sct 0..1 MS and
         IEEE-11073 0..* MS
     * coding[loinc] = $loinc#8478-0
       * system 1.. MS
       * code 1.. MS
       * display MS
-    * coding[snomed] = $sct#6797001
+    * coding[sct] = $sct#6797001
       * system 1.. MS
       * code 1.. MS
       * display MS
@@ -135,9 +127,8 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
       * code 1.. MS
       * display MS
   * value[x] only Quantity
+  * valueQuantity = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
   * valueQuantity MS
-    * system = $unitsofmeasure
-    * code = #mm[Hg]
     * value 1.. MS
     * unit 1.. MS
     * system 1.. MS

@@ -4,12 +4,13 @@ Id: sd-mii-icu-intrakranieller-druck-icp
 Title: "SD MII ICU Intrakranieller Druck ICP"
 * insert Meta
 * code
-  * coding[snomed] = $sct#250844005
+  * coding[sct] 1..1
+  * coding[sct] = $sct#250844005
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#60956-0
+  * coding[IEEE-11073] 1..1
   * coding[IEEE-11073] = $IEEE11073#153608
-* valueQuantity
-  * system = $unitsofmeasure
-  * code = #mm[Hg]
+* valueQuantity = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
   * unit 1..
 
 Instance: Intrakranieller-Druck-ICP
@@ -18,7 +19,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#60956-0 "Intracranial pressure (ICP)"
-  * coding[snomed] = $sct#250844005 "Intracranial pressure (observable entity)"
+  * coding[sct] = $sct#250844005 "Intracranial pressure (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#153608 "Intracranial pressure"
 * subject = Reference(Patient/111)
 * effectivePeriod

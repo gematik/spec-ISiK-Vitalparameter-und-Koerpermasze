@@ -23,28 +23,31 @@
         "min": 2
       },
       {
-        "id": "Observation.code.coding:loinc",
+        "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "patternCoding": {
-          "code": "8867-4",
-          "system": "http://loinc.org"
-        }
-      },
-      {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
+        "sliceName": "sct",
         "min": 1,
+        "max": "1",
         "patternCoding": {
           "code": "8499008",
           "system": "http://snomed.info/sct"
         }
       },
       {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "max": "0",
+        "patternCoding": {
+          "system": "http://loinc.org"
+        }
+      },
+      {
         "id": "Observation.code.coding:IEEE-11073",
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
+        "min": 1,
+        "max": "1",
         "patternCoding": {
           "code": "149514",
           "system": "urn:iso:std:iso:11073:10101"
@@ -53,7 +56,11 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "min": 1
+        "min": 1,
+        "patternQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "unit": "beats per minute"
+        }
       },
       {
         "id": "Observation.value[x].unit",
@@ -67,6 +74,11 @@
           "strength": "required",
           "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-unit-equivalent-ucum-beats-per-minute"
         }
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "max": "0"
       },
       {
         "id": "Observation.bodySite.coding",

@@ -4,12 +4,13 @@ Id: sd-mii-icu-pulmonalarterieller-wedge-druck
 Title: "SD MII ICU Pulmonalarterieller Wedge Druck"
 * insert Meta
 * code
-  * coding[snomed] = $sct#118433006
+  * coding[sct] 1..1
+  * coding[sct] = $sct#118433006
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#75994-4
+  * coding[IEEE-11073] 1..1
   * coding[IEEE-11073] = $IEEE11073#150052
-* valueQuantity
-  * system = $unitsofmeasure
-  * code = #mm[Hg]
+* valueQuantity = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
   * unit 1..
 
 Instance: Pulmonalarterieller-wedge-Blutdruck
@@ -18,7 +19,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#75994-4 "Pulmonary artery wedge pressure"
-  * coding[snomed] = $sct#118433006 "Pulmonary artery wedge pressure (observable entity)"
+  * coding[sct] = $sct#118433006 "Pulmonary artery wedge pressure (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#150052 "Pulmonary artery wedge pressure"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod

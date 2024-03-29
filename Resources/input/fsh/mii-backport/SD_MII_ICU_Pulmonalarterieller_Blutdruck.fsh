@@ -4,8 +4,12 @@ Id: sd-mii-icu-pulmonalarterieller-blutdruck
 Title: "SD MII ICU Pulmonalarterieller Blutdruck"
 * insert Meta
 * code
-  * coding[snomed] = $sct#75367002
+  * coding ..3
+  * coding contains loinc 1..1 MS
   * coding[loinc] = $loinc#76284-9
+    * system 1.. MS
+    * code 1.. MS
+    * display MS
 * component[SystolicBP].code
   * coding[IEEE-11073] = $IEEE11073#150045
   * coding contains loinc-detailed 0..*
@@ -24,7 +28,7 @@ InstanceOf: SD_MII_ICU_Pulmonalarterieller_Blutdruck
 Usage: #example
 * status = #final
 * code
-  * coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
+  * coding[sct] = $sct#75367002 "Blood pressure (observable entity)"
   * coding[loinc] = $loinc#76284-9 "Pulmonary artery Blood pressure"
 * subject = Reference(Patient/111)
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"

@@ -18,9 +18,14 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code.coding:snomed",
+        "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "sliceName": "snomed",
+        "max": "2"
+      },
+      {
+        "id": "Observation.code.coding:sct",
+        "path": "Observation.code.coding",
+        "sliceName": "sct",
         "patternCoding": {
           "code": "276769008",
           "system": "http://snomed.info/sct"

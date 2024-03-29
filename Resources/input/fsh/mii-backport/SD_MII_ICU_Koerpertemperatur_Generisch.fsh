@@ -4,10 +4,8 @@ Id: sd-mii-icu-koerpertemperatur-generisch
 Title: "SD MII ICU Koerpertemperatur Generisch"
 * insert Meta
 * code
-  * coding[snomed] ^patternCoding.system = $sct
-  * coding[loinc] ^patternCoding.system = $loinc
+  * coding[sct] ^patternCoding.system = "http://snomed.info/sct"
+  * coding[loinc] ^patternCoding.system = "http://loinc.org"
   * coding[IEEE-11073] ^patternCoding.system = $IEEE11073
-* valueQuantity
-  * system = $unitsofmeasure
-  * code = #Cel
+* valueQuantity = $unitsofmeasure#Cel "degree Celsius"
   * unit 1..

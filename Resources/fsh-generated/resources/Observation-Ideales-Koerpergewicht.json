@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code": "vital-signs"
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
     }
@@ -19,22 +19,22 @@
   "code": {
     "coding": [
       {
-        "code": "50064-5",
-        "system": "http://loinc.org",
-        "display": "Ideal body weight"
-      },
-      {
         "code": "170804003",
         "system": "http://snomed.info/sct",
         "display": "Ideal body weight (observable entity)"
+      },
+      {
+        "code": "50064-5",
+        "system": "http://loinc.org",
+        "display": "Ideal body weight"
       }
     ]
   },
   "valueQuantity": {
-    "system": "http://unitsofmeasure.org",
     "code": "kg",
-    "value": 70,
-    "unit": "kilogram"
+    "system": "http://unitsofmeasure.org",
+    "unit": "kilogram",
+    "value": 70
   },
   "status": "final",
   "subject": {

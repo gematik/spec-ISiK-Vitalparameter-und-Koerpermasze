@@ -1,6 +1,6 @@
 ValueSet: VS_MII_ICU_Code_Monitoring_und_Vitaldaten_SNOMED
 Id: vs-mii-icu-code-monitoring-und-vitaldaten-snomed
-Title: "VS MII ICU Code Monitoring und Vitaldaten [SNOMED]"
+Title: "VS MII ICU Code Monitoring und Vitaldaten [sct]"
 Description: "Dieses ValueSet enthaelt Codes fuer Vitaldaten sowie Daten aus dem Patientenmonitoring."
 * insert Meta
 * SNOMED_CT#364075005 "Heart rate (observable entity)"

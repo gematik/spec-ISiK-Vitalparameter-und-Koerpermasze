@@ -4,12 +4,13 @@ Id: sd-mii-icu-ideales-koerpergewicht
 Title: "SD MII ICU Ideales Koerpergewicht"
 * insert Meta
 * code
-  * coding[snomed] = $sct#170804003
+  * coding[sct] 1..1
+  * coding[sct] = $sct#170804003
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#50064-5
   * coding[IEEE-11073] ..0
-* valueQuantity
-  * system = $unitsofmeasure
-  * code = #kg
+    * ^patternCoding.system = $IEEE11073
+* valueQuantity = $unitsofmeasure#kg "kilogram"
   * unit 1..
 
 Instance: Ideales-Koerpergewicht
@@ -18,7 +19,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#50064-5 "Ideal body weight"
-  * coding[snomed] = $sct#170804003 "Ideal body weight (observable entity)"
+  * coding[sct] = $sct#170804003 "Ideal body weight (observable entity)"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

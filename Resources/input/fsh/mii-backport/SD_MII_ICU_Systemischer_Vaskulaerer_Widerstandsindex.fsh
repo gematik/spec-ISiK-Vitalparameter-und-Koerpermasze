@@ -4,10 +4,14 @@ Id: sd-mii-icu-systemischer-vaskulaerer-widerstandsindex
 Title: "SD MII ICU Systemischer Vaskulaerer Widerstandsindex"
 * insert Meta
 * code
-  * coding[snomed] = $sct#276900001
+  * coding[sct] 1..1
+  * coding[sct] = $sct#276900001
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#8837-7
+  * coding[IEEE-11073] 1..1
   * coding[IEEE-11073] = $IEEE11073#149760
-* valueQuantity MS
+* valueQuantity
+  * ^patternQuantity.unit = "dyne second per centimeter5 and square meter"
   * unit 1..
   * code from VS_MII_ICU_Unit_equivalent_UCUM_dyn_s_cm5_m2 (required)
 
@@ -17,7 +21,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#8837-7 "Systemic vascular Resistance index"
-  * coding[snomed] = $sct#276900001 "Systemic vascular Resistance index (observable entity)"
+  * coding[sct] = $sct#276900001 "Systemic vascular Resistance index (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#149760 "Systemic vascular resistance indexed"
 * subject = Reference(Patient/111)
 * effectivePeriod

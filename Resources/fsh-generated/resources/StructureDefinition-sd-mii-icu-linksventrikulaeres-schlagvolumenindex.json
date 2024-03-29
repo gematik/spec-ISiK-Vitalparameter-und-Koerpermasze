@@ -18,43 +18,54 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code.coding:loinc",
+        "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "patternCoding": {
-          "code": "76297-1",
-          "system": "http://loinc.org"
-        }
+        "min": 2
       },
       {
-        "id": "Observation.code.coding:snomed",
+        "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
-        "sliceName": "snomed",
+        "sliceName": "sct",
+        "min": 1,
+        "max": "1",
         "patternCoding": {
           "code": "277381004",
           "system": "http://snomed.info/sct"
         }
       },
       {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "76297-1",
+          "system": "http://loinc.org"
+        }
+      },
+      {
         "id": "Observation.code.coding:IEEE-11073",
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
-        "max": "0"
+        "max": "0",
+        "patternCoding": {
+          "system": "urn:iso:std:iso:11073:10101"
+        }
       },
       {
-        "id": "Observation.value[x]:valueQuantity",
+        "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "sliceName": "valueQuantity",
-        "type": [
-          {
-            "code": "Quantity"
-          }
-        ]
+        "patternQuantity": {
+          "code": "mL/m2",
+          "system": "http://unitsofmeasure.org",
+          "unit": "milliliter per square meter"
+        }
       },
       {
-        "id": "Observation.value[x]:valueQuantity.code",
-        "path": "Observation.value[x].code",
-        "patternCode": "mL/m2"
+        "id": "Observation.value[x].unit",
+        "path": "Observation.value[x].unit",
+        "min": 1
       }
     ]
   }

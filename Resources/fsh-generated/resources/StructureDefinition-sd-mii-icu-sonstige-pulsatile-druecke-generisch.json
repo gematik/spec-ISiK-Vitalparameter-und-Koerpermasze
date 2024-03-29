@@ -54,63 +54,44 @@
           ],
           "rules": "open"
         },
-        "min": 1,
+        "min": 2,
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding:snomed",
+        "id": "Observation.code.coding:sct-generic",
         "path": "Observation.code.coding",
-        "sliceName": "snomed",
+        "sliceName": "sct-generic",
         "min": 1,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
+          "code": "75367002",
           "system": "http://snomed.info/sct"
         },
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding:snomed.system",
+        "id": "Observation.code.coding:sct-generic.system",
         "path": "Observation.code.coding.system",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding:snomed.code",
+        "id": "Observation.code.coding:sct-generic.code",
         "path": "Observation.code.coding.code",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding:snomed.display",
+        "id": "Observation.code.coding:sct-generic.display",
         "path": "Observation.code.coding.display",
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding:loinc",
+        "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "min": 0,
-        "max": "*",
-        "patternCoding": {
-          "system": "http://loinc.org"
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc.system",
-        "path": "Observation.code.coding.system",
+        "sliceName": "sct",
         "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc.display",
-        "path": "Observation.code.coding.display",
+        "max": "1",
         "mustSupport": true
       },
       {
@@ -164,7 +145,6 @@
       {
         "id": "Observation.method",
         "path": "Observation.method",
-        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
@@ -189,7 +169,6 @@
       {
         "id": "Observation.device",
         "path": "Observation.device",
-        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
         "mustSupport": true
       },
       {
@@ -288,9 +267,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:SystolicBP.code.coding:snomed",
+        "id": "Observation.component:SystolicBP.code.coding:sct",
         "path": "Observation.component.code.coding",
-        "sliceName": "snomed",
+        "sliceName": "sct",
         "min": 0,
         "max": "1",
         "patternCoding": {
@@ -300,19 +279,19 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:SystolicBP.code.coding:snomed.system",
+        "id": "Observation.component:SystolicBP.code.coding:sct.system",
         "path": "Observation.component.code.coding.system",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.component:SystolicBP.code.coding:snomed.code",
+        "id": "Observation.component:SystolicBP.code.coding:sct.code",
         "path": "Observation.component.code.coding.code",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.component:SystolicBP.code.coding:snomed.display",
+        "id": "Observation.component:SystolicBP.code.coding:sct.display",
         "path": "Observation.component.code.coding.display",
         "mustSupport": true
       },
@@ -352,6 +331,11 @@
             "code": "Quantity"
           }
         ],
+        "patternQuantity": {
+          "code": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "unit": "millimeter Mercury column"
+        },
         "mustSupport": true
       },
       {
@@ -370,14 +354,12 @@
         "id": "Observation.component:SystolicBP.value[x].system",
         "path": "Observation.component.value[x].system",
         "min": 1,
-        "patternUri": "http://unitsofmeasure.org",
         "mustSupport": true
       },
       {
         "id": "Observation.component:SystolicBP.value[x].code",
         "path": "Observation.component.value[x].code",
         "min": 1,
-        "patternCode": "mm[Hg]",
         "mustSupport": true
       },
       {
@@ -460,9 +442,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:DiastolicBP.code.coding:snomed",
+        "id": "Observation.component:DiastolicBP.code.coding:sct",
         "path": "Observation.component.code.coding",
-        "sliceName": "snomed",
+        "sliceName": "sct",
         "min": 0,
         "max": "1",
         "patternCoding": {
@@ -472,19 +454,19 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:DiastolicBP.code.coding:snomed.system",
+        "id": "Observation.component:DiastolicBP.code.coding:sct.system",
         "path": "Observation.component.code.coding.system",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.component:DiastolicBP.code.coding:snomed.code",
+        "id": "Observation.component:DiastolicBP.code.coding:sct.code",
         "path": "Observation.component.code.coding.code",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.component:DiastolicBP.code.coding:snomed.display",
+        "id": "Observation.component:DiastolicBP.code.coding:sct.display",
         "path": "Observation.component.code.coding.display",
         "mustSupport": true
       },
@@ -524,6 +506,11 @@
             "code": "Quantity"
           }
         ],
+        "patternQuantity": {
+          "code": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "unit": "millimeter Mercury column"
+        },
         "mustSupport": true
       },
       {
@@ -542,14 +529,12 @@
         "id": "Observation.component:DiastolicBP.value[x].system",
         "path": "Observation.component.value[x].system",
         "min": 1,
-        "patternUri": "http://unitsofmeasure.org",
         "mustSupport": true
       },
       {
         "id": "Observation.component:DiastolicBP.value[x].code",
         "path": "Observation.component.value[x].code",
         "min": 1,
-        "patternCode": "mm[Hg]",
         "mustSupport": true
       },
       {
@@ -632,9 +617,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:meanBP.code.coding:snomed",
+        "id": "Observation.component:meanBP.code.coding:sct",
         "path": "Observation.component.code.coding",
-        "sliceName": "snomed",
+        "sliceName": "sct",
         "min": 0,
         "max": "1",
         "patternCoding": {
@@ -644,19 +629,19 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:meanBP.code.coding:snomed.system",
+        "id": "Observation.component:meanBP.code.coding:sct.system",
         "path": "Observation.component.code.coding.system",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.component:meanBP.code.coding:snomed.code",
+        "id": "Observation.component:meanBP.code.coding:sct.code",
         "path": "Observation.component.code.coding.code",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.component:meanBP.code.coding:snomed.display",
+        "id": "Observation.component:meanBP.code.coding:sct.display",
         "path": "Observation.component.code.coding.display",
         "mustSupport": true
       },
@@ -696,6 +681,11 @@
             "code": "Quantity"
           }
         ],
+        "patternQuantity": {
+          "code": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "unit": "millimeter Mercury column"
+        },
         "mustSupport": true
       },
       {
@@ -714,14 +704,12 @@
         "id": "Observation.component:meanBP.value[x].system",
         "path": "Observation.component.value[x].system",
         "min": 1,
-        "patternUri": "http://unitsofmeasure.org",
         "mustSupport": true
       },
       {
         "id": "Observation.component:meanBP.value[x].code",
         "path": "Observation.component.value[x].code",
         "min": 1,
-        "patternCode": "mm[Hg]",
         "mustSupport": true
       }
     ]

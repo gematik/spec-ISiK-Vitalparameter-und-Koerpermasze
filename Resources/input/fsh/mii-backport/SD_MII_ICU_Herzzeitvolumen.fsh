@@ -4,10 +4,14 @@ Id: sd-mii-icu-herzzeitvolumen
 Title: "SD MII ICU Herzzeitvolumen"
 * insert Meta
 * code
-  * coding[snomed] = $sct#82799009
+  * coding[sct] 1..1
+  * coding[sct] = $sct#82799009
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#8741-1
+  * coding[IEEE-11073] 1..1
   * coding[IEEE-11073] = $IEEE11073#150276
 * valueQuantity from VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute (required)
+  * ^patternQuantity.unit = "liter per minute"
   * unit 1..
 
 Instance: Herzzeitvolumen
@@ -16,7 +20,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#8741-1 "Left ventricular Cardiac output"
-  * coding[snomed] = $sct#82799009 "Cardiac output (observable entity)"
+  * coding[sct] = $sct#82799009 "Cardiac output (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#150276 "Cardiac output"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod

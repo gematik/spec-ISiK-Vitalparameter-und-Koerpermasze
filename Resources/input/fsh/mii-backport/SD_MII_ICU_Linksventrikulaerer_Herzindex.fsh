@@ -4,11 +4,15 @@ Id: sd-mii-icu-linksventrikulaerer-herzindex
 Title: "SD MII ICU Linksventrikulaerer Herzindex"
 * insert Meta
 * code
-  * coding[snomed] = $sct#54993008
+  * coding[sct] 1..1
+  * coding[sct] = $sct#54993008
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#75919-1
+  * coding[IEEE-11073] 1..1
   * coding[IEEE-11073] = $IEEE11073#149772
 * valueQuantity
   * ^patternQuantity.system = "http://unitsofmeasure.org"
+  * ^patternQuantity.unit = "liter per minute and square meter"
   * unit 1..
   * code from VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute_and_squaremeter (required)
 
@@ -18,7 +22,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#75919-1 "Left ventricular Cardiac index"
-  * coding[snomed] = $sct#54993008 "Cardiac index (observable entity)"
+  * coding[sct] = $sct#54993008 "Cardiac index (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#149772 "Cardiac index"
 * subject = Reference(Patient/111)
 * effectivePeriod

@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code": "vital-signs"
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
     }
@@ -19,27 +19,22 @@
   "code": {
     "coding": [
       {
-        "code": "8334-5",
-        "system": "http://loinc.org",
-        "display": "Body temperature - Urinary bladder"
-      },
-      {
         "code": "698832009",
         "system": "http://snomed.info/sct",
         "display": "Core body temperature measured at urinary bladder (observable entity)"
       },
       {
-        "code": "8310-5",
+        "code": "8334-5",
         "system": "http://loinc.org",
-        "display": "Body temperature"
+        "display": "Body temperature - Urinary bladder"
       }
     ]
   },
   "valueQuantity": {
-    "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "value": 37,
-    "unit": "degree Celsius"
+    "system": "http://unitsofmeasure.org",
+    "unit": "degree Celsius",
+    "value": 37
   },
   "bodySite": {
     "coding": [

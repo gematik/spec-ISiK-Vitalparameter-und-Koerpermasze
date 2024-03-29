@@ -18,19 +18,19 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.code.coding:sct",
+        "path": "Observation.code.coding",
+        "sliceName": "sct",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
         "patternCoding": {
           "system": "http://loinc.org"
-        }
-      },
-      {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
-        "patternCoding": {
-          "system": "http://snomed.info/sct"
         }
       },
       {
@@ -42,19 +42,18 @@
         }
       },
       {
-        "id": "Observation.value[x]:valueQuantity",
+        "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "sliceName": "valueQuantity",
-        "type": [
-          {
-            "code": "Quantity"
-          }
-        ]
+        "patternQuantity": {
+          "code": "Cel",
+          "system": "http://unitsofmeasure.org",
+          "unit": "degree Celsius"
+        }
       },
       {
-        "id": "Observation.value[x]:valueQuantity.code",
-        "path": "Observation.value[x].code",
-        "patternCode": "Cel"
+        "id": "Observation.value[x].unit",
+        "path": "Observation.value[x].unit",
+        "min": 1
       }
     ]
   }

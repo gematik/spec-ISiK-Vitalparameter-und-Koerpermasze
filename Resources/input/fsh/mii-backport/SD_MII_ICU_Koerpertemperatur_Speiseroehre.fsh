@@ -4,14 +4,12 @@ Id: sd-mii-icu-koerpertemperatur-speiseroehre
 Title: "SD MII ICU Koerpertemperatur Speiseroehre"
 * insert Meta
 * code
-  * coding[snomed] = $sct#431598003
+  * coding[sct] 1..1
+  * coding[sct] = $sct#431598003
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#60836-4
   * coding[IEEE-11073] ..0
-  * coding contains loinc-fhir-core 1..1 MS
-  * coding[loinc-fhir-core] = $loinc#8310-5
-    * system 1.. MS
-    * code 1.. MS
-* value[x] = $unitsofmeasure#Cel
+    * ^patternCoding.system = $IEEE11073
 * bodySite = $sct#32849002
 
 Instance: Koerpertemperatur-Speiseroehre
@@ -20,8 +18,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#60836-4 "Esophageal temperature"
-  * coding[snomed] = $sct#431598003 "Core body temperature measured in esophagus (observable entity)"
-  * coding[loinc-fhir-core] = $loinc#8310-5 "Body temperature"
+  * coding[sct] = $sct#431598003 "Core body temperature measured in esophagus (observable entity)"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

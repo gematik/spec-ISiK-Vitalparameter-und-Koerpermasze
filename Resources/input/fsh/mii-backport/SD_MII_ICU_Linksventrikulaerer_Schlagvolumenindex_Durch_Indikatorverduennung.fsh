@@ -4,10 +4,15 @@ Id: sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd
 Title: "SD MII ICU Linksventrikulaerer Schlagvolumenindex Durch Indikatorverduennung"
 * insert Meta
 * code
+  * coding[sct] ..0
+    * ^patternCoding.system = "http://snomed.info/sct"
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#8791-6
   * coding[IEEE-11073] ..0
+    * ^patternCoding.system = $IEEE11073
 * valueQuantity
   * ^patternQuantity.system = "http://unitsofmeasure.org"
+  * ^patternQuantity.unit = "liter per minute and square meter"
   * unit 1..
   * code from VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute_and_squaremeter (required)
 

@@ -4,12 +4,13 @@ Id: sd-mii-icu-zentralvenoeser-blutdruck
 Title: "SD MII ICU Zentralvenoeser Blutdruck"
 * insert Meta
 * code
-  * coding[snomed] = $sct#71420008
+  * coding[sct] 1..1
+  * coding[sct] = $sct#71420008
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#60985-9
+  * coding[IEEE-11073] 1..1
   * coding[IEEE-11073] = $IEEE11073#150084
-* valueQuantity
-  * system = $unitsofmeasure
-  * code = #mm[Hg]
+* valueQuantity = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
   * unit 1..
 
 Instance: Zentralvenoeser-Blutdruck
@@ -18,7 +19,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#60985-9 "Central venous pressure (CVP)"
-  * coding[snomed] = $sct#71420008 "Central venous pressure (observable entity)"
+  * coding[sct] = $sct#71420008 "Central venous pressure (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#150084 "Central venous pressure"
 * subject = Reference(Patient/111)
 * effectivePeriod

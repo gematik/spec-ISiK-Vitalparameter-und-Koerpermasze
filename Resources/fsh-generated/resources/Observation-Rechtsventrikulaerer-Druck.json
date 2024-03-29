@@ -9,6 +9,10 @@
   "code": {
     "coding": [
       {
+        "code": "75367002",
+        "system": "http://snomed.info/sct"
+      },
+      {
         "code": "276756009",
         "system": "http://snomed.info/sct",
         "display": "Right ventricular pressure (observable entity)"
@@ -36,10 +40,10 @@
         ]
       },
       "valueQuantity": {
-        "system": "http://unitsofmeasure.org",
         "code": "mm[Hg]",
-        "value": 25,
-        "unit": "millimeter Mercury column"
+        "system": "http://unitsofmeasure.org",
+        "unit": "millimeter Mercury column",
+        "value": 25
       }
     },
     {
@@ -62,10 +66,10 @@
         ]
       },
       "valueQuantity": {
-        "system": "http://unitsofmeasure.org",
         "code": "mm[Hg]",
-        "value": 5,
-        "unit": "millimeter Mercury column"
+        "system": "http://unitsofmeasure.org",
+        "unit": "millimeter Mercury column",
+        "value": 5
       }
     },
     {
@@ -88,10 +92,10 @@
         ]
       },
       "valueQuantity": {
-        "system": "http://unitsofmeasure.org",
         "code": "mm[Hg]",
-        "value": 10,
-        "unit": "millimeter Mercury column"
+        "system": "http://unitsofmeasure.org",
+        "unit": "millimeter Mercury column",
+        "value": 10
       }
     }
   ],

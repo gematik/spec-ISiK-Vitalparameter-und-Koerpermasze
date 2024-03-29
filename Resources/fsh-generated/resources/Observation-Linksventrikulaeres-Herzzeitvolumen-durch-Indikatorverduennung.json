@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code": "vital-signs"
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
     }
@@ -27,9 +27,9 @@
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
+    "unit": "liter per minute",
     "value": 5,
-    "code": "L/min",
-    "unit": "liter per minute"
+    "code": "L/min"
   },
   "status": "final",
   "subject": {

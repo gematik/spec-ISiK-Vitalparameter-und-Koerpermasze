@@ -4,15 +4,17 @@ Id: sd-mii-icu-o2saettigung-im-blut-postduktal-durch-pulsoxymetrie
 Title: "SD MII ICU Sauerstoffsaettigung Im Blut Postduktal Durch Pulsoxymetrie"
 * insert Meta
 * code
+  * coding[sct] ..0
+    * ^patternCoding.system = "http://snomed.info/sct"
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#59418-4
+  * coding[IEEE-11073] 1..1
   * coding[IEEE-11073] = $IEEE11073#160300
-  * coding contains loinc-fhir-core 1..1 MS
+  * coding contains loinc-fhir-core 0..* MS
   * coding[loinc-fhir-core] = $loinc#2708-6
     * system 1.. MS
     * code 1.. MS
-* valueQuantity
-  * system = $unitsofmeasure
-  * code = #%
+* valueQuantity = $unitsofmeasure#% "percent"
   * unit 1..
 
 Instance: Sauerstoffsaettigung-im-Blut-Postduktal-durch-Pulsoxymetrie

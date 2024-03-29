@@ -4,13 +4,12 @@ Id: sd-mii-icu-koerpertemperatur-harnblase
 Title: "SD MII ICU Koerpertemperatur Harnblase"
 * insert Meta
 * code
-  * coding[snomed] = $sct#698832009
+  * coding[sct] 1..1
+  * coding[sct] = $sct#698832009
+  * coding[loinc] 1..1
   * coding[loinc] = $loinc#8334-5
   * coding[IEEE-11073] ..0
-  * coding contains loinc-fhir-core 1..1 MS
-  * coding[loinc-fhir-core] = $loinc#8310-5
-    * system 1.. MS
-    * code 1.. MS
+    * ^patternCoding.system = $IEEE11073
 * bodySite = $sct#89837001
 
 Instance: Koerpertemperatur-Harnblase
@@ -19,8 +18,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#8334-5 "Body temperature - Urinary bladder"
-  * coding[snomed] = $sct#698832009 "Core body temperature measured at urinary bladder (observable entity)"
-  * coding[loinc-fhir-core] = $loinc#8310-5 "Body temperature"
+  * coding[sct] = $sct#698832009 "Core body temperature measured at urinary bladder (observable entity)"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

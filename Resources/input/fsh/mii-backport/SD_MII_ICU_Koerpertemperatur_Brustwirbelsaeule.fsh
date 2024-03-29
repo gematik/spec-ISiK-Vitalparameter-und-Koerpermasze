@@ -4,10 +4,12 @@ Id: sd-mii-icu-koerpertemperatur-brustwirbelsaeule
 Title: "SD MII ICU Koerpertemperatur Brustwirbelsaeule"
 * insert Meta
 * code
-  * coding[snomed] 1..
-  * coding[snomed] = $sct#364424001
-  * coding[loinc] = $loinc#8310-5
+  * coding[sct] 1..1
+  * coding[sct] = $sct#364424001
+  * coding[loinc] ..0
+    * ^patternCoding.system = "http://loinc.org"
   * coding[IEEE-11073] ..0
+    * ^patternCoding.system = $IEEE11073
 * bodySite = $sct#122495006
 
 Instance: Koerpertemperatur-Brustwirbelsaeule
@@ -15,8 +17,7 @@ InstanceOf: SD_MII_ICU_Koerpertemperatur_Brustwirbelsaeule
 Usage: #example
 * status = #final
 * code
-  * coding[snomed] = $sct#364424001 "Temperature of thoracic spine (observable entity)"
-  * coding[loinc] = $loinc#8310-5 "Body temperature"
+  * coding[sct] = $sct#364424001 "Temperature of thoracic spine (observable entity)"
 * subject = Reference(Patient/111)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

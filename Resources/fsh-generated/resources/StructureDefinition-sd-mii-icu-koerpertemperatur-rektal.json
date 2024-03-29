@@ -20,58 +20,40 @@
       {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "min": 2
+        "min": 3
       },
       {
-        "id": "Observation.code.coding:loinc",
+        "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "patternCoding": {
-          "code": "8332-9",
-          "system": "http://loinc.org"
-        }
-      },
-      {
-        "id": "Observation.code.coding:snomed",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed",
+        "sliceName": "sct",
+        "min": 1,
+        "max": "1",
         "patternCoding": {
           "code": "307047009",
           "system": "http://snomed.info/sct"
         }
       },
       {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "8332-9",
+          "system": "http://loinc.org"
+        }
+      },
+      {
         "id": "Observation.code.coding:IEEE-11073",
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
+        "min": 1,
+        "max": "1",
         "patternCoding": {
           "code": "188420",
           "system": "urn:iso:std:iso:11073:10101"
         }
-      },
-      {
-        "id": "Observation.code.coding:loinc-fhir-core",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc-fhir-core",
-        "min": 1,
-        "max": "1",
-        "patternCoding": {
-          "code": "8310-5",
-          "system": "http://loinc.org"
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc-fhir-core.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc-fhir-core.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "mustSupport": true
       },
       {
         "id": "Observation.bodySite",

@@ -1,9 +1,12 @@
 Profile: SD_MII_ICU_Monitoring_Und_Vitaldaten
-Parent: VitalSignDE
+Parent: Observation
 Id: sd-mii-icu-monitoring-und-vitaldaten
 Title: "SD MII ICU Monitoring und Vitaldaten"
 * insert Meta
+* obeys vs-de-2
 * identifier MS
+* basedOn MS
+  * ^short = "maximal Kardinalität bei Übernahme aus MII-Kerndatensatz-ICU entfernt"
 * partOf only Reference(Procedure)
 * status MS
 * category MS
@@ -12,27 +15,29 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
   * ^slicing.ordered = false
   * ^slicing.rules = #open
 * category contains
+    vs-cat 1..1 MS and
     loinc-fhir-core 0..1 MS
+* category[vs-cat] = $observation-category#vital-signs
+  * coding MS
+    * system 1.. MS
+    * code 1.. MS
 * category[loinc-fhir-core] = $loinc#85353-1
   * coding MS
     * system 1.. MS
     * code 1.. MS
 * code MS
-  * ^constraint[1].key = "code-coding-icu"
-  * ^constraint[=].severity = #error
-  * ^constraint[=].human = "Es muss mindestens ein snomed oder loinc code vorhanden sein"
-  * ^constraint[=].expression = "coding.exists() implies coding.where(system = 'http://snomed.info/sct').exists() or coding.where(system = 'http://loinc.org').exists()"
+  * obeys code-coding-icu
   * coding 1..
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
   * coding contains
+      sct 0..* MS and
+      loinc 0..* MS and
       IEEE-11073 0..* MS
-  * coding[snomed] MS
-  * coding[snomed] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_SNOMED (required)
+  * coding[sct] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_SNOMED (required)
     * system 1.. MS
     * code 1.. MS
-  * coding[loinc] MS
   * coding[loinc] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_LOINC (required)
     * system 1.. MS
     * code 1.. MS
@@ -52,26 +57,16 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
   * system 1.. MS
   * code 1.. MS
 * dataAbsentReason MS
-  * ^constraint[1].key = "mii-icu-1"
-  * ^constraint[=].severity = #error
-  * ^constraint[=].human = "If there is no Observation.value, a dataAbsentReason must be given."
-  * ^constraint[=].expression = "value.exists().not() implies dataAbsentReason.exists()"
+  * obeys mii-icu-1
 * interpretation MS
 * bodySite MS
 * bodySite from VS_MII_ICU_BodySite_Observation_Monitoring_und_Vitaldaten (extensible)
 * device MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * referenceRange MS
 * component MS
   * code MS
   * value[x] only Quantity
-  * value[x] MS
-    * ^slicing.discriminator.type = #type
-    * ^slicing.discriminator.path = "$this"
-    * ^slicing.rules = #open
-  * valueQuantity only Quantity
   * valueQuantity MS
-    * ^sliceName = "valueQuantity"
   * dataAbsentReason MS
   * interpretation MS
   * referenceRange MS
