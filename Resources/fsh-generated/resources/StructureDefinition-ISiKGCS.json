@@ -4,7 +4,7 @@
   "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
   "version": "4.0.0-rc",
   "name": "ISiKGCS",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "date": "2024-02-01",
   "publisher": "gematik GmbH",

@@ -2,7 +2,7 @@
   "resourceType": "CapabilityStatement",
   "id": "ISiKCapabilityStatementVitalparameterServerPDMS",
   "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerPDMS",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "version": "4.0.0-rc",
   "publisher": "gematik GmbH",
