@@ -39,8 +39,8 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[loinc] = $loinc#8302-2 "Body height"
-* code.coding[snomed] = $sct#1153637007 "Body height (observable entity)"
+* code.coding[0] = $loinc#8302-2 "Body height"
+* code.coding[+] = $sct#1153637007 "Body height (observable entity)"
 * code.text = "Körpergröße"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
