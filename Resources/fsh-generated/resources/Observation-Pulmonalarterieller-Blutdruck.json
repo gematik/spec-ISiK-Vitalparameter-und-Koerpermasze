@@ -13,14 +13,14 @@
         "system": "http://snomed.info/sct"
       },
       {
+        "code": "250767002",
+        "system": "http://snomed.info/sct",
+        "display": "Pulmonary artery pressure"
+      },
+      {
         "code": "76284-9",
         "system": "http://loinc.org",
         "display": "Pulmonary artery Blood pressure"
-      },
-      {
-        "code": "75367002",
-        "system": "http://snomed.info/sct",
-        "display": "Blood pressure (observable entity)"
       }
     ]
   },

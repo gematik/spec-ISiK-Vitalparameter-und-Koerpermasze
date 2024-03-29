@@ -380,8 +380,8 @@
     "fshName": "Pulmonalarterieller-Blutdruck",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Pulmonalarterieller_Blutdruck.fsh",
-    "startLine": 26,
-    "endLine": 52
+    "startLine": 27,
+    "endLine": 53
   },
   {
     "outputFile": "Observation-Pulmonalarterieller-wedge-Blutdruck.json",
@@ -869,7 +869,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Pulmonalarterieller_Blutdruck.fsh",
     "startLine": 1,
-    "endLine": 24
+    "endLine": 25
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-pulmonalarterieller-wedge-druck.json",

@@ -6,6 +6,7 @@ Title: "SD MII ICU Pulmonalarterieller Blutdruck"
 * code
   * coding ..3
   * coding contains loinc 1..1 MS
+  * coding[sct] = $sct#250767002 
   * coding[loinc] = $loinc#76284-9
     * system 1.. MS
     * code 1.. MS
@@ -28,7 +29,7 @@ InstanceOf: SD_MII_ICU_Pulmonalarterieller_Blutdruck
 Usage: #example
 * status = #final
 * code
-  * coding[sct] = $sct#75367002 "Blood pressure (observable entity)"
+  * coding[sct] = $sct#250767002 "Pulmonary artery pressure"
   * coding[loinc] = $loinc#76284-9 "Pulmonary artery Blood pressure"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"

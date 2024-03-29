@@ -9,14 +9,14 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
 * category MS
 * code MS
   * coding MS
+    * system 1.. MS
+    * code 1.. MS
+    * display MS
     * ^slicing.discriminator.type = #pattern
     * ^slicing.discriminator.path = "$this"
     * ^slicing.rules = #open
   * coding contains sct-generic 1..1 MS and sct 1..1 MS
   * coding[sct-generic] = $sct#75367002
-    * system 1.. MS
-    * code 1.. MS
-    * display MS
 * subject MS
 * encounter MS
 * effective[x] MS
