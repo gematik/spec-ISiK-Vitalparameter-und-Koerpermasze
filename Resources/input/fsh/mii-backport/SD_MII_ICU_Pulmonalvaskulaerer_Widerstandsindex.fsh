@@ -24,7 +24,7 @@ Usage: #example
   * coding[loinc] = $loinc#8834-4 "Pulmonary vascular Resistance index"
   * coding[sct] = $sct#276902009 "Pulmonary vascular Resistance index (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#152852 "Pulmonary Vascular Resistance Index"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

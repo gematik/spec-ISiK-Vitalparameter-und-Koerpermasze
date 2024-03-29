@@ -24,7 +24,7 @@ Usage: #example
   * coding[loinc] = $loinc#75919-1 "Left ventricular Cardiac index"
   * coding[sct] = $sct#54993008 "Cardiac index (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#149772 "Cardiac index"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

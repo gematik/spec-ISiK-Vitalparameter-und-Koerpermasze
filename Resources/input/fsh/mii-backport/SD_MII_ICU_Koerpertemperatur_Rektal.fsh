@@ -20,7 +20,7 @@ Usage: #example
   * coding[loinc] = $loinc#8332-9 "Rectal temperature"
   * coding[sct] = $sct#307047009 "Core body temperature measured in rectum (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#188420 "Rectal temperature"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

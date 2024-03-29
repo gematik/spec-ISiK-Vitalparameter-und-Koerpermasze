@@ -20,7 +20,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#50064-5 "Ideal body weight"
   * coding[sct] = $sct#170804003 "Ideal body weight (observable entity)"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

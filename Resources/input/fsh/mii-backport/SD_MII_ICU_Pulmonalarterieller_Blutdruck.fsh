@@ -30,7 +30,7 @@ Usage: #example
 * code
   * coding[sct] = $sct#75367002 "Blood pressure (observable entity)"
   * coding[loinc] = $loinc#76284-9 "Pulmonary artery Blood pressure"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"
 * component[SystolicBP]
   * code

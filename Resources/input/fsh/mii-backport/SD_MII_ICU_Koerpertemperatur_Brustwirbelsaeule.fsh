@@ -18,7 +18,7 @@ Usage: #example
 * status = #final
 * code
   * coding[sct] = $sct#364424001 "Temperature of thoracic spine (observable entity)"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

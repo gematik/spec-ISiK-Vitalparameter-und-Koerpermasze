@@ -20,7 +20,7 @@ InstanceOf: SD_MII_ICU_Linksventrikulaerer_Herzindex_Durch_Indikatorverduennung
 Usage: #example
 * status = #final
 * code = $loinc#8751-0 "Left ventricular Cardiac index by Indicator dilution"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

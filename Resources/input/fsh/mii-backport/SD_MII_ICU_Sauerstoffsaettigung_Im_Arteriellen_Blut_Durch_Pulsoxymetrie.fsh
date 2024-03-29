@@ -29,7 +29,7 @@ Usage: #example
   * coding[sct] = $sct#442476006 "Arterial oxygen saturation (observable entity)"
   * coding[loinc] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
   * coding[IEEE-11073] = $IEEE11073#150456 "Oxygen saturation in Arterial blood by Pulse oximetry"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

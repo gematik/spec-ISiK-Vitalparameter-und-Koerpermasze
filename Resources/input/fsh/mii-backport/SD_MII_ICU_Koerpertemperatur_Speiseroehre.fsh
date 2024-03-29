@@ -19,7 +19,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#60836-4 "Esophageal temperature"
   * coding[sct] = $sct#431598003 "Core body temperature measured in esophagus (observable entity)"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

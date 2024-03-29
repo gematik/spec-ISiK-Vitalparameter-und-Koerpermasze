@@ -21,7 +21,7 @@ Usage: #example
   * coding[loinc] = $loinc#60985-9 "Central venous pressure (CVP)"
   * coding[sct] = $sct#71420008 "Central venous pressure (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#150084 "Central venous pressure"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

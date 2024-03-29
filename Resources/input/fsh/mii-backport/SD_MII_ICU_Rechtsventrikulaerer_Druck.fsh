@@ -24,7 +24,7 @@ InstanceOf: SD_MII_ICU_Rechtsventrikulaerer_Druck
 Usage: #example
 * status = #final
 * code = $sct#276756009 "Right ventricular pressure (observable entity)"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"
 * component[meanBP]
   * code

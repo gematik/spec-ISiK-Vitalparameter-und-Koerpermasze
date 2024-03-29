@@ -24,7 +24,7 @@ Usage: #example
   * coding[sct] = $sct#276885007 "Core body temperature (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#150368 "Body temperature - Core"
   * coding[loinc-fhir-core] = $loinc#8310-5 "Body temperature"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

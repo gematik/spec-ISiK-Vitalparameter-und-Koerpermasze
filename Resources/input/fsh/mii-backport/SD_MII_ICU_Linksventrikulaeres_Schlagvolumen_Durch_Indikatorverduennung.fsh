@@ -18,7 +18,7 @@ InstanceOf: SD_MII_ICU_Linksventrikulaeres_Schlagvolumen_Durch_Indikatorverduenn
 Usage: #example
 * status = #final
 * code = $loinc#8771-8 "Left ventricular Stroke volume by Indicator dilution"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

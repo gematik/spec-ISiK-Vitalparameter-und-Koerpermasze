@@ -31,7 +31,7 @@ Usage: #example
 * code
   * coding[sct] = $sct#276755008 "Right atrial pressure (observable entity)"
   * coding[loinc] = $loinc#60996-6 "Right atrial pressure"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"
 * component[SystolicBP]
   * code

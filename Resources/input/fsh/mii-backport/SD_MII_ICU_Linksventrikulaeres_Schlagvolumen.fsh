@@ -23,7 +23,7 @@ Usage: #example
   * coding[loinc] = $loinc#20562-5 "Left ventricular Stroke volume"
   * coding[sct] = $sct#90096001 "Stroke volume (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#150428 "Ventricular stroke"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

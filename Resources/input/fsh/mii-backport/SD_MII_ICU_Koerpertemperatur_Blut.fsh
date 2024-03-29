@@ -20,7 +20,7 @@ Usage: #example
   * coding[loinc] = $loinc#60834-9 "Blood temperature"
   * coding[sct] = $sct#1222808002 "Core body temperature measured in blood (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#188436 "Blood temperature"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

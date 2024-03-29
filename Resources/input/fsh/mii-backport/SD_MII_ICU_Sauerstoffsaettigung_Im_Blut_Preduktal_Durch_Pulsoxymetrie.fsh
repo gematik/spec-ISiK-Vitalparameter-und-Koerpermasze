@@ -24,7 +24,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#59407-7 "Oxygen saturation in Blood Preductal by Pulse oximetry"
   * coding[IEEE-11073] = $IEEE11073#160296 "Preductal SpO2"
-* subject = Reference(Patient/111)
+* subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"
