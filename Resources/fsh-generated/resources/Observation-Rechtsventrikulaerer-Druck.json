@@ -101,7 +101,7 @@
   ],
   "status": "final",
   "subject": {
-    "reference": "Patient/111"
+    "reference": "Patient/PatientinMusterfrau"
   },
   "effectiveDateTime": "2019-12-23T09:30:10+01:00"
 }
