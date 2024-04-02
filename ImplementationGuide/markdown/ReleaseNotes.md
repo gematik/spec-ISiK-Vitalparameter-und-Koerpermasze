@@ -7,16 +7,12 @@ Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von R
 
 
 Version: 4.0.0-rc
-Datum: 07.03.2024
+Datum: tbd.
 
 * Add MII-Profiles https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/150 
 * Update der ISIk Basis Dependency: [update dependency ISIK Basis](https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/156)
 * Hinzufügen von SnomedCT Coding Slices: [update dependency ISIK Basis](https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/156)
 * Hinzufügen von MS für einzelne Components : https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/138
-
-----
-Version: 4.0.0-rc
-
 * Hinweis zu Profilen aus ISiK Support-Modul Labor hinzugefügt
 
 ----
