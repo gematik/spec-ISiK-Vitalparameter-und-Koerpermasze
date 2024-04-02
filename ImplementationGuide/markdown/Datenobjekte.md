@@ -12,7 +12,5 @@ Darüber hinaus gelten in diesem Modul folgende Datenobjekt-spezifische Festlegu
 
 {{index:current}}
 
-Für folgende Profile, die den Festlegungen der MII entstammen, gelten gesonderte Festlegungen in Bezug auf die Notwendigkeit der Unterstützung. Die Form der Unterstützung wird in den folgenden Profil-Seiten festgelegt:
-
-tbd. Links zu Profilseiten
+Für Profile, die den Festlegungen der MII entstammen, gelten gesonderte Festlegungen in Bezug auf die Notwendigkeit der Unterstützung. Die Form der Unterstützung wird in der ausgewiesenen Profil-Seite festgelegt.
 
