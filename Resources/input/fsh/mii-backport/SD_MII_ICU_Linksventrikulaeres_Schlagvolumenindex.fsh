@@ -10,7 +10,7 @@ Title: "SD MII ICU Linksventrikulaeres Schlagvolumenindex"
   * coding[loinc] = $loinc#76297-1
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
-* value[x] = $unitsofmeasure#mL/m2 "milliliter per square meter"
+* valueQuantity = $unitsofmeasure#mL/m2 "milliliter per square meter"
   * unit 1..
 
 Instance: Linksventrikulaeres-Schlagvolumenindex

@@ -26,10 +26,10 @@
     ]
   },
   "valueQuantity": {
+    "code": "mL/m2",
     "system": "http://unitsofmeasure.org",
-    "unit": "liter per minute and square meter",
-    "value": 1,
-    "code": "L/min/m2"
+    "unit": "milliliter per square meter",
+    "value": 40
   },
   "status": "final",
   "subject": {

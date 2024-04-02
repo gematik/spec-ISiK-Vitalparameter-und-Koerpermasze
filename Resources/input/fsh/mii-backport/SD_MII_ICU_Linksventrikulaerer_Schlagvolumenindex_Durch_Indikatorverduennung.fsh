@@ -10,11 +10,8 @@ Title: "SD MII ICU Linksventrikulaerer Schlagvolumenindex Durch Indikatorverduen
   * coding[loinc] = $loinc#8791-6
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
-* valueQuantity
-  * ^patternQuantity.system = "http://unitsofmeasure.org"
-  * ^patternQuantity.unit = "liter per minute and square meter"
+* valueQuantity = $unitsofmeasure#mL/m2 "milliliter per square meter"
   * unit 1..
-  * code from VS_MII_ICU_Unit_equivalent_UCUM_L_per_minute_and_squaremeter (required)
 
 Instance: Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung
 InstanceOf: SD_MII_ICU_Linksventrikulaerer_Schlagvolumenindex_Durch_Indikatorverduennung
@@ -25,4 +22,4 @@ Usage: #example
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"
-* valueQuantity = 1 'L/min/m2' "liter per minute and square meter"
+* valueQuantity = 40 'mL/m2' "milliliter per square meter"

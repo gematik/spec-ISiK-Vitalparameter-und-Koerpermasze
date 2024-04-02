@@ -316,8 +316,8 @@
     "fshName": "Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Schlagvolumenindex_Durch_Indikatorverduennung.fsh",
-    "startLine": 19,
-    "endLine": 28
+    "startLine": 16,
+    "endLine": 25
   },
   {
     "outputFile": "Observation-Linksventrikulaerer-Druck.json",
@@ -797,7 +797,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaerer_Schlagvolumenindex_Durch_Indikatorverduennung.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-linksventrikulaerer-druck.json",

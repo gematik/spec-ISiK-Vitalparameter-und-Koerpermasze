@@ -50,22 +50,15 @@
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "patternQuantity": {
+          "code": "mL/m2",
           "system": "http://unitsofmeasure.org",
-          "unit": "liter per minute and square meter"
+          "unit": "milliliter per square meter"
         }
       },
       {
         "id": "Observation.value[x].unit",
         "path": "Observation.value[x].unit",
         "min": 1
-      },
-      {
-        "id": "Observation.value[x].code",
-        "path": "Observation.value[x].code",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-unit-equivalent-ucum-l-per-minute-and-squaremeter"
-        }
       }
     ]
   }
