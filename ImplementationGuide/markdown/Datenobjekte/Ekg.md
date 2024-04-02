@@ -1,5 +1,5 @@
 # EKG
-Mit diesem Profil lässt sich ein Elektrokardiogramm erfassen und kann dazu genutzt werden kurze EKGs abzubilden. Es ist nicht dafür gedacht Langzeitmonitoring-EKGs zu repräsentieren.
+Mit diesem Profil lässt sich ein Elektrokardiogramm erfassen und das Profil kann dazu genutzt werden kurze EKGs abzubilden. Es ist nicht dafür gedacht Langzeitmonitoring-EKGs zu repräsentieren.
 
 Bestätigungsrelevante Systeme, welche EKG-Daten mittels FHIR verarbeiten, SOLLEN dieses Profil nutzen.
 
@@ -8,10 +8,10 @@ Bestätigungsrelevante Systeme, welche EKG-Daten mittels FHIR verarbeiten, SOLLE
 ## Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKEkg' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg' select Name: name, Canonical: url
 ```
 
-{{tree:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKEkg, hybrid}}
+{{tree:https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg, hybrid}}
 
 ## Beispiele
 

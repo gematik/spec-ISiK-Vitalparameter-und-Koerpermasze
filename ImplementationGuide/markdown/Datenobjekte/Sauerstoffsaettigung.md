@@ -6,10 +6,10 @@ Alle bestätigungsrelevanten Systeme für dieses Modul müssen Ressourcen verarb
 ## Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKSauerstoffsaettigung' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigung' select Name: name, Canonical: url
 ```
 
-{{tree:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKSauerstoffsaettigung, hybrid}}
+{{tree:https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigung, hybrid}}
 
 ## Beispiele
 

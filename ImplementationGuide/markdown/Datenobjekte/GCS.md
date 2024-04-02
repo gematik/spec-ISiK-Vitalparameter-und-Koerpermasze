@@ -7,10 +7,10 @@ Alle bestätigungsrelevanten Systeme für dieses Modul, welche GCSs verwalten, m
 ## Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKGCS' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS' select Name: name, Canonical: url
 ```
 
-{{tree:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKGCS, hybrid}}
+{{tree:https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS, hybrid}}
 
 ## Beispiele
 
