@@ -4,7 +4,7 @@
   "meta": {
     "profile": [
       "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
+      "http://fhir.de/StructureDefinition/observation-de-score-gcs"
     ]
   },
   "category": [

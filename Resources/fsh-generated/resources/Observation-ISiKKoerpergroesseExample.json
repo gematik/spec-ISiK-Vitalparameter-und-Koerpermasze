@@ -22,11 +22,7 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "8302-2"
-      },
-      {
         "code": "8302-2",
-        "system": "http://loinc.org",
         "display": "Body height"
       },
       {

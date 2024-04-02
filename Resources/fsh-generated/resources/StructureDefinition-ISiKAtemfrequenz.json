@@ -4,43 +4,11 @@
   "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAtemfrequenz",
   "version": "4.0.0-rc",
   "name": "ISiKAtemfrequenz",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "date": "2024-02-01",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "workflow",
-      "uri": "http://hl7.org/fhir/workflow",
-      "name": "Workflow Pattern"
-    },
-    {
-      "identity": "sct-concept",
-      "uri": "http://snomed.info/conceptdomain",
-      "name": "SNOMED CT Concept Domain Binding"
-    },
-    {
-      "identity": "v2",
-      "uri": "http://hl7.org/v2",
-      "name": "HL7 v2 Mapping"
-    },
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    },
-    {
-      "identity": "w5",
-      "uri": "http://hl7.org/fhir/fivews",
-      "name": "FiveWs Pattern Mapping"
-    },
-    {
-      "identity": "sct-attr",
-      "uri": "http://snomed.org/attributebinding",
-      "name": "SNOMED CT Attribute Binding"
-    }
-  ],
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -101,6 +69,12 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "mustSupport": true
@@ -134,6 +108,23 @@
       {
         "id": "Observation.value[x]:valueQuantity.code",
         "path": "Observation.value[x].code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
         "mustSupport": true
       }
     ]

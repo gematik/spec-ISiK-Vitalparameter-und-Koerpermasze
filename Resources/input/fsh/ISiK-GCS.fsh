@@ -26,11 +26,18 @@ Id: ISiKGCS
 * component[Eye] MS
 * component[Motor] MS
 * component[Verbal] MS
+* performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* dataAbsentReason MS
 
 Instance: ISiKGCSExample
 InstanceOf: ISiKGCS
 Usage: #example
-* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
+* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-score-gcs"
 * code.coding[loinc] = $loinc#9269-2 "Glasgow coma score total"
 * code.coding[snomed] = $sct#248241002 "Glasgow coma score (observable entity)"
 * valueQuantity = 11 '1' "Punktwert"

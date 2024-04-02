@@ -17,6 +17,13 @@ Id: ISiKSauerstoffsaettigung
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* dataAbsentReason MS
 
 Instance: ISiKSauerstoffsaettigungExample
 InstanceOf: ISiKSauerstoffsaettigung
@@ -24,7 +31,7 @@ Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[loinc][+] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
+* code.coding[loinc] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[snomed] = $sct#442476006 "Arterial oxygen saturation"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
 * subject = Reference(PatientinMusterfrau)

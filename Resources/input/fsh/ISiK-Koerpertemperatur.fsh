@@ -18,12 +18,19 @@ Id: ISiKKoerpertemperatur
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* dataAbsentReason MS
 
 ValueSet: ISiKKoerpertemperaturSCTVS
 Id: ISiKKoerpertemperaturSCTVS
 Title: "ISiKKoerpertemperaturSCTVS"
 Description: "ValueSet des Körpergewicht SnomedCT Codes in ISiK"
-* $sct#386725007 "Körpergewicht"
+* $sct#386725007 "Body temperature (observable entity)"
 
 Instance: ISiKKoerpertemperaturExample
 InstanceOf: ISiKKoerpertemperatur

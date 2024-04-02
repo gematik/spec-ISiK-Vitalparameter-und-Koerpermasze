@@ -1,3 +1,3 @@
 # Must-Support-Flags
 
-Es gelten die Festlegungen aus dem [Basismodul](https://simplifier.net/guide/implementierungsleitfadenisik-basismodul/I-m-U-UebergreifendeFestlegungen-Must-Support-Flags?version=current).
+Es gelten die Festlegungen aus dem [Basismodul](https://simplifier.net/guide/isik-basis-v4/UebergreifendeFestlegungen-UebergreifendeFestlegungen_Must-Support-Flags?version=current).

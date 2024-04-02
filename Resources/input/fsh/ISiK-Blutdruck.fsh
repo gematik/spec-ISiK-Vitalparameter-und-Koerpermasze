@@ -24,6 +24,19 @@ Id: ISiKBlutdruck
 * component[DiastolicBP].value[x] MS
 * component[DiastolicBP].valueQuantity MS
 * component[DiastolicBP].dataAbsentReason MS
+* component[meanBP] MS
+* component[meanBP].code MS
+* component[meanBP].code.coding MS
+* component[meanBP].value[x] MS
+* component[meanBP].valueQuantity MS
+* component[meanBP].dataAbsentReason MS
+* performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* dataAbsentReason MS
 
 Instance: ISiKBlutdruckExample
 InstanceOf: ISiKBlutdruck
@@ -41,7 +54,8 @@ Usage: #example
 * interpretation = $v3-ObservationInterpretation#L "low"
 * interpretation.text = "Below low normal"
 * bodySite = $sct#368209003 "Right arm"
-* component[SystolicBP].code.coding[0] = $loinc#8480-6
+//* component[SystolicBP].code.coding[0] = $loinc#8480-6
 * component[SystolicBP].valueQuantity = 107 'mm[Hg]' "mmHg"
-* component[DiastolicBP].code.coding[0] = $loinc#8462-4
+//* component[DiastolicBP].code.coding[0] = $loinc#8462-4
 * component[DiastolicBP].valueQuantity = 60 'mm[Hg]' "mmHg"
+* component[meanBP].valueQuantity = 80 'mm[Hg]' "mmHg"

@@ -1,17 +1,17 @@
 {
   "resourceType": "CapabilityStatement",
-  "id": "ISiK-capabilityStatement-vitalparameter-server",
-  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServer",
-  "status": "draft",
+  "id": "ISiKCapabilityStatementVitalparameterServerHospital",
+  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerHospital",
+  "status": "active",
   "experimental": false,
   "version": "4.0.0-rc",
   "publisher": "gematik GmbH",
   "date": "2024-02-01",
   "implementationGuide": [
-    "https://gematik.de/fhir/isik/ImplementationGuide/ISiK-Vitalparameter"
+    "https://gematik.de/fhir/isik/v4/Vitalparameter/ImplementationGuide/ISiK-vitalparameter|4.0.0-rc"
   ],
-  "name": "ISiKCapabilityStatementVitalparameterServer",
-  "title": "ISiK CapabilityStatement Vitalparameter Server",
+  "name": "ISiKCapabilityStatementVitalparameterServerHospital",
+  "title": "ISiK CapabilityStatement Vitalparameter Server Hospital",
   "contact": [
     {
       "telecom": [
@@ -41,7 +41,7 @@
     "application/fhir+json"
   ],
   "instantiates": [
-    "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServer"
+    "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerHospital"
   ],
   "rest": [
     {
@@ -65,7 +65,32 @@
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKKopfumfang",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigung",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
-            "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg"
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-intrakranieller-druck-icp",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergewicht-percentil-altersabhaengig",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergroesse-percentil",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-ideales-koerpergewicht",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-puls",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-kern",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-gelenk",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-stirn",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-nasal",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-leiste",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-achsel",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-unter-der-zunge",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-vaginal",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-harnblase",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-rektal",
+            "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-trommelfell",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungSerumkreatinin",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungPCT",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungCRP",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungHb",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTroponin",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungGFR",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungThrombozyten",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTSH"
           ],
           "_supportedProfile": [
             {
@@ -147,6 +172,206 @@
                   "valueCode": "MAY"
                 }
               ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
             }
           ],
           "interaction": [
@@ -178,7 +403,7 @@
                 }
               ],
               "name": "_id",
-              "definition": "http://hl7.org/fhir/SearchParameter/Resource-id",
+              "definition": "http://hl7.org/fhir/SearchParameter/resource[=]-id",
               "type": "token"
             },
             {

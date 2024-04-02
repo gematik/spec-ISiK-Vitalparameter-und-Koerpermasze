@@ -18,6 +18,13 @@ Id: ISiKHerzfrequenz
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* dataAbsentReason MS
 
 ValueSet: ISiKHerzfrequenzSCTVS
 Id: ISiKHerzfrequenzSCTVS
