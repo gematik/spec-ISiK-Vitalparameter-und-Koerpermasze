@@ -11,7 +11,8 @@ RuleSet: Meta-CapabilityStatement
 * version = "4.0.0-rc"
 * publisher = "gematik GmbH"
 * date = "2024-02-01"
-* implementationGuide = "https://gematik.de/fhir/isik/v4/Vitalparameter/ImplementationGuide/ISiK-vitalparameter|4.0.0-rc"
+* implementationGuide = "https://gematik.de/fhir/isik/ImplementationGuide/ISiK-Vitalparameter|4.0.0-rc"
+
 
 
 RuleSet: supporteProfile-SHALL(canonical, expectation)
