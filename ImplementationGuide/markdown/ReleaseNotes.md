@@ -20,7 +20,7 @@ Version: 4.0.0-rc
 
 ----
 Version: 3.0.2
-Datum: 30.01.2023
+Datum: 20.03.2024
 
 
 * MS auf dataAbsentReason gesetzt und Hinweis zur Nutzung https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/144 
