@@ -10,15 +10,15 @@ Durch die Übernahme der Profile der MII und Abbildung auf das ISIK-Setting, kö
 Insbesondere dienen die Profile der Abbildung des Workflows zur Überleitung zwischen Intensiv- und Normalversorgung (siehe {{pagelink:ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung.md}}).
 
 ## Designentscheidung
-- Max Kardinalitäten von coding slices wurden entfernt (entsprechend des [Best Practice IGs](https://simplifier.net/guide/Best-Practice-bei-der-Implementierung-und-Spezifizierung-mit-HL7/%C3%9Cbersicht/Spezifikation/Profilierung?version=current))
-- Profile aus der MII, die den bisherigen, existenten Profilen entsprechen, wurden in die bisherigen Profile gemerged.
-- Abweichende Änderung: Das Element .quantity.unit sollte nicht per pattern fixiert werden, daher wurde es entfernt.
-- bei Profilen die Konzepte abbilden die Loinc nur generisch abbilden kann (bspw.: Körpertemperatur Brust) wird das SnomedCT Slice auf 1.. MS gesetzt
+- Maximale Kardinalitäten von Coding Slices wurden von der MII übernommen
+- Die Profil-Eigenschaften der MII-Profile, die den bisherigen, existenten Profilen in ISiK entsprechen, wurden in die existenten Profile übernommen.
 
 ## Intensivversorgung - PDMS 
 
 ### Normativer Status Intensivversorgung
 Für folgende Profile, die den Festlegungen der MII entstammen, gelten gesonderte Festlegungen in Bezug auf die Notwendigkeit der Implementierung durch SW-Hersteller.
+
+**Hinweis:** Hier wird jeweils die Canonical URL geführt. Die Profile lassen sich derzeit über die entsprechende [Simplifier Ressourcen-Seite](https://simplifier.net/isik-vitalparameter-v4/~resources?category=Profile&fhirVersion=R4&sortBy=LastUpdateDate_desc) einsehen.
 
 ### Profile und Beispiele für die Intensivversorgung
 Folgende Profile MÜSSEN durch PDMS implementiert werden und - was als gleichwertig betrachtet wird - durch KIS, die als Dokumentationssystem in der Akutversorgung dienen (aber nicht durch die weiteren bestätigungsrelevanten Systeme):

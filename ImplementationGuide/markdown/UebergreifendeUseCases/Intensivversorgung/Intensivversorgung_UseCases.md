@@ -1,12 +1,12 @@
 ## Use Cases und Workflows - Übergang zwischen Akut- und Normalversorgung
-Zahlreiche Use Cases rund um den Überleitungsprozess zwischen einer Intensiv- und einer Normalstation  (bidirektional) innerhalb eines Krankenhauses sind vorstellbar. Neben illustrierenden Use Cases wird an dieser Stelle auch eine Workflow-Perspektive eingenommen. 
+Zahlreiche Use Cases rund um den Überleitungsprozess zwischen einer Intensiv- und einer Normalstation  (bidirektional) innerhalb eines Krankenhauses sind vorstellbar. Neben illustrierenden Use Stories wird an dieser Stelle auch eine Workflow-Perspektive eingenommen. 
 
 Zum jetzigen Stand kann die Spezifikation keine umfassende Abdeckung eines Überleitungsprozesses vorweisen. Vielmehr wird die Überleitung zwischen Intensiv- und Normalversorgung (bidirektional) auf der Ebene eines Workflows abgebildet, fokussierend auf die Kommunikation relevanter Daten aus Normalversorgung (KIS) und Intensivversorgung (PDMS).
 
 ### Werte aus KIS und PDMS
 
 Datenquellen für die hier betrachteten Fälle sind KIS und PDMS.
-Einige Use Cases, die diesen Kontext illustrieren sind folgende:
+Einige Use Stories, die diesen Kontext illustrieren sind folgende:
 
 **UC-VIT-ICU-NORM-001**: Eine Ärztin fragt während einer Kontroll-Maßnahme in der normalstationären Kontrolle nachträglich Daten zur Herzfrequenz eines Patienten über ein KIS mit der Funktion einer elektronische Kurve ab (momentan liegt die Herzfrequenz bei 90 Schlägen pro Minute). Zweck dabei ist sicherzustellen, dass die Herzfrequenz im Vergleich zu den Werten aus der Intensivstation für den Patienten im Normalbereich liegt. Die Daten stammen aus einem intensiv-stationären Aufenthalt, den der Patient aufgrund einer supraventrikulären Tachykardie durchlaufen hat.
 
@@ -22,7 +22,7 @@ Einige Werte, die für den geschilderten Kontext relevant sind, stammen aus eine
 
 **UC-VIT-ICU-NORM-LAB-001**: Eine Ärztin fragt während einer Kontroll-Maßnahme in der normalstationären Kontrolle nachträglich Daten zum Serumkreatinin eines Patienten über ein KIS mit der Funktion einer elektronische Kurve ab, um die Stabilität der Nierenfunktion anhand der glomerulären Filtrationsrate sicherzustellen. Die Daten stammen aus einem intensivstationären Aufenthalt, den der Patient aufgrund eines akuten Nierenversagens durchlaufen hat.
 
-Vorannahmen zum Use Case: Das PDMS verfügt über eine Historie der Serumkreatininwerte, da es die Labordaten (aus einem LIS stammend) persistiert. Das PDMS verfügt auch über eine Schnittstelle für READ-Interaktionen entsprechend der ISIK Festlegung. 
+Vorannahmen zur User Story: Das PDMS verfügt über eine Historie der Serumkreatininwerte, da es die Labordaten (aus einem LIS stammend) persistiert. Das PDMS verfügt auch über eine Schnittstelle für READ-Interaktionen entsprechend der ISIK Festlegung. 
 
 Hintergrund zur Konfiguration: Das KIS agiert hier als Client und das PDMS als Server. 
 Da in der Praxis ein LIS, das mit PDMS integriert ist, i.d.R. auch mit einem KIS integriert ist, kann die Abfrage von Labordaten mit intensivmedizinischem Bezug aus dem KIS auch direkt erfolgen.

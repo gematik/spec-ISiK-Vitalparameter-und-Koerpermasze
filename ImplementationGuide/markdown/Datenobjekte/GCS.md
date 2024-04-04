@@ -1,7 +1,7 @@
 # ISiKGCS (Glasgow Coma Score)
 Mit diesem Profil lässt sich ein Glasgow Coma Score (GCS) erfassen.
 
-Alle bestätigungsrelevanten Systeme für dieses Modul, welche GCSs verwalten, müssen Ressourcen verarbeiten können, die zu diesem Profil konform sind.
+Alle bestätigungsrelevanten Systeme für dieses Modul, welche GCSs verwalten, MÜSSEN Ressourcen verarbeiten können, die zu diesem Profil konform sind.
 
 
 ## Profil
