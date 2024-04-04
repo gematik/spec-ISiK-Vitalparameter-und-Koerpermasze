@@ -4,7 +4,7 @@
   "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruck",
   "version": "4.0.0-rc",
   "name": "ISiKBlutdruck",
-  "status": "active",
+  "status": "draft",
   "experimental": false,
   "date": "2024-04-04",
   "publisher": "gematik GmbH",
