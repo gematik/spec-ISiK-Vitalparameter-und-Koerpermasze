@@ -13,7 +13,7 @@ Insbesondere dienen die Profile der Abbildung des Workflows zur Überleitung zwi
 - Max Kardinalitäten von coding slices wurden entfernt (entsprechend des [Best Practice IGs](https://simplifier.net/guide/Best-Practice-bei-der-Implementierung-und-Spezifizierung-mit-HL7/%C3%9Cbersicht/Spezifikation/Profilierung?version=current))
 - Profile aus der MII, die den bisherigen, existenten Profilen entsprechen, wurden in die bisherigen Profile gemerged.
 - Abweichende Änderung: Das Element .quantity.unit sollte nicht per pattern fixiert werden, daher wurde es entfernt.
-- bei Profilen die Konzepte abbilden die Loinc nur generisch abbilden kann (bswp.: Körpertemperatur Brust) wird das SnomedCT Slice auf 1.. MS gesetzt
+- bei Profilen die Konzepte abbilden die Loinc nur generisch abbilden kann (bspw.: Körpertemperatur Brust) wird das SnomedCT Slice auf 1.. MS gesetzt
 
 ## Intensivversorgung - PDMS 
 
