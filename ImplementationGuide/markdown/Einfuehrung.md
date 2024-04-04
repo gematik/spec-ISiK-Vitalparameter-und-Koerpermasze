@@ -3,9 +3,9 @@
 ----
 Version: 4.0.0-rc
 
-Datum: tbd. April 2024
+Datum: 4.4.2024
 
-Status: Draft
+Status: Draft (Kommentierung)
 
 Realm: Deutschland
 

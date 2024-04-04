@@ -3,14 +3,14 @@ RuleSet: Meta
 * ^experimental = false
 * ^version = "4.0.0-rc"
 * ^publisher = "gematik GmbH"
-* ^date = "2024-02-01"
+* ^date = "2024-04-04"
 
 RuleSet: Meta-CapabilityStatement
 * status = #active
 * experimental = false
 * version = "4.0.0-rc"
 * publisher = "gematik GmbH"
-* date = "2024-02-01"
+* date = "2024-04-04"
 * implementationGuide = "https://gematik.de/fhir/isik/ImplementationGuide/ISiK-Vitalparameter|4.0.0-rc"
 
 
