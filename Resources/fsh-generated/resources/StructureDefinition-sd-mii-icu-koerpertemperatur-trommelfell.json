@@ -7,7 +7,7 @@
   "title": "SD MII ICU Koerpertemperatur Trommelfell",
   "status": "active",
   "experimental": false,
-  "date": "2024-02-01",
+  "date": "2024-04-04",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "kind": "resource",
