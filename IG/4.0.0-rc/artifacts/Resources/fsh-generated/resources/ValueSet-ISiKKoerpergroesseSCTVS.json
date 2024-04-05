@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ISiKKoerpergroesseSCTVS",
+  "id": "ISiKKoerpergroesseSCTVS",
+  "title": "ISiKKoerpergroesseSCTVS",
+  "description": "ValueSet des Körpergroesse SnomedCT Codes in ISiK",
+  "url": "https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergroesseSCTVS",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1153637007",
+            "display": "Body height"
+          }
+        ]
+      }
+    ]
+  }
+}

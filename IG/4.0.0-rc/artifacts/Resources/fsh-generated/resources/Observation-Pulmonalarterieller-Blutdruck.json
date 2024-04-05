@@ -1,0 +1,112 @@
+{
+  "resourceType": "Observation",
+  "id": "Pulmonalarterieller-Blutdruck",
+  "meta": {
+    "profile": [
+      "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalarterieller-blutdruck"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "75367002",
+        "system": "http://snomed.info/sct"
+      },
+      {
+        "code": "250767002",
+        "system": "http://snomed.info/sct",
+        "display": "Pulmonary artery pressure"
+      },
+      {
+        "code": "76284-9",
+        "system": "http://loinc.org",
+        "display": "Pulmonary artery Blood pressure"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8480-6",
+            "system": "http://loinc.org"
+          },
+          {
+            "code": "150045",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "Systolic pulmonary arterial pressure"
+          },
+          {
+            "code": "8440-0",
+            "system": "http://loinc.org",
+            "display": "Pulmonary artery Systolic blood pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "code": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "unit": "millimeter Mercury column",
+        "value": 18
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8462-4",
+            "system": "http://loinc.org"
+          },
+          {
+            "code": "150046",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "Diastolic pulmonary arterial pressure"
+          },
+          {
+            "code": "8385-7",
+            "system": "http://loinc.org",
+            "display": "Pulmonary artery Diastolic blood pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "code": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "unit": "millimeter Mercury column",
+        "value": 8
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8478-0",
+            "system": "http://loinc.org"
+          },
+          {
+            "code": "150047",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "Mean pulmonary arterial pressure"
+          },
+          {
+            "code": "8414-5",
+            "system": "http://loinc.org",
+            "display": "Pulmonary artery Mean blood pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "code": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "unit": "millimeter Mercury column",
+        "value": 10
+      }
+    }
+  ],
+  "status": "final",
+  "subject": {
+    "reference": "Patient/PatientinMusterfrau"
+  },
+  "effectiveDateTime": "2019-12-23T09:30:10+01:00"
+}
