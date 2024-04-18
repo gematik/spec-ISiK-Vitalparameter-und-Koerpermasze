@@ -21,13 +21,13 @@
       "generation": "markdown",
       "page": [
         {
-          "nameUrl": "ImplementationGuide/markdown/ReleaseNotes.md",
-          "title": "Release Notes",
+          "nameUrl": "ImplementationGuide/markdown/Motivation.md",
+          "title": "Motivation",
           "generation": "markdown"
         },
         {
-          "nameUrl": "ImplementationGuide/markdown/Motivation.md",
-          "title": "Motivation",
+          "nameUrl": "ImplementationGuide/markdown/ReleaseNotes.md",
+          "title": "Release Notes",
           "generation": "markdown"
         },
         {
@@ -36,92 +36,97 @@
           "generation": "markdown",
           "page": [
             {
-              "nameUrl": "ImplementationGuide/markdown/Methodik.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Methodik.md",
               "title": "Methodik",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/BestaetigungsrelevanteSysteme.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/BestaetigungsrelevanteSysteme.md",
               "title": "Bestätigungsrelevante Systeme",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Kompatibilitaet.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Kompatibilitaet.md",
               "title": "Kompatibilität",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/MustSupportFlags.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/MustSupportFlags.md",
               "title": "Must-Support-Flags",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Repraesentationsformate.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Repraesentationsformate.md",
               "title": "Repräsentationsformate",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Suchparameter.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Suchparameter.md",
               "title": "Suchparameter",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/RestApi.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/RestApi.md",
               "title": "REST-API",
               "generation": "markdown"
             },
            {
-              "nameUrl": "ImplementationGuide/markdown/AnmerkungenMS.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/AnmerkungenMS.md",
               "title": "Anmerkungen zu Must-Support-Feldern",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Interaktionen.md",
-              "title": "Interaktionen",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Akteure.md",
+              "title": "Akteure",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Signaldaten.md",
+              "nameUrl": "ImplementationGuide/markdown/UebergreifendeFestlegungen/Signaldaten.md",
               "title": "Signaldaten",
               "generation": "markdown"
             }
           ]
         },
         {
-          "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases.md",
-          "title": "Übergreifende Use Cases",
+          "nameUrl": "ImplementationGuide/markdown/UseCasesAnwendung.md",
+          "title": "Use Cases",
           "generation": "markdown",
           "page": [
             {
-              "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung.md",
+              "nameUrl": "ImplementationGuide/markdown/UseCasesAnwendung/UseCases.md",
+              "title": "Anwendungsfälle (Use Cases)",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "ImplementationGuide/markdown/UseCasesAnwendung/Intensivversorgung.md",
               "title": "Intensivversorgung",
               "generation": "markdown",
               "page": [
                 {
-                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Motivation.md",
+                  "nameUrl": "ImplementationGuide/markdown/UseCasesAnwendung/Intensivversorgung/Intensivversorgung_Motivation.md",
                   "title": "Motivation",
                   "generation": "markdown"
                 },          
                 {
-                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Normativer_Status.md",
+                  "nameUrl": "ImplementationGuide/markdown/UseCasesAnwendung/Intensivversorgung/Intensivversorgung_Normativer_Status.md",
                   "title": "Normativer Status",
                   "generation": "markdown"
                 },
                 {
-                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_UseCases.md",
+                  "nameUrl": "ImplementationGuide/markdown/UseCasesAnwendung/Intensivversorgung/Intensivversorgung_UseCases.md",
                   "title": "Use Cases",
                   "generation": "markdown"
                 },
                 
                 {
-                  "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/Intensivversorgung/Intensivversorgung_Profile.md",
+                  "nameUrl": "ImplementationGuide/markdown/UseCasesAnwendung/Intensivversorgung/Intensivversorgung_Profile.md",
                   "title": "Profile",
                   "generation": "markdown"
                 }
               ]
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/UebergreifendeUseCases/AMTS.md",
+              "nameUrl": "ImplementationGuide/markdown/UseCasesAnwendung/AMTS.md",
               "title": "Arzneimitteltherapiesicherheit (AMTS)",
               "generation": "markdown"
             }
@@ -138,12 +143,12 @@
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Koerpergewicht.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Koerpergewicht.md",
               "title": "Koerpergewicht",
               "generation": "markdown"
             },
             {
-              "nameUrl": "ImplementationGuide/markdown/Koerpergroesse.md",
+              "nameUrl": "ImplementationGuide/markdown/Datenobjekte/Koerpergroesse.md",
               "title": "Koerpergroesse",
               "generation": "markdown"
             },
