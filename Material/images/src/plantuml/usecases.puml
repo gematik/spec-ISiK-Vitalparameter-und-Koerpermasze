@@ -1,16 +1,3 @@
-'@startuml usecases
-'usecase Medikation as "
-'    = Medikation
-'    
-'    ___
-'    Some text
-'    === Neu-Verordnung
-'    Other text
-'    === Anpassung
-'    Information
-'    === Abgabe
-'"
-'@enduml
 
 @startuml usecases
 left to right direction
@@ -22,38 +9,45 @@ actor :Heilberufler:
 actor :Versicherter:
 storage adverseUC as "Adverse Use Case" {
     storage (Verwechslung){
-        (Dauer)
-        (Termin)
-        (Benötigte Expertise)
-        (Patient)
+        (Intensiv-Fall)
+        (Verlegung)
+        (Schweregrad)
+        (Diagnose)
+        (Ursache)
+        (Labor-\nzurordnung)
     }
-    (Mehrfachbelegung)
-    (Terminüberhang)
-    (Nicht-Erscheinen)
-    (Personalüberhang)
+    (Zustands-\nverschlechterung)
+    (Trauma\n& Koma)
+    (Kollaps)
+    (Datenlücken)
 }
 
 storage gnrlUC as "Allgemein" {
+    (Kontrollmaßnahmen)
+    (Datenerhebung)
     (Information)
-    (Benachrichtigung)
-    (Terminbuchung)
-    (Sprechzeiten)
-    (Schließzeiten)
-    (Terminhistorie)
-    (Personalplanung)
-    storage booKUC as "Buchung von Terminen"{
-        (Absage) 
-        (Verschieben)
-        (Durchführung)
-        (Anfrage-Ablehnung)
-        (Anfrage-Abbruch)
-        (Anfrage-Reservierung)
+    (Schwellwerte)
+    (Vitalfunktionen)
+    (Gesamtzustand)
+    (Kurvenverlauf)
+    (Post-Operative \nBetreuung)
+    (Koma-Betreuung)
+    (Geräteanbindung)
+    (Feindiagnose)
+    storage pdmsUC as "Intensiv und PDMS"{
+        (Monitoring) 
+        (Detailüberwachung \n& Analyse)
+        (EKG)
+        (GCS)
+        (Wertabfrage nach ICU)
+        (ICU-Normal \nVerlegung)
+        (Normal-ICU \nVerlegung)
     }
 }
 
 Heilberufler --> gnrlUC
+Versicherter --> pdmsUC
 Versicherter --> Information
-Versicherter --> booKUC
 
 
 'fncts --> adverseUC : mitigates
