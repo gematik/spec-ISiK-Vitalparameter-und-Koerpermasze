@@ -1,10 +1,11 @@
-Profile: ISiKSauerstoffsaettigung
+Profile: ISiKSauerstoffsaettigungArteriell
 Parent: VitalSignDE_Arterielle_Sauerstoffsaettigung
-Id: ISiKSauerstoffsaettigung
+Id: ISiKSauerstoffsaettigungArteriell
 * insert Meta
 * status MS
 * category MS
 * category[VSCat] MS
+* category[VSCat] = $observation-category#vital-signs
 * code MS
   * coding[loinc] MS
   * coding[snomed] MS
@@ -25,8 +26,8 @@ Id: ISiKSauerstoffsaettigung
   * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * dataAbsentReason MS
 
-Instance: ISiKSauerstoffsaettigungExample
-InstanceOf: ISiKSauerstoffsaettigung
+Instance: ISiKSauerstoffsaettigungArteriellExample
+InstanceOf: ISiKSauerstoffsaettigungArteriell
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 * status = #final

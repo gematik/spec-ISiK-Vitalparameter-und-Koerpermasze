@@ -8,8 +8,8 @@ Title: "SD MII ICU Ideales Koerpergewicht"
   * coding[sct] = $sct#170804003
   * coding[loinc] 1..1
   * coding[loinc] = $loinc#50064-5
-  * coding[IEEE-11073] ..0
-    * ^patternCoding.system = $IEEE11073
+  * coding[IEEE-11073] 1..1
+  * coding[IEEE-11073] = $IEEE11073#188796
 * valueQuantity = $unitsofmeasure#kg "kilogram"
   * unit 1..
 
@@ -20,6 +20,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#50064-5 "Ideal body weight"
   * coding[sct] = $sct#170804003 "Ideal body weight (observable entity)"
+  * coding[IEEE-11073] = $IEEE11073#188796 "MDC_MASS_BODY_EST_IBW"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

@@ -38,12 +38,12 @@ Title: "SD MII ICU Sonstige pulsatile Druecke Generisch"
   * ^slicing.discriminator.path = "code"
   * ^slicing.rules = #open
 * component contains
-    SystolicBP 1..1 MS and
-    DiastolicBP 1..1 MS and
+    SystolicBP 0..1 MS and
+    DiastolicBP 0..1 MS and
     meanBP 0..1 MS
+  * code 1.. MS
 * component[SystolicBP] obeys vs-de-3
   * code = $loinc#8480-6
-  * code MS
     * coding 1.. MS
       * ^slicing.discriminator.type = #pattern
       * ^slicing.discriminator.path = "$this"

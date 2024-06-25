@@ -3,7 +3,7 @@
   "id": "Koerpergroesse-Percentil",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergroesse-percentil"
+      "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergroesse-percentil-altersabhaengig"
     ]
   },
   "category": [
@@ -22,11 +22,6 @@
         "code": "1153605006",
         "system": "http://snomed.info/sct",
         "display": "Body height for age percentile (observable entity)"
-      },
-      {
-        "code": "8303-0",
-        "system": "http://loinc.org",
-        "display": "Body height [Percentile]"
       }
     ]
   },

@@ -41,6 +41,15 @@
     "value": 3,
     "code": "L/(min.m2)"
   },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "87878005",
+        "system": "http://snomed.info/sct",
+        "display": "Left cardiac ventricular structure"
+      }
+    ]
+  },
   "status": "final",
   "subject": {
     "reference": "Patient/PatientinMusterfrau"

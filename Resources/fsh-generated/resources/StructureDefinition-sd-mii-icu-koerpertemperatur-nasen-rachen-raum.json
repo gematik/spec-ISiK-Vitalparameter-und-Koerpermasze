@@ -18,6 +18,11 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "min": 3
+      },
+      {
         "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
         "sliceName": "sct",
@@ -32,13 +37,23 @@
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
-        "max": "0"
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "60838-0",
+          "system": "http://loinc.org"
+        }
       },
       {
         "id": "Observation.code.coding:IEEE-11073",
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
-        "max": "0"
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "150380",
+          "system": "urn:iso:std:iso:11073:10101"
+        }
       },
       {
         "id": "Observation.bodySite",

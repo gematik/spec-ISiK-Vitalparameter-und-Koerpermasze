@@ -29,9 +29,9 @@
         "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
       },
       {
-        "code": "150456",
+        "code": "150324",
         "system": "urn:iso:std:iso:11073:10101",
-        "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        "display": "MDC_SAT_O2_ART"
       }
     ]
   },

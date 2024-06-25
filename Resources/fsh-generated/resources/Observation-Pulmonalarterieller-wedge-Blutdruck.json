@@ -41,6 +41,15 @@
     "unit": "millimeter Mercury column",
     "value": 10
   },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "430160002",
+        "system": "http://snomed.info/sct",
+        "display": "Entire vein of lung"
+      }
+    ]
+  },
   "status": "final",
   "subject": {
     "reference": "Patient/PatientinMusterfrau"

@@ -39,7 +39,7 @@ Usage: #definition
 * rest.resource[=].supportedProfile[+] = Canonical(ISiKKopfumfang)
   * extension.url = $capabilitystatement-expectation
   * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKSauerstoffsaettigung)
+* rest.resource[=].supportedProfile[+] = Canonical(ISiKSauerstoffsaettigungArteriell)
   * extension.url = $capabilitystatement-expectation
   * extension.valueCode = #SHALL
 * rest.resource[=].supportedProfile[+] = Canonical(ISiKGCS)
@@ -52,7 +52,7 @@ Usage: #definition
 // MII-ICU backport profiles hospital
 * insert supporteProfile-SHALL(SD_MII_ICU_Intrakranieller_Druck_Icp, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpergewicht_Percentil_Altersabhaengig, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpergroesse_Percentil, SHALL)
+* insert supporteProfile-SHALL(SD_MII_ICU_Koerpergroesse_Percentil_Altersabhaengig, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Ideales_Koerpergewicht, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Sauerstoffsaettigung_Im_Arteriellen_Blut_Durch_Pulsoxymetrie, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Puls, SHALL)
@@ -62,7 +62,7 @@ Usage: #definition
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Nasal, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Leiste, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Achsel, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Unter_Der_Zunge, SHALL)
+* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Oral, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Vaginal, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Harnblase, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Rektal, SHALL)

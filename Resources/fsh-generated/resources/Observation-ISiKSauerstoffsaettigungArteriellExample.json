@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "ISiKSauerstoffsaettigungExample",
+  "id": "ISiKSauerstoffsaettigungArteriellExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigung",
+      "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigungArteriell",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
     ]
   },
@@ -11,8 +11,8 @@
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code": "vital-signs"
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
     }

@@ -9,6 +9,7 @@ Title: "SD MII ICU Koerpertemperatur Achsel"
   * coding[loinc] 1..1
   * coding[loinc] = $loinc#8328-7
   * coding[IEEE-11073] 1..1
+  * coding[IEEE-11073] = $IEEE11073#188452
 * bodySite = $sct#91470000
 
 Instance: Koerpertemperatur-Achsel
@@ -18,7 +19,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#8328-7 "Axillary temperature"
   * coding[sct] = $sct#415882003 "Estimated core body temperature measured in axillary region (observable entity)"
-  * coding[IEEE-11073] = $IEEE11073#188496 "Axillary temperature"
+  * coding[IEEE-11073] = $IEEE11073#188452 "MDC_TEMP_AXILLA"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

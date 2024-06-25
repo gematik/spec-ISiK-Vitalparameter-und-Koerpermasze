@@ -68,6 +68,18 @@
         "id": "Observation.value[x].unit",
         "path": "Observation.value[x].unit",
         "min": 1
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "73829009",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        }
       }
     ]
   }

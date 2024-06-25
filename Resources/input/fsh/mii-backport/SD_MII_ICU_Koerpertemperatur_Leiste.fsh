@@ -6,8 +6,8 @@ Title: "SD MII ICU Koerpertemperatur Leiste"
 * code
   * coding[sct] 1..1
   * coding[sct] = $sct#415929009
-  * coding[loinc] ..0
-    * ^patternCoding.system = "http://loinc.org"
+  * coding[loinc] 1..1
+  * coding[loinc] = $loinc#104063-3
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
 * bodySite = $sct#26893007
@@ -18,6 +18,7 @@ Usage: #example
 * status = #final
 * code
   * coding[sct] = $sct#415929009 "Estimated core body temperature measured in inguinal region (observable entity)"
+  * coding[loinc] = $loinc#104063-3 "Body temperature - Groin"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

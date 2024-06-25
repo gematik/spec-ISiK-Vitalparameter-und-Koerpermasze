@@ -8,8 +8,8 @@ Title: "SD MII ICU Koerpertemperatur Speiseroehre"
   * coding[sct] = $sct#431598003
   * coding[loinc] 1..1
   * coding[loinc] = $loinc#60836-4
-  * coding[IEEE-11073] ..0
-    * ^patternCoding.system = $IEEE11073
+  * coding[IEEE-11073] 1..1
+  * coding[IEEE-11073] = $IEEE11073#150372
 * bodySite = $sct#32849002
 
 Instance: Koerpertemperatur-Speiseroehre
@@ -19,6 +19,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#60836-4 "Esophageal temperature"
   * coding[sct] = $sct#431598003 "Core body temperature measured in esophagus (observable entity)"
+  * coding[IEEE-11073] = $IEEE11073#150372 "MDC_TEMP_ESOPH"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

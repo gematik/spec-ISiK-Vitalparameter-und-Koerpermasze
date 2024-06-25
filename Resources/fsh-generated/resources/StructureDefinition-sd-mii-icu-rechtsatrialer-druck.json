@@ -18,10 +18,22 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "vital-signs",
+              "system": "http://hl7.org/fhir/secondary-finding"
+            }
+          ]
+        }
+      },
+      {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "min": 3,
-        "max": "3"
+        "min": 4,
+        "max": "4"
       },
       {
         "id": "Observation.code.coding:sct",
@@ -44,6 +56,17 @@
         }
       },
       {
+        "id": "Observation.code.coding:IEEE-11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE-11073",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "150068",
+          "system": "urn:iso:std:iso:11073:10101"
+        }
+      },
+      {
         "id": "Observation.component:SystolicBP",
         "path": "Observation.component",
         "sliceName": "SystolicBP"
@@ -62,7 +85,7 @@
         "path": "Observation.component.code.coding",
         "sliceName": "loinc-detailed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "60998-2",
           "system": "http://loinc.org"
@@ -87,7 +110,7 @@
         "path": "Observation.component.code.coding",
         "sliceName": "loinc-detailed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "60997-4",
           "system": "http://loinc.org"
@@ -112,10 +135,21 @@
         "path": "Observation.component.code.coding",
         "sliceName": "loinc-detailed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "8400-4",
           "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.component:meanBP.code.coding:sct-detailed",
+        "path": "Observation.component.code.coding",
+        "sliceName": "sct-detailed",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "276775004",
+          "system": "http://snomed.info/sct"
         }
       }
     ]

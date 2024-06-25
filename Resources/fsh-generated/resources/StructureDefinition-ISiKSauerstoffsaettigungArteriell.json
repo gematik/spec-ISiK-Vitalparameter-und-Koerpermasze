@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "ISiKSauerstoffsaettigung",
-  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigung",
+  "id": "ISiKSauerstoffsaettigungArteriell",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigungArteriell",
   "version": "4.0.0-rc",
-  "name": "ISiKSauerstoffsaettigung",
+  "name": "ISiKSauerstoffsaettigungArteriell",
   "status": "draft",
   "experimental": false,
   "date": "2024-04-04",

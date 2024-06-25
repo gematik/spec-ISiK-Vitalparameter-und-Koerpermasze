@@ -9,7 +9,7 @@ Title: "SD MII ICU Sauerstoffsaettigung Im Arteriellen Blut Durch Pulsoxymetrie"
   * coding[loinc] 1..1
   * coding[loinc] = $loinc#59408-5
   * coding[IEEE-11073] 1..1
-  * coding[IEEE-11073] = $IEEE11073#150456
+  * coding[IEEE-11073] = $IEEE11073#150324
   * coding contains loinc-fhir-core 0..* MS
   * coding[loinc-fhir-core] = $loinc#2708-6
     * system 1.. MS
@@ -28,7 +28,7 @@ Usage: #example
 * code
   * coding[sct] = $sct#442476006 "Arterial oxygen saturation (observable entity)"
   * coding[loinc] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
-  * coding[IEEE-11073] = $IEEE11073#150456 "Oxygen saturation in Arterial blood by Pulse oximetry"
+  * coding[IEEE-11073] = $IEEE11073#150324 "MDC_SAT_O2_ART"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
