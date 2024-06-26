@@ -67,6 +67,18 @@
         }
       },
       {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "73829009",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        }
+      },
+      {
         "id": "Observation.component:SystolicBP",
         "path": "Observation.component",
         "sliceName": "SystolicBP"

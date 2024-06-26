@@ -412,8 +412,8 @@
     "fshName": "Rechtsatrialer-Druck",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Rechtsatrialer_Druck.fsh",
-    "startLine": 34,
-    "endLine": 63
+    "startLine": 35,
+    "endLine": 65
   },
   {
     "outputFile": "Observation-Rechtsventrikulaerer-Druck.json",
@@ -901,7 +901,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Rechtsatrialer_Druck.fsh",
     "startLine": 1,
-    "endLine": 32
+    "endLine": 33
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-rechtsventrikulaerer-druck.json",

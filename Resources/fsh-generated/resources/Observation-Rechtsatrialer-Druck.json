@@ -124,6 +124,15 @@
       }
     }
   ],
+  "bodySite": {
+    "coding": [
+      {
+        "code": "73829009",
+        "system": "http://snomed.info/sct",
+        "display": "Right atrial structure"
+      }
+    ]
+  },
   "status": "final",
   "subject": {
     "reference": "Patient/PatientinMusterfrau"

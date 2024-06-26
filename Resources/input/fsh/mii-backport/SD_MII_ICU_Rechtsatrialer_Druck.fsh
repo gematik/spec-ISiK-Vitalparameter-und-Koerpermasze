@@ -30,6 +30,7 @@ Title: "SD MII ICU Rechtsatrialer Druck"
     sct-detailed 0..1
   * coding[loinc-detailed] = $loinc#8400-4
   * coding[sct-detailed] = $sct#276775004
+* bodySite = $sct#73829009
 
 Instance: Rechtsatrialer-Druck
 InstanceOf: SD_MII_ICU_Rechtsatrialer_Druck
@@ -61,3 +62,4 @@ Usage: #example
     * coding[loinc-detailed] = $loinc#60997-4 "Right atrial pressure Diastolic"
     * coding[IEEE-11073] = $IEEE11073#150070 "Diastolic right atrial pressure"
   * valueQuantity = 3 'mm[Hg]' "millimeter Mercury column"
+* bodySite = $sct#73829009 "Right atrial structure"
