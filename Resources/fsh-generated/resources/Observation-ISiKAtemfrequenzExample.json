@@ -30,6 +30,11 @@
         "code": "86290005",
         "system": "http://snomed.info/sct",
         "display": "Respiratory rate (observable entity)"
+      },
+      {
+        "code": "151562",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_RESP_RATE"
       }
     ],
     "text": "Atemfrequenz"

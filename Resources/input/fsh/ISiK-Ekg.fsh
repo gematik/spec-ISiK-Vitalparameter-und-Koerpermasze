@@ -1,6 +1,6 @@
-Profile: ISiKEkg
+Profile: ISiKEKG
 Parent: http://fhir.de/StructureDefinition/observation-de-ekg
-Id: ISiKEkg
+Id: ISiKEKG
 * insert Meta
 * status MS
 * category MS
@@ -27,11 +27,11 @@ Id: ISiKEkg
   * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * dataAbsentReason MS
 
-Instance: ISiKEkgExample
-InstanceOf: ISiKEkg
+Instance: ISiKEKGExample
+InstanceOf: ISiKEKG
 Usage: #example
 * code.coding[loinc] = $loinc#11524-6 "EKG study"
-* code.coding[snomed] = $sct#271921002 "Electrocardiogram finding (observable entity)"
+* code.coding[snomed] = $sct#106073009 "EKG wave, interval AND/OR segment"
 * subject = Reference(PatientinMusterfrau)
 * status = #final
 * category = $observation-category#procedure

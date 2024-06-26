@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "ISiKEkg",
-  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg",
+  "id": "ISiKEKG",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKEKG",
   "version": "4.0.0-rc",
-  "name": "ISiKEkg",
+  "name": "ISiKEKG",
   "status": "draft",
   "experimental": false,
   "date": "2024-04-04",

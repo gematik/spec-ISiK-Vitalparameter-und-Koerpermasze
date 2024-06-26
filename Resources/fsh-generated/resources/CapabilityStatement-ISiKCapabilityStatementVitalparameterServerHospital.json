@@ -57,7 +57,7 @@
           "type": "Observation",
           "supportedProfile": [
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKAtemfrequenz",
-            "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruck",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruckSystemischArteriell",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKHerzfrequenz",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergewicht",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergroesse",
@@ -65,7 +65,7 @@
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKKopfumfang",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigungArteriell",
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
-            "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg",
+            "https://gematik.de/fhir/isik/StructureDefinition/ISiKEKG",
             "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-intrakranieller-druck-icp",
             "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergewicht-percentil-altersabhaengig",
             "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergroesse-percentil-altersabhaengig",

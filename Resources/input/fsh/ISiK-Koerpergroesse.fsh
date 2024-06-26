@@ -6,9 +6,11 @@ Id: ISiKKoerpergroesse
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding contains IEEE11073 0..1
   * coding[loinc] MS
   * coding[snomed] MS
   * coding[snomed] from ISiKKoerpergroesseSCTVS
+  * coding[IEEE11073] = $IEEE11073#188740
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -41,6 +43,7 @@ Usage: #example
 * category[VSCat] = $observation-category#vital-signs
 * code.coding[0] = $loinc#8302-2 "Body height"
 * code.coding[+] = $sct#1153637007 "Body height (observable entity)"
+* code.coding[IEEE11073] = $IEEE11073#188740 "MDC_LEN_BODY_ACTUAL"
 * code.text = "Körpergröße"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

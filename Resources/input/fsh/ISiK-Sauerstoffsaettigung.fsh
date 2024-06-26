@@ -5,10 +5,11 @@ Id: ISiKSauerstoffsaettigungArteriell
 * status MS
 * category MS
 * category[VSCat] MS
-* category[VSCat] = $observation-category#vital-signs
 * code MS
+  * coding contains IEEE11073 0..1
   * coding[loinc] MS
   * coding[snomed] MS
+  * coding[IEEE11073] = $IEEE11073#150324
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -34,6 +35,7 @@ Usage: #example
 * category[VSCat] = $observation-category#vital-signs
 * code.coding[loinc] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[snomed] = $sct#442476006 "Arterial oxygen saturation"
+* code.coding[IEEE11073] = $IEEE11073#150324 "MDC_SAT_O2_ART"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

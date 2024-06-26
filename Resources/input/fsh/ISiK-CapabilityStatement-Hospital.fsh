@@ -21,7 +21,7 @@ Usage: #definition
 * rest.resource[=].supportedProfile[+] = Canonical(ISiKAtemfrequenz)
   * extension.url = $capabilitystatement-expectation
   * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKBlutdruck)
+* rest.resource[=].supportedProfile[+] = Canonical(ISiKBlutdruckSystemischArteriell)
   * extension.url = $capabilitystatement-expectation
   * extension.valueCode = #SHALL
 * rest.resource[=].supportedProfile[+] = Canonical(ISiKHerzfrequenz)
@@ -45,7 +45,7 @@ Usage: #definition
 * rest.resource[=].supportedProfile[+] = Canonical(ISiKGCS)
   * extension.url = $capabilitystatement-expectation
   * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKEkg)
+* rest.resource[=].supportedProfile[+] = Canonical(ISiKEKG)
   * extension.url = $capabilitystatement-expectation
   * extension.valueCode = #MAY
 

@@ -6,9 +6,11 @@ Id: ISiKHerzfrequenz
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding contains IEEE11073 0..1
   * coding[loinc] MS
   * coding[snomed] MS
   * coding[snomed] from ISiKHerzfrequenzSCTVS
+  * coding[IEEE11073] = $IEEE11073#147842
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -41,6 +43,7 @@ Usage: #example
 * category[VSCat] = $observation-category#vital-signs
 * code.coding[loinc] = $loinc#8867-4 "Heart rate"
 * code.coding[snomed] = $sct#364075005 "Heart rate (observable entity)"
+* code.coding[IEEE11073] = $IEEE11073#147842 "MDC_ECG_HEART_RATE"
 * code.text = "Herzfrequenz"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

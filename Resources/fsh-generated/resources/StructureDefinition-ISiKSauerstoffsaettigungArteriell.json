@@ -50,6 +50,17 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.code.coding:IEEE11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE11073",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "150324",
+          "system": "urn:iso:std:iso:11073:10101"
+        }
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "mustSupport": true
