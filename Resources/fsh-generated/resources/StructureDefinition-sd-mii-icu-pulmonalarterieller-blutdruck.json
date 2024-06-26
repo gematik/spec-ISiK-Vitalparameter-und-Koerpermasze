@@ -18,10 +18,22 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "vital-signs",
+              "system": "http://hl7.org/fhir/secondary-finding"
+            }
+          ]
+        }
+      },
+      {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "min": 3,
-        "max": "3"
+        "min": 4,
+        "max": "4"
       },
       {
         "id": "Observation.code.coding:sct",
@@ -45,6 +57,29 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.code.coding:IEEE-11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE-11073",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "150044",
+          "system": "urn:iso:std:iso:11073:10101"
+        }
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "81040000",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        }
+      },
+      {
         "id": "Observation.component:SystolicBP",
         "path": "Observation.component",
         "sliceName": "SystolicBP"
@@ -63,10 +98,21 @@
         "path": "Observation.component.code.coding",
         "sliceName": "loinc-detailed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "8440-0",
           "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.component:SystolicBP.code.coding:sct-detailed",
+        "path": "Observation.component.code.coding",
+        "sliceName": "sct-detailed",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "250768007",
+          "system": "http://snomed.info/sct"
         }
       },
       {
@@ -88,10 +134,21 @@
         "path": "Observation.component.code.coding",
         "sliceName": "loinc-detailed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "8385-7",
           "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.component:DiastolicBP.code.coding:sct-detailed",
+        "path": "Observation.component.code.coding",
+        "sliceName": "sct-detailed",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "250769004",
+          "system": "http://snomed.info/sct"
         }
       },
       {
@@ -113,10 +170,21 @@
         "path": "Observation.component.code.coding",
         "sliceName": "loinc-detailed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "8414-5",
           "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.component:meanBP.code.coding:sct-detailed",
+        "path": "Observation.component.code.coding",
+        "sliceName": "sct-detailed",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "250770003",
+          "system": "http://snomed.info/sct"
         }
       }
     ]

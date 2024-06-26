@@ -12,6 +12,7 @@ Title: "SD MII ICU Zentralvenoeser Blutdruck"
   * coding[IEEE-11073] = $IEEE11073#150084
 * valueQuantity = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
   * unit 1..
+* bodySite = $sct#73829009
 
 Instance: Zentralvenoeser-Blutdruck
 InstanceOf: SD_MII_ICU_Zentralvenoeser_Blutdruck
@@ -26,3 +27,4 @@ Usage: #example
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"
 * valueQuantity = 12 'mm[Hg]' "millimeter Mercury column"
+* bodySite = $sct#73829009 "Right atrial structure"

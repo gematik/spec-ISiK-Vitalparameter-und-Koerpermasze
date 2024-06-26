@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "ISiKSauerstoffsaettigungExample",
+  "id": "ISiKSauerstoffsaettigungArteriellExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigung",
+      "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigungArteriell",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
     ]
   },
@@ -28,6 +28,11 @@
         "system": "http://snomed.info/sct",
         "code": "442476006",
         "display": "Arterial oxygen saturation"
+      },
+      {
+        "code": "150324",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_SAT_O2_ART"
       }
     ],
     "text": "Pulsoximetrische Sauerstoffsättigung"

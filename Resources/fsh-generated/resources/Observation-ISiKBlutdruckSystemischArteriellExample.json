@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "ISiKBlutdruckExample",
+  "id": "ISiKBlutdruckSystemischArteriellExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruck",
+      "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruckSystemischArteriell",
       "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
     ]
   },
@@ -29,6 +29,11 @@
         "system": "http://snomed.info/sct",
         "code": "75367002",
         "display": "Blood pressure (observable entity)"
+      },
+      {
+        "code": "150016",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_PRESS_BLD"
       }
     ],
     "text": "Systolischer und Diastolischer Blutdruck"
@@ -37,6 +42,16 @@
     {
       "code": {
         "coding": [
+          {
+            "code": "150017",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "MDC_PRESS_BLD_SYS"
+          },
+          {
+            "code": "271649006",
+            "system": "http://snomed.info/sct",
+            "display": "Systolischer Blutdruck"
+          },
           {
             "system": "http://loinc.org",
             "code": "8480-6"
@@ -54,6 +69,16 @@
       "code": {
         "coding": [
           {
+            "code": "150018",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "MDC_PRESS_BLD_DIA"
+          },
+          {
+            "code": "271650006",
+            "system": "http://snomed.info/sct",
+            "display": "Diastolischer Blutdruck"
+          },
+          {
             "system": "http://loinc.org",
             "code": "8462-4"
           }
@@ -67,19 +92,29 @@
       }
     },
     {
-      "valueQuantity": {
-        "system": "http://unitsofmeasure.org",
-        "code": "mm[Hg]",
-        "value": 80,
-        "unit": "mmHg"
-      },
       "code": {
         "coding": [
+          {
+            "code": "150019",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "MDC_PRESS_BLD_MEAN"
+          },
+          {
+            "code": "6797001",
+            "system": "http://snomed.info/sct",
+            "display": "Mittlerer arterieller Druck"
+          },
           {
             "system": "http://loinc.org",
             "code": "8478-0"
           }
         ]
+      },
+      "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]",
+        "value": 80,
+        "unit": "mmHg"
       }
     }
   ],

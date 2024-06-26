@@ -189,14 +189,18 @@
           ],
           "rules": "open"
         },
-        "min": 2,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.code",
+        "path": "Observation.component.code",
         "mustSupport": true
       },
       {
         "id": "Observation.component:SystolicBP",
         "path": "Observation.component",
         "sliceName": "SystolicBP",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "constraint": [
           {
@@ -219,8 +223,7 @@
               "system": "http://loinc.org"
             }
           ]
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.component:SystolicBP.code.coding",
@@ -371,7 +374,7 @@
         "id": "Observation.component:DiastolicBP",
         "path": "Observation.component",
         "sliceName": "DiastolicBP",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "constraint": [
           {
@@ -394,8 +397,7 @@
               "system": "http://loinc.org"
             }
           ]
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.component:DiastolicBP.code.coding",
@@ -569,8 +571,7 @@
               "system": "http://loinc.org"
             }
           ]
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.component:meanBP.code.coding",

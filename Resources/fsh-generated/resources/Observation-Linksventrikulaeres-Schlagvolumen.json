@@ -29,9 +29,9 @@
         "display": "Left ventricular Stroke volume"
       },
       {
-        "code": "150428",
+        "code": "150408",
         "system": "urn:iso:std:iso:11073:10101",
-        "display": "Ventricular stroke"
+        "display": "MDC_VOL_BLD_VENT_LEFT_STROKE"
       }
     ]
   },
@@ -40,6 +40,15 @@
     "system": "http://unitsofmeasure.org",
     "unit": "milliliter",
     "value": 70
+  },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "244385005",
+        "system": "http://snomed.info/sct",
+        "display": "Entire left cardiac ventricle"
+      }
+    ]
   },
   "status": "final",
   "subject": {

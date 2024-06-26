@@ -20,7 +20,7 @@
       {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "min": 2
+        "min": 3
       },
       {
         "id": "Observation.code.coding:sct",
@@ -48,8 +48,10 @@
         "id": "Observation.code.coding:IEEE-11073",
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
-        "max": "0",
+        "min": 1,
+        "max": "1",
         "patternCoding": {
+          "code": "188796",
           "system": "urn:iso:std:iso:11073:10101"
         }
       },

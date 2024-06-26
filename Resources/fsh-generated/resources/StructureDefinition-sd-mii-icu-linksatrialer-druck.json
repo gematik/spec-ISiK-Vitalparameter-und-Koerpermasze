@@ -18,17 +18,29 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "vital-signs",
+              "system": "http://hl7.org/fhir/secondary-finding"
+            }
+          ]
+        }
+      },
+      {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "min": 3,
-        "max": "3"
+        "min": 4,
+        "max": "4"
       },
       {
         "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
         "sliceName": "sct",
         "patternCoding": {
-          "code": "276762004",
+          "code": "276760007",
           "system": "http://snomed.info/sct"
         }
       },
@@ -41,6 +53,29 @@
         "patternCoding": {
           "code": "60988-3",
           "system": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.code.coding:IEEE11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE11073",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "150064",
+          "system": "urn:iso:std:iso:11073:10101"
+        }
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "82471001",
+              "system": "http://snomed.info/sct"
+            }
+          ]
         }
       },
       {
@@ -62,7 +97,7 @@
         "path": "Observation.component.code.coding",
         "sliceName": "loinc-detailed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "60989-1",
           "system": "http://loinc.org"
@@ -87,7 +122,7 @@
         "path": "Observation.component.code.coding",
         "sliceName": "loinc-detailed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "75933-2",
           "system": "http://loinc.org"
@@ -112,7 +147,7 @@
         "path": "Observation.component.code.coding",
         "sliceName": "loinc-detailed",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "8399-8",
           "system": "http://loinc.org"

@@ -14,6 +14,8 @@ Title: "SD MII ICU Systemischer Vaskulaerer Widerstandsindex"
   * ^patternQuantity.unit = "dyne second per centimeter5 and square meter"
   * unit 1..
   * code from VS_MII_ICU_Unit_equivalent_UCUM_dyn_s_cm5_m2 (required)
+* bodySite 0..0
+  * ^comment = "Der Wert ist keiner bodySite zuordenbar"
 
 Instance: Systemischer-vaskulaerer-Widerstandsindex
 InstanceOf: SD_MII_ICU_Systemischer_Vaskulaerer_Widerstandsindex

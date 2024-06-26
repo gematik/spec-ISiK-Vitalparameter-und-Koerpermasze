@@ -27,6 +27,11 @@
         "code": "50064-5",
         "system": "http://loinc.org",
         "display": "Ideal body weight"
+      },
+      {
+        "code": "188796",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_MASS_BODY_EST_IBW"
       }
     ]
   },

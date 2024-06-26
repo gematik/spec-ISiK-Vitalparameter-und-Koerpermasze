@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "ISiKSauerstoffsaettigung",
-  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigung",
+  "id": "ISiKSauerstoffsaettigungArteriell",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigungArteriell",
   "version": "4.0.0-rc",
-  "name": "ISiKSauerstoffsaettigung",
+  "name": "ISiKSauerstoffsaettigungArteriell",
   "status": "draft",
   "experimental": false,
   "date": "2024-04-04",
@@ -48,6 +48,17 @@
         "path": "Observation.code.coding",
         "sliceName": "snomed",
         "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:IEEE11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE11073",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "150324",
+          "system": "urn:iso:std:iso:11073:10101"
+        }
       },
       {
         "id": "Observation.subject",

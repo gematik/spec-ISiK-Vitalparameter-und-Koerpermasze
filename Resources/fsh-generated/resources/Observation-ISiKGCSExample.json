@@ -28,6 +28,11 @@
         "system": "http://snomed.info/sct",
         "code": "248241002",
         "display": "Glasgow coma score (observable entity)"
+      },
+      {
+        "code": "153728",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_SCORE_GLAS_COMA"
       }
     ]
   },

@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "ISiKEkgExample",
+  "id": "ISiKEKGExample",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/isik/StructureDefinition/ISiKEkg"
+      "https://gematik.de/fhir/isik/StructureDefinition/ISiKEKG"
     ]
   },
   "code": {
@@ -15,8 +15,8 @@
       },
       {
         "system": "http://snomed.info/sct",
-        "code": "271921002",
-        "display": "Electrocardiogram finding (observable entity)"
+        "code": "106073009",
+        "display": "EKG wave, interval AND/OR segment"
       }
     ]
   },

@@ -1,4 +1,4 @@
-Profile: SD_MII_ICU_Koerpertemperatur_Unter_Der_Zunge
+Profile: SD_MII_ICU_Koerpertemperatur_Oral
 Parent: SD_MII_ICU_Koerpertemperatur_Generisch
 Id: sd-mii-icu-koerpertemperatur-unter-der-zunge
 Title: "SD MII ICU Koerpertemperatur unter der Zunge"
@@ -12,8 +12,8 @@ Title: "SD MII ICU Koerpertemperatur unter der Zunge"
   * coding[IEEE-11073] = $IEEE11073#188424
 * bodySite = $sct#123851003
 
-Instance: Koerpertemperatur-unter-der-Zunge
-InstanceOf: SD_MII_ICU_Koerpertemperatur_Unter_Der_Zunge
+Instance: Koerpertemperatur-Oral
+InstanceOf: SD_MII_ICU_Koerpertemperatur_Oral
 Usage: #example
 * status = #final
 * code

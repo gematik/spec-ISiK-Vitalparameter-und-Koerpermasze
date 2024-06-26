@@ -1,6 +1,6 @@
-Profile: SD_MII_ICU_Koerpergroesse_Percentil
+Profile: SD_MII_ICU_Koerpergroesse_Percentil_Altersabhaengig
 Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten
-Id: sd-mii-icu-koerpergroesse-percentil
+Id: sd-mii-icu-koerpergroesse-percentil-altersabhaengig
 Title: "SD MII ICU Koerpergroesse Percentil"
 * insert Meta
 * category contains sct 0..*
@@ -11,19 +11,18 @@ Title: "SD MII ICU Koerpergroesse Percentil"
 * code
   * coding[sct] 1..1
   * coding[sct] = $sct#1153605006
-  * coding[loinc] 1..1
-  * coding[loinc] = $loinc#8303-0
+  * coding[loinc] 0..0
+    * ^patternCoding.system = $loinc
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
 * valueQuantity = $unitsofmeasure#% "percent"
   * unit 1..
 
 Instance: Koerpergroesse-Percentil
-InstanceOf: SD_MII_ICU_Koerpergroesse_Percentil
+InstanceOf: SD_MII_ICU_Koerpergroesse_Percentil_Altersabhaengig
 Usage: #example
 * status = #final
 * code
-  * coding[loinc] = $loinc#8303-0 "Body height [Percentile]"
   * coding[sct] = $sct#1153605006 "Body height for age percentile (observable entity)"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod

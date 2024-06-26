@@ -12,6 +12,7 @@ Title: "SD MII ICU Pulmonalarterieller Wedge Druck"
   * coding[IEEE-11073] = $IEEE11073#150052
 * valueQuantity = $unitsofmeasure#mm[Hg] "millimeter Mercury column"
   * unit 1..
+* bodySite = $sct#430160002
 
 Instance: Pulmonalarterieller-wedge-Blutdruck
 InstanceOf: SD_MII_ICU_Pulmonalarterieller_Wedge_Druck
@@ -26,3 +27,4 @@ Usage: #example
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"
 * valueQuantity = 10 'mm[Hg]' "millimeter Mercury column"
+* bodySite = $sct#430160002 "Entire vein of lung"

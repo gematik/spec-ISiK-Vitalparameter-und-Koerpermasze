@@ -22,4 +22,4 @@ Usage: #example
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"
-* valueQuantity = 40 'mL' "milliliter"
+* valueQuantity = 70 'mL' "milliliter"

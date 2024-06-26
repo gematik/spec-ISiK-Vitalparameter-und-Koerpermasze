@@ -6,9 +6,11 @@ Id: ISiKKopfumfang
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding contains IEEE11073 0..1
   * coding[loinc] MS
   * coding[snomed] MS
   * coding[snomed] from ISiKKopfumfangSCTVS
+  * coding[IEEE11073] = $IEEE11073#153856
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -18,6 +20,7 @@ Id: ISiKKopfumfang
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* valueQuantity.code = #cm
 * performer MS
   * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * method MS
@@ -41,6 +44,7 @@ Usage: #example
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc] = $loinc#9843-4 "Head Occipital-frontal circumference"
 * code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
+* code.coding[IEEE11073] = $IEEE11073#153856 "MDC_CIRCUM_HEAD"
 * code.text = "Kopfumfang"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-07-02"

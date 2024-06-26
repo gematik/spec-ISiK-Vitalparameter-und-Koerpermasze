@@ -1,13 +1,15 @@
-Profile: ISiKSauerstoffsaettigung
+Profile: ISiKSauerstoffsaettigungArteriell
 Parent: VitalSignDE_Arterielle_Sauerstoffsaettigung
-Id: ISiKSauerstoffsaettigung
+Id: ISiKSauerstoffsaettigungArteriell
 * insert Meta
 * status MS
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding contains IEEE11073 0..1
   * coding[loinc] MS
   * coding[snomed] MS
+  * coding[IEEE11073] = $IEEE11073#150324
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -25,14 +27,15 @@ Id: ISiKSauerstoffsaettigung
   * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 * dataAbsentReason MS
 
-Instance: ISiKSauerstoffsaettigungExample
-InstanceOf: ISiKSauerstoffsaettigung
+Instance: ISiKSauerstoffsaettigungArteriellExample
+InstanceOf: ISiKSauerstoffsaettigungArteriell
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
 * code.coding[loinc] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[snomed] = $sct#442476006 "Arterial oxygen saturation"
+* code.coding[IEEE11073] = $IEEE11073#150324 "MDC_SAT_O2_ART"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

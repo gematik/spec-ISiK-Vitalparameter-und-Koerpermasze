@@ -18,6 +18,7 @@ Datum: 4.4.2024
 * Hinzufügen von MS für einzelne Components : https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/138
 * Hinweis zu Profilen aus ISiK Support-Modul Labor hinzugefügt - siehe https://simplifier.net/guide/isik-vitalparameter-v4/ImplementationGuide-markdown-Datenobjekte-Laborprofile?version=current
 * Fix CpS rendering by @alexzautke in https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/161 
+* Korrektur der übernommenen MII-ICU-Profile nach Review durch MII https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/166
 
 **Full Changelog**: https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/compare/v.3.0.2...v.4.0.0-rc
 

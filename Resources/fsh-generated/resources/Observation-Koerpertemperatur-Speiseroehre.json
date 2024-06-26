@@ -27,6 +27,11 @@
         "code": "60836-4",
         "system": "http://loinc.org",
         "display": "Esophageal temperature"
+      },
+      {
+        "code": "150372",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_TEMP_ESOPH"
       }
     ]
   },

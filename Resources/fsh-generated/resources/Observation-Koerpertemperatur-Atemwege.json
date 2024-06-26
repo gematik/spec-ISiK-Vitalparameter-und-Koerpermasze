@@ -22,6 +22,11 @@
         "code": "60955-2",
         "system": "http://loinc.org",
         "display": "Airway temperature"
+      },
+      {
+        "code": "150356",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_TEMP_AWAY"
       }
     ]
   },

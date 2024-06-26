@@ -27,6 +27,11 @@
         "code": "8333-7",
         "system": "http://loinc.org",
         "display": "Tympanic membrane temperature"
+      },
+      {
+        "code": "150392",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_TEMP_TYMP"
       }
     ]
   },

@@ -16,10 +16,41 @@
         "code": "276769008",
         "system": "http://snomed.info/sct",
         "display": "Left ventricular pressure (observable entity)"
+      },
+      {
+        "code": "150100",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_PRESS_BLD_VENT_LEFT"
       }
     ]
   },
   "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8478-0",
+            "system": "http://loinc.org"
+          },
+          {
+            "code": "150103",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "Mean left ventricular pressure"
+          },
+          {
+            "code": "8404-6",
+            "system": "http://loinc.org",
+            "display": "Left ventricular Intrachamber mean pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "code": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "unit": "millimeter Mercury column",
+        "value": 40
+      }
+    },
     {
       "code": {
         "coding": [
@@ -36,6 +67,11 @@
             "code": "8430-1",
             "system": "http://loinc.org",
             "display": "Left ventricular Intrachamber systolic pressure"
+          },
+          {
+            "code": "276780008",
+            "system": "http://snomed.info/sct",
+            "display": "Left ventricular systolic pressure"
           }
         ]
       },
@@ -70,32 +106,6 @@
         "system": "http://unitsofmeasure.org",
         "unit": "millimeter Mercury column",
         "value": 10
-      }
-    },
-    {
-      "code": {
-        "coding": [
-          {
-            "code": "8478-0",
-            "system": "http://loinc.org"
-          },
-          {
-            "code": "150103",
-            "system": "urn:iso:std:iso:11073:10101",
-            "display": "Mean left ventricular pressure"
-          },
-          {
-            "code": "8404-6",
-            "system": "http://loinc.org",
-            "display": "Left ventricular Intrachamber mean pressure"
-          }
-        ]
-      },
-      "valueQuantity": {
-        "code": "mm[Hg]",
-        "system": "http://unitsofmeasure.org",
-        "unit": "millimeter Mercury column",
-        "value": 40
       }
     }
   ],

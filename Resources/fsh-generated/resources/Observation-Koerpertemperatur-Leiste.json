@@ -22,6 +22,11 @@
         "code": "415929009",
         "system": "http://snomed.info/sct",
         "display": "Estimated core body temperature measured in inguinal region (observable entity)"
+      },
+      {
+        "code": "104063-3",
+        "system": "http://loinc.org",
+        "display": "Body temperature - Groin"
       }
     ]
   },

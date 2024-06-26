@@ -19,14 +19,14 @@
   "code": {
     "coding": [
       {
-        "code": "277381004",
-        "system": "http://snomed.info/sct",
-        "display": "Stroke index (observable entity)"
-      },
-      {
         "code": "76297-1",
         "system": "http://loinc.org",
         "display": "Left ventricular Stroke volume index"
+      },
+      {
+        "code": "150636",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_VOL_BLD_STROKE_INDEX"
       }
     ]
   },
@@ -35,6 +35,15 @@
     "system": "http://unitsofmeasure.org",
     "unit": "milliliter per square meter",
     "value": 40
+  },
+  "bodySite": {
+    "coding": [
+      {
+        "code": "87878005",
+        "system": "http://snomed.info/sct",
+        "display": "Left cardiac ventricular structure"
+      }
+    ]
   },
   "status": "final",
   "subject": {

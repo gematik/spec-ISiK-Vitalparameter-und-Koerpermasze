@@ -75,6 +75,18 @@
           "strength": "required",
           "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-unit-equivalent-ucum-l-per-minute-and-squaremeter"
         }
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "87878005",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        }
       }
     ]
   }

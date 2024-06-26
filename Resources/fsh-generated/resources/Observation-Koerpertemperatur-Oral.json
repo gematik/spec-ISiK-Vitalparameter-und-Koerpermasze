@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "Koerpertemperatur-unter-der-Zunge",
+  "id": "Koerpertemperatur-Oral",
   "meta": {
     "profile": [
       "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-unter-der-zunge"
