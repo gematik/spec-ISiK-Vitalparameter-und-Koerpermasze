@@ -12,7 +12,7 @@ Kommunikations-Workflows, die auf der hiesigen Schnittstellen-Festlegung aufbaue
 Primär zu berücksichtigende User sind
 * Krankenhausmitarbeitende (insbesondere intensivmedizinisches Personal, MFAs, Ärzte etc.)
 
-Beteiligte Systeme sind prinzipiell alle bestätigungsrelevanten Systeme (siehe [DKG Festlegung](https://www.dkgev.de/themen/digitalisierung-daten/elektronische-datenuebermittlung/datenuebermittlung-nach-373-sgb-v-informationssysteme-im-krankenhaus/)). Primär hervorzuheben sind entsprechend der Definition der DKG dabei:
+Beteiligte Systeme sind prinzipiell alle [bestätigungsrelevanten Systeme](https://simplifier.net/guide/isik-basis-v4/UebergreifendeFestlegungen_BestaetigungsrelevanteSysteme?version=current). Primär hervorzuheben sind entsprechend der Definition der DKG dabei:
 * KIS mit Funktion elektronische Kurve bzw. entsprechendes KIS-Modul
 * Patientendaten-Managementsystem (PDMS) [z.B. für Intensivbereiche]
 * Elektronische Kurve [z.B. für die Verwendung auf Normal-Stationen]
