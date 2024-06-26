@@ -7,9 +7,9 @@
   "description": "Dieses ValueSet enthält Codes für bodySites von Blutdrücken (pulsatilen Drücken).",
   "url": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-bodysite-observation-blutdruck",
   "experimental": false,
-  "version": "4.0.0-rc",
+  "version": "4.0.0-rc2",
   "publisher": "gematik GmbH",
-  "date": "2024-04-04",
+  "date": "2024-06-26",
   "compose": {
     "include": [
       {
