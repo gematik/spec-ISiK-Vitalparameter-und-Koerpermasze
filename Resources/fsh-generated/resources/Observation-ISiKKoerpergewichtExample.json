@@ -32,12 +32,14 @@
       {
         "code": "29463-7",
         "system": "http://loinc.org",
-        "display": "Body weight"
+        "display": "Body weight",
+        "version": "2.77"
       },
       {
         "code": "27113001",
         "system": "http://snomed.info/sct",
-        "display": "Body weight"
+        "display": "Body weight",
+        "version": "http://snomed.info/sct/11000274103/version/20231115"
       }
     ],
     "text": "Körpergewicht"

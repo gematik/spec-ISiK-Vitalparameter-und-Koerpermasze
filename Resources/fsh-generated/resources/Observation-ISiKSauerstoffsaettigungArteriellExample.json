@@ -22,12 +22,14 @@
       {
         "system": "http://loinc.org",
         "code": "2708-6",
-        "display": "Oxygen saturation in Arterial blood"
+        "display": "Oxygen saturation in Arterial blood",
+        "version": "2.77"
       },
       {
         "system": "http://snomed.info/sct",
         "code": "442476006",
-        "display": "Arterial oxygen saturation"
+        "display": "Arterial oxygen saturation",
+        "version": "http://snomed.info/sct/11000274103/version/20231115"
       },
       {
         "code": "150324",

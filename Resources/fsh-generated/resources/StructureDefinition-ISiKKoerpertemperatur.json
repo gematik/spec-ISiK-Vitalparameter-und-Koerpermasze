@@ -41,12 +41,28 @@
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
+        "type": [
+          {
+            "code": "Coding",
+            "profile": [
+              "https://gematik.de/fhir/isik/StructureDefinition/ISiKLoincCoding"
+            ]
+          }
+        ],
         "mustSupport": true
       },
       {
         "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
         "sliceName": "snomed",
+        "type": [
+          {
+            "code": "Coding",
+            "profile": [
+              "https://gematik.de/fhir/isik/StructureDefinition/ISiKSnomedCTCoding"
+            ]
+          }
+        ],
         "mustSupport": true,
         "binding": {
           "strength": "required",

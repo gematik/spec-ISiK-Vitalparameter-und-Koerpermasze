@@ -8,7 +8,9 @@ Id: ISiKBlutdruckSystemischArteriell
 * code MS
   * coding contains IEEE11073 0..1
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[IEEE11073] = $IEEE11073#150016
 * subject MS
 * encounter MS
@@ -16,11 +18,11 @@ Id: ISiKBlutdruckSystemischArteriell
 * component MS
 * component[SystolicBP] MS
   * code MS
-    * coding MS  
+    * coding MS
       * ^slicing.discriminator.type = #pattern
       * ^slicing.discriminator.path = "$this"
       * ^slicing.rules = #open
-    * coding contains 
+    * coding contains
         IEEE11073 0..1 and
         SCT 0..1
     * coding[IEEE11073] = $IEEE11073#150017
@@ -30,11 +32,11 @@ Id: ISiKBlutdruckSystemischArteriell
 * component[SystolicBP].dataAbsentReason MS
 * component[DiastolicBP] MS
   * code MS
-    * coding MS  
+    * coding MS
       * ^slicing.discriminator.type = #pattern
       * ^slicing.discriminator.path = "$this"
       * ^slicing.rules = #open
-    * coding contains 
+    * coding contains
         IEEE11073 0..1 and
         SCT 0..1
     * coding[IEEE11073] = $IEEE11073#150018
@@ -44,11 +46,11 @@ Id: ISiKBlutdruckSystemischArteriell
 * component[DiastolicBP].dataAbsentReason MS
 * component[meanBP] MS
   * code MS
-    * coding MS  
+    * coding MS
       * ^slicing.discriminator.type = #pattern
       * ^slicing.discriminator.path = "$this"
       * ^slicing.rules = #open
-    * coding contains 
+    * coding contains
         IEEE11073 0..1 and
         SCT 0..1
     * coding[IEEE11073] = $IEEE11073#150019
@@ -72,7 +74,9 @@ Usage: #example
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code
   * coding[loinc] = $loinc#85354-9 "Blood pressure panel with all children optional"
+    * version = "2.77"
   * coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
+    * version = "http://snomed.info/sct/11000274103/version/20231115"
   * coding[IEEE11073] = $IEEE11073#150016 "MDC_PRESS_BLD"
   * text = "Systolischer und Diastolischer Blutdruck"
 * subject = Reference(PatientinMusterfrau)

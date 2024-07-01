@@ -8,7 +8,9 @@ Id: ISiKKoerpertemperatur
 * code MS
   * coding contains IEEE11073 0..1
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] from ISiKKoerpertemperaturSCTVS
   * coding[IEEE11073] = $IEEE11073#150364
 * subject MS
@@ -42,7 +44,9 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
 * code.coding[loinc] = $loinc#8310-5 "Body temperature"
+  * version = "2.77"
 * code.coding[snomed] = $sct#386725007 "Body temperature (observable entity)"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * code.coding[IEEE11073] = $IEEE11073#150364 "MDC_TEMP_BODY"
 * code.text = "Körpertemperatur"
 * subject = Reference(PatientinMusterfrau)

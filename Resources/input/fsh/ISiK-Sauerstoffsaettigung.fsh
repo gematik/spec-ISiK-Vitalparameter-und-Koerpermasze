@@ -8,7 +8,9 @@ Id: ISiKSauerstoffsaettigungArteriell
 * code MS
   * coding contains IEEE11073 0..1
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[IEEE11073] = $IEEE11073#150324
 * subject MS
 * encounter MS
@@ -34,7 +36,9 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
 * code.coding[loinc] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
+  * version = "2.77"
 * code.coding[snomed] = $sct#442476006 "Arterial oxygen saturation"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * code.coding[IEEE11073] = $IEEE11073#150324 "MDC_SAT_O2_ART"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
 * subject = Reference(PatientinMusterfrau)

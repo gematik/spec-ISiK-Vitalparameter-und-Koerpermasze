@@ -8,7 +8,9 @@ Id: ISiKKopfumfang
 * code MS
   * coding contains IEEE11073 0..1
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] from ISiKKopfumfangSCTVS
   * coding[IEEE11073] = $IEEE11073#153856
 * subject MS
@@ -43,7 +45,9 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc] = $loinc#9843-4 "Head Occipital-frontal circumference"
+  * version = "2.77"
 * code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * code.coding[IEEE11073] = $IEEE11073#153856 "MDC_CIRCUM_HEAD"
 * code.text = "Kopfumfang"
 * subject = Reference(PatientinMusterfrau)

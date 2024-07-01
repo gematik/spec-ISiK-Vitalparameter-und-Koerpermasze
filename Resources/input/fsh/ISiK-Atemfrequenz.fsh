@@ -8,7 +8,9 @@ Id: ISiKAtemfrequenz
 * code MS
   * coding contains IEEE11073 0..1
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] = $sct#86290005
   * coding[IEEE11073] = $IEEE11073#151562
 * subject MS
@@ -36,7 +38,9 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code.coding[loinc] = $loinc#9279-1 "Respiratory rate"
+  * version = "2.77"
 * code.coding[snomed] = $sct#86290005 "Respiratory rate (observable entity)"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * code.coding[IEEE11073] = $IEEE11073#151562 "MDC_RESP_RATE"
 * code.text = "Atemfrequenz"
 * subject = Reference(PatientinMusterfrau)

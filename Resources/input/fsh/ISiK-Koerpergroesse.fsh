@@ -8,7 +8,9 @@ Id: ISiKKoerpergroesse
 * code MS
   * coding contains IEEE11073 0..1
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] from ISiKKoerpergroesseSCTVS
   * coding[IEEE11073] = $IEEE11073#188740
 * subject MS
@@ -41,8 +43,10 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[0] = $loinc#8302-2 "Body height"
-* code.coding[+] = $sct#1153637007 "Body height (observable entity)"
+* code.coding[loinc] = $loinc#8302-2 "Body height"
+  * version = "2.77"
+* code.coding[snomed] = $sct#1153637007 "Body height (observable entity)"
+  * version = "http://snomed.info/sct/11000274103/version/20231115"
 * code.coding[IEEE11073] = $IEEE11073#188740 "MDC_LEN_BODY_ACTUAL"
 * code.text = "Körpergröße"
 * subject = Reference(PatientinMusterfrau)

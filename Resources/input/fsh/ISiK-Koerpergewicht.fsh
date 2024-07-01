@@ -8,7 +8,9 @@ Id: ISiKKoerpergewicht
 * code MS
   * coding contains IEEE11073 0..1
   * coding[loinc] MS
+  * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
+  * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] from ISiKKoerpergewichtSCTVS
   * coding[IEEE11073] = $IEEE11073#188736
 * subject MS
@@ -41,8 +43,11 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[loinc] = $loinc#29463-7 "Body weight"
-* code.coding[snomed] = $sct#27113001 "Body weight"
+* code
+  * coding[loinc] = $loinc#29463-7 "Body weight"
+    * version = "2.77"
+  * coding[snomed] = $sct#27113001 "Body weight"
+    * version = "http://snomed.info/sct/11000274103/version/20231115"
 * code.coding[IEEE11073] = $IEEE11073#188736 "MDC_MASS_BODY_ACTUAL"
 * code.text = "Körpergewicht"
 * subject = Reference(PatientinMusterfrau)

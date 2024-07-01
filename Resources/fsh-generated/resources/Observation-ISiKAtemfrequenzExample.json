@@ -24,12 +24,14 @@
       {
         "system": "http://loinc.org",
         "code": "9279-1",
-        "display": "Respiratory rate"
+        "display": "Respiratory rate",
+        "version": "2.77"
       },
       {
         "code": "86290005",
         "system": "http://snomed.info/sct",
-        "display": "Respiratory rate (observable entity)"
+        "display": "Respiratory rate (observable entity)",
+        "version": "http://snomed.info/sct/11000274103/version/20231115"
       },
       {
         "code": "151562",
