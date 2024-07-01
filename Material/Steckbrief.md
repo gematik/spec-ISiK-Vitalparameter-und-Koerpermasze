@@ -1,7 +1,7 @@
 # Modul-Name Vitalparameter
 
 ## Kurzbeschreibung
-Das Modul Vitalparameter umfasst alle notwendigen Datenmodule um Vitalparameter und Körpermaße von PatientInnen abzubilden. Diese Rubrik umfasst derzeit: 
+Das Modul Vitalparameter umfasst alle notwendigen Datenmodule um Vitalparameter und Körpermaße von Patienten abzubilden. Diese Rubrik umfasst derzeit: 
 
 - Atemfrequenz
 - Blutdruck
@@ -12,7 +12,7 @@ Das Modul Vitalparameter umfasst alle notwendigen Datenmodule um Vitalparameter 
 - Kopfumfang
 - Sauerstoffsättigung
 
-Durch diese Vitalparameter wird eine initiale Einschätzung der Gesundheit von PatientInnen ermöglicht und sie enthalten wichtige Hinweise auf potenzielle Krankheitsbilder. Sie können als begleitende Information bei der Anforderung von Untersuchungen oder der Verordnung von Medikamenten verwendet werden.
+Durch diese Vitalparameter wird eine initiale Einschätzung der Gesundheit von Patienten ermöglicht und sie enthalten wichtige Hinweise auf potenzielle Krankheitsbilder. Sie können als begleitende Information bei der Anforderung von Untersuchungen oder der Verordnung von Medikamenten verwendet werden.
 
 ## Bezug KHZG
 
@@ -33,7 +33,7 @@ Die folgenden Fördertatbestände implizieren einen Bezug zur Standardisierung v
 **Fördertatbestand 9**
 
 ```
-... die Beschaffung, Errichtung, Erweiterung oder Entwicklung informationstechnischer, kommunikationstechnischer und robotikbasierter Anlagen, Systeme oder Verfahren oder räumlicher Maßnahmen, die erforderlich sind, um Ärztinnen und Ärzte bei der Behandlung von Patientinnen und Patienten, insbesondere im Rahmen von Operationen, zu unterstützen oder um telemedizinische Netzwerkstrukturen zwischen Krankenhäusern oder zwischen Krankenhäusern und ambulanten Einrichtungen aufzubauen und den Einsatz telemedizinischer Verfahren in der stationären Versorgung von Patientinnen und Patienten zu ermöglichen ...
+... die Beschaffung, Errichtung, Erweiterung oder Entwicklung informationstechnischer, kommunikationstechnischer und robotikbasierter Anlagen, Systeme oder Verfahren oder räumlicher Maßnahmen, die erforderlich sind, um Ärztinnen und Ärzte bei der Behandlung von Patienten und Patienten, insbesondere im Rahmen von Operationen, zu unterstützen oder um telemedizinische Netzwerkstrukturen zwischen Krankenhäusern oder zwischen Krankenhäusern und ambulanten Einrichtungen aufzubauen und den Einsatz telemedizinischer Verfahren in der stationären Versorgung von Patienten und Patienten zu ermöglichen ...
 ```
 
 ## Relevante Spezifikationen

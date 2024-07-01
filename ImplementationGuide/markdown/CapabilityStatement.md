@@ -15,8 +15,21 @@ Die Verwendung der [CapabilityStatement-Expectation](https://hl7.org/fhir/R4/ext
 
 ## CapabilityStatement (Requirement) ISiK-Vitalparameter
 
-[Link Simplifier Profil Übersicht](https://simplifier.net/isik-vitalparameter-und-koerpermasze-v3/isik-capabilitystatement-vitalparameter-server)
+Dieses Modul unterscheidet CapabilityStatements für PDMS (Intensivversorgung) und alle weiteren bestätigungsrelevanten Systeme. 
 
-{{render:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/CapabilityStatement/vitalparameter-server}}
+[Link Simplifier Profil Übersicht PDMS](https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementvitalparameterserverpdms)
+
+Canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerPDMS
+
+{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerPDMS}}
+
+---
+
+Für alle weiteren bestätigungsrelevanten Systeme:
 
 
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementvitalparameterserverhospital)
+
+Canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerHospital
+
+{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerHospital}}

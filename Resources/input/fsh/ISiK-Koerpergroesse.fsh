@@ -6,11 +6,13 @@ Id: ISiKKoerpergroesse
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding contains IEEE11073 0..1
   * coding[loinc] MS
   * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
   * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] from ISiKKoerpergroesseSCTVS
+  * coding[IEEE11073] = $IEEE11073#188740
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -20,6 +22,13 @@ Id: ISiKKoerpergroesse
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* dataAbsentReason MS
 
 ValueSet: ISiKKoerpergroesseSCTVS
 Id: ISiKKoerpergroesseSCTVS
@@ -38,6 +47,7 @@ Usage: #example
   * version = "2.77"
 * code.coding[snomed] = $sct#1153637007 "Body height (observable entity)"
   * version = "http://snomed.info/sct/11000274103/version/20231115"
+* code.coding[IEEE11073] = $IEEE11073#188740 "MDC_LEN_BODY_ACTUAL"
 * code.text = "Körpergröße"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

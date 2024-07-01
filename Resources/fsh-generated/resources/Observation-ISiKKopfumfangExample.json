@@ -28,6 +28,11 @@
         "version": "2.77"
       },
       {
+        "code": "153856",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_CIRCUM_HEAD"
+      },
+      {
         "code": "363812007",
         "system": "http://snomed.info/sct",
         "display": "Head circumference (observable entity)",
@@ -38,8 +43,8 @@
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "value": 38,
     "code": "cm",
+    "value": 38,
     "unit": "Centimeter"
   },
   "status": "final",

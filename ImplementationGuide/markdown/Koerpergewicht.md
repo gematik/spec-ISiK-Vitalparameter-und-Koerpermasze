@@ -6,10 +6,10 @@ Alle bestätigungsrelevanten Systeme für dieses Modul müssen Ressourcen verarb
 ## Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpergewicht' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergewicht' select Name: name, Canonical: url
 ```
 
-{{tree:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKKoerpergewicht, hybrid}}
+{{tree:https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergewicht, hybrid}}
 
 ## Beispiele
 

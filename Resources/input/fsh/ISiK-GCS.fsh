@@ -6,10 +6,12 @@ Id: ISiKGCS
 * category MS
 * category[survey] MS
 * code
+  * coding contains IEEE11073 0..1
   * coding[loinc] MS
   * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
   * coding[snomed] only ISiKSnomedCTCoding
+  * coding[IEEE11073] = $IEEE11073#153728
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -28,15 +30,23 @@ Id: ISiKGCS
 * component[Eye] MS
 * component[Motor] MS
 * component[Verbal] MS
+* performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* dataAbsentReason MS
 
 Instance: ISiKGCSExample
 InstanceOf: ISiKGCS
 Usage: #example
-* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
+* meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-score-gcs"
 * code.coding[loinc] = $loinc#9269-2 "Glasgow coma score total"
   * version = "2.77"
 * code.coding[snomed] = $sct#248241002 "Glasgow coma score (observable entity)"
   * version = "http://snomed.info/sct/11000274103/version/20231115"
+* code.coding[IEEE11073] = $IEEE11073#153728 "MDC_SCORE_GLAS_COMA"
 * valueQuantity = 11 '1' "Punktwert"
 * status = #final
 * subject = Reference(PatientinMusterfrau)

@@ -2,11 +2,11 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKHerzfrequenz",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKHerzfrequenz",
-  "version": "4.0.0-rc",
+  "version": "4.0.0-rc2",
   "name": "ISiKHerzfrequenz",
-  "status": "active",
+  "status": "draft",
   "experimental": false,
-  "date": "2024-02-01",
+  "date": "2024-06-26",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -70,6 +70,17 @@
         }
       },
       {
+        "id": "Observation.code.coding:IEEE11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE11073",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "147842",
+          "system": "urn:iso:std:iso:11073:10101"
+        }
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "mustSupport": true
@@ -82,6 +93,12 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
         "mustSupport": true
       },
       {
@@ -118,6 +135,23 @@
       {
         "id": "Observation.value[x]:valueQuantity.code",
         "path": "Observation.value[x].code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
         "mustSupport": true
       }
     ]

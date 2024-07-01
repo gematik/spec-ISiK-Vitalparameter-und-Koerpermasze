@@ -1,11 +1,11 @@
 <img src="https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-3/Material/images/Gematik_Logo_Flag.svg" alt="gematik logo" width="400"/>
 
 ----
-Version: 4.0.0-rc
+Version: 4.0.0-rc2
 
-Datum: 01.02.2024
+Datum: 26.06.2024
 
-Status: Aktiv
+Status: Draft (Benehmen)
 
 Realm: Deutschland
 

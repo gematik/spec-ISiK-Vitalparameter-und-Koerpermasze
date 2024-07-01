@@ -4,7 +4,7 @@
   "meta": {
     "profile": [
       "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
-      "http://fhir.de/StructureDefinition/observation-de-vitalsign-gcs"
+      "http://fhir.de/StructureDefinition/observation-de-score-gcs"
     ]
   },
   "category": [
@@ -30,6 +30,11 @@
         "code": "248241002",
         "display": "Glasgow coma score (observable entity)",
         "version": "http://snomed.info/sct/11000274103/version/20231115"
+      },
+      {
+        "code": "153728",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_SCORE_GLAS_COMA"
       }
     ]
   },

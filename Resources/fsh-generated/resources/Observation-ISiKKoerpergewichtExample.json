@@ -21,6 +21,11 @@
   "code": {
     "coding": [
       {
+        "code": "188736",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_MASS_BODY_ACTUAL"
+      },
+      {
         "system": "http://loinc.org",
         "code": "29463-7"
       },

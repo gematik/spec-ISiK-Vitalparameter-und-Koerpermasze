@@ -6,10 +6,10 @@ Alle bestätigungsrelevanten Systeme für dieses Modul müssen Ressourcen verarb
 ## Profil
 
 @```
-from StructureDefinition where url = 'https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKAtemfrequenz' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://gematik.de/fhir/isik/StructureDefinition/ISiKAtemfrequenz' select Name: name, Canonical: url
 ```
 
-{{tree:https://gematik.de/fhir/isik/v3/VitalparameterUndKoerpermasze/StructureDefinition/ISiKAtemfrequenz, hybrid}}
+{{tree:https://gematik.de/fhir/isik/StructureDefinition/ISiKAtemfrequenz, hybrid}}
 
 ## Beispiele
 

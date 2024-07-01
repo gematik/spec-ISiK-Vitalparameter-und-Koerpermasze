@@ -1,6 +1,6 @@
-Profile: ISiKEkg
+Profile: ISiKEKG
 Parent: http://fhir.de/StructureDefinition/observation-de-ekg
-Id: ISiKEkg
+Id: ISiKEKG
 * insert Meta
 * status MS
 * category MS
@@ -21,13 +21,20 @@ Id: ISiKEkg
 * component.valueSampledData.period MS
 * component.valueSampledData.dimensions MS
 * component.valueSampledData.data MS
+* performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* dataAbsentReason MS
 
-Instance: ISiKEkgExample
-InstanceOf: ISiKEkg
+Instance: ISiKEKGExample
+InstanceOf: ISiKEKG
 Usage: #example
 * code.coding[loinc] = $loinc#11524-6 "EKG study"
   * version = "2.77"
-* code.coding[snomed] = $sct#271921002 "Electrocardiogram finding (observable entity)"
+* code.coding[snomed] = $sct#106073009 "EKG wave, interval AND/OR segment"
   * version = "http://snomed.info/sct/11000274103/version/20231115"
 * subject = Reference(PatientinMusterfrau)
 * status = #final

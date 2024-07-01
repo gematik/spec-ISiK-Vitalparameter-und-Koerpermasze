@@ -27,6 +27,11 @@
         "version": "2.77"
       },
       {
+        "code": "147842",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_ECG_HEART_RATE"
+      },
+      {
         "code": "364075005",
         "system": "http://snomed.info/sct",
         "display": "Heart rate (observable entity)",

@@ -6,11 +6,13 @@ Id: ISiKKopfumfang
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding contains IEEE11073 0..1
   * coding[loinc] MS
   * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
   * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] from ISiKKopfumfangSCTVS
+  * coding[IEEE11073] = $IEEE11073#153856
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -20,6 +22,14 @@ Id: ISiKKopfumfang
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* valueQuantity.code = #cm
+* performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* dataAbsentReason MS
 
 ValueSet: ISiKKopfumfangSCTVS
 Id: ISiKKopfumfangSCTVS
@@ -38,6 +48,7 @@ Usage: #example
   * version = "2.77"
 * code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
   * version = "http://snomed.info/sct/11000274103/version/20231115"
+* code.coding[IEEE11073] = $IEEE11073#153856 "MDC_CIRCUM_HEAD"
 * code.text = "Kopfumfang"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-07-02"

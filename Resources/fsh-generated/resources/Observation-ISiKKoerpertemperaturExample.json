@@ -27,6 +27,11 @@
         "version": "2.77"
       },
       {
+        "code": "150364",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_TEMP_BODY"
+      },
+      {
         "code": "386725007",
         "system": "http://snomed.info/sct",
         "display": "Body temperature (observable entity)",

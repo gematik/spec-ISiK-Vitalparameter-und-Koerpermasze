@@ -6,11 +6,13 @@ Id: ISiKHerzfrequenz
 * category MS
 * category[VSCat] MS
 * code MS
+  * coding contains IEEE11073 0..1
   * coding[loinc] MS
   * coding[loinc] only ISiKLoincCoding
   * coding[snomed] MS
   * coding[snomed] only ISiKSnomedCTCoding
   * coding[snomed] from ISiKHerzfrequenzSCTVS
+  * coding[IEEE11073] = $IEEE11073#147842
 * subject MS
 * encounter MS
 * effective[x] MS
@@ -20,6 +22,13 @@ Id: ISiKHerzfrequenz
 * valueQuantity.unit MS
 * valueQuantity.system MS
 * valueQuantity.code MS
+* performer MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* device MS
+  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* dataAbsentReason MS
 
 ValueSet: ISiKHerzfrequenzSCTVS
 Id: ISiKHerzfrequenzSCTVS
@@ -38,6 +47,7 @@ Usage: #example
   * version = "2.77"
 * code.coding[snomed] = $sct#364075005 "Heart rate (observable entity)"
   * version = "http://snomed.info/sct/11000274103/version/20231115"
+* code.coding[IEEE11073] = $IEEE11073#147842 "MDC_ECG_HEART_RATE"
 * code.text = "Herzfrequenz"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
