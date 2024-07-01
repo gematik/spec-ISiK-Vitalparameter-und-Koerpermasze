@@ -10,6 +10,7 @@ Version: 2.0.4
 Datum: tbd
 
 * update example O2Sat .codings https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/168
+* updated dependency to de.gematik.isik-basismodul: 2.0.6 https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/168
 
 
 **Full Changelog**: TBD
