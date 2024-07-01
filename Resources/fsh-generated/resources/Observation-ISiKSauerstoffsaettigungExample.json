@@ -30,17 +30,17 @@
         "display": "Arterial oxygen saturation"
       },
       {
-        "code": "59408-5",
-        "system": "http://loinc.org",
-        "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+        "code": "150324",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_SAT_O2_ART"
       }
     ],
     "text": "Pulsoximetrische Sauerstoffsättigung"
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
-    "value": 98,
     "code": "%",
+    "value": 98,
     "unit": "%"
   },
   "component": [

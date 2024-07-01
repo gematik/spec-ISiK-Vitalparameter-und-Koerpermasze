@@ -21,10 +21,10 @@ InstanceOf: ISiKSauerstoffsaettigung
 Usage: #example
 * meta.profile[0] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-sauerstoffsaettigung"
 * status = #final
-* category = $observation-category#vital-signs
-* code.coding[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
+* category[vs-cat] = $observation-category#vital-signs
+* code.coding[+] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[+] = $sct#442476006 "Arterial oxygen saturation"
-* code.coding[+] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
+* code.coding[+] = $IEEE11073#150324 "MDC_SAT_O2_ART"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"
