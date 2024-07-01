@@ -77,7 +77,7 @@
     "fshType": "Instance",
     "fshFile": "ISiK-Koerpergewicht.fsh",
     "startLine": 37,
-    "endLine": 50
+    "endLine": 49
   },
   {
     "outputFile": "Observation-ISiKKoerpergroesseExample.json",
@@ -85,7 +85,7 @@
     "fshType": "Instance",
     "fshFile": "ISiK-Koerpergroesse.fsh",
     "startLine": 37,
-    "endLine": 50
+    "endLine": 49
   },
   {
     "outputFile": "Observation-ISiKKoerpertemperaturExample.json",
@@ -997,7 +997,7 @@
     "fshType": "ValueSet",
     "fshFile": "mii-backport/valueSet/VS_MII_ICU_Code_Monitoring_und_Vitaldaten_ISO11073.fsh",
     "startLine": 1,
-    "endLine": 44
+    "endLine": 45
   },
   {
     "outputFile": "ValueSet-vs-mii-icu-code-monitoring-und-vitaldaten-loinc.json",
