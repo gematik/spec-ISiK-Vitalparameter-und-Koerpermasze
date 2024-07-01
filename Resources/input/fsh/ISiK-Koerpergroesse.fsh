@@ -37,12 +37,11 @@ Description: "ValueSet des Körpergroesse SnomedCT Codes in ISiK"
 Instance: ISiKKoerpergroesseExample
 InstanceOf: ISiKKoerpergroesse
 Usage: #example
-* meta.profile[0] = "http://hl7.org/fhir/StructureDefinition/bodyheight"
+* meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/bodyheight"
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergroesse"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[0] = $loinc#8302-2 "Body height"
-* code.coding[+] = $sct#1153637007 "Body height (observable entity)"
+* code.coding[snomed] = $sct#1153637007 "Body height (observable entity)"
 * code.coding[IEEE11073] = $IEEE11073#188740 "MDC_LEN_BODY_ACTUAL"
 * code.text = "Körpergröße"
 * subject = Reference(PatientinMusterfrau)

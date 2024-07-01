@@ -41,7 +41,6 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[loinc] = $loinc#29463-7 "Body weight"
 * code.coding[snomed] = $sct#27113001 "Body weight"
 * code.coding[IEEE11073] = $IEEE11073#188736 "MDC_MASS_BODY_ACTUAL"
 * code.text = "Körpergewicht"

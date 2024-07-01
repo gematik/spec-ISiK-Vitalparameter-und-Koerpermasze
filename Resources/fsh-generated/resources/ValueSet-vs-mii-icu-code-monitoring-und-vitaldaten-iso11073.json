@@ -170,6 +170,18 @@
           {
             "code": "149514",
             "display": "Pulse rate"
+          },
+          {
+            "code": "188796",
+            "display": "MDC_MASS_BODY_EST_IBW"
+          },
+          {
+            "code": "188452",
+            "display": "MDC_TEMP_AXILLA"
+          },
+          {
+            "code": "150356",
+            "display": "MDC_TEMP_AWAY"
           }
         ]
       }

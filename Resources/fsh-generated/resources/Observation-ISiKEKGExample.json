@@ -62,7 +62,7 @@
       "code": {
         "coding": [
           {
-            "code": "LP7386-6",
+            "code": "LP7387-6",
             "system": "http://loinc.org",
             "display": "Lead II"
           }
@@ -81,7 +81,7 @@
       "code": {
         "coding": [
           {
-            "code": "LP7386-4",
+            "code": "LP7388-4",
             "system": "http://loinc.org",
             "display": "Lead III"
           }
