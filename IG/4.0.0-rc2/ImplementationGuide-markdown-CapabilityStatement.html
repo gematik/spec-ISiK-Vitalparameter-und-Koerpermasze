@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Implementierungsleitfaden ISiK-Modul Vitalparameter und Körpermaße</title>
+
+    <link rel="icon" href="static/styles/common/favicon.ico" />
+
+    <script src="static/styles/common/jquery/jquery.min.js"></script>
+    <script src="static/styles/common/bootstrap/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="static/styles/common/main.min.css" />
+    <link rel="stylesheet" href="static/styles/common/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="static/styles/common/rendering/rendering.min.css" />
+
+    <script src="static/styles/common/rendering/stu3TreeTable.min.js"></script>
+    <script src="static/styles/common/rendering/baseTreetable.min.js"></script>
+
+    <link rel="stylesheet" href="static/styles/twolevelmenu/style.css?v=1dac7d52a26d780" />
+
+</head>
+
+<body>
+
+    <div id="ig-viewer">
+
+        <div class="ig-view-content">
+
+            <div id="ig-view-twolevelmenu">
+
+                <div class="header" role="banner" aria-label="Header">
+                    
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+                <a class="navbar-brand" href="ImplementationGuide-markdown-Einfuehrung.html">
+                    Implementierungsleitfaden ISiK-Modul Vitalparameter und K&#xF6;rperma&#xDF;e
+                </a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+
+
+                    <li>
+                        <a href="ImplementationGuide-markdown-Einfuehrung.html">
+                            Einf&#xFC;hrung
+                        </a>
+                    </li>
+
+                        <li>
+                            <a href="ImplementationGuide-markdown-ReleaseNotes.html">
+                                Release Notes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ImplementationGuide-markdown-Motivation.html">
+                                Motivation
+                            </a>
+                        </li>
+                        <li class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                &#xDC;bergreifende Festlegungen <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-UebergreifendeFestlegungen.html">
+                                            &#xDC;bergreifende Festlegungen
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Methodik.html">
+                                            Methodik
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-BestaetigungsrelevanteSysteme.html">
+                                            Best&#xE4;tigungsrelevante Systeme
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Kompatibilitaet.html">
+                                            Kompatibilit&#xE4;t
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-MustSupportFlags.html">
+                                            Must-Support-Flags
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Repraesentationsformate.html">
+                                            Repr&#xE4;sentationsformate
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Suchparameter.html">
+                                            Suchparameter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-RestApi.html">
+                                            REST-API
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-AnmerkungenMS.html">
+                                            Anmerkungen zu Must-Support-Feldern
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Interaktionen.html">
+                                            Interaktionen
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Signaldaten.html">
+                                            Signaldaten
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                &#xDC;bergreifende Use Cases <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-UebergreifendeUseCases.html">
+                                            &#xDC;bergreifende Use Cases
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-UebergreifendeUseCases-Intensivversorgung.html">
+                                            Intensivversorgung
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-UebergreifendeUseCases-AMTS.html">
+                                            Arzneimitteltherapiesicherheit (AMTS)
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Datenobjekte <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte.html">
+                                            Datenobjekte
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-CapabilityStatement.html">
+                                            CapabilityStatement
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Koerpergewicht.html">
+                                            Koerpergewicht
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Koerpergroesse.html">
+                                            Koerpergroesse
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte-Koerpertemperatur.html">
+                                            Koerpertemperatur
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte-Kopfumfang.html">
+                                            Kopfumfang
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte-Atemfrequenz.html">
+                                            Atemfrequenz
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte-Blutdruck.html">
+                                            Blutdruck
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte-Herzfrequenz.html">
+                                            Herzfrequenz
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte-Sauerstoffsaettigung.html">
+                                            Sauerstoffsaettigung
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte-Ekg.html">
+                                            EKG
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte-GCS.html">
+                                            GCS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte-MII_Intensiv_Normal.html">
+                                            MII Profile der Intensiv- und Normalversorgung
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ImplementationGuide-markdown-Datenobjekte-Laborprofile.html">
+                                            Laborprofile f&#xFC;r &#xDC;berleitung Intensivversorgung
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+                </div>
+
+                <div class="content container" role="main" aria-label="Main content">
+                    
+
+
+<div class="row">
+
+
+    <div class="col-md-24">
+
+        <div id="preview-content">
+
+            <h1 id="konformitatserklarung-capabilitystatement">Konformitätserklärung <a href="https://hl7.org/fhir/R4/capabilitystatement.html">(CapabilityStatement)</a></h1>
+<p>Jede Instanz eines bestätigungsrelevanten Systems MUSS an ihrem Endpunkt eine <a href="https://hl7.org/fhir/R4/capabilitystatement.html">CapabilityStatement</a>-Ressource bereitstellen.</p>
+<p>Hierzu MUSS die <a href="https://hl7.org/fhir/R4/http.html#capabilities">capabilities-Interaktion gemäß FHIR-Spezifikation</a> unterstützt werden.
+Der MODE-Parameter kann ignoriert werden.</p>
+<p>Das CapabilityStatement in dieser Spezifikation stellt die Anforderungen seitens der gematik dar (<code>kind</code> = &quot;requirements&quot;). Zur Unterscheidung von Anforderungen, die erfüllt werden MÜSSEN gegenüber jenen, die erfüllt werden KÖNNEN, wird die <a href="https://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">CapabilityStatement-Expectation-Extension</a> mit den möglichen Werten &quot;SHALL&quot; (=MUSS) und &quot;MAY&quot; (=KANN) verwendet.</p>
+<p>Eine Server-Instanz MUSS ihrerseits ein CapabilityStatement vom <code>kind</code>= &quot;instance&quot; liefern und im Element <code>software</code> den Namen und die Versionsnummer angeben.</p>
+<p>Das CapabilityStatement der Instanz MUSS alle Funktionalitäten auflisten, die im folgenden CapabilityStatement mit &quot;SHALL&quot; gekennzeichnet sind. Das CapabilityStatement KANN darüber hinaus die mit &quot;MAY&quot; gekennzeichneten Funktionalitäten sowie weitere Funktionalitäten auflisten, sofern diese in der Instanz implementiert wurden.</p>
+<p>Die Verwendung der <a href="https://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">CapabilityStatement-Expectation</a>-Extension ist im CapabilityStatement der Server-Instanz nicht erforderlich.</p>
+<h2 id="capabilitystatement-requirement-isik-vitalparameter">CapabilityStatement (Requirement) ISiK-Vitalparameter</h2>
+<p>Dieses Modul unterscheidet CapabilityStatements für PDMS (Intensivversorgung) und alle weiteren bestätigungsrelevanten Systeme.</p>
+<p><a href="https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementvitalparameterserverpdms">Link Simplifier Profil Übersicht PDMS</a></p>
+<p>Canonical: <a href="https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerPDMS">https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerPDMS</a></p>
+<p><div xmlns="http://www.w3.org/1999/xhtml"><p><h3>REST Capabilities Server</h3></p><table class="regular"><tr><td>Mode</td><td>Server</td></tr></table><p><h4>Resource Interactions</h4></p><p><table class="small"><tr><th><b>Resource Type</b></th><th><b>Supported Profiles</b></th><th><b>Read</b></th><th><b>SearchType</b></th></tr><tr><td>Observation</td><td><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKAtemfrequenz.json" title="An instance of StructureDefinition">ISiKAtemfrequenz</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKBlutdruckSystemischArteriell.json" title="An instance of StructureDefinition">ISiKBlutdruckSystemischArteriell</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKHerzfrequenz.json" title="An instance of StructureDefinition">ISiKHerzfrequenz</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpergewicht.json" title="An instance of StructureDefinition">ISiKKoerpergewicht</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpergroesse.json" title="An instance of StructureDefinition">ISiKKoerpergroesse</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpertemperatur.json" title="An instance of StructureDefinition">ISiKKoerpertemperatur</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKKopfumfang.json" title="An instance of StructureDefinition">ISiKKopfumfang</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKSauerstoffsaettigungArteriell.json" title="An instance of StructureDefinition">ISiKSauerstoffsaettigungArteriell</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKGCS.json" title="An instance of StructureDefinition">ISiKGCS</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKEkg.json" title="An instance of StructureDefinition">ISiKEKG</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-intrakranieller-druck-icp.json" title="An instance of StructureDefinition">SD MII ICU Intrakranieller Druck ICP</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpergewicht-percentil-altersabhaengig.json" title="An instance of StructureDefinition">SD MII ICU Koerpergewicht Percentil Altersabhaengig</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpergroesse-percentil-altersabhaengig.json" title="An instance of StructureDefinition">SD MII ICU Koerpergroesse Percentil</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-ideales-koerpergewicht.json" title="An instance of StructureDefinition">SD MII ICU Ideales Koerpergewicht</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json" title="An instance of StructureDefinition">SD MII ICU Sauerstoffsaettigung Im Arteriellen Blut Durch Pulsoxymetrie</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-puls.json" title="An instance of StructureDefinition">SD MII ICU Puls</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-kern.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Kern</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-gelenk.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Gelenk</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-stirn.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Stirn</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-nasal.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur nasal</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-leiste.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Leiste</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-achsel.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Achsel</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-unter-der-zunge.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur unter der Zunge</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-vaginal.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur vaginal</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-harnblase.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Harnblase</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-rektal.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur rektal</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-trommelfell.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Trommelfell</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-pulmonalarterieller-wedge-druck.json" title="An instance of StructureDefinition">SD MII ICU Pulmonalarterieller Wedge Druck</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie.json" title="An instance of StructureDefinition">SD MII ICU Sauerstoffsaettigung Im Blut Preduktal Durch Pulsoxymetrie</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-o2saettigung-im-blut-postduktal-durch-pulsoxymetrie.json" title="An instance of StructureDefinition">SD MII ICU Sauerstoffsaettigung Im Blut Postduktal Durch Pulsoxymetrie</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumenindex.json" title="An instance of StructureDefinition">SD MII ICU Linksventrikulaeres Schlagvolumenindex</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd.json" title="An instance of StructureDefinition">SD MII ICU Linksventrikulaerer Schlagvolumenindex Durch Indikatorverduennung</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumen.json" title="An instance of StructureDefinition">SD MII ICU Linksventrikulaeres Schlagvolumen</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung.json" title="An instance of StructureDefinition">SD MII ICU Linksventrikulaeres Schlagvolumen Durch Indikatorverduennung</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-pulmonalvaskulaerer-widerstandsindex.json" title="An instance of StructureDefinition">SD MII ICU Pulmonalvaskulaerer Widerstandsindex</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-systemischer-vaskulaerer-widerstandsindex.json" title="An instance of StructureDefinition">SD MII ICU Systemischer Vaskulaerer Widerstandsindex</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaerer-herzindex.json" title="An instance of StructureDefinition">SD MII ICU Linksventrikulaerer Herzindex</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-herzzeitvolumen.json" title="An instance of StructureDefinition">SD MII ICU Herzzeitvolumen</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-herzindex-durch-indikatorverduennung.json" title="An instance of StructureDefinition">SD MII ICU Linksventrikulaerer Herzindex durch Indikatorverduennung</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd.json" title="An instance of StructureDefinition">SD MII ICU Linksventrikulaeres Herzzeitvolumen Durch Indikatorverduennung</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-zentralvenoeser-blutdruck.json" title="An instance of StructureDefinition">SD MII ICU Zentralvenoeser Blutdruck</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-systemischer-vaskulaerer-widerstandsindex.json" title="An instance of StructureDefinition">SD MII ICU Systemischer Vaskulaerer Widerstandsindex</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksatrialer-druck.json" title="An instance of StructureDefinition">SD MII ICU Linksatrialer Druck</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-rechtsatrialer-druck.json" title="An instance of StructureDefinition">SD MII ICU Rechtsatrialer Druck</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-rechtsventrikulaerer-druck.json" title="An instance of StructureDefinition">SD MII ICU Rechtsventrikulaerer Druck</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaerer-druck.json" title="An instance of StructureDefinition">SD MII ICU Linksventrikulaerer Druck</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-pulmonalarterieller-blutdruck.json" title="An instance of StructureDefinition">SD MII ICU Pulmonalarterieller Blutdruck</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-brustwirbelsaeule.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Brustwirbelsaeule</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-lendenwirbelsaeule.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Lendenwirbelsaeule</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-halswirbelsaeule.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Halswirbelsaeule</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-brust.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Brust</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-myokard.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Myokard</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-atemwege.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Atemwege</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-blut.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Blut</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-nasen-rachen-raum.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Nasen-Rachen-Raum</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-speiseroehre.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Speiseroehre</a></li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungSerumkreatinin</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungPCT</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungCRP</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungHb</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTroponin</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungGFR</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungThrombozyten</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTSH</li></td><td>SHALL</td><td>SHALL</td></tr></table></p><p><h4>Search Parameters per resource type</h4></p><p><b>Observation</b></p><table class="small"><tr><th><b>Name</b></th><th><b>Type</b></th><th><b>Level</b></th></tr><tr><td>_id</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr><tr><td>category</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr><tr><td>status</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr><tr><td>date</td><td><a href="http://hl7.org/fhir/r4/search.html#date" target="_blank">date</a></td><td>SHALL</td></tr><tr><td>code</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr><tr><td>patient</td><td><a href="http://hl7.org/fhir/r4/search.html#reference" target="_blank">reference</a></td><td>SHALL</td></tr><tr><td>subject</td><td><a href="http://hl7.org/fhir/r4/search.html#reference" target="_blank">reference</a></td><td>SHALL</td></tr><tr><td>encounter</td><td><a href="http://hl7.org/fhir/r4/search.html#reference" target="_blank">reference</a></td><td>SHALL</td></tr><tr><td>combo-code</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr><tr><td>combo-code-value-quantity</td><td><a href="http://hl7.org/fhir/r4/search.html#composite" target="_blank">composite</a></td><td>SHALL</td></tr><tr><td>component-code</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr></table></div></p>
+<hr />
+<p>Für alle weiteren bestätigungsrelevanten Systeme:</p>
+<p><a href="https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementvitalparameterserverhospital">Link Simplifier Profil Übersicht</a></p>
+<p>Canonical: <a href="https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerHospital">https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerHospital</a></p>
+<p><div xmlns="http://www.w3.org/1999/xhtml"><p><h3>REST Capabilities Server</h3></p><table class="regular"><tr><td>Mode</td><td>Server</td></tr></table><p><h4>Resource Interactions</h4></p><p><table class="small"><tr><th><b>Resource Type</b></th><th><b>Supported Profiles</b></th><th><b>Read</b></th><th><b>SearchType</b></th></tr><tr><td>Observation</td><td><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKAtemfrequenz.json" title="An instance of StructureDefinition">ISiKAtemfrequenz</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKBlutdruckSystemischArteriell.json" title="An instance of StructureDefinition">ISiKBlutdruckSystemischArteriell</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKHerzfrequenz.json" title="An instance of StructureDefinition">ISiKHerzfrequenz</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpergewicht.json" title="An instance of StructureDefinition">ISiKKoerpergewicht</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpergroesse.json" title="An instance of StructureDefinition">ISiKKoerpergroesse</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpertemperatur.json" title="An instance of StructureDefinition">ISiKKoerpertemperatur</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKKopfumfang.json" title="An instance of StructureDefinition">ISiKKopfumfang</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKSauerstoffsaettigungArteriell.json" title="An instance of StructureDefinition">ISiKSauerstoffsaettigungArteriell</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKGCS.json" title="An instance of StructureDefinition">ISiKGCS</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-ISiKEkg.json" title="An instance of StructureDefinition">ISiKEKG</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-intrakranieller-druck-icp.json" title="An instance of StructureDefinition">SD MII ICU Intrakranieller Druck ICP</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpergewicht-percentil-altersabhaengig.json" title="An instance of StructureDefinition">SD MII ICU Koerpergewicht Percentil Altersabhaengig</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpergroesse-percentil-altersabhaengig.json" title="An instance of StructureDefinition">SD MII ICU Koerpergroesse Percentil</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-ideales-koerpergewicht.json" title="An instance of StructureDefinition">SD MII ICU Ideales Koerpergewicht</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json" title="An instance of StructureDefinition">SD MII ICU Sauerstoffsaettigung Im Arteriellen Blut Durch Pulsoxymetrie</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-puls.json" title="An instance of StructureDefinition">SD MII ICU Puls</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-kern.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Kern</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-gelenk.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Gelenk</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-stirn.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Stirn</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-nasal.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur nasal</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-leiste.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Leiste</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-achsel.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Achsel</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-unter-der-zunge.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur unter der Zunge</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-vaginal.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur vaginal</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-harnblase.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Harnblase</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-rektal.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur rektal</a></li><li><a href="artifacts/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-trommelfell.json" title="An instance of StructureDefinition">SD MII ICU Koerpertemperatur Trommelfell</a></li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungSerumkreatinin</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungPCT</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungCRP</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungHb</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTroponin</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungGFR</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungThrombozyten</li><li>https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTSH</li></td><td>SHALL</td><td>SHALL</td></tr></table></p><p><h4>Search Parameters per resource type</h4></p><p><b>Observation</b></p><table class="small"><tr><th><b>Name</b></th><th><b>Type</b></th><th><b>Level</b></th></tr><tr><td>_id</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr><tr><td>category</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr><tr><td>status</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr><tr><td>date</td><td><a href="http://hl7.org/fhir/r4/search.html#date" target="_blank">date</a></td><td>SHALL</td></tr><tr><td>code</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr><tr><td>patient</td><td><a href="http://hl7.org/fhir/r4/search.html#reference" target="_blank">reference</a></td><td>SHALL</td></tr><tr><td>subject</td><td><a href="http://hl7.org/fhir/r4/search.html#reference" target="_blank">reference</a></td><td>SHALL</td></tr><tr><td>encounter</td><td><a href="http://hl7.org/fhir/r4/search.html#reference" target="_blank">reference</a></td><td>SHALL</td></tr><tr><td>combo-code</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr><tr><td>combo-code-value-quantity</td><td><a href="http://hl7.org/fhir/r4/search.html#composite" target="_blank">composite</a></td><td>SHALL</td></tr><tr><td>component-code</td><td><a href="http://hl7.org/fhir/r4/search.html#token" target="_blank">token</a></td><td>SHALL</td></tr></table></div></p>
+
+
+
+        </div>
+
+    </div>
+</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="ig-view-footer" role="contentinfo" aria-label="Footer">
+            
+<div class="container">
+    <div class="row">
+        <p>Powered by <b>SIMPLIFIER.NET</b></p>
+        <div>
+            HL7<sup>&reg;</sup> and FHIR<sup>&reg;</sup> are the registered trademarks of Health Level Seven International
+        </div>
+    </div>
+</div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
