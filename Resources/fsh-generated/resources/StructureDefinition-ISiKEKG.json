@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKEKG",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKEKG",
-  "version": "4.0.0-rc2",
+  "version": "4.0.0",
   "name": "ISiKEKG",
   "status": "draft",
   "experimental": false,

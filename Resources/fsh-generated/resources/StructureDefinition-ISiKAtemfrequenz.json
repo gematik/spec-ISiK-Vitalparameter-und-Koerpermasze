@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKAtemfrequenz",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAtemfrequenz",
-  "version": "4.0.0-rc2",
+  "version": "4.0.0",
   "name": "ISiKAtemfrequenz",
   "status": "draft",
   "experimental": false,
@@ -91,33 +91,22 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]:valueQuantity",
-        "path": "Observation.value[x]",
-        "sliceName": "valueQuantity",
-        "type": [
-          {
-            "code": "Quantity"
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.value[x]:valueQuantity.value",
+        "id": "Observation.value[x].value",
         "path": "Observation.value[x].value",
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]:valueQuantity.unit",
+        "id": "Observation.value[x].unit",
         "path": "Observation.value[x].unit",
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]:valueQuantity.system",
+        "id": "Observation.value[x].system",
         "path": "Observation.value[x].system",
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]:valueQuantity.code",
+        "id": "Observation.value[x].code",
         "path": "Observation.value[x].code",
         "mustSupport": true
       },

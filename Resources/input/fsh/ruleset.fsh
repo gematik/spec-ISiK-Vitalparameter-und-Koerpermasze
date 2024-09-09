@@ -1,17 +1,17 @@
 RuleSet: Meta
 * ^status = #draft
 * ^experimental = false
-* ^version = "4.0.0-rc2"
+* ^version = "4.0.0"
 * ^publisher = "gematik GmbH"
 * ^date = "2024-06-26"
 
 RuleSet: Meta-CapabilityStatement
 * status = #draft
 * experimental = false
-* version = "4.0.0-rc2"
+* version = "4.0.0"
 * publisher = "gematik GmbH"
 * date = "2024-06-26"
-* implementationGuide = "https://gematik.de/fhir/isik/ImplementationGuide/ISiK-Vitalparameter|4.0.0-rc2"
+* implementationGuide = "https://gematik.de/fhir/isik/ImplementationGuide/ISiK-Vitalparameter|4.0.0"
 
 
 
