@@ -5,9 +5,9 @@
   "id": "ISiKKoerpergroesseSCTVS",
   "title": "ISiKKoerpergroesseSCTVS",
   "description": "ValueSet des Körpergroesse SnomedCT Codes in ISiK",
-  "version": "4.0.0",
   "url": "https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergroesseSCTVS",
   "experimental": false,
+  "version": "4.0.0",
   "publisher": "gematik GmbH",
   "date": "2024-09-09",
   "compose": {
