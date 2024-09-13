@@ -68,40 +68,40 @@
     "fshName": "ISiKHerzfrequenzExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Herzfrequenz.fsh",
-    "startLine": 37,
-    "endLine": 50
+    "startLine": 38,
+    "endLine": 51
   },
   {
     "outputFile": "Observation-ISiKKoerpergewichtExample.json",
     "fshName": "ISiKKoerpergewichtExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Koerpergewicht.fsh",
-    "startLine": 37,
-    "endLine": 50
+    "startLine": 38,
+    "endLine": 51
   },
   {
     "outputFile": "Observation-ISiKKoerpergroesseExample.json",
     "fshName": "ISiKKoerpergroesseExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Koerpergroesse.fsh",
-    "startLine": 37,
-    "endLine": 50
+    "startLine": 38,
+    "endLine": 51
   },
   {
     "outputFile": "Observation-ISiKKoerpertemperaturExample.json",
     "fshName": "ISiKKoerpertemperaturExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Koerpertemperatur.fsh",
-    "startLine": 37,
-    "endLine": 50
+    "startLine": 38,
+    "endLine": 51
   },
   {
     "outputFile": "Observation-ISiKKopfumfangExample.json",
     "fshName": "ISiKKopfumfangExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Kopfumfang.fsh",
-    "startLine": 38,
-    "endLine": 51
+    "startLine": 39,
+    "endLine": 52
   },
   {
     "outputFile": "Observation-ISiKSauerstoffsaettigungArteriellExample.json",
@@ -364,8 +364,8 @@
     "fshName": "Linksventrikulaeres-Schlagvolumen",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Schlagvolumen.fsh",
-    "startLine": 19,
-    "endLine": 32
+    "startLine": 17,
+    "endLine": 30
   },
   {
     "outputFile": "Observation-Linksventrikulaeres-Schlagvolumenindex.json",
@@ -821,7 +821,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Linksventrikulaeres_Schlagvolumen.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 15
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumenindex.json",
@@ -941,7 +941,7 @@
     "fshType": "ValueSet",
     "fshFile": "ISiK-Herzfrequenz.fsh",
     "startLine": 31,
-    "endLine": 35
+    "endLine": 36
   },
   {
     "outputFile": "ValueSet-ISiKKoerpergewichtSCTVS.json",
@@ -949,7 +949,7 @@
     "fshType": "ValueSet",
     "fshFile": "ISiK-Koerpergewicht.fsh",
     "startLine": 31,
-    "endLine": 35
+    "endLine": 36
   },
   {
     "outputFile": "ValueSet-ISiKKoerpergroesseSCTVS.json",
@@ -957,7 +957,7 @@
     "fshType": "ValueSet",
     "fshFile": "ISiK-Koerpergroesse.fsh",
     "startLine": 31,
-    "endLine": 35
+    "endLine": 36
   },
   {
     "outputFile": "ValueSet-ISiKKoerpertemperaturSCTVS.json",
@@ -965,7 +965,7 @@
     "fshType": "ValueSet",
     "fshFile": "ISiK-Koerpertemperatur.fsh",
     "startLine": 31,
-    "endLine": 35
+    "endLine": 36
   },
   {
     "outputFile": "ValueSet-ISiKKopfumfangSCTVS.json",
@@ -973,7 +973,7 @@
     "fshType": "ValueSet",
     "fshFile": "ISiK-Kopfumfang.fsh",
     "startLine": 32,
-    "endLine": 36
+    "endLine": 37
   },
   {
     "outputFile": "ValueSet-vs-mii-icu-bodysite-observation-blutdruck.json",

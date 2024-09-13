@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "url": "https://gematik.de/fhir/isik/v4/Vitalparameter/ImplementationGuide/ISiK-vitalparameter",
   "name": "Implementierungsleitfaden ISiK-Modul Vitalparameter und Körpermaße",
-  "status": "draft",
+  "status": "active",
   "fhirVersion": [
     "4.0.1"
   ],

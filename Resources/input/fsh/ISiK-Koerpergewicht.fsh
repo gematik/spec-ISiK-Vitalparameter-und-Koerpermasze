@@ -32,6 +32,7 @@ ValueSet: ISiKKoerpergewichtSCTVS
 Id: ISiKKoerpergewichtSCTVS
 Title: "ISiKKoerpergewichtSCTVS"
 Description: "ValueSet des Körpergewichts SnomedCT Codes in ISiK"
+* insert Meta
 * $sct#27113001 "Körpergewicht"
 
 Instance: ISiKKoerpergewichtExample

@@ -1,11 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "ISiKHerzfrequenzSCTVS",
   "id": "ISiKHerzfrequenzSCTVS",
   "title": "ISiKHerzfrequenzSCTVS",
   "description": "ValueSet des Herzfrequenz SnomedCT Codes in ISiK",
+  "version": "4.0.0",
   "url": "https://gematik.de/fhir/isik/ValueSet/ISiKHerzfrequenzSCTVS",
+  "experimental": false,
+  "publisher": "gematik GmbH",
+  "date": "2024-09-09",
   "compose": {
     "include": [
       {
