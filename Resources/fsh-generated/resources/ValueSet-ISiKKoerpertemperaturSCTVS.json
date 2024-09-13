@@ -1,11 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "ISiKKoerpertemperaturSCTVS",
   "id": "ISiKKoerpertemperaturSCTVS",
   "title": "ISiKKoerpertemperaturSCTVS",
   "description": "ValueSet des Körpergewicht SnomedCT Codes in ISiK",
   "url": "https://gematik.de/fhir/isik/ValueSet/ISiKKoerpertemperaturSCTVS",
+  "experimental": false,
+  "version": "4.0.0",
+  "publisher": "gematik GmbH",
+  "date": "2024-09-09",
   "compose": {
     "include": [
       {

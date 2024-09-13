@@ -32,6 +32,7 @@ ValueSet: ISiKHerzfrequenzSCTVS
 Id: ISiKHerzfrequenzSCTVS
 Title: "ISiKHerzfrequenzSCTVS"
 Description: "ValueSet des Herzfrequenz SnomedCT Codes in ISiK"
+* insert Meta
 * $sct#364075005 "Herzfrequenz"
 
 Instance: ISiKHerzfrequenzExample

@@ -1,15 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "VS_MII_ICU_Code_Monitoring_und_Vitaldaten_SNOMED",
   "id": "vs-mii-icu-code-monitoring-und-vitaldaten-snomed",
   "title": "VS MII ICU Code Monitoring und Vitaldaten [sct]",
   "description": "Dieses ValueSet enthaelt Codes fuer Vitaldaten sowie Daten aus dem Patientenmonitoring.",
-  "version": "4.0.0",
   "url": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-snomed",
   "experimental": false,
+  "version": "4.0.0",
   "publisher": "gematik GmbH",
-  "date": "2024-06-26",
+  "date": "2024-09-09",
   "compose": {
     "include": [
       {

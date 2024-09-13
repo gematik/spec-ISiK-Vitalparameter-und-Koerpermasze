@@ -33,6 +33,7 @@ ValueSet: ISiKKopfumfangSCTVS
 Id: ISiKKopfumfangSCTVS
 Title: "ISiKKopfumfangSCTVS"
 Description: "ValueSet des Kopfumfang SnomedCT Codes in ISiK"
+* insert Meta
 * $sct#363812007 "Kopfumfang"
 
 Instance: ISiKKopfumfangExample
