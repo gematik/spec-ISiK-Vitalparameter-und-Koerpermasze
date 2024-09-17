@@ -1,5 +1,5 @@
 ## Motivation und Hintergrund
-Dieser Abschnitt des Implementierungsleitfadens beschreibt eine bidirektionale Überleitung zwischen Intensiv- und Normalversorgung auf der Ebene eines Workflows zur Datenkommunikation zwischen den betroffenen Systemen (PDMS und KIS)
+Dieser Abschnitt des Implementierungsleitfadens beschreibt eine bidirektionale Überleitung zwischen Intensiv- und Normalversorgung auf der Ebene eines Workflows zur Datenkommunikation zwischen den betroffenen Systemen (PDMS und KIS).
 
 ###  Stakeholder, User und weitere Systeme
 Die Spezifikation richtet sich insbesondere an SW-Hersteller von KIS und PDMS.
