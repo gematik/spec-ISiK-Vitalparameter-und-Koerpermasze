@@ -5,11 +5,11 @@
   "id": "ISiKKoerpergewichtSCTVS",
   "title": "ISiKKoerpergewichtSCTVS",
   "description": "ValueSet des Körpergewichts SnomedCT Codes in ISiK",
+  "version": "4.0.0",
   "url": "https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergewichtSCTVS",
   "experimental": false,
-  "version": "4.0.0",
   "publisher": "gematik GmbH",
-  "date": "2024-09-09",
+  "date": "2024-09-30",
   "compose": {
     "include": [
       {

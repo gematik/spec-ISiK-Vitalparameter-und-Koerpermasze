@@ -7,7 +7,15 @@ Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von R
 
 Version: 4.0.0
 
-Datum: 09.09.2024
+Datum: 30.09.2024
+
+* Aktive Version ohne weitere Änderungen
+
+---
+
+Version: 4.0.0-rc2
+
+Datum: 26.6.2024
 
 * Korrektur der übernommenen MII-ICU-Profile nach Review durch MII https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/166
 
