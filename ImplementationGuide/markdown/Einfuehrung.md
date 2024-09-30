@@ -3,9 +3,9 @@
 ----
 Version: 4.0.0
 
-Datum: 26.06.2024
+Datum: 30.09.2024
 
-Status: Draft (Benehmen)
+Status: Aktiv
 
 Realm: Deutschland
 
