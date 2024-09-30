@@ -1,0 +1,132 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ISiKHerzfrequenz",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKHerzfrequenz",
+  "version": "4.0.0",
+  "name": "ISiKHerzfrequenz",
+  "status": "active",
+  "experimental": false,
+  "date": "2024-09-30",
+  "publisher": "gematik GmbH",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:VSCat",
+        "path": "Observation.category",
+        "sliceName": "VSCat",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/ISiKHerzfrequenzSCTVS"
+        }
+      },
+      {
+        "id": "Observation.code.coding:IEEE11073",
+        "path": "Observation.code.coding",
+        "sliceName": "IEEE11073",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "147842",
+          "system": "urn:iso:std:iso:11073:10101"
+        }
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x].value",
+        "path": "Observation.value[x].value",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x].unit",
+        "path": "Observation.value[x].unit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x].system",
+        "path": "Observation.value[x].system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x].code",
+        "path": "Observation.value[x].code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ISiKEKG",
+  "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKEKG",
+  "version": "4.0.0",
+  "name": "ISiKEKG",
+  "status": "active",
+  "experimental": false,
+  "date": "2024-09-30",
+  "publisher": "gematik GmbH",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.de/StructureDefinition/observation-de-ekg",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.code",
+        "path": "Observation.component.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.value[x]",
+        "path": "Observation.component.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.value[x].origin",
+        "path": "Observation.component.value[x].origin",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.value[x].period",
+        "path": "Observation.component.value[x].period",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.value[x].dimensions",
+        "path": "Observation.component.value[x].dimensions",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.value[x].data",
+        "path": "Observation.component.value[x].data",
+        "mustSupport": true
+      }
+    ]
+  }
+}
