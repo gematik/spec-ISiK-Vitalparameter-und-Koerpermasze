@@ -37,10 +37,7 @@
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
-        "max": "0",
-        "patternCoding": {
-          "system": "http://loinc.org"
-        }
+        "max": "0"
       },
       {
         "id": "Observation.code.coding:IEEE-11073",

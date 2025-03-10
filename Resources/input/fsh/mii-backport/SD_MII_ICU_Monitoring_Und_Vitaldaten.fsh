@@ -32,12 +32,15 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
       loinc 0..* MS and
       IEEE-11073 0..* MS
   * coding[sct] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_SNOMED (required)
+    * ^patternCoding.system = $sct
     * system 1.. MS
     * code 1.. MS
   * coding[loinc] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_LOINC (required)
+    * ^patternCoding.system = $loinc
     * system 1.. MS
     * code 1.. MS
   * coding[IEEE-11073] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_ISO11073 (required)
+    * ^patternCoding.system = $IEEE11073
     * system 1.. MS
     * code 1.. MS
 * subject 1.. MS

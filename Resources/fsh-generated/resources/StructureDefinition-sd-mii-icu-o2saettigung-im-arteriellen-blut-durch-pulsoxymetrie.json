@@ -62,7 +62,7 @@
         "short": "Magic Loinc Value Sauerstoffsättigung",
         "comment": "**Begründung Pflichtfeld:** Die Angabe des magic Loinc Wertes für die Sauerstoffsättigung ist laut FHIR-Core-Spezifikation verpflichtend.",
         "min": 1,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "2708-6",
           "system": "http://loinc.org"

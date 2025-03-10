@@ -80,10 +80,7 @@
         "id": "Observation.code.coding:IEEE-11073",
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
-        "max": "0",
-        "patternCoding": {
-          "system": "urn:iso:std:iso:11073:10101"
-        }
+        "max": "0"
       },
       {
         "id": "Observation.value[x]",

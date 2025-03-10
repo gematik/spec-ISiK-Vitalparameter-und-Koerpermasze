@@ -18,36 +18,11 @@
   "differential": {
     "element": [
       {
-        "id": "Observation.code.coding:sct",
-        "path": "Observation.code.coding",
-        "sliceName": "sct",
-        "patternCoding": {
-          "system": "http://snomed.info/sct"
-        }
-      },
-      {
-        "id": "Observation.code.coding:loinc",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "patternCoding": {
-          "system": "http://loinc.org"
-        }
-      },
-      {
-        "id": "Observation.code.coding:IEEE-11073",
-        "path": "Observation.code.coding",
-        "sliceName": "IEEE-11073",
-        "patternCoding": {
-          "system": "urn:iso:std:iso:11073:10101"
-        }
-      },
-      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "patternQuantity": {
           "code": "Cel",
-          "system": "http://unitsofmeasure.org",
-          "unit": "degree Celsius"
+          "system": "http://unitsofmeasure.org"
         }
       },
       {

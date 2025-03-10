@@ -28,8 +28,8 @@
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "unit": "degree Celsius",
-    "value": 37
+    "value": 37,
+    "unit": "degree Celsius"
   },
   "bodySite": {
     "coding": [

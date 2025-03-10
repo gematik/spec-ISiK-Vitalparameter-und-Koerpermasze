@@ -444,16 +444,16 @@
     "fshName": "Sauerstoffsaettigung-im-Blut-Postduktal-durch-Pulsoxymetrie",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Postduktal_Durch_Pulsoxymetrie.fsh",
-    "startLine": 22,
-    "endLine": 33
+    "startLine": 17,
+    "endLine": 28
   },
   {
     "outputFile": "Observation-Sauerstoffsaettigung-im-Blut-Preduktal-durch-Pulsoxymetrie.json",
     "fshName": "Sauerstoffsaettigung-im-Blut-Preduktal-durch-Pulsoxymetrie",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Preduktal_Durch_Pulsoxymetrie.fsh",
-    "startLine": 22,
-    "endLine": 33
+    "startLine": 17,
+    "endLine": 28
   },
   {
     "outputFile": "Observation-Systemischer-vaskulaerer-Widerstandsindex.json",
@@ -709,7 +709,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Generisch.fsh",
     "startLine": 1,
-    "endLine": 11
+    "endLine": 7
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-halswirbelsaeule.json",
@@ -901,7 +901,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Monitoring_Und_Vitaldaten.fsh",
     "startLine": 1,
-    "endLine": 77
+    "endLine": 75
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json",
@@ -917,7 +917,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Postduktal_Durch_Pulsoxymetrie.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 15
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie.json",
@@ -925,7 +925,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Preduktal_Durch_Pulsoxymetrie.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 15
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-pulmonalarterieller-blutdruck.json",
