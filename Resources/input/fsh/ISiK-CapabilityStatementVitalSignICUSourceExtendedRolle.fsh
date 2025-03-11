@@ -1,4 +1,4 @@
-Instance: ISiKCapabilityStatementVitalSignICUSourceExtendedFeature
+Instance: ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 InstanceOf: CapabilityStatement
 Usage: #definition
 * insert Meta-CapabilityStatement

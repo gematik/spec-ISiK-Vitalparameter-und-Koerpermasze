@@ -1,4 +1,4 @@
-Instance: ISiKCapabilityStatementVitalSignICUSourceMinimalBestSystem
+Instance: ISiKCapabilityStatementVitalSignICUSourceMinimalAkteur
 InstanceOf: CapabilityStatement
 Usage: #definition
 * insert Meta-CapabilityStatement
@@ -26,7 +26,7 @@ Usage: #definition
 * rest.mode = #server
 
 // Administative Daten
-* imports[+] = Canonical(ISiKCapabilityStatementMinimalAdministrativeDataSource)
+* imports[+] = Canonical(ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle)
 
 // MII-ICU backport profiles for kis
 * imports[+] = Canonical(ISiKCapabilityStatementVitalSignICUSourceMinimalRolle)

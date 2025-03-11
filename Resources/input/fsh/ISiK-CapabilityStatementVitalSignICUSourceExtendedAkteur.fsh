@@ -18,13 +18,13 @@ Usage: #definition
 * rest.mode = #server
 
 // Administative Daten
-* imports[+] = Canonical(ISiKCapabilityStatementMinimalAdministrativeDataSource)
+* imports[+] = Canonical(ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle)
 
 // MII-ICU backport profiles minimal (übergreifend)
 * imports[+] = Canonical(ISiKCapabilityStatementVitalSignICUSourceMinimalRolle)
 
 // MII-ICU backport profiles extended (e.g for PDMS)
-* imports[+] = Canonical(ISiKCapabilityStatementVitalSignICUSourceExtendedFeature)
+* imports[+] = Canonical(ISiKCapabilityStatementVitalSignICUSourceExtendedRolle)
 
 //Support für Laborprofile
 * imports[+] = Canonical(ISiKCapabilityStatementLaborMinimalRolle)

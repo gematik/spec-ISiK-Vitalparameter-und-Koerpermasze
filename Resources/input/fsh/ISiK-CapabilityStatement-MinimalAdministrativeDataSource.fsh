@@ -1,4 +1,4 @@
-Instance: ISiKCapabilityStatementMinimalAdministrativeDataSource
+Instance: ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle
 InstanceOf: CapabilityStatement
 Usage: #definition
 * insert Meta-CapabilityStatement
