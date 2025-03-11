@@ -1,7 +1,7 @@
 {
   "resourceType": "CapabilityStatement",
-  "id": "ISiKCapabilityStatementVitalSignICUSourceMinimalBestSystem",
-  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalBestSystem",
+  "id": "ISiKCapabilityStatementVitalSignICUSourceMinimalAkteur",
+  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalAkteur",
   "status": "active",
   "experimental": false,
   "version": "4.0.2",
@@ -46,7 +46,7 @@
     }
   ],
   "imports": [
-    "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSource",
+    "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle",
     "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalRolle",
     "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementLaborMinimalRolle"
   ]
