@@ -1,7 +1,7 @@
 {
   "resourceType": "CapabilityStatement",
-  "id": "ISiKCapabilityStatementVitalSignICUSourceExtendedFeature",
-  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedFeature",
+  "id": "ISiKCapabilityStatementVitalSignICUSourceExtendedRolle",
+  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle",
   "status": "active",
   "experimental": false,
   "version": "4.0.2",

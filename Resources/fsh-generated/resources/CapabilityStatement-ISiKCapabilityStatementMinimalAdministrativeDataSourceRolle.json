@@ -1,7 +1,7 @@
 {
   "resourceType": "CapabilityStatement",
-  "id": "ISiKCapabilityStatementMinimalAdministrativeDataSource",
-  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSource",
+  "id": "ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle",
+  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle",
   "status": "active",
   "experimental": false,
   "version": "4.0.2",
