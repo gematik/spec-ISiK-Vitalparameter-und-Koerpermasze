@@ -23,7 +23,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#75919-1 "Left ventricular Cardiac index"
-  * coding[sct] = $sct#54993008 "Cardiac index (observable entity)"
+  * coding[sct] = $sct#54993008 "Cardiac index"
   * coding[IEEE-11073] = $IEEE11073#149772 "Cardiac index"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod

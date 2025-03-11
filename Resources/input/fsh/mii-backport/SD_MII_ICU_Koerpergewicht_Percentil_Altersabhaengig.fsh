@@ -24,7 +24,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#8336-0 "Body weight [Percentile] Per age"
-  * coding[sct] = $sct#1153592008 "Weight for age percentile (observable entity)"
+  * coding[sct] = $sct#1153592008 "Weight for age percentile"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

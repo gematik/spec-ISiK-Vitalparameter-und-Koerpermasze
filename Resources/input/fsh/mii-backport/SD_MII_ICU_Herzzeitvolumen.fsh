@@ -21,7 +21,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#8741-1 "Left ventricular Cardiac output"
-  * coding[sct] = $sct#82799009 "Cardiac output (observable entity)"
+  * coding[sct] = $sct#82799009 "Cardiac output"
   * coding[IEEE-11073] = $IEEE11073#150276 "Cardiac output"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod

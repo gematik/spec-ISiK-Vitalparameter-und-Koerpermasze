@@ -19,7 +19,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#50064-5 "Ideal body weight"
-  * coding[sct] = $sct#170804003 "Ideal body weight (observable entity)"
+  * coding[sct] = $sct#170804003 "Ideal body weight"
   * coding[IEEE-11073] = $IEEE11073#188796 "MDC_MASS_BODY_EST_IBW"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod

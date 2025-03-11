@@ -6,7 +6,7 @@ Title: "SD MII ICU Koerpertemperatur Gelenk"
 * code
   * coding[sct] 1..1
   * coding[sct] = $sct#250124002
-  * coding[loinc] ..0
+  * coding[specific-loinc] ..0
     * ^patternCoding.system = "http://loinc.org"
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
@@ -17,7 +17,7 @@ InstanceOf: SD_MII_ICU_Koerpertemperatur_Gelenk
 Usage: #example
 * status = #final
 * code
-  * coding[sct] = $sct#250124002 "Temperature of joint (observable entity)"
+  * coding[sct] = $sct#250124002 "Temperature of joint"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

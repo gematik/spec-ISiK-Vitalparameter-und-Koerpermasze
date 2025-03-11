@@ -203,3 +203,11 @@ RuleSet: CommonSearchParameters
         `GET [base]/Encounter?_has:Condition:encounter:code=A12.3`
         **Anwendungshinweis:**
         Weitere Details siehe FHIR-Kernspezifikation, Abschnitt [Reverse Chaining](https://hl7.org/fhir/R4/search.html#has).  "
+
+RuleSet: MII_SpecificIEEE-11073Slice
+* coding contains 
+  specific-IEEE-11073 0..1 MS
+
+RuleSet: SpecificLoincSlice
+* coding contains 
+  specific-loinc 0..1 MS

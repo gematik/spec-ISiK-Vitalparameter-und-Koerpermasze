@@ -2,6 +2,7 @@ Profile: SD_MII_ICU_Puls
 Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Id: sd-mii-icu-puls
 Title: "SD MII ICU Puls"
+Description: "Dieses Profil repräsentiert Pulsuntersuchungen die nicht den Zweck einer Herzfrequenzmessung haben, sondern die Pulsfrequenz als eigenständige Vitalfunktion erfassen."
 * insert Meta
 * code
   * coding[sct] 1..1
@@ -26,7 +27,7 @@ InstanceOf: SD_MII_ICU_Puls
 Usage: #example
 * status = #final
 * code
-  * coding[sct] = $sct#8499008 "Pulse, function (observable entity)"
+  * coding[sct] = $sct#8499008 "Pulse, function"
   * coding[IEEE-11073] = $IEEE11073#149514 "Pulse rate"
 * subject = Reference(Patient/202)
 * effectivePeriod

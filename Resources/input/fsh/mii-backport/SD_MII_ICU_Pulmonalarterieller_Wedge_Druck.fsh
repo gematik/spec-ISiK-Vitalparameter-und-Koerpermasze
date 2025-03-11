@@ -20,7 +20,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#75994-4 "Pulmonary artery wedge pressure"
-  * coding[sct] = $sct#118433006 "Pulmonary artery wedge pressure (observable entity)"
+  * coding[sct] = $sct#118433006 "Pulmonary artery wedge pressure"
   * coding[IEEE-11073] = $IEEE11073#150052 "Pulmonary artery wedge pressure"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod

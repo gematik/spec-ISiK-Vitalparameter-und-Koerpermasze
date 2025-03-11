@@ -20,7 +20,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#60956-0 "Intracranial pressure (ICP)"
-  * coding[sct] = $sct#250844005 "Intracranial pressure (observable entity)"
+  * coding[sct] = $sct#250844005 "Intracranial pressure"
   * coding[IEEE-11073] = $IEEE11073#153608 "Intracranial pressure"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod

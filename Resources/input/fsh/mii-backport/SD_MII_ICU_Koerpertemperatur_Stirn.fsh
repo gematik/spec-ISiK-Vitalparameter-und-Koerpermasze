@@ -6,7 +6,7 @@ Title: "SD MII ICU Koerpertemperatur Stirn"
 * code
   * coding[sct] 1..1
   * coding[sct] = $sct#415922000
-  * coding[loinc] ..0
+  * coding[specific-loinc] ..0
     * ^patternCoding.system = "http://loinc.org"
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
@@ -17,7 +17,7 @@ InstanceOf: SD_MII_ICU_Koerpertemperatur_Stirn
 Usage: #example
 * status = #final
 * code
-  * coding[sct] = $sct#415922000 "Temperature of forehead (observable entity)"
+  * coding[sct] = $sct#415922000 "Temperature of forehead"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

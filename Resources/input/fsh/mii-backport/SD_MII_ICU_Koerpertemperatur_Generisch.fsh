@@ -3,5 +3,9 @@ Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Id: sd-mii-icu-koerpertemperatur-generisch
 Title: "SD MII ICU Koerpertemperatur Generisch"
 * insert Meta
+* code
+  * insert SpecificLoincSlice
+  * coding[loinc] 1..1
+  * coding[loinc] = $loinc#8310-5 //"Body temperature"
 * valueQuantity = $unitsofmeasure#Cel
   * unit 1..

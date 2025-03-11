@@ -28,7 +28,7 @@ InstanceOf: SD_MII_ICU_Sauerstoffsaettigung_Im_Arteriellen_Blut_Durch_Pulsoxymet
 Usage: #example
 * status = #final
 * code
-  * coding[sct] = $sct#442476006 "Arterial oxygen saturation (observable entity)"
+  * coding[sct] = $sct#442476006 "Arterial oxygen saturation"
   * coding[loinc] = $loinc#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
   * coding[IEEE-11073] = $IEEE11073#150324 "MDC_SAT_O2_ART"
 * subject = Reference(PatientinMusterfrau)

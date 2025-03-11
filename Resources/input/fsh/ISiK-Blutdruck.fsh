@@ -74,7 +74,7 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#85354-9 "Blood pressure panel with all children optional"
-  * coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
+  * coding[snomed] = $sct#75367002 "Blood pressure"
   * coding[IEEE11073] = $IEEE11073#150016 "MDC_PRESS_BLD"
   * text = "Systolischer und Diastolischer Blutdruck"
 * subject = Reference(PatientinMusterfrau)

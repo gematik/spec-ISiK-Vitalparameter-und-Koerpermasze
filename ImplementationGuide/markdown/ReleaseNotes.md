@@ -9,6 +9,9 @@ Version: 4.0.2
 
 Datum: tbd.
 
+* `improve` `change` feat: added ISiK-KoerperkernTemperatur Profile
+  fix: integrated mii profiles into Vitalparameter Module, KoerperKernTemp Profiles of MII are now derived from ISiK-KoerperkernTemperatur
+  fix: fixed several validation errors https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
 * `improve` .source of mii-icu-1 invariant corrected https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
 * `change` UCUM-ValueSets und bindings für valueQuantity-Profile entfernt, ersetzt durch ein pattern auf valueQuantity.code um eine einheitliche UCUM Nutzung zu gewährleisten. https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
 * `improve` VS_MII_ICU_Code_Monitoring_und_Vitaldaten_ISO11073 fehlten zwei Codes die in Profilen verwendet wurden, diese wurden ergänzt. https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
