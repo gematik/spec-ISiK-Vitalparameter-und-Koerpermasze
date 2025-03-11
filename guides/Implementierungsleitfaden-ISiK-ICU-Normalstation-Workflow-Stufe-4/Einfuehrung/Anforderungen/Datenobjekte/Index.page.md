@@ -32,7 +32,7 @@ Durch die Übernahme der Profile der MII und Abbildung auf das ISIK-Setting, kö
 
 ## Intensivversorgung - PDMS 
 
-### Normativer Status Intensivversorgung
+### Normativer Status Intensivversorgung    
 Für folgende Profile, die den Festlegungen der MII entstammen, gelten gesonderte Festlegungen in Bezug auf die Notwendigkeit der Implementierung durch SW-Hersteller.
 
 **Hinweis:** Hier wird jeweils die Canonical URL geführt. Die Profile lassen sich derzeit über die entsprechende [Simplifier Ressourcen-Seite](https://simplifier.net/isik-vitalparameter-v4/~resources?category=Profile&fhirVersion=R4&sortBy=LastUpdateDate_desc) einsehen.
