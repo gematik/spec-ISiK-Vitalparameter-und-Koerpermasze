@@ -18,28 +18,34 @@ Profile: ISIKPatient, ISiK Encounter
 
 Interaktionen: READ, SEARCH
 
-## Administrative Data Consumer (bisher: “Client” bzw "Basis-Client") 
-Transaction (M): Find Administrative Data
-
 Transaction (O): Patient Merge
 
 
-## VitalSign ICU Source Minimal
+## Rolle - VitalSign ICU Source Minimal
 Transaction(M): Find Advanced VitalSigns
 
 Profile: Profile MI-I
 
 Interaction: READ, SEARCH
 
-## VitalSign ICU Source Extended
+## Feature - VitalSign ICU Source Extended
 Transaction(M): Find Advanced VitalSigns
 
 Profile: Profile MI-I
 
 Interaction: READ, SEARCH
 
-## VitalSign ICU Consumer 
-Transaction(M): Find Advanced VitalSigns
+## Feature - Labor
+
+
+## Bestätigungs-Relevante Systeme (Rolle) - VitalSign ICU Source Minimal - KIS
+.imports Minimal Administrative Data Source
+.imports VitalSign ICU Source Minimal
+
+## Bestätigungs-Relevante Systeme (Rolle) - VitalSign ICU Source Extended - PDMS
+.imports Minimal Administrative Data Source
+.imports Minimal
+.imports Extended
 
 # Festlegung zur Implementierung der Akteure
 
