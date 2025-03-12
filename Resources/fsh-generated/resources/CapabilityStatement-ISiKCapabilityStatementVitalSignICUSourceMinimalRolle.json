@@ -10,8 +10,8 @@
   "implementationGuide": [
     "https://gematik.de/fhir/isik/ImplementationGuide/ISiK-Vitalparameter|4.0.2"
   ],
-  "name": "ISiKCapabilityStatementVitalSignICUSourceMinimal",
-  "title": "ISiK CapabilityStatement VitalSign ICU Source Minimal",
+  "name": "ISiKCapabilityStatementVitalSignICUSourceMinimalRolle",
+  "title": "ISiK CapabilityStatement VitalSign ICU Source Minimal Rolle",
   "contact": [
     {
       "telecom": [

@@ -40,9 +40,6 @@
     "application/fhir+xml",
     "application/fhir+json"
   ],
-  "instantiates": [
-    "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtended"
-  ],
   "rest": [
     {
       "mode": "server",
