@@ -3,6 +3,14 @@ topic: ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur
 canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur
 ---
 ## Konformitätserklärung [(CapabilityStatement)](https://hl7.org/fhir/R4/capabilitystatement.html)
+<fql>
+from
+	CapabilityStatement
+where
+	url = %canonical
+select
+	Artefakt:title
+</fql>
 
 <fql>
 from
