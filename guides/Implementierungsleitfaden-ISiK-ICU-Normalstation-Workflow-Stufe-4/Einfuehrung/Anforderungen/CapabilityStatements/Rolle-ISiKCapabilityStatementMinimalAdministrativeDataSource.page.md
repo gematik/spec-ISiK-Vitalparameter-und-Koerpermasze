@@ -3,14 +3,13 @@ topic: ISiKCapabilityStatementMinimalAdministrativeDataSource
 canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle
 ---
 ## Konformitätserklärung [(CapabilityStatement)](https://hl7.org/fhir/R4/capabilitystatement.html)
-<fql>
-from
-	CapabilityStatement
-where
-	url = %canonical
-select
-	title
-</fql>
+{% fql  
+SELECT title  
+FROM CapabilityStatement  
+WHERE url = '{{ canonical }}'  
+%}
+
+**Capability Statement Title:** {{ title }}
 
 <fql>
 from
