@@ -2,9 +2,9 @@
   "resourceType": "CapabilityStatement",
   "id": "ISiKCapabilityStatementVitalSignICUSourceMinimalAkteur",
   "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalAkteur",
+  "version": "4.0.2",
   "status": "active",
   "experimental": false,
-  "version": "4.0.2",
   "publisher": "gematik GmbH",
   "date": "2025-02-25",
   "implementationGuide": [
