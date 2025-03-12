@@ -1,8 +1,8 @@
-Instance: ISiKCapabilityStatementVitalSignICUSourceExtended
+Instance: ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur
 InstanceOf: CapabilityStatement
 Usage: #definition
 * insert Meta-CapabilityStatement
-* name = "ISiKCapabilityStatementVitalSignICUSourceExtended"
+* name = "ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur"
 * title = "ISiK CapabilityStatement Vitalparameter Server Extended"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.gematik.de"

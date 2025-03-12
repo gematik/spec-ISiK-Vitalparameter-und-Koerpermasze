@@ -18,14 +18,14 @@ Folgende Akteure dienen der Umsetzung der beschriebenen Workflows (schematische 
 * Profile: Profile MI-I
 * Interaction: READ, SEARCH
 
-Zur genauen Liste der Interaktionen siehe {{pagelink:ISiKCapabilityStatementVitalSignICUSourceExtended,text:CapabilityStatement-Minimal-ICU}}. 
+Zur genauen Liste der Interaktionen siehe {{pagelink:ISiKCapabilityStatementVitalSignICUSourceExtendedAktuer,text:CapabilityStatement-Minimal-ICU}}. 
 
 ## Akteur - VitalSign ICU Source Extended
 
 Profile: Profile MI-I (siehe)
 Interaction: READ, SEARCH
 
-Zur genauen Beschreibung und Liste der Interaktionen siehe  {{pagelink:ISiKCapabilityStatementVitalSignICUSourceExtended, text:CapabilityStatement-Minimal-ICU}}.
+Zur genauen Beschreibung und Liste der Interaktionen siehe  {{pagelink:ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur, text:CapabilityStatement-Minimal-ICU}}.
 
 ## Erklärung zu weiteren Capability Statements
 

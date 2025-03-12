@@ -2,8 +2,8 @@ Instance: ISiKCapabilityStatementVitalSignICUSourceMinimalAkteur
 InstanceOf: CapabilityStatement
 Usage: #definition
 * insert Meta-CapabilityStatement
-* name = "ISiKCapabilityStatementVitalSignICUSourceMinimal"
-* title = "ISiK CapabilityStatement VitalSign ICU Source Minimal"
+* name = "ISiKCapabilityStatementVitalSignICUSourceMinimalAkteur"
+* title = "ISiK CapabilityStatement VitalSign ICU Source Minimal Akteur"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.gematik.de"
 * description = "Das vorliegende CapabilityStatement beschreibt verpflichtende Interaktionen die ein ISiK-konformes System zur Unterstützung des ICU-Normalstation-Workflows implementieren muss.

@@ -5,5 +5,5 @@
 - name: 'Akteur: ISiKCapabilityStatementVitalSignICUSourceExtended'
   filename: Akteur-ISiKCapabilityStatementVitalSignICUSourceExtended.page.md
 - name: 'Akteur: MinimalAdministrativeDataSource'
-  filename: Akteur-ISiKCapabilityStatementMinimalAdministrativeDataSource.page.md
+  filename: Rolle-ISiKCapabilityStatementMinimalAdministrativeDataSource.page.md
 
