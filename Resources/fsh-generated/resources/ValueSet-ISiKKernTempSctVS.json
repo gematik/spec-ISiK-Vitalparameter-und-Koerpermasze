@@ -1,11 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "ISiKKernTempSctVS",
   "id": "ISiKKernTempSctVS",
   "title": "ISiK  Kerntemperatur SnomedCT ValueSet",
   "description": "ValueSet der Körperkerntemperatur SnomedCT Konzepte",
+  "version": "4.0.2",
   "url": "https://gematik.de/fhir/isik/ValueSet/ISiKKernTempSctVS",
+  "experimental": false,
+  "publisher": "gematik GmbH",
+  "date": "2025-02-25",
   "compose": {
     "include": [
       {

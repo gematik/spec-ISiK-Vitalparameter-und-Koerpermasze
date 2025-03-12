@@ -2,6 +2,7 @@ ValueSet: ISiKKernTempSctVS
 Id: ISiKKernTempSctVS
 Title: "ISiK  Kerntemperatur SnomedCT ValueSet"
 Description: "ValueSet der Körperkerntemperatur SnomedCT Konzepte"
+* insert Meta
 * $sct#276885007 "Core body temperature"
 * $sct#415882003 "Estimated core body temperature measured in axillary region"
 * $sct#1222808002 "Core body temperature measured in blood"
@@ -17,6 +18,7 @@ ValueSet: ISiKSpecificKernTempLoincVS
 Id: ISiKSpecificKernTempLoincVS
 Title: "ISiK Specific Kerntemperatur LOINC ValueSet"
 Description: "ValueSet der spezifischen Körperkerntemperatur LOINC Konzepte"
+* insert Meta
 * $loinc#8328-7 "Axillary temperature"
 * $loinc#60834-9 "Blood temperature"
 * $loinc#8334-5 "Body temperature - Urinary bladder"

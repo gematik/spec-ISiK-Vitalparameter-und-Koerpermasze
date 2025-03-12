@@ -1,11 +1,15 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "ISiKSpecificKernTempLoincVS",
   "id": "ISiKSpecificKernTempLoincVS",
   "title": "ISiK Specific Kerntemperatur LOINC ValueSet",
   "description": "ValueSet der spezifischen Körperkerntemperatur LOINC Konzepte",
+  "version": "4.0.2",
   "url": "https://gematik.de/fhir/isik/ValueSet/ISiKSpecificKernTempLoincVS",
+  "experimental": false,
+  "publisher": "gematik GmbH",
+  "date": "2025-02-25",
   "compose": {
     "include": [
       {

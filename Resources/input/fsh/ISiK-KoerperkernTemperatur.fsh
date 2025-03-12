@@ -9,9 +9,8 @@ In FHIR wird die Körpertemperatur mit der Observation-Ressource repräsentiert.
 
 ### Kompatibilität
 Das Profil ISiKKoerperkerntemperatur ist vom Profil [VitalSignDE_Koerpertemperatur](http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur) aus den deutschen Basisprofilen abgeleitet. Es ist kompatibel mit dem Profil [OObservation Body Temperature Profile](http://hl7.org/fhir/StructureDefinition/bodytemp) aus der FHIR R4 Spezifikation."""
-
+* insert Meta
 * insert Quantity-MS
-* insert Observation-category-VSCat-MS
 * code
   * coding contains 
     coretemp-IEEE11073 0..1 and

@@ -100,8 +100,8 @@
     "fshName": "ISiKKoerperkerntemperaturExample",
     "fshType": "Instance",
     "fshFile": "ISiK-KoerperkernTemperatur.fsh",
-    "startLine": 25,
-    "endLine": 37
+    "startLine": 24,
+    "endLine": 36
   },
   {
     "outputFile": "Observation-ISiKKoerpertemperaturExample.json",
@@ -581,7 +581,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-KoerperkernTemperatur.fsh",
     "startLine": 1,
-    "endLine": 23
+    "endLine": 22
   },
   {
     "outputFile": "StructureDefinition-ISiKKoerpertemperatur.json",
@@ -1021,15 +1021,15 @@
     "fshType": "ValueSet",
     "fshFile": "ISiK-VitalparameterValueSets.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 15
   },
   {
     "outputFile": "ValueSet-ISiKSpecificKernTempLoincVS.json",
     "fshName": "ISiKSpecificKernTempLoincVS",
     "fshType": "ValueSet",
     "fshFile": "ISiK-VitalparameterValueSets.fsh",
-    "startLine": 16,
-    "endLine": 27
+    "startLine": 17,
+    "endLine": 29
   },
   {
     "outputFile": "ValueSet-vs-mii-icu-bodysite-observation-blutdruck.json",
