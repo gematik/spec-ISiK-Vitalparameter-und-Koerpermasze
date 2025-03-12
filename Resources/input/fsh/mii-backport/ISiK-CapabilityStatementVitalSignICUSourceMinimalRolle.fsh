@@ -12,7 +12,7 @@ Die Interaktionen umfassen die Bereitstellung von Vitalparametern, die für die 
   
 **HISTORIE:**    
 
-*Historie*: mit der Version 4.0.2 des IG ICU-Normalstation-Workflow wurde das vorliegende CapabilityStatement zur Differenzierung von Akteur und Rolle eingeführt.
+*Historie*: mit der Version 4.0.2 des IG ICU-Normalstation-Workflow wurde das vorliegende CapabilityStatement im Sinne einer eigenständigen Rolle extrahiert (die Funktionalität bleibt dabei unverändert).
 
 *Historie*: mit der Version 4.0.1 des IG ICU-Normalstation-Workflow wurde das vorliegende CapabilityStatement überarbeitet.
 
