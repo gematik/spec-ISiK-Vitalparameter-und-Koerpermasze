@@ -6,8 +6,8 @@ Title: "SD MII ICU Koerpertemperatur nasal"
 * code
   * coding[sct] ..0
     * ^patternCoding.system = "http://snomed.info/sct"
-  * coding[specific-loinc] 1..1
-  * coding[specific-loinc] = $loinc#76010-8
+  * coding[specific-loinc] 1..1 
+  * coding[specific-loinc] = $loinc#76010-8 // "Nasal temperature"
   * coding[IEEE-11073] 1..1
   * coding[IEEE-11073] = $IEEE11073#188504
 * bodySite = $sct#45206002

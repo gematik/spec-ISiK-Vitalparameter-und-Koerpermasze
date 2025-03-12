@@ -43,10 +43,7 @@
         "id": "Observation.code.coding:specific-loinc",
         "path": "Observation.code.coding",
         "sliceName": "specific-loinc",
-        "max": "0",
-        "patternCoding": {
-          "system": "http://loinc.org"
-        }
+        "max": "0"
       },
       {
         "id": "Observation.bodySite",

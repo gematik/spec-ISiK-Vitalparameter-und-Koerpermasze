@@ -6,7 +6,7 @@ Title: "SD MII ICU Koerpertemperatur Nasen-Rachen-Raum"
 * code
   * coding[sct] 1..1
   * coding[sct] = $sct#698831002
-  * coding[specific-loinc] 1..1
+  * coding[specific-loinc] 1..1 // "Nasopharyngeal temperature"
   * coding[specific-loinc] = $loinc#60838-0
   * coding[IEEE-11073] 1..1
   * coding[IEEE-11073] = $IEEE11073#150380

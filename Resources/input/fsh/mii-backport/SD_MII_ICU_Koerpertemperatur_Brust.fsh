@@ -7,7 +7,6 @@ Title: "SD MII ICU Koerpertemperatur Brust"
   * coding[sct] 1..1
   * coding[sct] = $sct#248835004
   * coding[specific-loinc] ..0
-    * ^patternCoding.system = "http://loinc.org"
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
 * bodySite = $sct#76752008

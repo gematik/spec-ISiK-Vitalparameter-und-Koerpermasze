@@ -7,7 +7,6 @@ Title: "SD MII ICU Koerpertemperatur Gelenk"
   * coding[sct] 1..1
   * coding[sct] = $sct#250124002
   * coding[specific-loinc] ..0
-    * ^patternCoding.system = "http://loinc.org"
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
 * bodySite = $sct#39352004

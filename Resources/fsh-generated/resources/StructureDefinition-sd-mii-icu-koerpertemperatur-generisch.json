@@ -34,7 +34,11 @@
         "sliceName": "specific-loinc",
         "min": 0,
         "max": "1",
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://gematik.de/fhir/isik/ValueSet/ISiKSpecificGenericTempLoincVS"
+        }
       },
       {
         "id": "Observation.value[x]",

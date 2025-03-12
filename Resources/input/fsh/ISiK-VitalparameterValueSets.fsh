@@ -27,3 +27,13 @@ Description: "ValueSet der spezifischen Körperkerntemperatur LOINC Konzepte"
 * $loinc#8332-9 "Rectal temperature"
 * $loinc#60836-4 "Esophageal temperature"
 * $loinc#8333-7 "Tympanic membrane temperature"
+
+ValueSet: ISiKSpecificGenericTempLoincVS
+Id: ISiKSpecificGenericTempLoincVS
+Title: "ISiK Specific Generische Koerpertemperatur LOINC Konzepte"
+Description: "ValueSet der spezifischen generischen Körperkerntemperatur LOINC Konzepte die nicht dazu dienen eine Körperkerntemperatur zu messen"
+* insert Meta
+* $loinc#60955-2 "Airway temperature"
+* $loinc#61009-7 "Myocardial temperature"
+* $loinc#76010-8 "Nasal temperature"
+* $loinc#60838-0 "Nasopharyngeal temperature"

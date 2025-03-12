@@ -207,7 +207,3 @@ RuleSet: CommonSearchParameters
 RuleSet: MII_SpecificIEEE-11073Slice
 * coding contains 
   specific-IEEE-11073 0..1 MS
-
-RuleSet: SpecificLoincSlice
-* coding contains 
-  specific-loinc 0..1 MS

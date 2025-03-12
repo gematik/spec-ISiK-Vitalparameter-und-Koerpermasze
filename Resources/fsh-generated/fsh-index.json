@@ -188,32 +188,32 @@
     "fshName": "Koerpertemperatur-Brust",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Brust.fsh",
-    "startLine": 15,
-    "endLine": 26
+    "startLine": 14,
+    "endLine": 25
   },
   {
     "outputFile": "Observation-Koerpertemperatur-Brustwirbelsaeule.json",
     "fshName": "Koerpertemperatur-Brustwirbelsaeule",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Brustwirbelsaeule.fsh",
-    "startLine": 15,
-    "endLine": 26
+    "startLine": 14,
+    "endLine": 25
   },
   {
     "outputFile": "Observation-Koerpertemperatur-Gelenk.json",
     "fshName": "Koerpertemperatur-Gelenk",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Gelenk.fsh",
-    "startLine": 15,
-    "endLine": 26
+    "startLine": 14,
+    "endLine": 25
   },
   {
     "outputFile": "Observation-Koerpertemperatur-Halswirbelsaeule.json",
     "fshName": "Koerpertemperatur-Halswirbelsaeule",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Halswirbelsaeule.fsh",
-    "startLine": 15,
-    "endLine": 26
+    "startLine": 14,
+    "endLine": 25
   },
   {
     "outputFile": "Observation-Koerpertemperatur-Harnblase.json",
@@ -244,8 +244,8 @@
     "fshName": "Koerpertemperatur-Lendenwirbelsaeule",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Lendenwirbelsaeule.fsh",
-    "startLine": 15,
-    "endLine": 26
+    "startLine": 14,
+    "endLine": 25
   },
   {
     "outputFile": "Observation-Koerpertemperatur-Myokard.json",
@@ -284,8 +284,8 @@
     "fshName": "Koerpertemperatur-Stirn",
     "fshType": "Instance",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Stirn.fsh",
-    "startLine": 15,
-    "endLine": 26
+    "startLine": 14,
+    "endLine": 25
   },
   {
     "outputFile": "Observation-Koerpertemperatur-Trommelfell.json",
@@ -701,7 +701,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Brust.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-brustwirbelsaeule.json",
@@ -709,7 +709,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Brustwirbelsaeule.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-gelenk.json",
@@ -717,7 +717,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Gelenk.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-generisch.json",
@@ -725,7 +725,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Generisch.fsh",
     "startLine": 1,
-    "endLine": 11
+    "endLine": 13
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-halswirbelsaeule.json",
@@ -733,7 +733,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Halswirbelsaeule.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-harnblase.json",
@@ -765,7 +765,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Lendenwirbelsaeule.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-myokard.json",
@@ -813,7 +813,7 @@
     "fshType": "Profile",
     "fshFile": "mii-backport/SD_MII_ICU_Koerpertemperatur_Stirn.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-sd-mii-icu-koerpertemperatur-trommelfell.json",
@@ -1022,6 +1022,14 @@
     "fshFile": "ISiK-VitalparameterValueSets.fsh",
     "startLine": 1,
     "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-ISiKSpecificGenericTempLoincVS.json",
+    "fshName": "ISiKSpecificGenericTempLoincVS",
+    "fshType": "ValueSet",
+    "fshFile": "ISiK-VitalparameterValueSets.fsh",
+    "startLine": 31,
+    "endLine": 39
   },
   {
     "outputFile": "ValueSet-ISiKSpecificKernTempLoincVS.json",
