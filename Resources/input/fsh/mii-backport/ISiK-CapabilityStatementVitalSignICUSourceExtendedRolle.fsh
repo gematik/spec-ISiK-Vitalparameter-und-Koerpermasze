@@ -39,7 +39,6 @@ Usage: #definition
 * insert supporteProfile-SHALL(SD_MII_ICU_Linksventrikulaerer_Herzindex_Durch_Indikatorverduennung, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Linksventrikulaeres_Herzzeitvolumen_Durch_Indikatorverduennung, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Zentralvenoeser_Blutdruck, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Systemischer_Vaskulaerer_Widerstandsindex, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Linksatrialer_Druck, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Rechtsatrialer_Druck, SHALL)
 * insert supporteProfile-SHALL(SD_MII_ICU_Rechtsventrikulaerer_Druck, SHALL)
