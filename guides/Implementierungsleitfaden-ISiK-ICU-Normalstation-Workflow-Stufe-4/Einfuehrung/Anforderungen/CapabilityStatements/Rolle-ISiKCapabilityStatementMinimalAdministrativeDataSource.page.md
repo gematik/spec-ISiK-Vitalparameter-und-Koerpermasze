@@ -9,7 +9,7 @@ from
 where
 	url = %canonical
 select
-	Titel:title
+	title
 </fql>
 
 <fql>
