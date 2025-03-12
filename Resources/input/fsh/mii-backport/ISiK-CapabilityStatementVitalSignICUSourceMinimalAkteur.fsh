@@ -6,7 +6,7 @@ Usage: #definition
 * title = "ISiK CapabilityStatement VitalSign ICU Source Minimal Akteur"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.gematik.de"
-* description = "Das vorliegende CapabilityStatement beschreibt verpflichtende Interaktionen die ein ISiK-konformes System zur Unterstützung des ICU-Normalstation-Workflows implementieren muss.
+* description = "Das vorliegende CapabilityStatement fasst die Rollen (und entsprechende Interaktionen) zusammen, die ein Akteur 'VitalSign ICU Source Minimal' zur Unterstützung des ICU-Normalstation-Workflows implementieren muss.
   
 **HISTORIE:**    
 
