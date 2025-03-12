@@ -1,7 +1,7 @@
 {
   "resourceType": "CapabilityStatement",
-  "id": "ISiKCapabilityStatementVitalSignICUSourceExtended",
-  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtended",
+  "id": "ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur",
+  "url": "https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur",
   "status": "active",
   "experimental": false,
   "version": "4.0.2",
@@ -10,7 +10,7 @@
   "implementationGuide": [
     "https://gematik.de/fhir/isik/ImplementationGuide/ISiK-Vitalparameter|4.0.2"
   ],
-  "name": "ISiKCapabilityStatementVitalSignICUSourceExtended",
+  "name": "ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur",
   "title": "ISiK CapabilityStatement Vitalparameter Server Extended",
   "contact": [
     {
