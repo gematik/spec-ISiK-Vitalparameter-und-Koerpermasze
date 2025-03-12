@@ -27,7 +27,7 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
 * code.coding[coretemp-loinc] = $loinc#8329-5 "Body temperature - Core"
-* code.coding[snomed] = $sct#386725007 "Body temperature"
+* code.coding[snomed] = $sct#276885007 "Core body temperature"
 * code.coding[coretemp-IEEE11073] = $IEEE11073#150368 "MDC_TEMP_CORE"
 * code.text = "Körpertemperatur"
 * subject = Reference(PatientinMusterfrau)
