@@ -27,27 +27,35 @@ Die Interaktionen umfassen die Bereitstellung von Vitalparametern, die für die 
 * fhirVersion = #4.0.1
 * format[0] = #application/fhir+xml
 * format[+] = #application/fhir+json
-* rest.mode = #server
-* rest.resource[+]
-* rest.resource[=].extension.url = $capabilitystatement-expectation
-* rest.resource[=].extension.valueCode = #SHALL
-* rest.resource[=].type = #Observation
+* rest
+  * mode = #server
+  * resource[+]
+    * type = #Observation
+    * insert CapabilityStatementExpectationExt(SHALL)
 
-// MII-ICU backport profiles for kis
-* insert supporteProfile-SHALL(SD_MII_ICU_Intrakranieller_Druck_Icp, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpergewicht_Percentil_Altersabhaengig, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpergroesse_Percentil_Altersabhaengig, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Ideales_Koerpergewicht, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Sauerstoffsaettigung_Im_Arteriellen_Blut_Durch_Pulsoxymetrie, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Puls, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Kern, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Gelenk, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Stirn, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Nasal, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Leiste, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Achsel, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Oral, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Vaginal, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Harnblase, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Rektal, SHALL)
-* insert supporteProfile-SHALL(SD_MII_ICU_Koerpertemperatur_Trommelfell, SHALL)
+    // MII-ICU backport profiles for kis
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Intrakranieller_Druck_Icp, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpergewicht_Percentil_Altersabhaengig, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpergroesse_Percentil_Altersabhaengig, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Ideales_Koerpergewicht, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Sauerstoffsaettigung_Im_Arteriellen_Blut_Durch_Pulsoxymetrie, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Puls, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Kern, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Gelenk, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Stirn, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Nasal, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Leiste, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Achsel, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Oral, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Vaginal, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Harnblase, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Rektal, SHALL)
+    * insert SupportedProfileCapExpectationExt(SD_MII_ICU_Koerpertemperatur_Trommelfell, SHALL)
+    * interaction[+]
+      * insert CapabilityStatementExpectationExt(SHALL)
+      * code = #read
+    * interaction[+]
+      * insert CapabilityStatementExpectationExt(SHALL)
+      * code = #search-type
+    * insert CommonSearchParameters
+    * insert CommonObservationSearchParameters

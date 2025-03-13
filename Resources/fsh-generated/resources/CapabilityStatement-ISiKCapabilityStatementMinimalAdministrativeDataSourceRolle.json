@@ -55,6 +55,16 @@
           "supportedProfile": [
             "https://gematik.de/fhir/isik/StructureDefinition/ISiKPatient"
           ],
+          "_supportedProfile": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ]
+            }
+          ],
           "interaction": [
             {
               "extension": [

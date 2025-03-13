@@ -1,27 +1,67 @@
 [
   {
-    "outputFile": "CapabilityStatement-ISiKCapabilityStatementMinimalAdministrativeDataSource.json",
-    "fshName": "ISiKCapabilityStatementMinimalAdministrativeDataSource",
+    "outputFile": "CapabilityStatement-ISiKCapabilityStatementLaborMinimalRolle.json",
+    "fshName": "ISiKCapabilityStatementLaborMinimalRolle",
     "fshType": "Instance",
-    "fshFile": "ISiK-CapabilityStatement-MinimalAdministrativeDataSource.fsh",
+    "fshFile": "ISiK-CapabilityStatementLaborMinimalRolle.fsh",
     "startLine": 1,
-    "endLine": 130
+    "endLine": 49
   },
   {
-    "outputFile": "CapabilityStatement-ISiKCapabilityStatementVitalSignICUSource.json",
-    "fshName": "ISiKCapabilityStatementVitalSignICUSource",
+    "outputFile": "CapabilityStatement-ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle.json",
+    "fshName": "ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle",
     "fshType": "Instance",
-    "fshFile": "ISiK-CapabilityStatementVitalSignICUSource.fsh",
+    "fshFile": "mii-backport/ISiK-CapabilityStatement-MinimalAdministrativeDataSourceRolle.fsh",
     "startLine": 1,
-    "endLine": 164
+    "endLine": 358
   },
   {
-    "outputFile": "CapabilityStatement-ISiKCapabilityStatementVitalSignStandardSource.json",
-    "fshName": "ISiKCapabilityStatementVitalSignStandardSource",
+    "outputFile": "CapabilityStatement-ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur.json",
+    "fshName": "ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/ISiK-CapabilityStatementVitalSignICUSourceExtendedAkteur.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "CapabilityStatement-ISiKCapabilityStatementVitalSignICUSourceExtendedRolle.json",
+    "fshName": "ISiKCapabilityStatementVitalSignICUSourceExtendedRolle",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/ISiK-CapabilityStatementVitalSignICUSourceExtendedRolle.fsh",
+    "startLine": 1,
+    "endLine": 67
+  },
+  {
+    "outputFile": "CapabilityStatement-ISiKCapabilityStatementVitalSignICUSourceMinimalAkteur.json",
+    "fshName": "ISiKCapabilityStatementVitalSignICUSourceMinimalAkteur",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/ISiK-CapabilityStatementVitalSignICUSourceMinimalAkteur.fsh",
+    "startLine": 1,
+    "endLine": 40
+  },
+  {
+    "outputFile": "CapabilityStatement-ISiKCapabilityStatementVitalSignICUSourceMinimalRolle.json",
+    "fshName": "ISiKCapabilityStatementVitalSignICUSourceMinimalRolle",
+    "fshType": "Instance",
+    "fshFile": "mii-backport/ISiK-CapabilityStatementVitalSignICUSourceMinimalRolle.fsh",
+    "startLine": 1,
+    "endLine": 61
+  },
+  {
+    "outputFile": "CapabilityStatement-ISiKCapabilityStatementVitalSignStandardSourceAkteur.json",
+    "fshName": "ISiKCapabilityStatementVitalSignStandardSourceAkteur",
+    "fshType": "Instance",
+    "fshFile": "ISiK-CapabilityStatementVitalSignStandardSourceAkteur.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "CapabilityStatement-ISiKCapabilityStatementVitalSignStandardSourceRolle.json",
+    "fshName": "ISiKCapabilityStatementVitalSignStandardSourceRolle",
     "fshType": "Instance",
     "fshFile": "ISiK-CapabilityStatementVitalSignStandardSource.fsh",
     "startLine": 1,
-    "endLine": 143
+    "endLine": 49
   },
   {
     "outputFile": "Device-ExampleDevice.json",

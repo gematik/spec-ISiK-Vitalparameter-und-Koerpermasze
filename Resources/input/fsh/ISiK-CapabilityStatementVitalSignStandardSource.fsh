@@ -24,40 +24,26 @@ Usage: #definition
 * fhirVersion = #4.0.1
 * format[0] = #application/fhir+xml
 * format[+] = #application/fhir+json
-* rest.mode = #server
-* rest.resource[+]
-* rest.resource[=].extension.url = $capabilitystatement-expectation
-* rest.resource[=].extension.valueCode = #SHALL
-* rest.resource[=].type = #Observation
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKAtemfrequenz)
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKBlutdruckSystemischArteriell)
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKHerzfrequenz)
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKKoerpergewicht)
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKKoerpergroesse)
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKKoerpertemperatur)
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKKopfumfang)
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKSauerstoffsaettigungArteriell)
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKGCS)
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #SHALL
-* rest.resource[=].supportedProfile[+] = Canonical(ISiKEKG)
-  * extension.url = $capabilitystatement-expectation
-  * extension.valueCode = #MAY
-
-
+* rest
+  * mode = #server
+  * resource[+]
+    * type = #Observation
+    * insert CapabilityStatementExpectationExt(SHALL)
+    * insert SupportedProfileCapExpectationExt(ISiKAtemfrequenz, SHALL)
+    * insert SupportedProfileCapExpectationExt(ISiKBlutdruckSystemischArteriell, SHALL)
+    * insert SupportedProfileCapExpectationExt(ISiKHerzfrequenz, SHALL)
+    * insert SupportedProfileCapExpectationExt(ISiKKoerpergewicht, SHALL)
+    * insert SupportedProfileCapExpectationExt(ISiKKoerpergroesse, SHALL)
+    * insert SupportedProfileCapExpectationExt(ISiKKoerpertemperatur, SHALL)
+    * insert SupportedProfileCapExpectationExt(ISiKKopfumfang, SHALL)
+    * insert SupportedProfileCapExpectationExt(ISiKSauerstoffsaettigungArteriell, SHALL)
+    * insert SupportedProfileCapExpectationExt(ISiKGCS, SHALL)
+    * insert SupportedProfileCapExpectationExt(ISiKEKG, MAY)
+    * interaction[+]
+      * insert CapabilityStatementExpectationExt(SHALL)
+      * code = #read
+    * interaction[+]
+      * insert CapabilityStatementExpectationExt(SHALL)
+      * code = #search-type
+    * insert CommonSearchParameters
+    * insert CommonObservationSearchParameters
