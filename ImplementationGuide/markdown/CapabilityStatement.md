@@ -23,7 +23,6 @@ Alle bestätigungsrelevanten Systeme MÜSSEN im Sinne der [Herstellung des Patie
 
 {{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSource}}
 
-Dieses Modul unterscheidet CapabilityStatements für PDMS (Intensivversorgung) und alle weiteren bestätigungsrelevanten Systeme. 
 
 Die CapabilityStatements gelten für alle [bestätigungsrelevanten Systeme](https://simplifier.net/guide/isik-basis-403/Einfuehrung/UebergreifendeFestlegungen/UebergreifendeFestlegungen_BestaetigungsrelevanteSysteme?version=4.0.3), die unter die Definition der 'Vitalparameter und Körpermaße' fallen  :
 
@@ -44,14 +43,6 @@ Der beschriebene Akteur implementiert die folgenden Rollen.
 Canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSourceRolle
 
 {{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSourceRolle}}
-
-## Basale administrative Abfragen
-
-[Link Simplifier Profil Übersicht](https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementminimaladministrativedatasource)
-
-Canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSource
-
-{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSource}}
 
 ## Abfragen von Labordaten (für AMTS)
 
