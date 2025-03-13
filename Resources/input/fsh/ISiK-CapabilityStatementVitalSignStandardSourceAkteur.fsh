@@ -1,9 +1,9 @@
-Instance: ISiKCapabilityStatementVitalSignStandardSource
+Instance: ISiKCapabilityStatementVitalSignStandardSourceAkteur
 InstanceOf: CapabilityStatement
 Usage: #definition
 * insert Meta-CapabilityStatement
-* name = "ISiKCapabilityStatementVitalSignStandardSource"
-* title = "ISiK CapabilityStatement Vitalparameter Server Hospital"
+* name = "ISiKCapabilityStatementVitalSignStandardSourceAkteur"
+* title = "ISiK CapabilityStatement Vital Sign Standard Source Akteur"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.gematik.de"
 * description = "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein ISiK-konformes System unterstützen muss um das Bestätigungsverfahren für das Modul Vitalparameter zu bestehen.
