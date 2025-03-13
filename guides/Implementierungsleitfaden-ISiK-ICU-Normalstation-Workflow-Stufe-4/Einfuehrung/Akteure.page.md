@@ -22,7 +22,7 @@ Zur genauen Liste der Interaktionen siehe {{pagelink:ISiKCapabilityStatementVita
 
 ## Akteur - VitalSign ICU Source Extended
 
-Profile: Profile MI-I (siehe)
+Profile: Profile MI-I
 Interaction: READ, SEARCH
 
 Zur genauen Beschreibung und Liste der Interaktionen siehe  {{pagelink:ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur, text:CapabilityStatement-Minimal-ICU}}.
