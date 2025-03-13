@@ -8,7 +8,7 @@ Usage: #definition
 * contact.telecom.value = "https://www.gematik.de"
 * description = "Das vorliegende CapabilityStatement fasst die Rollen (und entsprechende Interaktionen) zusammen, die ein Akteur 'VitalSign ICU Source Minimal' zur Unterstützung des ICU-Normalstation-Workflows implementieren muss.
 
-Zur Implementierung der Interaktionen sind insbesondere die zu implementierenden Rollen (siehe 'imports') zu beachten.
+Zur Implementierung der Interaktionen sind insbesondere die zu implementierenden Rollen (siehe 'imports' in der CapabilityStatement-Ressource) zu beachten.
   
 **HISTORIE:**    
 
