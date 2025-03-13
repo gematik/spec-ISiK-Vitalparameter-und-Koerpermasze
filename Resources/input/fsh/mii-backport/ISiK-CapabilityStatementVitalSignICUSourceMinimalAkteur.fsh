@@ -12,6 +12,8 @@ Zur Implementierung der Interaktionen sind insbesondere die zu implementierenden
   
 **HISTORIE:**    
 
+*Historie*: mit der Version 4.0.2 des IG ICU-Normalstation-Workflow wurde das vorliegende CapabilityStatement im Sinne eines eigenständigen Akteurs extrahiert (die Funktionalität bleibt dabei unverändert).
+
 *Historie*: mit der Version 4.0.1 des IG ICU-Normalstation-Workflow wurde das vorliegende CapabilityStatement überarbeitet.
 
 **Version 4.0.1**
