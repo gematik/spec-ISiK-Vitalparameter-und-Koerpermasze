@@ -32,5 +32,5 @@ Zur Implementierung der Interaktionen sind insbesondere die zu implementierenden
 * imports[+] = Canonical(ISiKCapabilityStatementLaborMinimalRolle)
 
 //Support für generische Vitalparameter (wie Körpergewicht, Größe etc.)
-* imports[+] = Canonical(ISiKCapabilityStatementVitalSignStandardSource)
+* imports[+] = Canonical(ISiKCapabilityStatementVitalSignStandardSourceRolle)
 

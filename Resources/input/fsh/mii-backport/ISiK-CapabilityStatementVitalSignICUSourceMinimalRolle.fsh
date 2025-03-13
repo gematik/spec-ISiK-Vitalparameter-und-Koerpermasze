@@ -27,7 +27,6 @@ Die Interaktionen umfassen die Bereitstellung von Vitalparametern, die für die 
 * fhirVersion = #4.0.1
 * format[0] = #application/fhir+xml
 * format[+] = #application/fhir+json
-* instantiates = Canonical(ISiKCapabilityStatementVitalSignStandardSource)
 * rest.mode = #server
 * rest.resource[+]
 * rest.resource[=].extension.url = $capabilitystatement-expectation
