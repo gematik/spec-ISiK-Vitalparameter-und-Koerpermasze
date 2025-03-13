@@ -27,7 +27,7 @@ Usage: #definition
 * rest.mode = #server
 
 // Vitalparameter
-* imports[+] = Canonical(ISiKCapabilityStatementVitalSignStandardSourceRolle
+* imports[+] = Canonical(ISiKCapabilityStatementVitalSignStandardSourceRolle)
 
 // Administative Daten
 * imports[+] = Canonical(ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle)
