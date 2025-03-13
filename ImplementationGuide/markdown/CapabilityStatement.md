@@ -37,7 +37,7 @@ Canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatem
 
 {{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSourceAkteur}}
 
-Der Beschriebene Akteur implementiert die folgenden Rollen.
+Der beschriebene Akteur implementiert die folgenden Rollen.
 
 [Link Simplifier Profil Übersicht](https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementvitalsignstandardsourceRolle)
 
