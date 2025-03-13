@@ -21,11 +21,29 @@ Dieses Modul unterscheidet CapabilityStatements für:
 
 Alle bestätigungsrelevanten Systeme MÜSSEN im Sinne der [Herstellung des Patienten- und Encounter-Kontextes](https://simplifier.net/guide/isik-basis-403/Einfuehrung/UebergreifendeFestlegungen/Patient-Besuch-Kontext?version=4.0.3) Interaktionen auf die entsprechenden Profile unterstützen:
 
-{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSourceVital}}
+{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSource}}
 
 Dieses Modul unterscheidet CapabilityStatements für PDMS (Intensivversorgung) und alle weiteren bestätigungsrelevanten Systeme. 
 
 Die CapabilityStatements gelten für alle [bestätigungsrelevanten Systeme](https://simplifier.net/guide/isik-basis-403/Einfuehrung/UebergreifendeFestlegungen/UebergreifendeFestlegungen_BestaetigungsrelevanteSysteme?version=4.0.3), die unter die Definition der 'Vitalparameter und Körpermaße' fallen  :
+
+
+
+## Abfragen von Vitalparametern 
+
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementvitalsignstandardsourceAkteur)
+
+Canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSourceAkteur
+
+{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSourceAkteur}}
+
+Der Beschriebene Akteur implementiert die folgenden Rollen.
+
+[Link Simplifier Profil Übersicht](https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementvitalsignstandardsourceRolle)
+
+Canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSourceRolle
+
+{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSourceRolle}}
 
 ## Basale administrative Abfragen
 
@@ -35,14 +53,13 @@ Canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatem
 
 {{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSource}}
 
-## Abfragen von Vitalparametern 
+## Abfragen von Labordaten (für AMTS)
+
+Canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementLaborMinimalRolle
+
+{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementLaborMinimalRolle}}
 
 
-[Link Simplifier Profil Übersicht](https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementvitalsignstandardsource)
-
-Canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSource
-
-{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSource}}
 
 ---
 
