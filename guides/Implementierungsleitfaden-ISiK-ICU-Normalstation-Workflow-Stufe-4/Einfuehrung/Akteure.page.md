@@ -25,7 +25,7 @@ Zur genauen Liste der Interaktionen siehe {{pagelink:ISiKCapabilityStatementVita
 Profile: Profile MI-I
 Interaction: READ, SEARCH
 
-Zur genauen Beschreibung und Liste der Interaktionen siehe  {{pagelink:ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur, text:CapabilityStatement-Minimal-ICU}}.
+Zur genauen Beschreibung und Liste der Interaktionen siehe  {{pagelink:ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur, text:CapabilityStatement-Extended-ICU}}.
 
 ## Erklärung zu weiteren Capability Statements
 
