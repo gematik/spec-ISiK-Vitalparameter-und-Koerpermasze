@@ -10,4 +10,5 @@
   filename: Rolle-ISiKCapabilityStatementVitalSignICUSourceMinimal.page.md
 - name: 'Rolle: ISiKCapabilityStatementVitalSignICUSourceExtended'
   filename: Rolle-ISiKCapabilityStatementVitalSignICUSourceExtended.page.md
-
+-name: 'Rolle: ISiKCapabilityStatementVitalSignStandardSource'
+ filename: Rolle-ISiKCapabilityStatementVitalSignStandardSource.page.md

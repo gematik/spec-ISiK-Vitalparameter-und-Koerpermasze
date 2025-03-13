@@ -1,6 +1,6 @@
 ---
-topic: ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle
-canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle
+topic: ISiKCapabilityStatementVitalSignStandardSource
+canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSource
 ---
 ## Konformitätserklärung [(CapabilityStatement)](https://hl7.org/fhir/R4/capabilitystatement.html)
 <fql>

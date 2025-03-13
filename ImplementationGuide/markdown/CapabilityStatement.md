@@ -16,7 +16,7 @@ Die Verwendung der [CapabilityStatement-Expectation](https://hl7.org/fhir/R4/ext
 ## CapabilityStatement (Requirement) ISiK-Vitalparameter
 
 Dieses Modul unterscheidet CapabilityStatements für:
-- basale administrative Abfragen
+- Abfragen administrativer Daten zum Patienten und Fallkontakt (Encounter)
 - Abfragen von Vitalparametern
 
 Alle bestätigungsrelevanten Systeme MÜSSEN im Sinne der [Herstellung des Patienten- und Encounter-Kontextes](https://simplifier.net/guide/isik-basis-403/Einfuehrung/UebergreifendeFestlegungen/Patient-Besuch-Kontext?version=4.0.3) Interaktionen auf die entsprechenden Profile unterstützen:
