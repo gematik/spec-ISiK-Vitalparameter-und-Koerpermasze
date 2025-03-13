@@ -1,4 +1,4 @@
-Instance: ISiKCapabilityStatementMinimalAdministrativeDataSourceVital
+Instance: ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle
 InstanceOf: CapabilityStatement
 Usage: #definition
 * description =
@@ -22,32 +22,45 @@ sofern diese in der Instanz implementiert wurden.
 
 Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilityStatement der Server-Instanz nicht erforderlich."
 * insert Meta-CapabilityStatement
-* name = "ISiKCapabilityStatementMinimalAdministrativeDataSourceVital"
-* title = "IISiK CapabilityStatement MinimalAdministrativeDataSourceVital"
+* name = "ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle"
+* title = "ISiK CapabilityStatement Minimal Administrative Data Source Rolle"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.gematik.de"
+* description = "Das vorliegende CapabilityStatement beschreibt grundlegende Interaktionen die ein ISiK-konformes System oder eine Systemkomponenten in der Rolle 'Administrative Data Source' unterstützen muss.
+
+Die Interaktionen ermöglichen das Abfragen von Patienten- und Fallkontaktdaten (Encounter), die typische administrative Daten sind. Diese Daten werden z.B. in einem KIS erfasst und verwaltet.
+
+
+**HISTORIE:**    
+
+*Historie*: mit der Version 4.0.2 des IG ICU-Normalstation-Workflow wurde das vorliegende CapabilityStatement im Sinne einer eigenständigen Rolle extrahiert (die Funktionalität bleibt dabei unverändert).
+
+*Historie*: mit der Version 4.0.1 des IG ICU-Normalstation-Workflow wurde das vorliegende CapabilityStatement überarbeitet.
+
+*Version 4.0.0*  
+* `change` Initialisierung des CapabilityStatements.   "
+
 * jurisdiction = urn:iso:std:iso:3166#DE "Germany"
 * kind = #requirements
 * fhirVersion = #4.0.1
 * format[0] = #application/fhir+xml
 * format[+] = #application/fhir+json
-* rest.mode = #server
-
 * rest
   * mode = #server
   * resource[+]
     * type = #Patient
-    * insert Expectation (#SHALL)
+    * insert CapabilityStatementExpectationExt(SHALL)
     * supportedProfile = "https://gematik.de/fhir/isik/StructureDefinition/ISiKPatient"
+      * insert CapabilityStatementExpectationExt(SHALL)
     * interaction[+]
-      * insert Expectation (#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * code = #read
     * interaction[+]
-      * insert Expectation (#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * code = #search-type
     * insert CommonSearchParameters
     * searchParam[+]
-      * insert Expectation (#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "identifier"
       * definition = "http://hl7.org/fhir/SearchParameter/Patient-identifier"
       * type = #token
@@ -60,7 +73,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Dieser Suchparameter ist für die Umsetzung des IHE PDQm Profils verpflichtend."    
 
     * searchParam[+]
-      * insert Expectation (#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "family"
       * definition = "http://hl7.org/fhir/SearchParameter/individual-family"
       * type = #string
@@ -72,7 +85,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Dieser Suchparameter ist für die Umsetzung des IHE PDQm Profils verpflichtend."  
 
     * searchParam[+]
-      * insert Expectation (#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "given"
       * definition = "http://hl7.org/fhir/SearchParameter/individual-given"
       * type = #string
@@ -84,7 +97,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Dieser Suchparameter ist für die Umsetzung des IHE PDQm Profils verpflichtend." 
 
     * searchParam[+]
-      * insert Expectation (#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "birthdate"
       * definition = "http://hl7.org/fhir/SearchParameter/individual-birthdate"
       * type = #date
@@ -95,7 +108,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#date)." 
 
     * searchParam[+]
-      * insert Expectation (#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "gender"
       * definition = "http://hl7.org/fhir/SearchParameter/individual-gender"
       * type = #token
@@ -107,7 +120,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Dieser Suchparameter ist für die Umsetzung des IHE PDQm Profils verpflichtend." 
 
     * searchParam[+]
-      * insert Expectation (#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "name"
       * definition = "http://hl7.org/fhir/SearchParameter/Patient-name"
       * type = #string
@@ -119,7 +132,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#string).  " 
 
     * searchParam[+]
-      * insert Expectation (#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "address"
       * definition = "http://hl7.org/fhir/SearchParameter/individual-address"
       * type = #string
@@ -131,7 +144,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Dieser Suchparameter ist für die Umsetzung des IHE PDQm Profils verpflichtend."  
 
     * searchParam[+]
-      * insert Expectation (#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "address-city"
       * definition = "http://hl7.org/fhir/SearchParameter/individual-address-city"
       * type = #string
@@ -143,7 +156,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Dieser Suchparameter ist für die Umsetzung des IHE PDQm Profils verpflichtend." 
 
     * searchParam[+]
-      * insert Expectation (#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "address-country"
       * definition = "http://hl7.org/fhir/SearchParameter/individual-address-country"
       * type = #string
@@ -155,7 +168,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Dieser Suchparameter ist für die Umsetzung des IHE PDQm Profils verpflichtend." 
 
     * searchParam[+]
-      * insert Expectation (#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "address-postalcode"
       * definition = "http://hl7.org/fhir/SearchParameter/individual-address-postalcode"
       * type = #string
@@ -167,7 +180,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Dieser Suchparameter ist für die Umsetzung des IHE PDQm Profils verpflichtend." 
 
     * searchParam[+]
-      * insert Expectation (#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "active"
       * definition = "http://hl7.org/fhir/SearchParameter/Patient-active"
       * type = #token
@@ -179,7 +192,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Dieser Suchparameter ist für die Umsetzung des IHE PDQm Profils verpflichtend." 
 
     * searchParam[+]
-      * insert Expectation (#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "telecom"
       * definition = "http://hl7.org/fhir/SearchParameter/individual-telecom"
       * type = #token
@@ -191,23 +204,23 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Dieser Suchparameter ist für die Umsetzung des IHE PDQm Profils verpflichtend."
 
     * searchRevInclude[+] = "Encounter:patient"
-      * insert Expectation (#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
     * searchRevInclude[+] = "Encounter:subject"
-      * insert Expectation (#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
 
   * resource[+]
     * type = #Encounter
-    * insert Expectation (#SHALL)
+    * insert CapabilityStatementExpectationExt(SHALL)
     * supportedProfile = "https://gematik.de/fhir/isik/StructureDefinition/ISiKKontaktGesundheitseinrichtung"
     * interaction[+]
       * code = #read
-      * insert Expectation (#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
     * interaction[+]
       * code = #search-type
-      * insert Expectation (#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
 
     * searchParam[+]
-      * insert Expectation(#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "identifier"
       * definition = "http://hl7.org/fhir/SearchParameter/clinical-identifier"
       * type = #token
@@ -217,7 +230,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         **Anwendungshinweis:**   
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#token).  "
     * searchParam[+]
-      * insert Expectation(#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "status"
       * definition = "http://hl7.org/fhir/SearchParameter/Encounter-status"
       * type = #token
@@ -227,7 +240,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         **Anwendungshinweis:**   
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#token).  "
     * searchParam[+]
-      * insert Expectation(#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "class"
       * definition = "http://hl7.org/fhir/SearchParameter/Encounter-class"
       * type = #token
@@ -237,7 +250,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         **Anwendungshinweis:**   
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#token).  "
     * searchParam[+]
-      * insert Expectation(#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "type"
       * definition = "http://hl7.org/fhir/SearchParameter/clinical-type"
       * type = #token
@@ -247,7 +260,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         **Anwendungshinweis:**   
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#token).  "
     * searchParam[+]
-      * insert Expectation(#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "patient"
       * definition = "http://hl7.org/fhir/SearchParameter/clinical-patient"
       * type = #reference
@@ -258,7 +271,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#reference).  
         Dieser Suchparameter ist für die Umsetzung des IHE QEDm Profils verpflichtend."
     * searchParam[+]
-      * insert Expectation(#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "subject"
       * definition = "http://hl7.org/fhir/SearchParameter/Encounter-subject"
       * type = #reference
@@ -268,7 +281,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         **Anwendungshinweis:**   
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#reference).  "
     * searchParam[+]
-      * insert Expectation(#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "account"
       * definition = "http://hl7.org/fhir/SearchParameter/Encounter-account"
       * type = #reference
@@ -280,7 +293,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         **Anwendungshinweis:**   
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#reference).  "
     * searchParam[+]
-      * insert Expectation(#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "date"
       * definition = "http://hl7.org/fhir/SearchParameter/clinical-date"
       * type = #date
@@ -293,7 +306,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         [Such-Prefixe](https://hl7.org/fhir/R4/search.html#prefix)
         - und hier insbesondere die Unterschiede zwischen `lt` und `eb` bzw. `gt` und `sa` - beachtet werden."
     * searchParam[+]
-      * insert Expectation(#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "date-start"
       * definition = "https://gematik.de/fhir/isik/SearchParameter/Encounter-date-start"
       * type = #date
@@ -305,7 +318,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Bei diesem Suchparameter handelt es sich um eine Präadoption 
         [eines Suchparameters, der in FHIR R5 hinzugefügt wurde](https://hl7.org/fhir/R5/SearchParameter/Encounter-date-start). "
     * searchParam[+]
-      * insert Expectation(#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
       * name = "end-date"
       * definition = "https://gematik.de/fhir/isik/SearchParameter/Encounter-end-date"
       * type = #date
@@ -317,7 +330,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Bei diesem Suchparameter handelt es sich um eine Präadoption 
         [eines Suchparameters, der in FHIR R5 hinzugefügt wurde](https://hl7.org/fhir/R5/SearchParameter/Encounter-end-date). "
     * searchParam[+]
-      * insert Expectation(#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "location"
       * definition = "http://hl7.org/fhir/SearchParameter/Encounter-location"
       * type = #reference
@@ -327,7 +340,7 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         **Anwendungshinweis:**   
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#reference).  "
     * searchParam[+]
-      * insert Expectation(#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
       * name = "service-provider"
       * definition = "http://hl7.org/fhir/SearchParameter/Encounter-service-provider"
       * type = #reference
@@ -338,8 +351,8 @@ Die Verwendung der CapabilityStatement-Expectation-Extension ist im CapabilitySt
         Weitere Details siehe [FHIR-Kernspezifikation](https://hl7.org/fhir/R4/search.html#reference).  "
 
     * searchInclude[+] = "Encounter:patient"
-      * insert Expectation(#SHALL)
+      * insert CapabilityStatementExpectationExt(SHALL)
     * searchInclude[+] = "Encounter:subject"
-      * insert Expectation(#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)
     * searchInclude[+] = "Encounter:part-of"
-      * insert Expectation(#MAY)
+      * insert CapabilityStatementExpectationExt(MAY)

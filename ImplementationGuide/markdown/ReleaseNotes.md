@@ -9,6 +9,8 @@ Version: 4.0.2
 
 Datum: tbd.
 
+* Update der CapabilityStatements
+
 ---
 
 Version: 4.0.1
