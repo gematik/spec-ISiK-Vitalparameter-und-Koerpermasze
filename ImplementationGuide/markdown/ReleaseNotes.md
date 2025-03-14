@@ -9,6 +9,7 @@ Version: 4.0.2
 
 Datum: tbd.
 
+* Update der CapabilityStatements
 * `improve` `change` feat: added ISiK-KoerperkernTemperatur Profile
   fix: integrated mii profiles into Vitalparameter Module, KoerperKernTemp Profiles of MII are now derived from ISiK-KoerperkernTemperatur
   fix: fixed several validation errors https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203

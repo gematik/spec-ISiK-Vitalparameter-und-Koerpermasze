@@ -1,8 +1,16 @@
 ---
-topic: ISiKCapabilityStatementVitalSignStandardSource 
-canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSource 
+topic: ISiKCapabilityStatementLaborMinimalRolle
+canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementLaborMinimalRolle
 ---
 ## Konformitätserklärung [(CapabilityStatement)](https://hl7.org/fhir/R4/capabilitystatement.html)
+<fql>
+from
+	CapabilityStatement
+where
+	url = %canonical
+select
+	Artefakt:title
+</fql>
 
 <fql>
 from

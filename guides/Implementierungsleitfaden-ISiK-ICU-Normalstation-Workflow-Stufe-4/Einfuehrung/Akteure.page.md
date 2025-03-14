@@ -2,7 +2,7 @@
 topic: Akteure
 ---
 
-# Akteure
+# Darstellung der Akteure
 
 <img src="https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/c604c61a3887bd5532d2c7392eb20d8c79403028/Material/images/piktogramme/Betriebskoordination_Gruen_gematik.svg" width="40"/>
 
@@ -10,57 +10,37 @@ topic: Akteure
 <img src="https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/c604c61a3887bd5532d2c7392eb20d8c79403028/Material/images/piktogramme/Betriebskoordination_Gruen_gematik.svg" width="40"/>
 
 
-Zur Umsetzung des vorliegenden Workflows MÜSSEN Systeme folgende Akteure implementieren (schematische Darstellung - eine technische Detaillierung mit normativer Geltung wird im CapabilityStatement getroffen). 
-Eine 'Transaction' bezeichnet eine schematische Interaktion, die die jeweiligen Akteure erfüllen MÜSSEN (M) oder KÖNNEN (O):
-
-## Minimal Administrative Data Source (bisher: “Server” bzw "Basis-Server")
-Profile: ISIKPatient, ISiK Encounter
-
-Interaktionen: READ, SEARCH
+Folgende Akteure dienen der Umsetzung der beschriebenen Workflows (schematische Darstellung - eine technische Detaillierung mit normativer Geltung wird im CapabilityStatement getroffen). 
 
 
-## Administrative Data Consumer (bisher: “Client” bzw "Basis-Client") 
-Transaction (M): Find Administrative Data
+## Akteur - VitalSign ICU Source Minimal
+* Zur genauen Beschreibung und Liste der Interaktionen siehe 
+* Profile: Profile MI-I
+* Interaction: READ, SEARCH
 
-Transaction (O): Patient Merge
+Zur genauen Liste der Interaktionen siehe {{pagelink:ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur,text:CapabilityStatement-Minimal-ICU}}. 
 
-## VitalSign Standard Source 
-Transaction(M): Find Basic VitalSigns
-
-Profile: ISiK Profile Vitalparameter (Blutdruck, Temp, Puls, O2 etc.)
-
-Interaction: READ, SEARCH
-
-## VitalSign Standard Consumer 
-Transaction(M): Find Basic VitalSigns
-
-## VitalSign ICU Source
-Transaction(M): Find Advanced VitalSigns
+## Akteur - VitalSign ICU Source Extended
 
 Profile: Profile MI-I
-
 Interaction: READ, SEARCH
 
-## VitalSign ICU Consumer 
-Transaction(M): Find Advanced VitalSigns
+Zur genauen Beschreibung und Liste der Interaktionen siehe  {{pagelink:ISiKCapabilityStatementVitalSignICUSourceExtendedAkteur, text:CapabilityStatement-Extended-ICU}}.
+
+## Erklärung zu weiteren Capability Statements
+
+Die Akteure aggregieren in diesem Kontext weitere Rollen (als Funktionsbausteine), die als solche statische Mengen von Interaktionen festlegen.
 
 # Festlegung zur Implementierung der Akteure
+Eine Festlegung zur Implementierung erfolgt im Rahmen der Definition der bestätigungsrelevanten Systeme.
 
-Basis-Server entsprechend der Definition zu den [bestätigungsrelevanten Systeme](https://simplifier.net/guide/isik-basis-v4/UebergreifendeFestlegungen_BestaetigungsrelevanteSysteme?version=current) MÜSSEN folgende Akteure / Operationen implementieren:
+<!-- ANF-ICU-001 -->
+Basis-Server entsprechend der Definition zu den [bestätigungsrelevanten Systeme](https://simplifier.net/guide/isik-basis-v4/UebergreifendeFestlegungen_BestaetigungsrelevanteSysteme?version=current) MÜSSEN folgenden Akteur implementieren:
+- Akteur - VitalSign ICU Source Minimal
 
-- Minimal Administrative Data Source (bisher: “Server” bzw "Basis-Server")
-- Administrative Data Consumer (bisher: “Client” bzw "Basis-Client") 
-- VitalSign Standard Source 
-- VitalSign-ICU Consumer 
-
-Vitalparameter-Server entsprechend der Definition zu den [bestätigungsrelevanten Systeme](https://simplifier.net/guide/isik-basis-v4/UebergreifendeFestlegungen_BestaetigungsrelevanteSysteme?version=current) MÜSSEN folgende Akteure / Operationen implementieren:
-
-- Minimal Administrative Data Source (bisher: “Server” bzw "Basis-Server")
-- Administrative Data Consumer (bisher: “Client” bzw "Basis-Client") 
-- VitalSign Standard Source 
-- VitalSign Standard Consumer 
-- VitalSign ICU Source
-- VitalSign-ICU Consumer 
+<!-- ANF-ICU-002 -->
+Vitalparameter-Server entsprechend der Definition zu den [bestätigungsrelevanten Systeme](https://simplifier.net/guide/isik-basis-v4/UebergreifendeFestlegungen_BestaetigungsrelevanteSysteme?version=current) MÜSSEN folgenden Akteur implementieren:
+- Akteur - VitalSign ICU Source Extended
 
 Primär hervorzuheben sind entsprechend der Definition der DKG dabei.
 
