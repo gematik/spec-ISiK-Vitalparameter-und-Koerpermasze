@@ -9,7 +9,7 @@
   "url": "https://gematik.de/fhir/isik/ValueSet/ISiKKernTempSctVS",
   "experimental": false,
   "publisher": "gematik GmbH",
-  "date": "2025-02-25",
+  "date": "2025-03-13",
   "compose": {
     "include": [
       {

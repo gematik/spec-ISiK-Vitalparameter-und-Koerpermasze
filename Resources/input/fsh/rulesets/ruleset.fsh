@@ -127,3 +127,7 @@ RuleSet: Observation-category-VSCat-MS
 * category[VSCat] MS
   * ^comment = "Motivation MS: Die Kategorie 'vital-signs' dient der Kategorisierung von Vitalparametern"
   * ^short = "Vitalparameterkategorie"
+
+RuleSet: MII_SpecificIEEE-11073Slice
+* coding contains 
+  specific-IEEE-11073 0..1 MS
