@@ -1,5 +1,5 @@
 ---
-topic: ISiKCapabilityStatementVitalSignStandardSource Rolle
+topic: ISiKCapabilityStatementVitalSignStandardSourceRolle
 canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignStandardSourceRolle
 ---
 ## Konformitätserklärung [(CapabilityStatement)](https://hl7.org/fhir/R4/capabilitystatement.html)
