@@ -5,22 +5,22 @@
 - name: Terminologien
   filename: Terminologien
 - name: ISiKAtemfrequenz (Observation)
-  filename: Datenobjekt_ISiKAtemfrequenz
+  filename: Datenobjekt_Atemfrequenz
 - name: ISiKBlutdruckSystemischArteriell (Observation)
-  filename: Datenobjekt_ISiKBlutdruckSystemischArteriell
+  filename: Datenobjekt_BlutdruckSystemischArteriell
 - name: ISiKHerzfrequenz (Observation)
-  filename: Datenobjekt_ISiKHerzfrequenz
+  filename: Datenobjekt_Herzfrequenz
 - name: ISiKKoerpergewicht (Observation)
-  filename: Datenobjekt_ISiKKoerpergewicht
+  filename: Datenobjekt_Koerpergewicht
 - name: ISiKKoerpergroesse (Observation)
-  filename: Datenobjekt_ISiKKoerpergroesse
+  filename: Datenobjekt_Koerpergroesse
 - name: ISiKKoerpertemperatur (Observation)
-  filename: Datenobjekt_ISiKKoerpertemperatur
+  filename: Datenobjekt_Koerpertemperatur
 - name: ISiKKopfumfang (Observation)
-  filename: Datenobjekt_ISiKKopfumfang
+  filename: Datenobjekt_Kopfumfang
 - name: ISiKSauerstoffsaettigungArteriell (Observation)
-  filename: Datenobjekt_ISiKSauerstoffsaettigungArteriell
+  filename: Datenobjekt_SauerstoffsaettigungArteriell
 - name: ISiKGCS (Observation)
-  filename: Datenobjekt_ISiKGCS
+  filename: Datenobjekt_GCS
 - name: ISiKEKG (Observation)
-  filename: Datenobjekt_ISiKEKG
+  filename: Datenobjekt_EKG
