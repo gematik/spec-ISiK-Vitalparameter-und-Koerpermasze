@@ -1,0 +1,26 @@
+- name: Index
+  filename: Index.page.md
+- name: CapabilityStatements
+  filename: CapabilityStatements
+- name: Terminologien
+  filename: Terminologien
+- name: ISiKAtemfrequenz (Observation)
+  filename: Datenobjekt_ISiKAtemfrequenz
+- name: ISiKBlutdruckSystemischArteriell (Observation)
+  filename: Datenobjekt_ISiKBlutdruckSystemischArteriell
+- name: ISiKHerzfrequenz (Observation)
+  filename: Datenobjekt_ISiKHerzfrequenz
+- name: ISiKKoerpergewicht (Observation)
+  filename: Datenobjekt_ISiKKoerpergewicht
+- name: ISiKKoerpergroesse (Observation)
+  filename: Datenobjekt_ISiKKoerpergroesse
+- name: ISiKKoerpertemperatur (Observation)
+  filename: Datenobjekt_ISiKKoerpertemperatur
+- name: ISiKKopfumfang (Observation)
+  filename: Datenobjekt_ISiKKopfumfang
+- name: ISiKSauerstoffsaettigungArteriell (Observation)
+  filename: Datenobjekt_ISiKSauerstoffsaettigungArteriell
+- name: ISiKGCS (Observation)
+  filename: Datenobjekt_ISiKGCS
+- name: ISiKEKG (Observation)
+  filename: Datenobjekt_ISiKEKG

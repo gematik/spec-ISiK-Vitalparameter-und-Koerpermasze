@@ -1,0 +1,12 @@
+- name: Index
+  filename: Index.page.md
+- name: Motivation
+  filename: Motivation.page.md
+- name: ReleaseNotes
+  filename: ReleaseNotes.page.md
+- name: Übergreifende UseCases
+  filename: UebergreifendeUseCases
+- name: Weitere Festlegungen
+  filename: WeitereFestlegungen
+- name: Datenobjekte
+  filename: Datenobjekte
