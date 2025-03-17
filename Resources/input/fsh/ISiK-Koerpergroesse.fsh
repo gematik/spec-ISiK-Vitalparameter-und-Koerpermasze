@@ -22,7 +22,7 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
 * code = $loinc#8302-2 "Body height"
-* code.coding[snomed] = $sct#1153637007 "Body height (observable entity)"
+* code.coding[snomed] = $sct#1153637007 "Body height"
 * code.text = "Körpergröße"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2020-10-11"

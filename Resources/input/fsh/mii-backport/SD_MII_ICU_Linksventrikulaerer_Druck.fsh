@@ -30,7 +30,7 @@ InstanceOf: SD_MII_ICU_Linksventrikulaerer_Druck
 Usage: #example
 * status = #final
 * code 
-  * coding[sct] = $sct#276769008 "Left ventricular pressure (observable entity)"
+  * coding[sct] = $sct#276769008 "Left ventricular pressure"
   * coding[IEEE11073] = $IEEE11073#150100 "MDC_PRESS_BLD_VENT_LEFT"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"

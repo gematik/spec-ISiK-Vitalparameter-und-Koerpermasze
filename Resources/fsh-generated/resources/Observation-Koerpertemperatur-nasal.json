@@ -19,13 +19,17 @@
   "code": {
     "coding": [
       {
-        "code": "76010-8",
-        "system": "http://loinc.org",
-        "display": "Nasal temperature"
+        "code": "8310-5",
+        "system": "http://loinc.org"
       },
       {
         "code": "188504",
         "system": "urn:iso:std:iso:11073:10101",
+        "display": "Nasal temperature"
+      },
+      {
+        "code": "76010-8",
+        "system": "http://loinc.org",
         "display": "Nasal temperature"
       }
     ]
@@ -33,8 +37,8 @@
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "unit": "degree Celsius",
-    "value": 37
+    "value": 37,
+    "unit": "degree Celsius"
   },
   "bodySite": {
     "coding": [

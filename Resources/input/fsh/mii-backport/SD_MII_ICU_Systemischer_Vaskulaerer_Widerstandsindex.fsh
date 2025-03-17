@@ -13,7 +13,7 @@ Title: "SD MII ICU Systemischer Vaskulaerer Widerstandsindex"
 * valueQuantity
   * ^patternQuantity.unit = "dyne second per centimeter5 and square meter"
   * unit 1..
-  * code from VS_MII_ICU_Unit_equivalent_UCUM_dyn_s_cm5_m2 (required)
+  * code = #dyn.s/cm5/m2
 * bodySite 0..0
   * ^comment = "Der Wert ist keiner bodySite zuordenbar"
 
@@ -23,10 +23,10 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#8837-7 "Systemic vascular Resistance index"
-  * coding[sct] = $sct#276900001 "Systemic vascular Resistance index (observable entity)"
+  * coding[sct] = $sct#276900001 "Systemic vascular Resistance index"
   * coding[IEEE-11073] = $IEEE11073#149760 "Systemic vascular resistance indexed"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"
-* valueQuantity = 2000 'dyn.s/(cm5.m2)' "dyne second per centimeter5 and square meter"
+* valueQuantity = 2000 'dyn.s/cm5/m2' "dyne second per centimeter5 and square meter"

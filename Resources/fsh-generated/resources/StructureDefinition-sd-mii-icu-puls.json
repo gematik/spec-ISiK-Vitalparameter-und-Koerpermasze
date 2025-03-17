@@ -9,6 +9,7 @@
   "experimental": false,
   "date": "2025-03-13",
   "publisher": "gematik GmbH",
+  "description": "Dieses Profil repräsentiert Pulsuntersuchungen die nicht den Zweck einer Herzfrequenzmessung haben, sondern die Pulsfrequenz als eigenständige Vitalfunktion erfassen.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -37,10 +38,7 @@
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
-        "max": "0",
-        "patternCoding": {
-          "system": "http://loinc.org"
-        }
+        "max": "0"
       },
       {
         "id": "Observation.code.coding:IEEE-11073",
@@ -70,10 +68,7 @@
       {
         "id": "Observation.value[x].code",
         "path": "Observation.value[x].code",
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-unit-equivalent-ucum-beats-per-minute"
-        }
+        "patternCode": "/min"
       },
       {
         "id": "Observation.dataAbsentReason",

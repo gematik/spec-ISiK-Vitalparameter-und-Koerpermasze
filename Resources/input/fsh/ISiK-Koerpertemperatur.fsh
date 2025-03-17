@@ -22,7 +22,7 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
 * code = $loinc#8310-5 "Body temperature"
-* code.coding[snomed] = $sct#386725007 "Body temperature (observable entity)"
+* code.coding[snomed] = $sct#386725007 "Body temperature"
 * code.coding[IEEE11073] = $IEEE11073#150364 "MDC_TEMP_BODY"
 * code.text = "Körpertemperatur"
 * subject = Reference(PatientinMusterfrau)

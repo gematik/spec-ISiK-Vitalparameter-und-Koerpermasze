@@ -21,7 +21,7 @@
       {
         "code": "54993008",
         "system": "http://snomed.info/sct",
-        "display": "Cardiac index (observable entity)"
+        "display": "Cardiac index"
       },
       {
         "code": "75919-1",
@@ -37,9 +37,9 @@
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
+    "code": "L/min/m2",
     "unit": "liter per minute and square meter",
-    "value": 3,
-    "code": "L/(min.m2)"
+    "value": 3
   },
   "bodySite": {
     "coding": [

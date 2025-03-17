@@ -34,7 +34,7 @@ InstanceOf: SD_MII_ICU_Rechtsventrikulaerer_Druck
 Usage: #example
 * status = #final
 * category = $observation-category#vital-signs
-* code.coding[sct] = $sct#276756009 "Right ventricular pressure (observable entity)"
+* code.coding[sct] = $sct#276756009 "Right ventricular pressure"
 * code.coding[IEEE-11073] = $IEEE11073#150104 "MDC_PRESS_BLD_VENT_RIGHT"
 * subject = Reference(PatientinMusterfrau)
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"

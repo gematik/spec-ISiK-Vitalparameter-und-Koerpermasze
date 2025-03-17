@@ -24,7 +24,7 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#9843-4 "Head Occipital-frontal circumference"
-* code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
+* code.coding[snomed] = $sct#363812007 "Head circumference"
 * code.coding[IEEE11073] = $IEEE11073#153856 "MDC_CIRCUM_HEAD"
 * code.text = "Kopfumfang"
 * subject = Reference(PatientinMusterfrau)

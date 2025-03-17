@@ -21,15 +21,19 @@
       {
         "code": "364419004",
         "system": "http://snomed.info/sct",
-        "display": "Temperature of cervical spine (observable entity)"
+        "display": "Temperature of cervical spine"
+      },
+      {
+        "code": "8310-5",
+        "system": "http://loinc.org"
       }
     ]
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "unit": "degree Celsius",
-    "value": 37
+    "value": 37,
+    "unit": "degree Celsius"
   },
   "bodySite": {
     "coding": [

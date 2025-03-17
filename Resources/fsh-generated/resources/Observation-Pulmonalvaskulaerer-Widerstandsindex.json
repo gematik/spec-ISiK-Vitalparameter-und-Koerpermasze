@@ -21,7 +21,7 @@
       {
         "code": "276902009",
         "system": "http://snomed.info/sct",
-        "display": "Pulmonary vascular Resistance index (observable entity)"
+        "display": "Pulmonary vascular Resistance index"
       },
       {
         "code": "8834-4",
@@ -37,9 +37,9 @@
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
+    "code": "dyn.s/cm5/m2",
     "unit": "dyne second per centimeter5 and square meter",
-    "value": 80,
-    "code": "dyn.s/(cm5.m2)"
+    "value": 80
   },
   "status": "final",
   "subject": {

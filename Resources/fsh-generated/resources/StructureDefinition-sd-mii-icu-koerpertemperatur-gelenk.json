@@ -18,6 +18,11 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "min": 2
+      },
+      {
         "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
         "sliceName": "sct",
@@ -29,15 +34,15 @@
         }
       },
       {
-        "id": "Observation.code.coding:loinc",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "max": "0"
-      },
-      {
         "id": "Observation.code.coding:IEEE-11073",
         "path": "Observation.code.coding",
         "sliceName": "IEEE-11073",
+        "max": "0"
+      },
+      {
+        "id": "Observation.code.coding:specific-loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "specific-loinc",
         "max": "0"
       },
       {

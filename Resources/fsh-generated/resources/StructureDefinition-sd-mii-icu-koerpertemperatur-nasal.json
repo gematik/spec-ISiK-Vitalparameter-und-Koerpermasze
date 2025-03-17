@@ -20,24 +20,13 @@
       {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "min": 2
+        "min": 3
       },
       {
         "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
         "sliceName": "sct",
         "max": "0"
-      },
-      {
-        "id": "Observation.code.coding:loinc",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "min": 1,
-        "max": "1",
-        "patternCoding": {
-          "code": "76010-8",
-          "system": "http://loinc.org"
-        }
       },
       {
         "id": "Observation.code.coding:IEEE-11073",
@@ -48,6 +37,16 @@
         "patternCoding": {
           "code": "188504",
           "system": "urn:iso:std:iso:11073:10101"
+        }
+      },
+      {
+        "id": "Observation.code.coding:specific-loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "specific-loinc",
+        "min": 1,
+        "patternCoding": {
+          "code": "76010-8",
+          "system": "http://loinc.org"
         }
       },
       {

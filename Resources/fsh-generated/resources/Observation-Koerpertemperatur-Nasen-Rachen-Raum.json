@@ -21,25 +21,29 @@
       {
         "code": "698831002",
         "system": "http://snomed.info/sct",
-        "display": "Core body temperature measured in nasopharynx (observable entity)"
+        "display": "Core body temperature measured in nasopharynx"
       },
       {
-        "code": "60838-0",
-        "system": "http://loinc.org",
-        "display": "Nasopharyngeal temperature"
+        "code": "8310-5",
+        "system": "http://loinc.org"
       },
       {
         "code": "150380",
         "system": "urn:iso:std:iso:11073:10101",
         "display": "MDC_TEMP_NASOPH"
+      },
+      {
+        "code": "60838-0",
+        "system": "http://loinc.org",
+        "display": "Nasopharyngeal temperature"
       }
     ]
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "unit": "degree Celsius",
-    "value": 37
+    "value": 37,
+    "unit": "degree Celsius"
   },
   "bodySite": {
     "coding": [

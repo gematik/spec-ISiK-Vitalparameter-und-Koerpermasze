@@ -1,14 +1,15 @@
 Profile: SD_MII_ICU_Koerpertemperatur_Vaginal
-Parent: SD_MII_ICU_Koerpertemperatur_Generisch
+Parent: ISiKKoerperkerntemperatur
 Id: sd-mii-icu-koerpertemperatur-vaginal
 Title: "SD MII ICU Koerpertemperatur vaginal"
 * insert Meta
 * code
-  * coding[sct] 1..1
-  * coding[sct] = $sct#364246006
-  * coding[loinc] ..0
+  * insert MII_SpecificIEEE-11073Slice
+  * coding[snomed] 1..1
+  * coding[snomed] = $sct#364246006 // "Core body temperature measured vaginally"
+  * coding[specific-loinc] ..0
     * ^patternCoding.system = "http://loinc.org"
-  * coding[IEEE-11073] ..0
+  * coding[specific-IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
 * bodySite = $sct#76784001
 
@@ -17,7 +18,7 @@ InstanceOf: SD_MII_ICU_Koerpertemperatur_Vaginal
 Usage: #example
 * status = #final
 * code
-  * coding[sct] = $sct#364246006 "Core body temperature measured vaginally (observable entity)"
+  * coding[snomed] = $sct#364246006 "Core body temperature measured vaginally"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

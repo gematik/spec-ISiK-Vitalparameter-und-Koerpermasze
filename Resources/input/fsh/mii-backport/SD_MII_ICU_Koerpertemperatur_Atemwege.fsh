@@ -6,10 +6,10 @@ Title: "SD MII ICU Koerpertemperatur Atemwege"
 * code
   * coding[sct] ..0
     * ^patternCoding.system = "http://snomed.info/sct"
-  * coding[loinc] 1..1
-  * coding[loinc] = $loinc#60955-2
+  * coding[specific-loinc] 1..1 
+  * coding[specific-loinc] = $loinc#60955-2 // "Airway temperature"
   * coding[IEEE-11073] 1..1
-  * coding[IEEE-11073] = $IEEE11073#150356
+  * coding[IEEE-11073] = $IEEE11073#150356 // "MDC_TEMP_AWAY"
 * bodySite = $sct#89187006
 
 Instance: Koerpertemperatur-Atemwege
@@ -17,7 +17,7 @@ InstanceOf: SD_MII_ICU_Koerpertemperatur_Atemwege
 Usage: #example
 * status = #final
 * code
-  * coding[loinc] = $loinc#60955-2 "Airway temperature"
+  * coding[specific-loinc] = $loinc#60955-2 "Airway temperature"
   * coding[IEEE-11073] = $IEEE11073#150356 "MDC_TEMP_AWAY"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod

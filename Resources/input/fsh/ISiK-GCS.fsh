@@ -52,7 +52,7 @@ Instance: ISiKGCSExample
 InstanceOf: ISiKGCS
 Usage: #example
 * code = $loinc#9269-2 "Glasgow coma score total"
-* code.coding[snomed] = $sct#248241002 "Glasgow coma score (observable entity)"
+* code.coding[snomed] = $sct#248241002 "Glasgow coma score"
 * code.coding[IEEE11073] = $IEEE11073#153728 "MDC_SCORE_GLAS_COMA"
 * valueQuantity = 11 '1' "Punktwert"
 * status = #final

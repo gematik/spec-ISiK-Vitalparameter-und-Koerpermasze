@@ -19,22 +19,26 @@
   "code": {
     "coding": [
       {
-        "code": "60955-2",
-        "system": "http://loinc.org",
-        "display": "Airway temperature"
+        "code": "8310-5",
+        "system": "http://loinc.org"
       },
       {
         "code": "150356",
         "system": "urn:iso:std:iso:11073:10101",
         "display": "MDC_TEMP_AWAY"
+      },
+      {
+        "code": "60955-2",
+        "system": "http://loinc.org",
+        "display": "Airway temperature"
       }
     ]
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "unit": "degree Celsius",
-    "value": 37
+    "value": 37,
+    "unit": "degree Celsius"
   },
   "bodySite": {
     "coding": [
