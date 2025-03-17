@@ -6,6 +6,8 @@
   filename: ReleaseNotes.page.md
 - name: Übergreifende UseCases
   filename: UebergreifendeUseCases
+- name: Übergreifende Festlegungen
+  filename: UebergreifendeFestlegungen.page.md
 - name: Weitere Festlegungen
   filename: WeitereFestlegungen
 - name: Datenobjekte
