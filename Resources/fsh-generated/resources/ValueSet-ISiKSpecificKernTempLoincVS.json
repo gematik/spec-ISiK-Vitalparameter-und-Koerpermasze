@@ -9,7 +9,7 @@
   "url": "https://gematik.de/fhir/isik/ValueSet/ISiKSpecificKernTempLoincVS",
   "experimental": false,
   "publisher": "gematik GmbH",
-  "date": "2025-03-13",
+  "date": "2025-03-17",
   "compose": {
     "include": [
       {

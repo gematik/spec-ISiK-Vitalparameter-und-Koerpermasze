@@ -7,7 +7,7 @@
   "title": "SD MII ICU Koerpertemperatur nasal",
   "status": "active",
   "experimental": false,
-  "date": "2025-03-13",
+  "date": "2025-03-17",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "kind": "resource",
