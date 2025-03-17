@@ -1,4 +1,6 @@
 - name: Index
   filename: Index.page.md
-- name: 'Akteur: ISiKCapabilityStatementVitalSignStandardSource Rolle'
-  filename: Akteur-ISiKCapabilityStatementVitalSignStandardSource Rolle.page.md
+- name: 'Akteur: ISiKCapabilityStatementVitalSignStandardSourceAkteur'
+  filename: Akteur-CapabilityStatementVitalSignStandardSourceAkteur.page.md
+- name: 'Rolle: ISiKCapabilityStatementVitalSignStandardSourceRolle'
+  filename: Rolle-CapabilityStatementVitalSignStandardSourceRolle.page.md
