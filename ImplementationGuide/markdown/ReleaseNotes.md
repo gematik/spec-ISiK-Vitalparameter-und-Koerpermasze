@@ -7,7 +7,7 @@ Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von R
 
 Version: 4.0.2
 
-Datum: tbd.
+Datum: 18.3.2025
 
 * Update der CapabilityStatements
 * `improve` `change` feat: added ISiK-KoerperkernTemperatur Profile
