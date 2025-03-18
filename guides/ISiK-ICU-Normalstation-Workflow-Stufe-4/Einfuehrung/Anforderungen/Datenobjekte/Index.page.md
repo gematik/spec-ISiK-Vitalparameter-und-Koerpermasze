@@ -7,8 +7,8 @@ Im Rahmen des Use Case Überleitung Normal- und Intensivversorgung sind neben de
 Eine Liste der Profile ist dem Abschnitt zu den {{pagelink:ISiKCapabilityStatementsICU, text:CapabilityStatements}} in den einzelnen CapabilityStatements zu entnehmen, die mit einzelnen {{pagelink:Akteure, text: Akteuren}} übereinstimmen (eine vollständige Abdeckung der Akteure ist derzeit noch nicht abgeschlossen bzw. noch in Arbeit).
 
 Folgende Datenobjekte aus dem Modul [ISiK Basis Stufe 4](https://simplifier.net/guide/isik-basis-v4?version=current) werden in diesem Modul verwendet: 
-* [Patient](https://simplifier.net/guide/isik-basis-401/Einfuehrung/Datenobjekte/Datenobjekte_Patient?version=current)
-* [Kontakt/Fall (Encounter)](https://simplifier.net/guide/isik-basis-401/Einfuehrung/Datenobjekte/Datenobjekte_Kontakt?version=current)
+* [Patient](https://simplifier.net/guide/isik-basis-403/Einfuehrung/Datenobjekte/Datenobjekte_Patient?version=current)
+* [Kontakt/Fall (Encounter)](https://simplifier.net/guide/isik-basis-403/Einfuehrung/Datenobjekte/Datenobjekte_Kontakt?version=current)
 
 Die Verwendung der genannten Ressourcen in diesem Modul bedeutet:
 Wenn ein Profil aus diesem Modul auf die genannten Datenobjekte aus dem Basismodul referenziert, dann MÜSSEN die referenzierten FHIR-Ressourcen im ISiK-Kontext konform zu Vorgaben an diese Ressourcen aus dem Basismodul sein (Profilkonformität). 

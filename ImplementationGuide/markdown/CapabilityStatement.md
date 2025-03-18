@@ -21,7 +21,7 @@ Dieses Modul unterscheidet CapabilityStatements für:
 
 Alle bestätigungsrelevanten Systeme MÜSSEN im Sinne der [Herstellung des Patienten- und Encounter-Kontextes](https://simplifier.net/guide/isik-basis-403/Einfuehrung/UebergreifendeFestlegungen/Patient-Besuch-Kontext?version=4.0.3) Interaktionen auf die entsprechenden Profile unterstützen:
 
-{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSource}}
+{{render:https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementMinimalAdministrativeDataSourceRolle}}
 
 
 Die CapabilityStatements gelten für alle [bestätigungsrelevanten Systeme](https://simplifier.net/guide/isik-basis-403/Einfuehrung/UebergreifendeFestlegungen/UebergreifendeFestlegungen_BestaetigungsrelevanteSysteme?version=4.0.3), die unter die Definition der 'Vitalparameter und Körpermaße' fallen  :
