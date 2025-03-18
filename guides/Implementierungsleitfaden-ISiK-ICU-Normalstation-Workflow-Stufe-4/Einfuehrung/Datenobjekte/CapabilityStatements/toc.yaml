@@ -1,16 +1,16 @@
 - name: Index
   filename: Index.page.md
-- name: 'Akteur: ISiKCapabilityStatementVitalSignICUSourceMinimal'
+- name: 'Akteur: CapabilityStatementVitalSignICUSourceMinimal'
   filename: Akteur-CapabilityStatementVitalSignICUSourceMinimal.page.md
-- name: 'Akteur: ISiKCapabilityStatementVitalSignICUSourceExtended'
+- name: 'Akteur: CapabilityStatementVitalSignICUSourceExtended'
   filename: Akteur-CapabilityStatementVitalSignICUSourceExtended.page.md
-- name: 'Rolle: MinimalAdministrativeDataSource'
-  filename: Rolle-CapabilityStatementMinimalAdministrativeDataSource.page.md
-- name: 'Rolle: ISiKCapabilityStatementVitalSignICUSourceMinimal'
+- name: 'Rolle: CapabilityStatementVitalSignICUSourceMinimal'
   filename: Rolle-CapabilityStatementVitalSignICUSourceMinimal.page.md
-- name: 'Rolle: ISiKCapabilityStatementVitalSignICUSourceExtended'
+- name: 'Rolle: CapabilityStatementVitalSignICUSourceExtended'
   filename: Rolle-CapabilityStatementVitalSignICUSourceExtended.page.md
-- name: 'Rolle: ISiKCapabilityStatementVitalSignStandardSource'
+- name: 'Rolle: CapabilityStatementVitalSignStandardSource'
   filename: Rolle-CapabilityStatementVitalSignStandardSource.page.md
-- name: 'Rolle: ISiKCapabilityStatementLaborMinimal'
+- name: 'Rolle: CapabilityStatementLaborMinimal'
   filename: Rolle-CapabilityStatementLaborMinimal.page.md
+- name: 'Rolle: CapabilityStatementMinimalAdministrativeDataSource'
+  filename: Rolle-CapabilityStatementMinimalAdministrativeDataSource.page.md
