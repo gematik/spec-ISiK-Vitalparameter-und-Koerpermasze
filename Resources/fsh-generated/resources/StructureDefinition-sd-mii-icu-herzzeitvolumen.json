@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "sd-mii-icu-herzzeitvolumen",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-herzzeitvolumen",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "name": "SD_MII_ICU_Herzzeitvolumen",
   "title": "SD MII ICU Herzzeitvolumen",
   "status": "active",
   "experimental": false,
-  "date": "2025-02-24",
+  "date": "2025-03-18",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -60,16 +60,17 @@
         "path": "Observation.value[x]",
         "patternQuantity": {
           "unit": "liter per minute"
-        },
-        "binding": {
-          "strength": "required",
-          "valueSet": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-unit-equivalent-ucum-l-per-minute"
         }
       },
       {
         "id": "Observation.value[x].unit",
         "path": "Observation.value[x].unit",
         "min": 1
+      },
+      {
+        "id": "Observation.value[x].code",
+        "path": "Observation.value[x].code",
+        "patternCode": "L/min"
       }
     ]
   }

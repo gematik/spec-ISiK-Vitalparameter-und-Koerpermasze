@@ -21,7 +21,7 @@
       {
         "code": "442476006",
         "system": "http://snomed.info/sct",
-        "display": "Arterial oxygen saturation (observable entity)"
+        "display": "Arterial oxygen saturation"
       },
       {
         "code": "59408-5",
@@ -32,6 +32,10 @@
         "code": "150324",
         "system": "urn:iso:std:iso:11073:10101",
         "display": "MDC_SAT_O2_ART"
+      },
+      {
+        "code": "2708-6",
+        "system": "http://loinc.org"
       }
     ]
   },

@@ -1,14 +1,15 @@
 Profile: SD_MII_ICU_Koerpertemperatur_Leiste
-Parent: SD_MII_ICU_Koerpertemperatur_Generisch
+Parent: ISiKKoerperkerntemperatur
 Id: sd-mii-icu-koerpertemperatur-leiste
 Title: "SD MII ICU Koerpertemperatur Leiste"
 * insert Meta
 * code
-  * coding[sct] 1..1
-  * coding[sct] = $sct#415929009
-  * coding[loinc] 1..1
-  * coding[loinc] = $loinc#104063-3
-  * coding[IEEE-11073] ..0
+  * insert MII_SpecificIEEE-11073Slice
+  * coding[snomed] 1..1
+  * coding[snomed] = $sct#415929009 // "Estimated core body temperature measured in inguinal region"
+  * coding[specific-loinc] 1..1
+  * coding[specific-loinc] = $loinc#104063-3 // "Body temperature - Groin"
+  * coding[specific-IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
 * bodySite = $sct#26893007
 
@@ -17,8 +18,8 @@ InstanceOf: SD_MII_ICU_Koerpertemperatur_Leiste
 Usage: #example
 * status = #final
 * code
-  * coding[sct] = $sct#415929009 "Estimated core body temperature measured in inguinal region (observable entity)"
-  * coding[loinc] = $loinc#104063-3 "Body temperature - Groin"
+  * coding[snomed] = $sct#415929009 "Estimated core body temperature measured in inguinal region"
+  * coding[specific-loinc] = $loinc#104063-3 "Body temperature - Groin"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

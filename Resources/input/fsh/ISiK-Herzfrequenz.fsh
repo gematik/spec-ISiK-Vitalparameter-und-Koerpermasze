@@ -22,7 +22,7 @@ Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
 * code = $loinc#8867-4 "Heart rate"
-* code.coding[snomed] = $sct#364075005 "Heart rate (observable entity)"
+* code.coding[snomed] = $sct#364075005 "Heart rate"
 * code.coding[IEEE11073] = $IEEE11073#147842 "MDC_ECG_HEART_RATE"
 * code.text = "Herzfrequenz"
 * subject = Reference(PatientinMusterfrau)

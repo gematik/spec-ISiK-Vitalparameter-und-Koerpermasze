@@ -21,15 +21,19 @@
       {
         "code": "415922000",
         "system": "http://snomed.info/sct",
-        "display": "Temperature of forehead (observable entity)"
+        "display": "Temperature of forehead"
+      },
+      {
+        "code": "8310-5",
+        "system": "http://loinc.org"
       }
     ]
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "unit": "degree Celsius",
-    "value": 37
+    "value": 37,
+    "unit": "degree Celsius"
   },
   "bodySite": {
     "coding": [

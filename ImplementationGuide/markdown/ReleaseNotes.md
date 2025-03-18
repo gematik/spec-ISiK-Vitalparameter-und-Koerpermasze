@@ -4,6 +4,25 @@ Im Rahmen der ISiK-Veröffentlichungen wird das [Semantic Versioning](https://se
 
 Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von Releases. Die dritte Ziffer Y (Release x.0.y) bezeichnet eine technische Korrektur und versioniert kleinere Änderungen (Packages) während eines Jahres, z. B. 1.0.1.
 
+
+Version: 4.0.2
+
+Datum: 18.3.2025
+
+* Update der CapabilityStatements
+* `improve` `change` feat: added ISiK-KoerperkernTemperatur Profile
+  fix: integrated mii profiles into Vitalparameter Module, KoerperKernTemp Profiles of MII are now derived from ISiK-KoerperkernTemperatur
+  fix: fixed several validation errors https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
+* `improve` .source of mii-icu-1 invariant corrected https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
+* `change` UCUM-ValueSets und bindings für valueQuantity-Profile entfernt, ersetzt durch ein pattern auf valueQuantity.code um eine einheitliche UCUM Nutzung zu gewährleisten. https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
+* `improve` VS_MII_ICU_Code_Monitoring_und_Vitaldaten_ISO11073 fehlten zwei Codes die in Profilen verwendet wurden, diese wurden ergänzt. https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
+* `change` SD_MII_ICU_Sauerstoffsaettigung_Im_Arteriellen_Blut_Durch_Pulsoxymetrie: ändern der Kardinalität des loinc-fhir-core von slices auf 1.. um den verpflichtenden magic loinc value in jeder Instanz zu gewährleisten. https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
+* `change` SD_MII_ICU_Monitoring_Und_Vitaldaten: optionaler zweiter Categorycode wurde entfernt da dies ein panel-code und für die Verwendung auf .code einer Abbildung eines Panels gedacht ist. https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
+* `change` SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Postduktal_Durch_Pulsoxymetrie & SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Preduktal_Durch_Pulsoxymetrie sind keine gewöhnlichen Sauerstoffsättigungen. Der optionale magic loinc code wurde daher entfernt. https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
+* `improve` `change` dependency auf die dt. Basisprofile wurde auf die neuste Version: 1.5.3 aktualisiert. https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/203
+
+---
+
 Version: 4.0.1
 
 Datum: 24.2.2025
@@ -19,6 +38,7 @@ Datum: 24.2.2025
 * Formulierungsänderung zur Nutzung von Profilen aus der Basis https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/196
 * `change` Die Verbindlichkeit des Suchparameters `subject` wurde von SHALL auf MAY reduziert, da der Suchparameter `patient` für ISiK-Zwecke ausreichend ist.  https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/192
 * `change` Die Verbindlichkeit von Include und RevInclude wurde von SHALL auf MAY reduziert, außer bei den Parameter `patient` und `encounter`, da diese für ISiK-Zwecke ausreichend sind. https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/192 
+* `improve` Update Suchparameter clinical-patient (SHALL) und subject (SHALL->MAY) + Hinweis zur Kontextherstellung + Einbindung CpS
 
 ---
 Version: 4.0.0

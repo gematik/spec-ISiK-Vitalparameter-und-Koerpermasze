@@ -5,11 +5,11 @@
   "id": "vs-mii-icu-code-monitoring-und-vitaldaten-iso11073",
   "title": "VS MII ICU Code Monitoring und Vitaldaten [ISO11073]",
   "description": "Dieses ValueSet enthält Codes für Vitaldaten sowie Daten aus dem Patientenmonitoring.",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "url": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-iso11073",
   "experimental": false,
   "publisher": "gematik GmbH",
-  "date": "2025-02-24",
+  "date": "2025-03-18",
   "compose": {
     "include": [
       {
@@ -198,6 +198,14 @@
           {
             "code": "150356",
             "display": "Airway temperature"
+          },
+          {
+            "code": "150408",
+            "display": "MDC_VOL_BLD_VENT_LEFT_STROKE"
+          },
+          {
+            "code": "150636",
+            "display": "MDC_VOL_BLD_STROKE_INDEX"
           }
         ]
       }

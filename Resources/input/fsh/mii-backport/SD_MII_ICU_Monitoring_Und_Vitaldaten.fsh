@@ -16,13 +16,8 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
   * ^slicing.ordered = false
   * ^slicing.rules = #open
 * category contains
-    vs-cat 1..1 MS and
-    loinc-fhir-core 0..1 MS
+    vs-cat 1..1 MS
 * category[vs-cat] = $observation-category#vital-signs
-  * coding MS
-    * system 1.. MS
-    * code 1.. MS
-* category[loinc-fhir-core] = $loinc#85353-1
   * coding MS
     * system 1.. MS
     * code 1.. MS
@@ -37,12 +32,15 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
       loinc 0..* MS and
       IEEE-11073 0..* MS
   * coding[sct] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_SNOMED (required)
+    * ^patternCoding.system = $sct
     * system 1.. MS
     * code 1.. MS
   * coding[loinc] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_LOINC (required)
+    * ^patternCoding.system = $loinc
     * system 1.. MS
     * code 1.. MS
   * coding[IEEE-11073] from VS_MII_ICU_Code_Monitoring_und_Vitaldaten_ISO11073 (required)
+    * ^patternCoding.system = $IEEE11073
     * system 1.. MS
     * code 1.. MS
 * subject 1.. MS

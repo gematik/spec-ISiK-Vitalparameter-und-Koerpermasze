@@ -6,8 +6,7 @@ Title: "SD MII ICU Koerpertemperatur Halswirbelsaeule"
 * code
   * coding[sct] 1..1
   * coding[sct] = $sct#364419004
-  * coding[loinc] ..0
-    * ^patternCoding.system = "http://loinc.org"
+  * coding[specific-loinc] ..0
   * coding[IEEE-11073] ..0
     * ^patternCoding.system = $IEEE11073
 * bodySite = $sct#122494005
@@ -17,7 +16,7 @@ InstanceOf: SD_MII_ICU_Koerpertemperatur_Halswirbelsaeule
 Usage: #example
 * status = #final
 * code
-  * coding[sct] = $sct#364419004 "Temperature of cervical spine (observable entity)"
+  * coding[sct] = $sct#364419004 "Temperature of cervical spine"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

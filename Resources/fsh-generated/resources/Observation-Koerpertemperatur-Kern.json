@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "code": "vital-signs",
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs"
         }
       ]
     }
@@ -19,14 +19,18 @@
   "code": {
     "coding": [
       {
-        "code": "276885007",
-        "system": "http://snomed.info/sct",
-        "display": "Core body temperature (observable entity)"
+        "system": "http://loinc.org",
+        "code": "8310-5",
+        "display": "Body temperature"
       },
       {
-        "code": "8329-5",
-        "system": "http://loinc.org",
-        "display": "Body temperature - Core"
+        "code": "276885007",
+        "system": "http://snomed.info/sct",
+        "display": "Core body temperature"
+      },
+      {
+        "code": "150364",
+        "system": "urn:iso:std:iso:11073:10101"
       },
       {
         "code": "150368",
@@ -34,17 +38,17 @@
         "display": "Body temperature - Core"
       },
       {
-        "code": "8310-5",
+        "code": "8329-5",
         "system": "http://loinc.org",
-        "display": "Body temperature"
+        "display": "Body temperature - Core"
       }
     ]
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "unit": "degree Celsius",
-    "value": 37
+    "value": 37,
+    "unit": "degree Celsius"
   },
   "status": "final",
   "subject": {

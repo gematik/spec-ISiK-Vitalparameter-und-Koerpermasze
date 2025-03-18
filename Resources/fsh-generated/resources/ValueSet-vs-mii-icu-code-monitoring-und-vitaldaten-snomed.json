@@ -5,11 +5,11 @@
   "id": "vs-mii-icu-code-monitoring-und-vitaldaten-snomed",
   "title": "VS MII ICU Code Monitoring und Vitaldaten [sct]",
   "description": "Dieses ValueSet enthaelt Codes fuer Vitaldaten sowie Daten aus dem Patientenmonitoring.",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "url": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-snomed",
   "experimental": false,
   "publisher": "gematik GmbH",
-  "date": "2025-02-24",
+  "date": "2025-03-18",
   "compose": {
     "include": [
       {
@@ -17,159 +17,159 @@
         "concept": [
           {
             "code": "364075005",
-            "display": "Heart rate (observable entity)"
+            "display": "Heart rate"
           },
           {
             "code": "75367002",
-            "display": "Blood pressure (observable entity)"
+            "display": "Blood pressure"
           },
           {
             "code": "271649006",
-            "display": "Systolic blood pressure (observable entity)"
+            "display": "Systolic blood pressure"
           },
           {
             "code": "6797001",
-            "display": "Mean blood pressure (observable entity)"
+            "display": "Mean blood pressure"
           },
           {
             "code": "271650006",
-            "display": "Diastolic blood pressure (observable entity)"
+            "display": "Diastolic blood pressure"
           },
           {
             "code": "71420008",
-            "display": "Central venous pressure (observable entity)"
+            "display": "Central venous pressure"
           },
           {
             "code": "118433006",
-            "display": "Pulmonary artery wedge pressure (observable entity)"
+            "display": "Pulmonary artery wedge pressure"
           },
           {
             "code": "82799009",
-            "display": "Cardiac output (observable entity)"
+            "display": "Cardiac output"
           },
           {
             "code": "54993008",
-            "display": "Cardiac index (observable entity)"
+            "display": "Cardiac index"
           },
           {
             "code": "276900001",
-            "display": "Systemic vascular Resistance index (observable entity)"
+            "display": "Systemic vascular Resistance index"
           },
           {
             "code": "276902009",
-            "display": "Pulmonary vascular Resistance index (observable entity)"
+            "display": "Pulmonary vascular Resistance index"
           },
           {
             "code": "90096001",
-            "display": "Stroke volume (observable entity)"
+            "display": "Stroke volume"
           },
           {
             "code": "277381004",
-            "display": "Stroke index (observable entity)"
+            "display": "Stroke index"
           },
           {
             "code": "276885007",
-            "display": "Core body temperature (observable entity)"
+            "display": "Core body temperature"
           },
           {
             "code": "250844005",
-            "display": "Intracranial pressure (observable entity)"
+            "display": "Intracranial pressure"
           },
           {
             "code": "27113001",
-            "display": "Body weight (observable entity)"
+            "display": "Body weight"
           },
           {
             "code": "170804003",
-            "display": "Ideal body weight (observable entity)"
+            "display": "Ideal body weight"
           },
           {
             "code": "1153637007",
-            "display": "Body height (observable entity)"
+            "display": "Body height"
           },
           {
             "code": "1153605006",
-            "display": "Body height for age percentile (observable entity)"
+            "display": "Body height for age percentile"
           },
           {
             "code": "1153592008",
-            "display": "Weight for age percentile (observable entity)"
+            "display": "Weight for age percentile"
           },
           {
             "code": "415974002",
-            "display": "Core body temperature measured at tympanic membrane (observable entity)"
+            "display": "Core body temperature measured at tympanic membrane"
           },
           {
             "code": "307047009",
-            "display": "Core body temperature measured in rectum (observable entity)"
+            "display": "Core body temperature measured in rectum"
           },
           {
             "code": "431598003",
-            "display": "Core body temperature measured in esophagus (observable entity)"
+            "display": "Core body temperature measured in esophagus"
           },
           {
             "code": "698831002",
-            "display": "Core body temperature measured in nasopharynx (observable entity)"
+            "display": "Core body temperature measured in nasopharynx"
           },
           {
             "code": "698832009",
-            "display": "Core body temperature measured at urinary bladder (observable entity)"
+            "display": "Core body temperature measured at urinary bladder"
           },
           {
             "code": "364246006",
-            "display": "Core body temperature measured vaginally (observable entity)"
+            "display": "Core body temperature measured vaginally"
           },
           {
             "code": "415882003",
-            "display": "Estimated core body temperature measured in axillary region (observable entity)"
+            "display": "Estimated core body temperature measured in axillary region"
           },
           {
             "code": "415945006",
-            "display": "Core body temperature measured in sublingual space (observable entity)"
+            "display": "Estimated core body temperature measured in sublingual space"
           },
           {
             "code": "415929009",
-            "display": "Estimated core body temperature measured in inguinal region (observable entity)"
+            "display": "Estimated core body temperature measured in inguinal region"
           },
           {
             "code": "1222808002",
-            "display": "Core body temperature measured in blood (observable entity)"
+            "display": "Core body temperature measured in blood"
           },
           {
             "code": "248835004",
-            "display": "Temperature of breast (observable entity)"
+            "display": "Temperature of breast"
           },
           {
             "code": "364419004",
-            "display": "Temperature of cervical spine (observable entity)"
+            "display": "Temperature of cervical spine"
           },
           {
             "code": "415922000",
-            "display": "Temperature of forehead (observable entity)"
+            "display": "Temperature of forehead"
           },
           {
             "code": "250124002",
-            "display": "Temperature of joint (observable entity)"
+            "display": "Temperature of joint"
           },
           {
             "code": "364429006",
-            "display": "Temperature of lumbar spine (observable entity)"
+            "display": "Temperature of lumbar spine"
           },
           {
             "code": "364424001",
-            "display": "Temperature of thoracic spine (observable entity)"
+            "display": "Temperature of thoracic spine"
           },
           {
             "code": "8499008",
-            "display": "Pulse, function (observable entity)"
+            "display": "Pulse, function"
           },
           {
             "code": "442476006",
-            "display": "Arterial oxygen saturation (observable entity)"
+            "display": "Arterial oxygen saturation"
           },
           {
             "code": "364090009",
-            "display": "Systemic arterial pressure (observable entity)"
+            "display": "Systemic arterial pressure"
           }
         ]
       }

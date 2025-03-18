@@ -2,18 +2,18 @@
   "resourceType": "StructureDefinition",
   "id": "sd-mii-icu-koerpertemperatur-kern",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-kern",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "name": "SD_MII_ICU_Koerpertemperatur_Kern",
   "title": "SD MII ICU Koerpertemperatur Kern",
   "status": "active",
   "experimental": false,
-  "date": "2025-02-24",
+  "date": "2025-03-18",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-generisch",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerperkerntemperatur",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -23,9 +23,9 @@
         "min": 4
       },
       {
-        "id": "Observation.code.coding:sct",
+        "id": "Observation.code.coding:snomed",
         "path": "Observation.code.coding",
-        "sliceName": "sct",
+        "sliceName": "snomed",
         "min": 1,
         "max": "1",
         "patternCoding": {
@@ -34,49 +34,23 @@
         }
       },
       {
-        "id": "Observation.code.coding:loinc",
+        "id": "Observation.code.coding:IEEE11073",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "min": 1,
-        "max": "1",
-        "patternCoding": {
-          "code": "8329-5",
-          "system": "http://loinc.org"
-        }
+        "sliceName": "IEEE11073",
+        "min": 1
       },
       {
-        "id": "Observation.code.coding:IEEE-11073",
+        "id": "Observation.code.coding:specific-loinc",
         "path": "Observation.code.coding",
-        "sliceName": "IEEE-11073",
-        "min": 1,
-        "max": "1",
-        "patternCoding": {
-          "code": "150368",
-          "system": "urn:iso:std:iso:11073:10101"
-        }
+        "sliceName": "specific-loinc",
+        "max": "0"
       },
       {
-        "id": "Observation.code.coding:loinc-fhir-core",
+        "id": "Observation.code.coding:specific-IEEE-11073",
         "path": "Observation.code.coding",
-        "sliceName": "loinc-fhir-core",
-        "min": 1,
-        "max": "1",
-        "patternCoding": {
-          "code": "8310-5",
-          "system": "http://loinc.org"
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc-fhir-core.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc-fhir-core.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
+        "sliceName": "specific-IEEE-11073",
+        "min": 0,
+        "max": "0",
         "mustSupport": true
       }
     ]

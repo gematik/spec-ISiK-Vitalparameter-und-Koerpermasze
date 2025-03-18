@@ -20,7 +20,7 @@ Usage: #example
 * status = #final
 * code
   * coding[loinc] = $loinc#20562-5 "Left ventricular Stroke volume"
-  * coding[sct] = $sct#90096001 "Stroke volume (observable entity)"
+  * coding[sct] = $sct#90096001 "Stroke volume"
   * coding[IEEE-11073] = $IEEE11073#150408 "MDC_VOL_BLD_VENT_LEFT_STROKE"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod

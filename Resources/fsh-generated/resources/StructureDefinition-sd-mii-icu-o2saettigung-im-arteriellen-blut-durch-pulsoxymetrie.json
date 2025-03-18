@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "name": "SD_MII_ICU_Sauerstoffsaettigung_Im_Arteriellen_Blut_Durch_Pulsoxymetrie",
   "title": "SD MII ICU Sauerstoffsaettigung Im Arteriellen Blut Durch Pulsoxymetrie",
   "status": "active",
   "experimental": false,
-  "date": "2025-02-24",
+  "date": "2025-03-18",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -20,7 +20,7 @@
       {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "min": 3
+        "min": 4
       },
       {
         "id": "Observation.code.coding:sct",
@@ -59,8 +59,10 @@
         "id": "Observation.code.coding:loinc-fhir-core",
         "path": "Observation.code.coding",
         "sliceName": "loinc-fhir-core",
-        "min": 0,
-        "max": "*",
+        "short": "Magic Loinc Value Sauerstoffsättigung",
+        "comment": "**Begründung Pflichtfeld:** Die Angabe des magic Loinc Wertes für die Sauerstoffsättigung ist laut FHIR-Core-Spezifikation verpflichtend.",
+        "min": 1,
+        "max": "1",
         "patternCoding": {
           "code": "2708-6",
           "system": "http://loinc.org"

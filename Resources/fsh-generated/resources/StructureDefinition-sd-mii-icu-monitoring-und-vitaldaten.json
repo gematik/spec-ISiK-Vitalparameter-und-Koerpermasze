@@ -2,12 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "sd-mii-icu-monitoring-und-vitaldaten",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "name": "SD_MII_ICU_Monitoring_Und_Vitaldaten",
   "title": "SD MII ICU Monitoring und Vitaldaten",
   "status": "active",
   "experimental": false,
-  "date": "2025-02-24",
+  "date": "2025-03-18",
   "publisher": "gematik GmbH",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -109,39 +109,6 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.category:loinc-fhir-core",
-        "path": "Observation.category",
-        "sliceName": "loinc-fhir-core",
-        "min": 0,
-        "max": "1",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "85353-1",
-              "system": "http://loinc.org"
-            }
-          ]
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category:loinc-fhir-core.coding",
-        "path": "Observation.category.coding",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category:loinc-fhir-core.coding.system",
-        "path": "Observation.category.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.category:loinc-fhir-core.coding.code",
-        "path": "Observation.category.coding.code",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
         "id": "Observation.code",
         "path": "Observation.code",
         "constraint": [
@@ -175,6 +142,9 @@
         "sliceName": "sct",
         "min": 0,
         "max": "*",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        },
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -199,6 +169,9 @@
         "sliceName": "loinc",
         "min": 0,
         "max": "*",
+        "patternCoding": {
+          "system": "http://loinc.org"
+        },
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -223,6 +196,9 @@
         "sliceName": "IEEE-11073",
         "min": 0,
         "max": "*",
+        "patternCoding": {
+          "system": "urn:iso:std:iso:11073:10101"
+        },
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -321,7 +297,7 @@
           {
             "key": "mii-icu-1",
             "human": "If there is no Observation.value, a dataAbsentReason must be given.",
-            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/score",
+            "source": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
             "severity": "error",
             "expression": "value.exists().not() implies dataAbsentReason.exists()"
           }

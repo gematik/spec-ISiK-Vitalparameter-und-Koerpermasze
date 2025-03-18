@@ -23,7 +23,7 @@ InstanceOf: SD_MII_ICU_Koerpergroesse_Percentil_Altersabhaengig
 Usage: #example
 * status = #final
 * code
-  * coding[sct] = $sct#1153605006 "Body height for age percentile (observable entity)"
+  * coding[sct] = $sct#1153605006 "Body height for age percentile"
 * subject = Reference(PatientinMusterfrau)
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"

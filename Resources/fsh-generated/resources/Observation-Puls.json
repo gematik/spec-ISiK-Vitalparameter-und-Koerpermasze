@@ -18,16 +18,16 @@
   ],
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
+    "code": "/min",
     "unit": "beats per minute",
-    "value": 70,
-    "code": "/min"
+    "value": 70
   },
   "code": {
     "coding": [
       {
         "code": "8499008",
         "system": "http://snomed.info/sct",
-        "display": "Pulse, function (observable entity)"
+        "display": "Pulse, function"
       },
       {
         "code": "149514",

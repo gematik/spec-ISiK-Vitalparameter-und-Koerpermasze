@@ -32,7 +32,7 @@
       {
         "system": "http://snomed.info/sct",
         "code": "248241002",
-        "display": "Glasgow coma score (observable entity)"
+        "display": "Glasgow coma score"
       },
       {
         "code": "153728",

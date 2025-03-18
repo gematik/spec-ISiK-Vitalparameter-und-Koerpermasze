@@ -19,13 +19,17 @@
   "code": {
     "coding": [
       {
-        "code": "61009-7",
-        "system": "http://loinc.org",
-        "display": "Myocardial temperature"
+        "code": "8310-5",
+        "system": "http://loinc.org"
       },
       {
         "code": "188500",
         "system": "urn:iso:std:iso:11073:10101",
+        "display": "Myocardial temperature"
+      },
+      {
+        "code": "61009-7",
+        "system": "http://loinc.org",
         "display": "Myocardial temperature"
       }
     ]
@@ -33,8 +37,8 @@
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",
     "code": "Cel",
-    "unit": "degree Celsius",
-    "value": 37
+    "value": 37,
+    "unit": "degree Celsius"
   },
   "bodySite": {
     "coding": [
