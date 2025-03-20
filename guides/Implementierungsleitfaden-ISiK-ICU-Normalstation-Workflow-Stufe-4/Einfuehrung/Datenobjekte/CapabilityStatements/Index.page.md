@@ -18,5 +18,3 @@ Implementiert ein System mehr als einen der drei Bereiche dieser Spezifikation, 
 Die Verwendung der [CapabilityStatement-Expectation](https://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)-Extension ist im CapabilityStatement der Server-Instanz nicht erforderlich.
 
 Die für dieses Modul bestätigungsrelevanten Teile des [Moduls "Basis"](https://simplifier.net/guide/isik-basis-v4?version=current) sind in den CapabilityStatements ebenfalls enthalten.
-
-{{index:current}}
