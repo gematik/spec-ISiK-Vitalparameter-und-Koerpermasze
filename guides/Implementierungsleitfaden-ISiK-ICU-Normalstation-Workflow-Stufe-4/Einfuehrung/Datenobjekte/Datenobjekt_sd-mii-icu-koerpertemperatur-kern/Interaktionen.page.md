@@ -1,6 +1,7 @@
 ---
-topic: SD_MII_ICU_Koerpertemperatur_Kern-Interaktionen
+topic: SD_MII_ICU_KoerpertemperaturKern-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-kern
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalRolle
 ---
 ### Interaktionen
 

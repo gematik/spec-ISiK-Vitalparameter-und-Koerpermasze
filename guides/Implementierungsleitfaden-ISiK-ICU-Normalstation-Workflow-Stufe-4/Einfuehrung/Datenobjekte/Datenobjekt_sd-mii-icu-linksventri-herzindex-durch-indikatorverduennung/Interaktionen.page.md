@@ -1,6 +1,7 @@
 ---
 topic: SD_MII_ICU_Linksventrikulaerer_Herzindex_Durch_Indikatorverduennung-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-herzindex-durch-indikatorverduennung
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 ---
 ### Interaktionen
 

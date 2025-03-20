@@ -1,6 +1,7 @@
 ---
 topic: SD_MII_ICU_Ideales_Koerpergewicht-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-ideales-koerpergewicht
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalRolle
 ---
 ### Interaktionen
 

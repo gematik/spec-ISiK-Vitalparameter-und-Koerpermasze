@@ -1,6 +1,7 @@
 ---
 topic: SD_MII_ICU_Herzzeitvolumen-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-herzzeitvolumen
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 ---
 ### Interaktionen
 

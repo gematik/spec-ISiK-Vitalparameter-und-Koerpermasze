@@ -1,6 +1,7 @@
 ---
-topic: SD_MII_ICU_Koerpertemperatur_Nasal-Interaktionen
+topic: SD_MII_ICU_KoerpertemperaturNasal-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-nasal
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalRolle
 ---
 ### Interaktionen
 

@@ -1,6 +1,7 @@
 ---
 topic: SD_MII_ICU_Zentralvenoeser_Blutdruck-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-zentralvenoeser-blutdruck
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 ---
 ### Interaktionen
 

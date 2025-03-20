@@ -1,6 +1,7 @@
 ---
 topic: SD_MII_ICU_Koerpertemperatur_Myokard-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-myokard
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 ---
 ### Interaktionen
 

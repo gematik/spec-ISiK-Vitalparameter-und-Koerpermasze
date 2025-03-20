@@ -1,6 +1,7 @@
 ---
-topic: SD_MII_ICU_Koerpertemperatur_Oral-Interaktionen
+topic: SD_MII_ICU_KoerpertemperaturUnterDerZunge-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-unter-der-zunge
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalRolle
 ---
 ### Interaktionen
 

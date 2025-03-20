@@ -1,6 +1,7 @@
 ---
 topic: SD_MII_ICU_Puls-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-puls
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalRolle
 ---
 ### Interaktionen
 

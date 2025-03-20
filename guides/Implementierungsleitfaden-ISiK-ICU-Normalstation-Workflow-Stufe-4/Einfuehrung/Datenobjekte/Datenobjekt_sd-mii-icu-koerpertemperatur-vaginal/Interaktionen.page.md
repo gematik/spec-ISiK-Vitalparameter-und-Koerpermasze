@@ -1,6 +1,7 @@
 ---
-topic: SD_MII_ICU_Koerpertemperatur_Vaginal-Interaktionen
+topic: SD_MII_ICU_KoerpertemperaturVaginal-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-vaginal
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalRolle
 ---
 ### Interaktionen
 

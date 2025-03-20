@@ -1,6 +1,7 @@
 ---
-topic: SD_MII_ICU_Koerpertemperatur_Atemwege-Interaktionen
+topic: SD_MII_ICU_KoerpertemperaturAtemwege-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-atemwege
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 ---
 ### Interaktionen
 

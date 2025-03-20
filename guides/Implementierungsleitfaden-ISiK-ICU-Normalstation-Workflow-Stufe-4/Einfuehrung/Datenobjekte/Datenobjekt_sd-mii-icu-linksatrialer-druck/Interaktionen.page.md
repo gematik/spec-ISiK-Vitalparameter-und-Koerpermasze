@@ -1,6 +1,7 @@
 ---
 topic: SD_MII_ICU_Linksatrialer_Druck-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksatrialer-druck
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 ---
 ### Interaktionen
 
