@@ -25,7 +25,3 @@ Alle bestätigungsrelevanten Systeme MÜSSEN im Sinne der [Herstellung des Patie
 
 
 Die CapabilityStatements gelten für alle [bestätigungsrelevanten Systeme](https://simplifier.net/guide/isik-basis-403/Einfuehrung/UebergreifendeFestlegungen/UebergreifendeFestlegungen_BestaetigungsrelevanteSysteme?version=4.0.3), die unter die Definition der 'Vitalparameter und Körpermaße' fallen  :
-
----
-
-{{index:current}}
