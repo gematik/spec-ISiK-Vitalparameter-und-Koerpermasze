@@ -1,6 +1,7 @@
 ---
 topic: SD_MII_ICU_Systemischer_Vaskulaerer_Widerstandsindex-Profil
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-systemischer-vaskulaerer-widerstandsindex
+capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 ---
 ## {{link}}
 
@@ -20,12 +21,9 @@ with
 from
     CapabilityStatement
 where
-    url = %capability3
-or
-    url = %capability4
+    url = %capability
 select
-    Name: name,
-    join for rest.resource.where(%canonical in supportedProfile)
+    for rest.resource.where(%canonical in supportedProfile)
     select
         'Verbindlichkeit': extension('http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation').value
 </fql>
