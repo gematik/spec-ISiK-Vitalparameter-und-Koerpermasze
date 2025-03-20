@@ -1,5 +1,5 @@
 ---
-topic: SD_MII_ICU_KoerpertemperaturGelenk-Interaktionen
+topic: SD_MII_ICU_Koerpertemperatur_Gelenk-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-gelenk
 capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalRolle
 ---

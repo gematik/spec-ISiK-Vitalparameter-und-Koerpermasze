@@ -1,5 +1,5 @@
 ---
-topic: SD_MII_ICU_RechtsatrialerDruck-Interaktionen
+topic: SD_MII_ICU_Rechtsatrialer_Druck-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-rechtsatrialer-druck
 capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 ---

@@ -1,5 +1,5 @@
 ---
-topic: SD_MII_ICU_PulmonalarteriellerWedgeDruck-Interaktionen
+topic: SD_MII_ICU_Pulmonalarterieller_Wedge_Druck-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalarterieller-wedge-druck
 capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 ---

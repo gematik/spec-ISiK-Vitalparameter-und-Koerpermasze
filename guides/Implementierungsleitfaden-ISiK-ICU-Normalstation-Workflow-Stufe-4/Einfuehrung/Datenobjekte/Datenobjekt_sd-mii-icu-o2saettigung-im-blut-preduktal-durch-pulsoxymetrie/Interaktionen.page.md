@@ -1,5 +1,5 @@
 ---
-topic: SD_MII_ICU_O2saettigungImBlutPreduktalDurchPulsoxymetrie-Interaktionen
+topic: SD_MII_ICU_Sauerstoffsaettigung_Im_Blut_Preduktal_Durch_Pulsoxymetrie-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie
 capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceExtendedRolle
 ---

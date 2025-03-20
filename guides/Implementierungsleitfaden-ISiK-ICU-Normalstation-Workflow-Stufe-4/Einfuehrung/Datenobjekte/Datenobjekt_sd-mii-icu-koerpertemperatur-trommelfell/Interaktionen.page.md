@@ -1,5 +1,5 @@
 ---
-topic: SD_MII_ICU_KoerpertemperaturTrommelfell-Interaktionen
+topic: SD_MII_ICU_Koerpertemperatur_Trommelfell-Interaktionen
 canonical: https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-trommelfell
 capability: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSourceMinimalRolle
 ---
