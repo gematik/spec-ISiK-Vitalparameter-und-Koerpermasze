@@ -1,5 +1,5 @@
 ---
-topic: UebergreifendeAnforderungen
+topic: Festlegungen
 ---
 
 # Übergreifende Anforderungen
@@ -7,6 +7,12 @@ topic: UebergreifendeAnforderungen
 Es gelten alle übergreifenden Anforderungen entsprechend dem [ISiK Basismodul](https://simplifier.net/guide/isik-basis-403/Einfuehrung/UebergreifendeFestlegungen).
 
 Zudem gelten die Festlegungen gemäß dem Abschnitt zu den {{pagelink:Akteure, text: Akteuren}}.
+
+
+## Normativer Status
+Bestätigungsrelevante Systeme für dieses Modul SOLLEN unter geeigneter Konfiguration die geschilderten Use Cases unterstützen können.
+
+Für alle Observation-Profile, die im Rahmen dieser Festlegung implementiert werden, MÜSSEN die Suchparameter entsprechend der [Observation-Seite aus der Basis](https://simplifier.net/guide/isik-basis-v4/ImplementationGuide-markdown-Datenobjekte-Datenobjekte_Observation?version=current) implementiert werden.
 
 ## Herstellung von Patienten- und Encounterkontext
 
