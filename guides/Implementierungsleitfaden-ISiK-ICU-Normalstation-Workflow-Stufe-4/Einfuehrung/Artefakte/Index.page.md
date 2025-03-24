@@ -1,7 +1,5 @@
 ## {{page-title}}
 
-{{index:current}}
-
 # MII-Profile - Vitalparameter für die Intensiv- und Normalversorgung
 
 An dieser Stelle werden Festlegungen zu Profilen getroffen, die für die Intensiv- sowie Normalversorgung vorgesehen sind und dem Kontext des Moduls zur Intensivmedizinische Versorgung (ICU) der MII entstammen.
@@ -15,3 +13,5 @@ Durch die Übernahme der Profile der MII und Abbildung auf das ISIK-Setting, kö
 ## Designentscheidung
 - Maximale Kardinalitäten von Coding Slices wurden von der MII übernommen
 - Die Profil-Eigenschaften der MII-Profile, die den bisherigen, existenten Profilen in ISiK entsprechen, wurden in die existenten Profile des [generischen Implementierungsleitfadens Vitalparemeter](https://simplifier.net/guide/isik-vitalparameter-v4?version=current) übernommen.
+
+{{index:current}}
