@@ -1,3 +1,5 @@
+- name: Übergreifende Festlegungen
+  filename: UebergreifendeFestlegungen.page.md
 - name: Kompatibilität
   filename: Kompatibilitaet.page.md
 - name: Signaldaten
