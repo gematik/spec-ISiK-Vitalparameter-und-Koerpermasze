@@ -14,4 +14,9 @@ Durch die Übernahme der Profile der MII und Abbildung auf das ISIK-Setting, kö
 - Maximale Kardinalitäten von Coding Slices wurden von der MII übernommen
 - Die Profil-Eigenschaften der MII-Profile, die den bisherigen, existenten Profilen in ISiK entsprechen, wurden in die existenten Profile des [generischen Implementierungsleitfadens Vitalparemeter](https://simplifier.net/guide/isik-vitalparameter-v4?version=current) übernommen.
 
+
+---
+
+# Index
+
 {{index:current}}
