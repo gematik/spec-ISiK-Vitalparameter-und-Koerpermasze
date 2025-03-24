@@ -2,9 +2,9 @@
 topic: Festlegungen
 ---
 
-# Übergreifende Anforderungen
+# Übergreifende Festlegungen
 
-Es gelten alle übergreifenden Anforderungen entsprechend dem [ISiK Basismodul](https://simplifier.net/guide/isik-basis-403/Einfuehrung/UebergreifendeFestlegungen).
+Es gelten alle übergreifenden Festlegungen entsprechend dem [ISiK Basismodul](https://simplifier.net/guide/isik-basis-403/Einfuehrung/UebergreifendeFestlegungen).
 
 Zudem gelten die Festlegungen gemäß dem Abschnitt zu den {{pagelink:Akteure, text: Akteuren}}.
 
