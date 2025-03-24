@@ -1,4 +1,4 @@
-## {{page-title}}
+# {{page-title}}
 
 # MII-Profile - Vitalparameter für die Intensiv- und Normalversorgung
 
