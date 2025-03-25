@@ -4,6 +4,8 @@
 
 An dieser Stelle werden Festlegungen zu Profilen getroffen, die für die Intensiv- sowie Normalversorgung vorgesehen sind und dem Kontext des Moduls zur Intensivmedizinische Versorgung (ICU) der MII entstammen.
 
+Datenobjekte, die der Rolle  *VitalSign Standard Source* zugeordnet sind, werden hier nicht als eigenständige Profile geführt, sondern sind dem entsprechenden [Implementierungsleitfaden](https://simplifier.net/guide/isik-vitalparameter-v4?version=current) zu entnehmen.
+
 ## Motivation zur Übernahme
 Im Rahmen des [Moduls zur Intensivmedizinische Versorgung (ICU) der MII](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Intensivmedizin/MonitoringundVitaldaten.html) hat die MII Profile bereitgestellt, die sich für die Verarbeitung von Vitalparametern im Rahmen der intensiv- sowie normalstationären Versorgung eignen.
 Die Profile der MII sind medizinisch qualitätsgesichert und weisen eine feingranulare Kodierung vor.
