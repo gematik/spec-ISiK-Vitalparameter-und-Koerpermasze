@@ -43,7 +43,7 @@ Usage: #example
 * category = $observation-category#procedure
 * device = Reference(ExampleDevice)
 * effectiveDateTime = "2019-07-02"
-* code.coding[0] = $loinc#LP6244-0 "EKG study"
+* code.coding[0] = $loinc#11524-6	// EKG study
 * component[0].code.coding[0] = $sct#272729005 "Lead I"
 * component[=].valueSampledData.origin.value = 2048
 * component[=].valueSampledData.period = 10
