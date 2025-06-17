@@ -9,9 +9,8 @@
   "code": {
     "coding": [
       {
-        "code": "LP6244-0",
-        "system": "http://loinc.org",
-        "display": "EKG study"
+        "code": "11524-6",
+        "system": "http://loinc.org"
       }
     ]
   },
