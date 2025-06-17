@@ -6,7 +6,7 @@ Die erste Ziffer X bezeichnet ein Major-Release und regelt die Gültigkeit von R
 
 Version: 3.0.7
 
-Datum: tbd
+Datum: 17.06.2025
 
 * `improve` Das ISiKEkgExample enthielt noch den veralteten Loinc code für Observation.code, dies wurde korrigiert. Statt des falsche Loinc part code wird nun 11524-6 EKG study im Beispiel verwendet. https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/207
 
