@@ -1,0 +1,11 @@
+{
+  "suppress" : [
+    //All filters containing: `#dom-6` - ISiK resources do not contain a narrative.
+    // Ignore this best practice warning for now.
+    "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6",
+    //In FHIR R5 "pattern" discriminator has been deprecated and is being
+    //  consolidated with the "value" discriminator. To avoid unintended side effects in R4, we will keep
+    //  the current slicing.
+    "SD_PATH_SLICING_DEPRECATED"
+  ]
+}
