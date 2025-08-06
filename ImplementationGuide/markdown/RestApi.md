@@ -1,3 +1,3 @@
 # REST-API
 
-Es gelten die Festlegungen aus dem [Basismodul](https://simplifier.net/guide/implementierungsleitfadenisik-basismodul/I-markdown-UebergreifendeFestlegungen-UebergreifendeFestlegungen-Rest?version=current).
+Es gelten die Festlegungen aus dem [Basismodul](https://simplifier.net/guide/isik-basis-v3/markdown-UebergreifendeFestlegungen-UebergreifendeFestlegungen-Rest?version=current).

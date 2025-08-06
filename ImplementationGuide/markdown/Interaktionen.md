@@ -1,6 +1,6 @@
 # Interaktionen
 
-Alle bestätigungsrelevanten Systeme in diesem Modul nehmen nach QEDm die Rolle der *Data Source* ein (für mehr Informationen siehe [Basismodul - Abschnitt QEDm](https://simplifier.net/guide/Implementierungsleitfaden-ISiK-Basismodul-Stufe-3/markdown-UebergreifendeFestlegungen-KompatibilitaetDerGematikSpezifikation?version=current)).
+Alle bestätigungsrelevanten Systeme in diesem Modul nehmen nach QEDm die Rolle der *Data Source* ein (für mehr Informationen siehe [Basismodul - Abschnitt QEDm](https://simplifier.net/guide/isik-basis-v3/markdown-UebergreifendeFestlegungen-KompatibilitaetDerGematikSpezifikation?version=current)).
 
 Für die Observation-Ressource MUSS die REST-Interaktion "READ" implementiert werden.
 
