@@ -1,4 +1,4 @@
-ame: Use Basis link check Stufe 5
+name: Use Basis link check Stufe 5
 
 on: 
   workflow_dispatch:
