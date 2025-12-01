@@ -1,6 +1,6 @@
 {
   "name": "de.gematik.isik-vitalparameter",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "description": "Package Release des ISiK Modul Vitalparameter und Körpermaße",
   "fhirVersions": [
     "4.0.1"
@@ -8,5 +8,9 @@
   "dependencies": {
     "de.basisprofil.r4": "1.4.0",
     "de.gematik.isik-basismodul": "3.0.x"
+  },
+  "devDependencies": {
+    "bfarm.terminologien.icd10gm": "2024.0.0",
+    "bfarm.terminologien.ops": "2024.0.0"
   }
 }
